@@ -1,0 +1,2441 @@
+(homo) nullo patre|homme de père inconnu|0|nullus.ab m s..|pater.ab s..
+(pedibus) ire in sententiam alicuius|se ranger à l'avis de qqn|2|eo...|in...|sententia.ac s..
+Carthago noua|Carthagène|0|Carthago...|nouus.f.cn.0
+Gallia citerior|Gaule cisalpine|0|Gallia...|citerior.f.c.0
+Gallia ulterior|Gaule transalpine|0|Gallia...|ulterior.f.c.0
+Herculis columnae|colonnes d'Hercule (détroit de Gibraltar)|0|Hercules.g..|columna.p..
+Lucinae labores|douleurs de l'enfantement|0|Lucina.g s..|labor (2).p..
+Mare nostrum|Méditerranée|0|mare.s..|noster.nt s.c.0
+Romana purpura|le consulat|0|purpura...|Romanus.f.cn.0
+Romani ludi|les Jeux Romains (fête annuelle)|1|ludus.p..|Romanus.m p.c.0
+Romano more|à la romaine = franchement, sincèrement|1|mos.ab s..|Romanus.ab m s..
+Traiani forum|le forum de Trajan|0|Traianus.g s..|forum.s..
+Venerem mittere|envoyer le coup de Vénus (aux dés, 4 nombres différents)|0|Venus.ac..|mitto.act..
+a bono abstrahi|être entraîné loin du devoir|0|bonus.ab s..|a...|abstraho.pass..
+a capite ad calcem|de la tête aux pieds|0|a...|caput.ab s..|ad...|calcs.ac s..
+a carceribus ad calcem|depuis le commencement jusqu'à la fin|1|a...|carcer.ab p..|ad...|calx.ac s..
+a mente deseri|perdre la tête|2|a...|mens.ab s..|desero.pass..
+a proposito declinare|s'écarte de son sujet|2|a...|propositum.ab s..|declino.act..
+a puero|dès son enfance|1|a...|puer.ab..
+a signis discedere|fuir, déserter|2|a...|signum.ab p..|discedo...
+a uita desciscere|mettre fin à ses jours|2|a...|uita.ab s..|descisco.act..
+ab acia et acu|de fil en aiguille|1|ab...|acia.ab s..|et...|acus.ab s..
+ab aliquo aliquid petere|demander qqch à qqn|2|a,ab...|.ab..|peto.act..|.ac..
+ab aliquo petere ut + subj|demander à qqn que...|2|a,ab...|.ab..|peto...|ut...
+ab exordio Vrbis|depuis la fondation de Rome|1|ab...|exordium.ab s..|urbs.g s..
+ab imis unguibus usque ad uerticem / summos capillos|des pieds à la tête|2|ab...|imus.ab m p..|unguis.ab p..
+ab incunabulis|dès le berceau|1|ab...|incunabula.ab p..
+ab officio recedere|s'écarter du devoir|2|ab...|officium.ab s..|recedo...
+ab ouo|depuis le début|1|ab...|ouum.ab s..
+ab signis discedere|abandonner les rangs, déserter|1|ab...|signum.ab p..|discedo.act..
+ab urbe condita|depuis la fondation de Rome|2|ab...|urbs.ab s..|condo.ab f s pf part pass..
+abesse a culpa|être innocent|2|absum...|a...|culpa.ab s..
+abesse in loco|être ailleurs|0|absum...|in...|locus.ab s..
+abi in malam crucem|va te faire pendre !|2|abeo.imper..|in...|crux.ac s..|malus.ac f s..
+abire in aliquam rem|se transformer en qqch|0|abeo...|in...|.ac..
+abire incepto|s'éloigner de son sujet|0|abeo...|incipio.ab nt s pf part pass..
+abrumpere uitam|mettre fin à sa vie, en finir avec la vie|0|abrumpo.act..|uita.ac..
+abrumpere uitam a ciuitate|rompre avec sa patrie|3|abrumpo.act..|uita.ac s..|a...|ciuitas.ab s..
+abruptus sermo|style haché|0|sermo...|abrumpo.m pf part pass.cn.0
+absentes comae|faux cheveux|0|coma...|absens.f.cn.0
+abstinere publico|ne pas paraître en public|1|abstineo...|publicum.ab s..
+absurde canere|chanter faux|0|absurde...|cano...
+abunde est + inf|c'est bien assez de|0|abunde...|sum.s 3..|.inf..
+accedit quod|à cela s'ajoute que|0|accedo.s 3 pr ind act..|quod...
+accidit quod|il arrive que|0|accido.s 3..|quod...
+accidit ut|il arrive que|0|accido.s 3..|ut...
+accumbere infra aliquem|être à table à droite de qqn|0|accumbo.act..|infra...|.ac s..
+accumbere supra aliquem|être à table à gauche de qqn|0|accumbo.act..|supra...|.ac s..
+accusationem comparare|instruire une accusation|0|accusatio.ac..|comparo.act..
+aciem implicare|jeter le désordre dans les rangs|1|acies.ac s..|implico.act..
+aciem instruere|ranger l'armée en ligne de bataille|0|acies.ac s..|instruo.act..
+aciem ostendere|déployer l'armée|1|acies.ac s..|ostendo.act..
+acta patrum|actes du sénat|0|actum...|pater.g p..
+actio tragica|attitude théâtrale|0|actio...|tragicus.f.cn.0
+actor publicus|agent du trésor public, intendant de l'État|0|actor...|publicus.m.cn.0
+actus rerum|administration de la justice|0|actus...|res.g p..
+acu pingere|broder|0|acus.ab s..|pingo...
+acutum cernere|avoir la vue perçante|0|acutus.ac nt s..|cerno.act..
+ad aliquem pertinet + prop. inf.|il importe à qqn que|2|ad...|.ac..|pertineo.s 3..
+ad aliquem receptum habere|trouver refuge auprès de qqn|2|ad...|.ac..|receptus.ac s..|habeo.act..
+ad aram legum confugere|recourir à la protection des lois|1|ad...|ara.ac s..|lex.g p..|confugio...
+ad astra aliquem ferre|porter qqn aux nues|1|ad...|astrum.ac p..|.ac..|fero.act..
+ad caelum tollere|porter aux nues|1|ad...|caelum.ac s..|tollo...
+ad coniectum teli|à portée de trait|1|ad...|coniectus.ac s..|telum.g s..
+ad diem|au jour fixé|1|ad...|dies.ac s..
+ad eumdem modum|dans la même proportion|2|ad...|idem.ac m s..|modus.ac s..
+ad id locorum|jusqu'à présent, jusqu'alors|2|ad...|is.ac nt s..|locus.g p..
+ad libellam|jusqu'au dernier sou|1|ad...|libella.ac s..
+ad libram|de niveau|1|ad...|libra.ac s..
+ad libros ire|consulter les Livres Sibyllins|1|ad...|liber (2).ac p..|eo...
+ad litteram|à la lettre|1|ad...|littera.ac s..
+ad manum|tout près|1|ad...|manus.ac s..
+ad manum habere|avoir en sa possession, avoir près de soi|1|ad...|manus.ac s..|habeo...
+ad mortem trudi|être traîné au supplice|2|ad...|mors.ac s..|trudo.pass..
+ad nutum|au moindre signe|1|ad...|nutus.ac s..
+ad pileum uocari|être affranchi, être appelé à la révolte|1|ad...|pileus.ac s..|uoco.pass..
+ad plebem ferre ut...|proposer au peuple que|2|ad...|plebs.ac s..|fero...|ut...
+ad plenum|jusqu'aux bords = pleinement, complètement|1|ad...|plenus.ac nt s..
+ad propositum reuerti|revenir à son sujet|2|ad...|propositum.ac s..|reuertor...
+ad stipendia peruenire|parvenir à l'âge de porter les armes|2|ad...|stipendium.ac p..|peruenio.act..
+ad sua flagra deducere|mener le fouet en main, mener à la baguette|1|ad...|flagrum.ac p..|deduco.act..
+ad unguem|à la perfection|1|ad...|unguis.ac s..
+addere gradum|presser le pas|0|addo...|gradus.ac s..
+addere manus in arma|mettre les armes à la main|0|addo.act..|manus.ac p..|in...|armum.ac p..
+addere uirgas alicui|frapper qqn de verges|0|addo.act..|uirga.ac p..|.d..
+addicere aliquem morti|vouer qqn à la mort|0|addico...|mors.d s..|.ac..
+addicere in publicum|adjuger au fisc, confisquer|0|addico...|in...|publicus.ac nt s..
+adeo ... ut|tellement... que|0|adeo...|ut...|.subj..
+adeo nuper|tout récemment|1|adeo...|nuper...
+adesse animo|écouter, être attentif|1|adsum.act..|animus.ab..
+adhaerescere ad columnam|rester attaché au poteau (pour dettes)|0|columna.ac s..|ad...|adhaeresco...
+adhibere aliquem liberaliter|traiter qqn dignement|0|liberaliter...|adhibeo.act..|.ac..
+adicere album calculum|déposer une pierre blanche, voter pour|1|adicio.act..|calculus.ac s..|albus.ac m s..
+adicere supra|renchérir|0|supra...|adicio...
+adipem praeparare|faire fondre de la graisse|1|adeps.ac s..|praeparo.act..
+adire in ius|comparaître en justice|0|adeo (2)...|in...|ius.ac s..
+aditum rogare|demander une audience|0|aditus.ac..|rogo.act..
+adiudicare causam alicui|donner gain de cause à qqn|1|adiudico.act..|causa.ac s..|.d s..
+adiuuare ignem|attiser le feu|1|adiuuo.act..|ignis.ac..
+admiratione affici|être admiré|0|admiratio.ab s..|afficio.pass..
+admisso passu|d'un pas rapide|1|admitto.ab s pf part pass..|passus.ab s..
+admittere in se culpam|se permettre une faute, commettre une faute|3|admitto.act..|in...|.ac..|culpa.ac s..
+admittere preces|exaucer les prières|1|admitto.act..|preces.ac..
+admittere scelus|commettre une mauvaise action|1|admitto.act..|scelus.ac..
+admouere fatum alicui|hâter l'heure fatale de qqn|1|admoueo.act..|fatum.ac..|.d..
+admouere infantem papillae|donner le sein à un enfant|2|admoueo.act..|infans.ac..|papilla.d..
+admouere mortem|hâter la mort|1|admoueo.act..|mors.ac..
+adoptare aliquem in nomen|adopter qqn pour fils|0|adopto.act..|in...|nomen.ac..|.ac..
+adsciscere aliquem filium|adopter qqn pour fils|0|adscisco.act..|filius.ac s..|.ac m s..
+adstare mensis|servir à table|1|adsto...|mensa.ab p..
+aduersi dentes|les dents de devant|0|dens...|aduersus.m.cn.0
+aduerso amni|à contre-courant|0|amnis.ab s..|aduersus.ab m s..
+aduerso flumine|à contre-courant|0|flumen.ab s..|aduersus.ab nt s..
+adulter nummus|fausse monnaie|0|nummus...|adulter.m.cn.0
+aegre (moleste, grauiter) aliquid ferre|mal supporter qqch.|1|aegre,moleste,grauiter...|fero...|.ac..
+aegre expugnare ut|obtenir avec peine que|1|aegre...|expugno...|ut...
+aegrum simulare|faire le malade|1|aeger.ac..|simulo.act.n.0
+aenea barba|barbe couleur de bronze|0|barba...|aeneus.f.cn.0
+aequa parte|par moitié|1|aequus.ab f s..|pars.ab s..
+aequare urbem|raser une ville|0|aequo.act..|urbs .ac..
+aequato Marte|avec des avantages égaux, sans vainqueur ni vaincu|1|aequo.ab m s pf part pass..|Mars.ab s..
+aequatus caelo|élevé jusqu'au ciel|0|aequo.pf part pass..|caelum.ab s..
+aeque ac|autant que|0|aeque...|ac...
+aequitas membrorum|symétrie des membres|0|aequitas...|membrum.g p..
+aequo Marte|avec des chances égales|0|Mars.ab..|aequus.ab m s..
+aequo campo|en rase campagne|1|aequus.ab m s..|campus.ab s..
+aequo discrimine|à égale distance|0|discrimen.ab s..|aequus.ab nt s..
+aequore et terra|sur mer et sur terre|0|aequor.ab s..|et...|terra.ab s..
+aequum dicere|parler raisonnablement|0|aequus.ac nt s..|dico.act..
+aequum et bonum|l'équité naturelle|0|aequus.nt..|et...|bonus.nt.n.0
+aera legum|tables des lois|0|aes...|lex.g p..
+aerata nauis|vaisseau à proue d'airin|0|nauis...|aeratus.f.cn.0
+aeris temperatura|alliage|1|aes.g s..|temperatura...
+aes Cyprium|cuivre (airain de Chypre)|0|aes...|cyprius.nt.cn.0
+aes alienum|dette|0|aes...|alienus.nt.cn.0
+aes flexus|trompette courbe|0|aes...|flecto.nt pf part pass.cn.0
+aes rectum|trompette droite|0|aes...|rectus.nt.cn.0
+aes temperare|tremper l'airain|0|aes.ac s..|tempero.act..
+aetas consularis|âge requis pour le consulat (43 ans)|1|aetas...|consularis.f.cn.0
+aetate nostra|de nos jours|0|aetas.ab s..|noster.ab f s..
+aetate prouectus|d'un âge avancé|0|aetas.ab s..|proueho.pf part pass..
+aetatem agere|vivre, passer sa vie|0|aetas.ac..|ago.act..
+aetatem consumere in + abl|consacrer sa vie à|1|aetas.ac s..|consumo.act..|in...|.ab..
+aetatem peragere|achever son existence|1|aetas.ac s..|perago.act..
+aeuo confectus|accablé par la vieillesse|0|aeuum.ab s..|conficio.pf part pass..
+aeuum conterere + abl|passer son temps à|1|aeuum.ac s..|contero.act..|.ab..
+affectare iter|chercher à se frayer un chemin|0|affecto...|iter.ac..
+affectatio caeli|étude des phénomènes célestes (Plin.)|0|affectatio...|caelum.g s..
+age dum|eh bien donc !|1|ago.s 2 pr imper act..|dum...
+age sane|eh bien donc !|1|age...|sane...
+ager publicus|domaine public|0|ager...|publicus.m.cn.0
+ager romanus|territoire romain|0|ager...|Romanus.m.cn.0
+agere aestiua|prendre ses quartiers d'été|0|aestiua.ac p..|ago.act..
+agere aliquem reum|poursuivre qqn en justice|1|ago.act..|reus.ac..|.ac.n.1
+agere causam|plaider|0|causa.ac..|ago.act..
+agere fabulam|jouer une pièce|0|fabula.ac..|ago.act..
+agere primas partes|jouer le premier rôle|0|pars.ac p..|primus.ac f p..|ago.act..
+agere rimas|se fendre|1|ago.act..|rima.ac..
+agere unum hominem|être toujour le même|1|ago.act..|homo.ac s..|unus.ac m s..
+agitatio rerum|tourbillon des affaires|0|agitatio...|res.g p..
+agmen consistere|faire halte|1|agmen.ac s..|consisto.act..
+agmine citato|à marche forcée|0|agmen.ab s..|cito (2).ab nt s..
+agrorum exigere fructus|vendre les produits de ses champs|2|ager.g p..|fructus.ac p..|exigo.act..
+agros abicere|vendre ses terres à vil prix|1|ager.ac..|abicio.act..
+alacer gaudio|transporté de joie|0|alacer...|gaudium.ab s..
+alariae cohortes|cohortes auxiliaires|0|cohors...|alarius.f.cn.0
+alba auis|un oiseau rare|0|auis...|albus.f.cn.0
+albae sententiae|pensées limpides|1|sententia...|albus.f.cn.0
+alicui alapam ducere|donner une gifle à qqn|1|aliquis.d s..|alapa.ac s..|duco.act..
+alicui auxilio succurrere|voler au secours de qqn|2|.d..|auxilium.ab s..|succurro...
+alicui colaphum ducere|donner un coup de poing à qqn|0|colaphus.ac..|duco.act..|.d..
+alicui contingit ut|il arrive à qqn que|1|.d..|contingo.s 3..|ut...
+alicui detrahere pellem|démasquer qqn|2|.d..|detraho.act..|pellis.ac..
+alicui esse aliquid pro aliqua re|servir de ... à qqn|1|.d..|sum.ind..|.n..|pro...|.ab..
+alicui gratias (gratiam) agere|remercier qqn|1|.d..|gratia.ac..|ago.act..
+alicui honorem habere|donner à qqn une marque d'honneur|0|honos.ac s..|habeo.act..|.d..
+alicui imperium permittere|remettre à qqn le commandement en chef|2|.d..|imperium.ac s..|permitto.act..
+alicui mala esse|être fatal à qqn|1|.d..|malum.ac p..|sum...
+alicui male precari|souhaiter du mal à qqn|2|.d..|male...|precor...
+alicui molestiam facere (exhibere)|causer de l'ennui à qqn|0|molestia.ac s..|facio,exhibeo.act..|.d..
+alicui pecuniam exponere|mettre une somme d'argent à la disposition de qqn|1|pecunia.ac s..|expono.act..|.d..
+alicui poenam proponere|menacer qqn d'un châtiment|2|poena.ac s..|.d..|propono.act..
+alicui pudori esse|être déshonorant pour qqn|1|.d..|pudor.d s..|sum...
+alicui ratio est cum aliquo|qqn a affaire avec qqn|1|.d..|ratio.n s..|sum.s 3..|cum...|.ab..
+alicui restare|résister à qqn|0|resto...|.d..
+alicui ridere|sourire à qqn|1|.d..|rideo...
+alicui salutem dare|saluer qqn|1|.d..|salus.ac s..|do.act..
+alicui salutem propinare|boire à la santé de qqn|2|.d..|salus.ac s..|propino.act..
+alicui senatus datur|on accorde à qqn une audience du sénat|1|.d..|senatus.n s..|do.pass..
+alicui spatium relinquere|laisser à qqn le temps de|1|.d..|spatium.ac s..|relinquo.act..
+alicui spem inferre|inspirer de l'espoir à qqn|1|spes.ac s..|infero.act..|.d..
+alicui sumptui esse|faire faire des dépenses à qqn|1|.d..|sumptus.d s..|sum...
+alicui terrorem inferre|inspirer de la terreur à qqn|1|terror.ac s..|infero.act..|.d..
+alicuius rei copiam habere|avoir une grande quantité de|1|.g..|copia.ac s..|habeo...
+aliena disciplina|l'expérience des autres|0|disciplina...|alienus.f.cn.0
+alieno tempore|dans des circonstances défavorables|1|alienus.ab nt s..|tempus.ab s..
+alio pacto|d'une autre manière|0|pactum.ab s..|alius.ab nt s..
+aliquem (aliquid) magni pendere|faire grand cas de qqn (qqch)|2|.ac..|magnus.g nt s..|pendo.act..
+aliquem (aliquid) parui pendere|faire peu de cas de qqn (qqch)|2|.ac..|paruus.g s..|pendo.act..
+aliquem ad terram dare|jeter qqn à terre|2|.ac..|ad...|terra.ac s..|do.act..
+aliquem arbitrum addicere|prendre qqn pour arbitre|0|arbiter.ac..|addico.act..|.ac..
+aliquem de caelo detrahere|faire tomber qqn de son piédestal|2|de...|caelum.ab s..|detraho.act..|.ac..
+aliquem ducem sequi|prendre qqn comme guide|2|.ac..|dux.ac.n.0|sequor...
+aliquem facere certiorem (de aliqua re)|informer quelqu'un (de qqch)|1|.ac..|certus.ac comp.gn.0|facio...
+aliquem heredem scribere|instituer qqn son héritier|0|scribo.act..|.ac..|heres.ac.n.1
+aliquem in caelum ferre|porter qqn aux nues|2|fero.act..|in...|caelum.ac s..|.ac..
+aliquem in cohortem suam transferre|admettre qqn au nombre de ses amis|1|in...|cohors.ac s..|transfero.act..|.ac..
+aliquem molestia afficere|ennuyer qqn|0|molestia.ab s..|afficio.act..|.ac..
+aliquem pecunia aggredi|chercher à corrompre qqn avec de l'argent|1|pecunia.ab s..|aggredior...|.ac..
+aliquid admittere auribus|prêter l'oreille à une proposition|1|admitto.act..|auris.ab p..|.ac..
+aliquid alicui mancipio dare|donner qqch à qqn en toute propriété|2|.ac..|.d..|mancipium.ab s..|do...
+aliquid alicui rei praetendere|mettre en avant qqch comme excuse à qqch|2|.ac..|.d..|praetendo.act..
+aliquid cauillari|plaisanter sur qqch|0|cauillor...|.ac..
+aliquid igni dare|mettre le feu à qqch|0|ignis.d s..|do.act..|.ac..
+aliquid in aleam dare|livrer qqch au hasard|1|in...|alea.ac s..|do.act..|.ac..
+aliter ac|autrement que|0|aliter...|ac...
+alius ac|autre que|0|alius...|ac...
+alte cadere|tomber de haut|1|alte...|cado...
+alte cinctus|court vêtu|1|alte...|cingo.pf part pass..
+alterni sermones|dialogue|0|sermo...|alternus.m.cn.0
+alternis annis|tous les deux ans|0|annus.ab p..|alternus.ab m p..
+alterno pede|en cadence|1|pes.ab s..|alternus.ab m s..
+altitudo animi|grandeur d'âme|0|altitudo...|animus.g.n.0
+ama me|crois-moi|0|amo.s 2 pr imper act..|ego.ac s..
+ambiguus fauor|neutralité|0|fauor...|ambiguus.m.cn.0
+ambiguus proeliis|tantôt vainqueur, tantôt vaincu|0|ambiguus...|proelium.ab p..
+amicitia ambitiosa|amitié intéressée|0|amicitia...|ambitiosus.f.cn.0
+amittere captum|lâcher prise|0|amitto...|capio.ac nt s pf part pass..
+amnis ambitiosus|fleuve sinueux|1|amnis...|ambitiosus.m.cn.0
+amor perditus|amour éperdu|1|amor...|perdo.m pf part pass.cn.0
+amore capi|être épris d'amour|0|amor.ab s..|capio.pass..
+amori dare ludum|s'adonner au jeu de l'amour|2|amor.d s..|do.act..|ludus.ac s..
+amplecti dextram alicuius|serrer la main de qqn|0|amplector...|dextra.ac s..|.g s..
+anceps bestia|animal amphibie|0|bestia...|anceps.f.nc.0
+anceps ferrum|fer à double tranchant|0|ferrum...|anceps.nt.cn.0
+anceps locus|terrain dangereux|0|locus...|anceps..cn.0
+ancipiti Marte|avec un succès incertain|1|anceps.ab m s..|Mars.ab..
+angustiae loci|défilé, détroit|0|angustiae...|locus.g..
+animae grauitas|mauvaise haleine|0|grauitas...|anima.g s..
+animale exemplum|exemple vivant|0|exemplum...|animalis.nt.cn.0
+animam agere|rendre l'âme, expirer|0|anima.ac..|ago.act..
+animam comprimere|retenir son haleine|0|anima.ac..|comprimo.act..
+animam continere|retenir sa respiration|1|anima.ac..|contineo.act..
+animam dissoluere|mourir|1|anima.ac..|dissoluo.act..
+animam ebullire|rendre l'âme|anima.ac..|ebullio.act..
+animam edere|exhaler son âme, mourir|0|anima.ac s..|edo.act..
+animo competere|avoir toute sa présence d'esprit|1|animus.ab..|competo.act..
+animo linqui|s'évanouir|1|animus.ab s..|linquo.pass..
+animosum signum|statue qui semble animée|0|signum...|animosus.nt.cn.0
+animum aduertere|remarquer|0|animus.ac..|aduerto.act..
+animum amittere|perdre courage|0|animus.ac s..|amitto...
+animum recipere|reprendre ses esprits|1|animus.ac..|recipio.act..
+animus aequus|calme, sang-froid, résignation|0|animus...|aequus.m.cn.0
+anno interiecto|un an après|1|annus.ab s..|intericio.ab m s pf part pass..
+anno superiore|l'année dernière|0|annus.ab s..|superior.m.cn.0
+annulis donare aliquem|admettre au rang des chevaliers|0|annulus.ab p..|dono.act..|.ac..
+ansam dare|donner prise, prêter le flanc|0|ansa.ac s..|do.act..
+ante multo|longtemps avant|1|ante...|multo...
+aperta nauis|navire non ponté|0|nauis...|aperio.f pf part pass.cn.0
+aperto campo|en rase campagne|0|campus.ab s..|aperio.ab m s pf part pass..
+aperto uento|en plein vent, en plein air|0|uentus.ab s..|aperio.ab m s pf part pass..
+apertum scelus|crime commis au grand jour|0|scelus...|aperio.nt pf part pass.cn.0
+apertus inimicus|ennemi déclaré|0|inimicus...|aperio.m.cn.0
+apis aculeus|aiguillon d'abeille|0|apis.g..|aculeus...
+apponere mensam|mettre le couvert|0|mensa.ac..|appono.act..
+apponere modum + dat.|mettre des bornes à|0|appono.act..|modus.ac..|.d..
+aptatus cibo|bon à manger, comestible|0|apto.pf part pass..|cibus.d s..
+aptus ad + acc.|qui convient à, commode pour|0|aptus...|ad...|.ac..
+aptus qui|capable de|1|aptus...|qui.n..
+apud aliquem accubare|dîner chez qqn|0|accubo...|apud...|.ac..
+apud aliquem beneficium collocare|rendre service à qqn|0|beneficium.ac..|colloco.act..|apud...|.ac..
+apud aliquem esse magni ponderis|avoir sur qqn une grande influence|3|apud...|.ac..|magnus.g nt s..|pondus.g s..|sum...
+apud plebem offendere|être mal vu de la plèbe|2|apud...|plebs.ac s..|offendo...
+aqua et igni alicui interdicere|interdire l'eau et le feu à qqn = l'exiler|1|aqua.ab s..|ignis.ab s..|.d..|interdico...
+aquam dare|fixer le temps de parole|0|aqua.ac s..|do.act..
+aquam et terram petere|demander la soumission|0|aqua.ac s..|et...|terra.ac s..|peto.act..
+aquam perdere|perdre son temps|0|aqua.ac s..|perdo.act..
+aquam praebere|inviter à un repas|0|aqua.ac s..|praebeo.act..
+aquas infundere in cinerem|jeter de l'eau sur la cendre = secourir trop tard|3|aqua.ac..|infundo.act..|in...|cinis.ac..
+aram tangere|mettre la main sur l'autel (pour jurer)|0|ara.ac s..|tango.act..
+araneus mus|musaraigne|0|mus...|araneus..c.0
+arbiter rerum|maître absolu|0|arbiter...|res.g p..
+arbor infelix|potence, croix ; arbre stérile|0|arbor...|infelix..cn.0
+arbor palmae|palmier|0|palma.g s..|arbor...
+arcus adductus|arc bandé|0|arcus...|adduco.m pf part pass.cn.0
+arcus pluuius|arc-en-ciel|1|arcus...|pluuius.m.cn.0
+ardua cogitatio|méditation profonde|0|cogitatio...|arduus.f.cn.0
+argentariam facere|exercer le métier de banquier|0|argentaria.ac s..|facio.act..
+argentum factum|argent travaillé, ciselé|0|argentum...|facio.nt pf part pass.cn.0
+argentum infectum|argent en lingots|0|argentum...|inficio.nt pf part pass.cn.0
+argentum purum|vaisselle plate (sans ciselure)|1|argentum...|purus.nt.cn.0
+argentum uiuum|vif-argent, mercure|0|argentum...|uiuus.nt.cn.0
+argumenti satis est|c'est une preuve suffisante|0|argumentum.g s..|satis...|sum...
+arietinum oraculum|oracle ambigu|0|oraculum...|arietinus.nt.cn.0
+arma nauis|agrès|0|arma...|nauis.g s..
+armis et castris|par tous les moyens|0|arma.ab p..|et...|castra.ab p..
+arte dormire|dormir profondément|1|dormio...|arte...
+artem colere|exercer un métier|1|ars.ac..|colo.act..
+articulum lunae|phase de la lune|0|articulus...|luna.g s..
+arx galeae|cimier|0|arx...|galea.g..
+asper locus|terrain inégal|1|locus...|asper..cn.0
+aspera facetia|sarcasme|0|facetia...|asper.f.cn.0
+aspirare in curiam|désirer siéger à la curie|2|aspiro...|in...|curia.ac s..
+astris cadentibus|au point du jour|0|astrum.ab p..|cado.ab nt p pr part act..
+atrox negotium|affaire épineuse	|1|negotium...|atrox.nt.cn.0
+auctor esse ne + subj|conseiller de ne pas|0|auctor.n..|sum...|ne...|.subj..
+auctor esse ut + subj.|conseiller de|0|auctor.n..|sum...|ut...|.subj..
+auctoritas populi|décision du peuple|0|auctoritas...|populus.g s..
+auctoritas senatus|ratification (d'une loi) par le sénat, décret du sénat|0|auctoritas...|senatus.g s..
+auersus hostis|ennemi en fuite|1|hostis...|auersus.m.cn.0
+augurium agere|prendre les augures|0|augurium.ac..|ago.act..
+auis secunda|bon augure|0|auis...|secundus.f.cn.0
+auis sinistra|mauvais augure|0|auis...|sinister.f.cn.0
+aurem sibi peruellere|se tirer l'oreille = se rappeler qqch|1|auris.ac s..|peruello.act..
+auribus captus|privé de l'ouïe|0|auris.ab p..|capio.pf part pass..
+aurium grauitas|dureté d'oreille|0|auris.g p..|grauitas...
+auspicia petere|consulter les auspice|0|auspicium.ac p..|peto...
+auspicium habere|avoir le droit de prendre les auspices|0|auspicium.ac..|habeo.act..
+balba uerba|paroles balbutiées|1|uerbum.p..|balbus.nt p.c.0
+barba Jouis|Joubarbe|0|barba...|Iuppiter.g..
+barba immissa|barbe longue|1|barba...|immitto.f pf part pass.cn.0
+barbam, crinem pascere|entretenir sa barbe, ses cheveux|1|barba,crinis.ac s..|pasco.act..
+barbam uellere alicui|tirer la barbe à qqn, insulter qqn|0|barba.ac s..|uello.act..|.d..
+beatum nectar|nectar divin|0|nectar...|beatus.nt.cn.0
+belle dicere|être beau parleur|0|belle...|dico.act..
+belle se habere|se porter assez bien|0|belle...|habeo...
+bellica laus|gloire militaire|0|laus...|bellicus.f.cn.0
+bello absistere|cesser les hostilités|0|bellum.ab s..|absisto.act..
+bello absistere|cesser les hostilités|0|bellum.ab s..|absisto.act..
+belluam abicere|terrasser une bête|1|bellua.ac..|abicio.act..
+bellum alicui dare|confier à qqn la direction de la guerre|0|bellum.ac..|do.act..|.d..
+bellum componere|faire la paix|1|bellum.ac..|compono.act..
+bellum denuntiare|déclarer la guerre|0|bellum...|denuntio.act..
+bellum ducere|faire traîner la guerre en longueur|0|bellum.ac..|duco.act..
+bellum gerere|faire la guerre|0|bellum.ac s..|gero.act..
+bellum indicere|déclarer la guerre|0|bellum.ac..|indico (2).act..
+bellum indicere alicui|déclarer la guerre à qqn|0|bellum.ac s..|indico...|.d..
+bellum patrare|terminer la guerre|1|bellum.ac..|patro.act..
+bellum repulsum|guerre défensive|0|bellum...|repello.nt pf part pass.cn.0
+bellum seruile|guerre servile (contre les esclaves)|1|bellum.s..|seruilis.nt s.c.0
+bellum trahere|faire traîner la guerre en longueur|0|bellum.ac..|traho.act..
+bellus homo|homme de bonne compagnie|1|homo...|bellus.m.cn.0
+bene aliquem adhibere|bien traiter qqn|1|bene...|adhibeo.act..|.ac..
+bene audire|avoir bonne réputation|0|audio...|bene...
+bene aut secus|à tort ou à raison|2|bene...|aut...|secus...
+bene emere|acheter à bon marché|0|bene...|emo...
+bene euenire|réussir|1|bene...|euenio...
+bene facis|merci|0|bene...|facio.s 2 pr ind act..
+bene mane|de grand matin|0|bene...|mane...
+bene narrare|apporter de bonnes nouvelles|0|narro...|bene...
+bene pascere|être un bon éleveur|1|bene...|pasco...
+bene uobis|à votre santé !|0|bene...|uos.d p..
+bestias pascere|élever des animaux|1|bestia.ac p..|pasco.act..
+bibere ministrare (dare)|servir à boire|0|bibo.pr inf act..|ministro,do...
+bibulus lapis|pierre ponce|1|lapis...|bibulus.m.cn.0
+bidens ferrum|ciseaux|1|ferrum...|bidens.nt.cn.0
+bilis atra|humeur noire, colère, mélancolie|0|bilis...|ater.f.cn.0
+bipedes asellus|âne à deux pieds, homme sot|1|asellus...|bipes.m.cn.0
+bolo tangere aliquem|frapper qqn d'une amende|0|bolus.ab s..|tango.act..|.ac..
+bona ars|le bien, la vertu|0|ars...|bonus.f.cn.0
+bona et incommoda|les succès et les revers|0|bonus.nt p..|et...|incommodus.nt p..
+bonae res|richesse, prospérité, bonheur|1|res...|bonus.f.cn.0
+bonam copiam eiurare|se déclarer insolvable|1|bonus.ac f s..|copia.ac s..|eiuro.act..
+bonum nomen|bon payeur|0|nomen...|bonus.nt.cn.0
+bonum publicum|le bien de l'État, l'intérêt public|0|bonus.nt..|publicus.nt.cn.0
+buccis fluentibus|les joues pendantes|1|bucca.ab p..|fluo.ab f p pr part act..
+cachinnum tollere in aliqua re|rire aux éclats de qqch|0|cachinnus.ac..|tollo...|in...|.ab..
+cachino concuti|éclater de rire|0|cachinnus.ab s..|concutio.pass..
+cadere in conspectum|échapper à la vue, être imperceptible|2|cado...|in...|conspectus.ac s..
+cadere in irritum|n'aboutir à rien, échouer|0|cado...|in...|irritus.ac nt s..
+cadere in legem|tomber sous le coup de la loi|0|cado...|in...|lex.ac s..
+caduca spica|épi tombé, laissé aux glaneurs|1|spica...|caducus.f.cn.0
+caducae preces|prières sans effet|1|preces...|caducus.f.cn.0
+caeca die emere|acheter à crédit|2|emo.act..|dies.ab s..|caecus.ab f s..
+caeca exspectatio|attente sans perspective|0|exspectatio...|caecus.f.cn.0
+caecae fores|porte dissimulée|0|foris (2).p..|caecus.f p.c.0
+caecare mentes|jeter de la poudre aux yeux|0|caeco...|mens.ac p..
+caecum crimen|accusation sans preuves|1|crimen...|caecus.nt.cn.0
+caecus pauor|frayeur sans motif|0|pauor...|caecus.m.cn.0
+caede respersus|couvert de sang|0|caedes.ab s..|respergo.pf part pass..
+caedere uallum|couper des pieux = construire une palissade|1|caedo.act..|uallum.ac..
+caedes bidentium|sacrifice de brebis|0|caedes...|bidens.g p..
+caelo accedere|avoir accès au ciel, devenir dieu|0|caelum.ab s..|accedo.act..
+caelo aperto|en plein air, sous le soleil|0|caelum.ab s..|aperio.s pf part pass..
+caelum digito attingere|être au comble de la joie|2|caelum.ac s..|digitus.ab s..|attingo.act..
+caeruleus deus|le dieu de la mer, Neptune|1|deus.s..|caeruleus.m s.c.0
+calamitas fructuum|mauvaise récolte|0|calamitas...|fructus.g p..
+calamitatem capere|essuyer un malheur|0|calamitas.ac..|capio.act..
+calamo cantare|jouer du chalumeau|0|calamus.ab s..|canto...
+calce petere aliquem|lancer une ruade à qqn|0|calx.ab s..|peto.act..|.ac s..
+calceos mutare|devenir sénateur (qui porte des chaussures rouges)|0|calceus.ac p..|muto.act..
+calceos poscere|demander ses souliers (pour se lever de table)|0|calceus.ac p..|posco.act..
+calculis omnibus|à l'unanimité|0|calculus.ab p..|omnis.ab m p..
+calculos ponere in utra parte|peser le pour et le contre|0|calculus.ac p..|pono.act..|in...|uter.ab f s..|pars.ab s..
+calculum reducere|retirer son pion, se rétracter|0|calculus.ac s..|reduco.act..
+calidum consilium|résolution inconsidérée|1|consilium...|calidus.nt.cn.0
+calix amarior|coupe de vin vieux|0|calix...|amarus.m comp.cn.0
+calliditas fori|subtilités de la chicane|1|calliditas...|forum.g s..
+callidus temporum|un politique habile|0|callidus...|tempus.g p..
+callum dolori obducere|mettre un cal sur la douleur = s'endurcir à la douleur|2|callum.ac s..|dolor.d s..|obduco.act..
+calumniam afferre|intenter une accusation en calomnie|0|calumnia.ac s..|affero.act..
+camino luculento uti|faire bon feu|0|caminus.ab s..|luculentus.ab m s..|utor...
+canalis animae|trachée-artère|0|canalis...|anima.g s..
+cane peius uitare|éviter comme la peste|0|canis.ab s..|peius...|uito...
+canis acer|chien dangereux|0|canis...|acer..cn.0
+canis plena|une chienne pleine, grosse|0|canis...|plenus.f.cn.0
+canis uenaticus|chien de chasse|1|canis...|uenaticus.m.cn.0
+capax domus|vaste maison|1|domus...|capax.f.cn.0
+capax secreti|capable de garder un secret|0|capax...|secretum.g..
+capere fructum ex + abl|retirer un avantage de|1|capio.act..|fructus.ac s..|ex...|.ab..
+capere radices|prendre racine|1|capio.act..|radix.ac p..
+capillorum animalia|poux|0|capillus.g p..|animal...
+capillus promissus|cheveux longs|1|capillus...|promissus.m.cn.0
+capite aperto|la tête découverte|0|caput.ab s..|aperio.ab nt s pf part pass..
+capite operto|la tête couverte|1|caput.ab s..|operio.ab nt s pf part pass..
+capite puniri|être condamné à mort|1|caput.ab s..|punio.pass..
+capitis caelum|la voûte du crâne|1|caput.g s..|caelum...
+capitis condemnare|condamner à mort|1|caput.g s..|condemno...
+captiuae res|butin|1|res...|captiuus.f.cn.0
+captus animi|privé de raison, fou|0|capio.pf part pass..|animus.g..
+captus omnibus membris|entièrement paralysé|1|omnis.ab nt p..|membrum.ab p..|capio.pf part pass..
+capularis senex|vieillard proche de la tombe|1|sexex...|capularis.m.cn.0
+caput est ut|l'essentiel est que|0|caput.n s..|sum.s 3..|ut...
+caput intactum buxo|tête non peignée|1|caput...|intactus.nt.cn.0|buxum.ab s..
+caput operire|se couvrir la tête|1|caput.ac s..|operio.act..
+cardines uersare|ouvrir une porte|0|cardo.ac p..|uerso.ac..
+cardo anni|solstice d'été|0|cardo...|annus.g s..
+carum habere aliquem|chérir qqn|0|carus.ac.ng.2|habeo.act..|.ac..
+castra mouere|lever le camp|0|castrum.ac p..|moueo...
+castrense uerbum|expression militaire|1|uerbum...|castrensis.nt.cn.0
+castrensis ratio|ordonnancement du camp, lois de la guerre|1|ratio...|castrensis.f.cn.0
+castrensis triumphus|triomphe accordé à celui qui s'est emparé d'un camp ennemi|1|triumphus...|castrensis.m.cn.0
+casum sequi|s'en remettre au hasard|0|casus.ac..|sequor...
+caua luna|lune décroissante|1|luna...|cauus.f.cn.0
+caua uena|veine cave|0|uena...|cauus.f.cn.0
+caudam trahere|traîner une queue = être un objet de risée|0|cauda.ac s..|traho.act..
+cauea prima|le premier rang|0|cauea...|primus.f.cn.0
+cauea ultima|le dernier rang|0|cauea...|ultimus.f.cn.0
+cauere ut|prendre garde que|0|caueo...|ut...
+causa cadere|perdre un procès|0|causa.ab s..|cado.act..
+causa desistere|renoncer à un procès, à une accusation|0|causa.ab s..|desisto.act..
+causa publica|affaire d'État|1|causa...|publicus.f.cn.0
+causam amicitiae cum aliquo habere|avoir des relations d'amitié avec qqn|0|causa.ac s..|amicitia.g s..|habeo.act..|cum...|.ab..
+causam dicere|plaider une cause|1|causa.ac s..|dico.act..
+causam instruere|préparer sa défense|1|causa.ac s..|instruo.act..
+causam obtinere|gagner son procès|0|causa.ac..|obtineo.act..
+causas struere|imaginer des prétextes|1|causa.ac p..|struo.act..
+cedere foro|faire banqueroute|1|cedo (2)...|forum.ab s..
+cedere loco|quitter son poste, s'enfuir|0|cedo (2)...|locus.ab s..
+cedere tempori|se plier aux circonstances|1|cedo (2)...|tempus.d s..
+celebris uia|route fréquentée|1|uia...|celeber.f.cn.0
+cena altera|second service|0|cena...|alter.f.cn.0
+cena prima|premier service|0|cena...|primus.f.cn.0
+cenata nox|nuit passée à table|1|nox...|ceno.f pf part pass.cn.0
+ceruicem reponere|pencher la tête|1|ceruix.ac s..|repono.act..
+cerulae bigae|le char azuré, la lune|0|biga.p..|caeruleus.f p.c.0
+charta dentata|papier lisse|0|charta...|dentatus.f.cn.0
+cibaria uua|raisin de table|1|uua...|cibarius.f.cn.0
+cibarium uinum|vin ordinaire|1|uinum...|cibarius.nt.cn.0
+cibarius homo|homme pauvre (qui travaille pour gagner son pain)|1|homo...|cibarius.m.cn.0
+cibarius panis|pain grossier|1|panis...|cibarius.m.cn.0
+cibi sumere tempus|prendre le temps de s'alimenter|1|cibus.g s..|sumo.act..|tempus.ac s..
+cibum peragere|digérer|1|cibus.ac..|perago.act..
+cibus animalis|l'élément nutritif contenu dans l'air|0|cibus...|animalis.m.cn.0
+cicadas exspectare|attendre les cigales = attendre l'été|0|cicada.ac p..|exspecto.act..
+cicatricem rumpere|rouvrir une blessure|0|cicatrix.ac..|rumpo.act..
+cicatrix aduersa|cicatrice d'une blessure reçue par devant|0|cicatrix...|aduersus.f.cn .0
+ciceris emptor|mangeur de pois chiches (désigne la populace)|0|cicer.g..|emptor...
+cinctus periculis|environné de dangers|1|periculum.ab p..|cingo.pf part pass..
+cineres haurire|recueillir les cendres|1|cinis.ac p..|haurio.act..
+cineri medicinam dare|donner un remède à un mort = secourir trop tard|0|cinis.d..|medicina.ac s..|do.act..
+circumire saucios|aller d'un blessé à l'autre|0|circumeo...|saucius.ac p..
+circumscribere uerbis aliquid|donner une définition de qqch|0|circumscribo.act..|uerbum.ab p..|.ac..
+citato gradu|au pas accéléré|1|cito (2).ab m s pf part pass..|gradus.ab s..
+citius dicto|en moins de temps qu'il n'en faut pour le dire|0|citius...|dictum.ab s..
+citra bellum|sans en venir à la guerre|0|citra...|bellum.ac s..
+ciuicae stirpis esse|être citoyen|1|stirps.g s..|ciuicus.g f s..
+ciuilia studia|sympathies politiques|1|studium.p..|ciuilis.nt p.c.0
+ciuilis scientia|art de gouverner|1|scientia.s..|ciuilis.f s.c.0
+ciuitas constitua|cité ayant ses lois bien établies|1|ciuitas...|constituo.f pf part pass.cn.0
+clamare furem|crier au voleur|0|clamo.act..|fur.ac s..
+clare cernere|avoir la vue perçante, claire|0|clare...|cerno...
+classis praefectus|amiral|1|classis.g s..|praefectus...
+claudicare in officio|mal remplir ses devoirs|0|claudico...|in...|officium.ab s..
+claues adimere uxori|retirer les clefs à sa femme = répudier sa femme|0|clauis.ac p..|adimo.act..|uxor.d s..
+clauum adigere|enfoncer un clou|0|clauus.ac..|adigo...
+clepere sermonem ex occulto|épier une conversation|0|clepo.act..|sermo.ac..|ex...|occultum.ab s..
+clientela musarum|la protection des muses|0|clientela...|musa.g p..
+clitellas boui imponere|bâter un boeuf = donner à qqn un travail qui ne lui convient pas|0|clitellae.ac..|bos.d s..|impono.act..
+cliuus mensae|table bancale|0|cliuus...|mensa.g s..
+coacta pecunia|contribution forcée|1|pecunia...|cogo.f pf part pass.cn.0
+coalescit uulnus|la plaie se referme|0|coalesco.act.n.1|uulnus.n..
+coeptare arma|essayer de combattre|0|coepto.act..|arma.ac p..
+coercitio popinarum|police des cabarets|0|coercitio...|popina.g p..
+coetus stellarum|constellation|0|coetus...|stella.g p..
+cogere lac in duritiam|faire cailler le lait|0|cogo.act..|lac.ac..|in...|duritia.ac..
+cogi in senatum|être convoqué au sénat|0|cogo.pass..|in...|senatus.ac s..
+cogitare toto animo|se plonger dans ses réflexions|0|cogito...|totus.ab m s..|animus.ab s..
+cogitata iniuria|injustice préméditée|1|iniuria...|cogito.f pf part pass.cn.0
+cogitationem alicui inicere de + abl|donner à qqn l'idée de qqch|0|cogitatio.ac s..|.d..|inicio.act..|de...|.ab..
+cognatae urbes|villes qui ont les mêmes fondateurs|1|urbs...|cognatus.f.cn.0
+cognatione aliquem attingere|tenir à qqn par les liens du sang|0|cognatio.ab s..|attingo.act..|.ac..
+cognitio caedis|affaire de meurtre|0|cognitio...|caedes.g s..
+cognitio praetoria|enquête faite par le prêteur|0|cognitio...|praetorius.f..
+cognomen ferre|porter un surnom|0|cognomen.ac s..|fero.act..
+coire in unum|se rallier, se former en peloton|0|coeo...|in...|unus.ac m s..
+coire societatem cum aliquo|conclure une alliance avec qqn|0|coeo.act..|societas.ac s..|cum...|.ab..
+collata dextra|corps à corps|0|confero.ab f s..|dextra.ab s..
+collatis signis|en bataille rangée|0|confero.ab nt p..|signum.ab p..
+collato pede|corps à corps|1|pes.ab s..|confero.ab m s..
+collectio geometrica|calcul géométrique|0|collectio...|geometricus.f.cn.0
+collectio hominum|levée de troupes|0|collectio...|homo.g p..
+collidere manus|battre des mains|0|collido.act..|manus.ac p..
+colligere animum (animos)|se remettre, revenir à soi|0|colligo.act..|animus.ac..
+colligere milites|lever des troupes|0|colligo.act..|miles.ac p..
+colligere pallium|retrousser son manteau|0|colligo.act..|pallium.ac..
+colligere spiritum|reprendre ses sens, ses esprits|1|colligo.act..|spiritus.ac..
+collisus nasus|né épaté|0|nasus...|collido.m pf part pass.c n.0
+collocare pecuniam|placer de l'argent|0|colloco.act..|pecunia.ac s..
+comas fingere|arranger sa chevelure|1|coma.ac p..|fingo.act..
+comiter habitare|être bien logé|0|comiter...|habito...
+comitia edicere|convoquer les comices|0|comitium.ac p..|edico...
+comitialis morbus|épilepsie|1|morbus...|comitialis.m.cn.0
+commissa dextrae dextra|promesse faite en se touchant la main|0|committo.f s pf part pass.c.1|dextra.s..|dextra.ab s..
+commissa poena|peine encourue|1|poena...|committo.f pf part pass.cn.0
+commissa porta|porte fermée|1|porta...|committo.f.cn.0
+committere ut + subj|commettre la faute de|0|committo.act..|ut...|.subj..
+commoda emeritae militiae|pension de retraite des vétérans|0|commodum...|militia.g s..|emereo.g f s..
+commoda publica|biens publics|1|commodum...|publicus.nt.cn.0
+commodatum reportare|rendre ce qu'on a emprunté|1|commodo (2).ac nt pf part pass..|reddo.act..
+commode cadit|cela vient fort à propos|0|commode...|cado.act..
+commode cum|juste au moment où|0|commode...|cum...
+commode facere quod|faire bien de|0|commode...|facio.act..|quod...
+commota mens|esprit dérangé|1|mens...|commoueo.f pf part pass.cn.0
+commune uerbum|verbe déponent|1|uerbum...|communis.nt.cn.0
+communis locus|bâtiment public ; inscr. : tombe, séjour des morts|0|locus...|communis..cn.0
+compertum habere + prop. inf.|tenir pour prouvé que|0|comperio.ac nt s..|habeo...|.ac..|.inf..
+complecti causam|embrasser un parti|1|causa.ac..|complector...
+componere amicos|réconcilier des amis|0|amicus.ac p..|compono.act..
+componere pacem|conclure la paix|0|compono.act..|pax.ac..
+composita acies|armée rangée en ordre de bataille|0|acies...|compono.f pf part pass.cn.0
+composita hora|à une heure convenue|1|compono.ab f s pf part pass..|hora.ab s..
+compositum mare|mer calme|0|compono.nt pf part pass.cn.1|mare...
+comprehendere numero|dénombrer|0|numerus.ab s..|comprehendo...
+compressa itinera|chemins obstrués par la foule|1|iter...|comprimo.nt pf part pass.cn.0
+compressione rerum breuis|qui renferme beaucoup de sens en peu de mots|0|compressio.ab s..|res.g p..|breuis...
+compressis manibus sedere|rester les bras croisés, être oisif|1|manus.ab p..|comprimo.ab f p pf part pass..|sedeo...
+conatum habere ad|avoir des disposition à|0|conatus.ac s..|habeo.act..|ad...
+concedere fato|mourir (de mort naturelle)|0|concedo...|fatum.ab s..
+concedere retro|reculer|0|concedo...|retro...
+conciliare nuptias|s'entremettre pour un mariage|0|concilio.act..|nuptiae.ac..
+concilium plebis|comices tributes|0|concilium...|plebs.g s..
+concilium populi|comices curiates ou centuriates|0|concilium...|populus.g s..
+concilium uirtutum|le cercle des vertus|0|concilium.s..|uirtus.g p..
+concinnare ingenium|former son caractère|0|concinno.act..|ingenium.ac s..
+concipere aquas|aspirer l'eau|1|aqua.ac p..|concipio.act..
+concipere uerba|prononcer une formule|1|uerbum.ac p..|concipio.act..
+conclamare uasa|donner le signal du départ|1|uas.ac p..|conclamo.act..
+concordi gradu|d'un pas égal|1|gradus.ab s..|concors.ab m s..
+concors torus|mariage heureux|1|torus...|concors.m.cn.0
+concurrit saepe|il arrive souvent|0|concurro.s 3..|saepe...
+concursio stellarum|constellation|0|concursio...|stella.g p..
+condere carmen|composer un poème|0|condo.act..|carmen.ac..
+conditor legum|légistlateur|1|lex.g p..|conditor...
+conducti nummi|argent emprunté|0|nummus.p..|conduco.m p pf part pass.cn.0
+conductus exercitus|troupe de mercenaires|0|exercitus...|conduco.m pf part pass.cn.0
+confecta res|affaire conclue ou affaire désespérée|1|res...|conficio.f pf part pass.cn.0
+confectum sidus|astre dont l'influence a cessé|1|sidus...|conficio.nt pf part pass.cn.0
+confessas manus tendere|s'avouer vaincu|1|manus.ac p..|confessus.ac f p..|tendo...
+conglobata figura|figure sphérique|1|figura...|conglobo.f.cn.0
+coniectus oculorum|coup d'oeil|0|coniectus...|oculus.g p..
+coniicere cum aliquo|se disputer avec qqn|0|coniicio...|cum...|.ab..
+coniugata uerba|mots de la même famille|1|uerbum.p..|coniugo.p pf part pass.cn.0
+coniungere dextras|se donner la main|1|dextra.ac p..|coniungo.act..
+coniurationem eruere|découvrir un complot|1|coniuratio.ac..|eruo.act..
+consciscere (sibi) mortem|se donner volontairement la mort|0|conscisco.act..|mors.ac s..
+consciscere sibi fugam|se résoudre à fuir|0|conscisco.act..|se.d..|fuga.ac..
+consensu omnium|de l'avis de tous|0|consensus.ab s..|omnis.g p..
+conserere diem nocti|joindre le jour et la nuit = ne pas se reposer|0|consero.act..|dies.ac s..|nox.d s..
+conserere leges|établir des lois|1|lex.ac p..|consero (2).act..
+consilium alicui probare|faire approuver un conseil à qqn|2|consilium.ac s..|.d..|probo.act..
+consilium serum|conseil qui vient après coup|1|consilium...|serus.nt.cn.0
+consistere animo|garder son sang-froid|0|consisto.act..|animus.ab..
+conspicuus domo|d'une illustre naissance|0|conspicuus...|domus.ab s..
+constrata nauis|vaisseau ponté|1|nauis...|consterno (2).f pf part pass.cn.0
+consulare domus|famille qui conte un ou plusieurs consuls|1|domus...|consularis.f.cn.0
+consulare uinum|vin vieux|1|uinum...|consularis.nt.cn.0
+consularis femina|femme de consul|1|femina...|consularis.f.cn.0
+consularis uia|grande route|1|uia...|consularis.f.cn.0
+consules creare|élire les consuls|0|consul.ac p..|creo...
+consumere gratiam rei|perdre le bénéfice d'une action|0|consumo.act..|gratia.ac s..|.g s..
+consumere horas + abl|passer des heures à|0|consumo...|hora.ac p..|.ab..
+consummare dignitatem|mettre le comble à la grandeur|0|consummo.act..|dignitas.ac s..
+contactus religione dies|jour néfaste|1|dies...|contingo.pf part pass.cn.0|religio.ab s..
+contentio et sermo|le discours soutenu et la conversation|1|contentio.s..|sermo.s..
+continens agmen|troupe qui marche à la file|1|agmen...|contineo.nt pr part act.cn.0
+continens imber|pluie continuelle|1|imber...|contineo.m pr part act.cn.0
+continens terra|continent|1|terra...|contineo.f pr part act.cn.0
+continere gradum|s'arrêter|1|gradus.ac s..|contineo.act..
+continere librum|retenir un livre = ne pas le publier|1|liber (2).ac..|contineo.act..
+continua nocte|la nuit suivante|1|nox.ab s..|continuus.ab f s..
+continui montes|chaîne de montagnes|1|mons...|continuus.m.cn.0
+contra ac|autrement que|0|contra...|ac,atque...
+contra ea|au contraire|0|contra...|is.ac nt p..
+contra opinionem|contrairement à ce qu'on attend|1|contra...|opinio.ac s..
+contrahere uela|carguer les voiles|0|contraho.act..|uelum.ac p..
+conuellere sedibus suis|arracher de ses fondements|1|conuello...|sedes.ab p..
+conuexum iter|route escarpée|1|iter...|conuexus.nt.cn.0
+conuictas manus dare|s'avouer vaincu|1|manus.ac p..|conuinco.ac f p..|do.act..
+copiam dare|donner la permission|0|copia.ac s..|do.act..
+copulatum uerbum|mot composé|1|uerbum...|copulo.nt pf part pass.cn.0
+cor alicui sapit|qqn est prudent|0|cor.n s..|sapio.s 3..|.d..
+coram et palam|au vu et au su de tous|0|coram...|et...|palam...
+cordi est alicui + inf|qqn a à coeur de|0|cor.d s..|sum.s 3..|.d..|.inf..
+corium peter|faire fouetter|0|corium.ac s..|peto...
+cornicum oculos configere|crever les yeux aux corneilles = tromper les trompeurs|2|cornix.g p..|oculus.ac p..|configo.act..
+cornu dextrum|l'aile droite|0|cornu...|dexter.nt.cn.0
+cornu sinistrum|l'aile gauche|0|cornu...|sinister.nt.cn.0
+cornua sumere|s'enhardir|0|cornu.ac p..|sumo.act..
+corpori uacare|exercer son corps|1|corpus.d s..|uaco...
+corporis temperatura|constitution physique|1|corpus.g s..|temperatura...
+corpus arboris|tronc d'un arbre|0|corpus...|arbor.g..
+corripere corpus|se lever vivement|0|corpus.ac..|corripio.act..
+corripere impensas|diminuer les dépenses|1|impensa.ac..|corripio.act..
+corripere uiam|s'avancer rapidement|0|corripio.act..|uia.ac s..
+corrugare nares|dégoûter|1|naris.ac p..|corrugo.act..
+crabrones irritare|irriter les frelons = jeter de l'huile sur le feu|0|crabro.ac p..|irrito.act..
+credere alicui|faire confiance à qqn|0|credo.act..|.d..
+credere pecuniam|prêter de l'argent|1|pecunia.ac s..|credo...
+crimen alicui applicare|accuser qqn d'un délit|1|crimen.ac..|applico.act..|.d..
+crinibus passis|les cheveux épars|0|crinis.ab p..|pando.ab m p pf part pass..
+crudeles terrae|contrées barbares|1|terra...|crudelis.f.cn.0
+cubile apum|ruche|0|cubile...|apis.g p..
+cubile duplex usurpare|commettre un adultère|0|cubile.ac s..|duplex.ac s..|usurpo.act..
+cubito presso manere|ne pas se déranger de table|0|cubitus.ab s..|pressus.ab m s..|maneo.act..
+cubitum ponere apud aliquem|s'accouder chez qqn = manger chez qqn|0|cubitus.ac s..|pono.act..|apud...|.ac..
+culpam in aliquem deriuare|rejeter la faute sur qqn|3|culpa.ac..|in...|.ac..|deriuo...
+cultellus tonsorius|rasoir|0|cultellus...|tonsorius.m.cn.0
+culter tonsorius|rasoir|0|culter...|tonsorius.m.cn.0
+cum aliquo committere proelium|engager le combat avec qqn|3|cum...|.ab..|proelium.ac s..|committo.act..
+cum (ut, ubi) primum|dès que|1|cum,ut,ubi...|primum...
+cuncti hominum|tous les hommes|0|cuncti...|homo.g p..
+cunctis suffragiis|à l'unanimité|1|cunctus.ab nt p..|suffragium.ab p..
+cuneus senatorius|places réservées aux sénateurs|0|cuneus...|senatorius.m.cn.0
+cupere alicui|vouloir du bien à qqn|0|cupio.act..|.d..
+cura ut ualeas|prends soin de ta santé (formule épist.)|0|curo.s 2 pr imper act..|ut...|ualeo.s 2 pr subj act..
+curare genium|soigner son génie = se régaler, faire bonne chère|0|curo.act..|genius.ac s..
+curare mandatum|exécuter un ordre|0|curo.act..|mandatum.ac..
+currere in sententiam|se ranger avec empressement à un avis|0|curro...|in...|sententia.ac..
+cursus honorum|carrière politique|0|cursus...|honos.g p..
+curuamen caeli|climat|0|curuamen...|caelum.g..
+custodire litteris|consigner par écrit|1|littera.ab p..|custodio...
+damna aleatoria|pertes au jeu|0|damnum...|aleatorius.nt.cn.0
+damnare capitis|condamner à mort|0|caput.g..|damno...
+damnare de ui|condamner pour uivolence|0|damno...|de...|uis.ab s..
+damnatio ambitus|condamnation pour brigue|0|damnatio...|ambitus.g s..
+dare in manus|donner en mains propres|2|in...|manus.ac p..|do...
+dare naufrago tabulam|tendre une planche au naufragé|2|do.act..|tabula.ac s..|naufragus.ab s..
+data opera|à dessein, de parti pris|1|opera.ab s..|do.ab f s pf part pass..
+de (ex) improuiso|à l'improviste|1|de,ex...|improuisus.ab nt s..
+de aliqua re agitur|il est question de qqch|0|ago.s 3 pr ind pass..|de...|.ab..
+de caelo tangi|être frappé par la foudre|1|de...|caelum.ab s..|tango.pass..
+de faece haurire|puiser dans la lie = citer de mauvais orateurs|1|de...|faex.ab s..|haurio...
+de lapide emere|acheter aux enchères|1|de...|lapis.ab s..|emo...
+de maiestate|pour crime de lèse-majesté|1|de...|maiestas.ab s..
+de suis bonis decedere|faire cession de ses biens|2|de...|bonus.ab nt p..|decedo.act..
+de suo iure decedere|renoncer à son droit|2|de...|ius.ab s..|decedo.act..
+debilitas pedum|goutte (med.)|0|debilitas...|pes.g p..
+decedere de sententia|changer d'avis|2|decedo...|de...|sententia.ab s..
+decernere acie (proelio,armis,exercitu)|livrer bataille|0|decerno...|acies,proelium,exercitus,arma.ab..
+decernere classe|livrer un combat naval|1|classis.ab s..|decerno.act..
+decessio capitis|absence de tête (chez une victime)|0|decessio...|caput.g..
+decessio uerborum|extension du sens des mots|0|decessio...|uerbum.g..
+decidere pennas|couper les ailes|1|penna.ac p..|decido.act..
+deciduum sidus|étoile filante|1|sidus...|deciduus.nt.cn.0
+declinatio periculi|moyen d'éviter le danger|0|declinatio...|periculum.g..
+decretum proelium|combat achevé|1|proelium...|decerno.nt pf part pass.cn.0
+dedecori est|il est honteux|0|dedecus.d s..|sum...
+dedecus admittere|commettre une action honteuse|0|dedecus.ac..|admitto.act..
+dedita opera|à dessein|0|deditus.ab f s..|opera.ab s..
+deducere aliquem domo|faire cortège à qqn au sortir de chez lui|0|deduco.act..|.ac..|domus.ab s..
+deducere aliquem uero|détourner qqn du vrai|0|deduco.act..|.ac..|uerus.ab nt s..
+deducere nauem|mettre un navire à flot|0|deduco.act..|nauis.ac..
+deducere nauem in portum|relâcher dans un port|0|deduco.act..|nauis.ac..|in...|portus.ac..
+deducere uersus|composer des vers|0|deduco.act..|uersus.ac p..
+deductum carmen|poésie légère|0|carmen...|deduco.nt pf part pass.cn.0
+defectio animae|évanouissement|0|defectio...|anima.g..
+defectio animi|découragement|0|defectio...|animus.g..
+deficere in mucronem|se terminer en pointe|0|deficio...|in...|mucro.ac s..
+deficere legibus|violer les lois|0|deficio...|lex.ab p..
+dei praesentia|apparition d'un dieu|1|deus.g..|praesentia...
+deicere de gradu|chasser de sa position|0|deicio...|de...|gradus.ab s..
+deiecta uxor|femme répudiée|1|uxor...|deicio.f pf part pass.cn.0
+deiecti crines|cheveux flottants|0|deicio.m pf part pass.c.1|crinis.p..
+deiectus sententia|privé du droit de suffrage|0|deicio.pf part pass..|sententia.ab s..
+delectum habere|lever des troupes|0|delectus.ac s..|habeo.act..
+deminutio capitis|perte des droits civils|0|deminutio...|caput.g..
+demissa uoce|à voix basse|0|demitto.ab f s pf part pass..|uox.ab s..
+demissum uulnus|blessure profonde|0|demitto.nt pf part pass.cn.1|uulnus...
+demittere barbam|laisser pousser sa barbe|0|barba...|demitto...
+dentes colliduntur|on claque des dents|1|dens.n p..|collido.p 3 pass..
+deploratum uitium|maladie incurable|1|uitium...|deploro.nt pf part pass.cn.0
+deposcere aliquem ad (in) poenam (supplicium)|exiger le châtiment,le supplice de qqn|0|deposco.act..|ad,in...|poena,supplicium.ac s..
+deriuare aliquid in suam domum|détourner qqch à son profit|0|deriuo.act..|.ac..|in...|domus.ac s..
+describere iura|rendre la justice|1|ius.ac p..|describo.act..
+describi in argumento|être représenté dans une pièce de théâtre|1|in...|argumentum.ab s..|describo.pass..
+desilire in artum|s'engager dans un mauvais pas|0|desilio...|in...|artus.ac nt s..
+despectui aliquem habere|mépriser qqn|0|despectus.d s..|habeo...|.ac..
+despectui esse alicui|être méprisé par qqn|0|despectus.d s..|sum...|.d..
+destinata sententia|dogme, précepte|1|sententia...|destinatus.f.cn.0
+destinatio consulum|désignation des consuls|0|destinatio...|consul.g p..
+destinatio partium|partage|0|destinatio...|pars.g p..
+destrictum uulnus|blessure légère|1|uulnus...|destringo.nt pf part pass.cn.0
+desultor amoris|volage en amour|0|desultor...|amor.g s..
+deteriorem calculum reportare|perdre sa cause|0|calculus.ac s..|deterior.ac m s..|reporto.act..
+detestatio sacrorum|renonciation aux rites de la gens = renonciation à la gens|0|detestatio...|sacer.g nt p..
+detrimentum capere|subir un dommage|0|detrimentum.ac..|capio.act..
+deuiis itineribus|par des sentiers détournés|1|deuius.ab nt p..|iter.ab p..
+deus praesens|dieu favorable|1|deus...|praesens.m.cn.0
+dextra audere|tenter un coup|0|dexter.ab f s..|audeo...
+dextro tempore|au bon moment|0|dexter.ab nt s..|tempus.ab s..
+dicere omnino|dire formellement|1|dico...|omnino...
+dictatorem aliquem dicere|nommer qqn dictateur|2|dictator.ac s..|.ac s..|dico...
+dictis manere|tenir ses promesses|0|dictum.ab p..|maneo.act..
+die altero|le jour suivant|0|dies.ab s..|alter.ab m s..
+diebus continentibus|les jours suivants|1|dies.ab p..|contineo.ab p pr part act..
+diem consumere + ab|passer la journée à|1|dies.ac..|consumo.act..|.ab..
+diem de die differre|remettre de jour en jour|0|dies.ac s..|de...|dies.ab s..|differo...
+diem dicere (dare) alicui|citer qqn en justice|0|dies.ac s..|dico,do.act..|.d..
+diem diffindere|ajourner|0|dies.ac s..|diffindo.act..
+diem pangere|fixer une date|1|dies.ac s..|pango.act..
+dies cedunt|les jours passent|0|cedo (2).p 3..|dies.n p..
+dies curiae|jour de fête|1|dies...|curia.g s..
+dies mitis|temps doux|0|dies...|mitis.m.cn.0
+dies pecuniae|jour d'échéance|1|dies...|pecunia.g s..
+dies promissorum|date fixée, échéance|1|dies...|promitto.g nt p pf part pass..
+dies sine faece|jour sans nuage|1|sine...|faex.ab s..|dies...
+difficilis precibus|peu accessible aux prières|0|difficilis...|preces.d p..
+difficilis urina|dysurie|0|urina...|difficilis.f.cn.0
+difficultatem habere|présenter des difficultés|0|difficultas.ac..|habeo.act..
+digitorum percussio|claquement de doigts|1|digitus.g p..|percussio...
+dignus qui|digne de + inf|0|dignus...|qui.n.gn.0|.subj..
+dii inferi|les dieux infernaux|1|deus...|inferus.m.cn.0
+diis iratis natus|né sous une mauvaise étoile|1|deus.ab p..|iratus.ab m p..|nascor.part..
+dimicatio uniuersa|bataille décisive|0|dimicatio...|uniuersus.f.cn.0
+dimidia pars|la moitié|0|pars...|dimidius.f.cn.0
+dimittere exercitum|licencier une armée|0|dimitto.act..|exercitus.ac..
+dimittere tributum alicui|exempter qqn d'impôt|1|dimitto.act..|tributum.ac s..|.d..
+directus senex|vieillard sévère|1|senex...|dirigo.m pf part pass.cn.0
+distinctus sermo|langage soigné|1|sermo...|distinguo.m pf part pass.cn.0
+diu noctuque|jour et nuit|0|diu...|noctu...
+diuersa loca|endroits éloignés |1|locus.p..|diuersus.nt p.c.0
+diuina anus|vieille sorcière|1|anus...|diuinus.f.cn.0
+diuina ratio|la sagesse divine|0|ratio...|diuinus.f.cn.0
+diuinum scelus|crime contre les dieux|1|scelus...|diuinus.nt.cn.0
+docere fabulam|faire répéter, jouer une pièce|0|doceo.act..|fabula.ac..
+docere litteras|enseigner à lire|0|doceo.act..|littera.ac p..
+documento esse alicui|être un exemple pour qqn|0|documentum.ab s..|sum...|.d..
+dolore uacare|ne pas avoir mal|1|dolor.ab s..|uaco...
+domesticum bellum|guerre civile|0|bellum...|domesticus.nt.cn.0
+domi esse|être abondant|0|domi...|sum...
+domi habere|avoir en abondance|0|domi...|habeo.act..
+domus auium|nid|0|domus...|auis.g p..
+donare aliquem aliqua re|faire don de qqch à qqn|0|dono.act..|.ac..|.ab..
+duabus sellis sedere|être assis sur deux chaises = manger à plusieurs râteliers|1|duo.ab f p..|sella.ab p..|sedeo...
+ducere carmen|composer un poème|1|duco.act..|carmen.ac..
+ducere familiam|être au premier rang|0|familia.ac s..|duco.act..
+ducere fossam|creuser un fossé|0|fossa.ac..|duco.act..
+ducere ordinem|commender un manipule = être centurion|0|duco.act..|ordo.ac s..
+ducere sortem|tirer au sort|0|duco.act..|sors.ac..
+ducere spiritum|respirer, vivre|1|duco.act..|spiritus.ac s..
+ducere uersus|composer des vers|0|duco.act..|uersus.ac p..
+dulcis amice|cher ami|0|amicus.v s..|dulcis.v m s..
+duodecim tabulae (lex)|la loi des XII tables|0|duodecim...|tabula.p..
+duplex uerbum|mot à double sens, mot ambigu|1|uerbum...|duplex.nt.cn.0
+e nassa exire|sortir d'un mauvais pas|1|e...|nassa.ab s..|exeo...
+e re sua|selon son intérêt|1|e...|res.ab s..|suus.ab f s..
+e republica|dans l'intérêt de l'État|1|e...|respublica.ab s..
+ea lege ut|à condition que|1|is.ab f s..|lex.ab s..|ut...
+ea re|à cause de cela, pour cette raison|0|is.ab f s..|res.ab s..
+eburneus dens|défense d'éléphant|1|dens...|eburneus.m.cn.0
+educere aliquem (in ius)|assigner qqn devant les tribunaux|0|educo.act..|.ac..
+effundi in cachinnos|rire aux éclats|0|effundo.pass..|in...|cachinnus.ac p..
+egredi flumen|passer un fleuve|0|egredior...|flumen.ac..
+eicere linguam|tirer la langue|0|lingua.ac s..|eicio.act..
+eiecta nauis|navire naufragé|0|nauis...|eicio.f pf part pass.cn.0
+eiectus homo|homme ruiné|1|homo...|eicio.m pf part pass.cn.0
+eius modi ut + subj|de telle sorte que|1|is.g m s..|modus.g s..|ut...|.subj..
+eleuare auctoritatem|affaiblir l'autorité|0|eleuo.act..|auctoritas.ac..
+emere aliquid pondere|acheter qqch au poids|1|emo...|pondus.ab s..
+emolumento alicui esse|être avantageux pour qqn|0|emolumentum.ab s..|sum...|.d..
+emunctae naris|au nez mouché = avisé|1|emungo.g f s pf part pass..|naris.g s..
+eniti ad dicendum|s'élever au talent d'orateur|2|ad...|dico.ac ger..|enitor...
+eo magis (quod, quam...)|d'autant plus|0|eo (2)...|magis...
+eo natus ut|prédestiné à|1|eo...|nascor.pf part..|ut...
+epistolam soluere|décacheter une lettre|1|epistula.ac..|soluo.act..
+epistulam resoluere|ouvrir une lettre|1|epistula.ac..|resoluo.act..
+epistularum consuetudo|correspondance épistolaire|0|consuetudo...|epistula.g p..
+eques sagittarius|archer à cheval|1|eques...|sagittarius..cn.0
+equestri loco natus|issu de la classe des chevaliers|1|equester.ab m s..|locus.ab s..|nascor.pf part act..
+equidem ego|quant à moi|0|equidem...|ego.n s..
+equis albis praecurrere aliquem|surpasser largement qqn|1|equus.ab p..|albus.m.cn.0|praecurro...|.ac..
+equo admisso|à bride abattue|0|equus.ab..|admitto.ab m pf part pass.n.0
+equo citato|à bride abattue|1|equus.ab..|cito (2).ab m pf part pass.n.0
+equo mereri|servir dans la cavalerie|0|equus.ab s..|mereor...
+equos permittere|lancer les chevaux|1|equus.ac..|permitto.act..
+equum conscendere|monter à cheval|0|equus.ac..|conscendo.act..
+equum fingere|dresser un cheval|0|equus.ac..|fingo.act..
+equum sternere|seller un cheval|1|equus.ac..|sterno.act..
+equus fluuiatilis|hippopotame|0|equus...|fluuiatilis.m.cn.0
+eripere aliquid alicui|enlever qqch à qqn|2|.ac..|.d..|eripio.act..
+errare tempora|se tromper sur la chronologie|0|erro...|tempus.ac p..
+eructare caedem|vomir des menaces de mort|0|eructo.act..|caedes.ac s..
+esse alicui in amore|être aimé de qqn|1|in...|amor.ab s..|sum...|.d s..
+esse cum telo|porter une arme|0|cum...|telum.ab s..
+esse in ambiguo|être en danger|2|sum...|in...|ambiguus.ab nt s..
+esse in mora + dat|faire attendre qqn, retarder qqch|2|sum...|in...|mora.ab s..|.d..
+esse in sagis|être sous les armes|2|sum...|in...|sagum.ab p..
+esse multae operae|demander beaucoup de travail|2|sum...|multus.g f s..|opera.g s..
+est mihi nomen + nominatif|je m'appelle ...|2|sum.s 3 pr ind..|ego.d..|nomen.n s..
+et recte quidem|et tu fais bien|1|et...|recte...|quidem...
+euoluere librum|feuilleter un livre (le dérouler)|1|liber (2).ac..|euoluo.act..
+ex abdito|de provenance secrète, de source cachée|0|abdo.ab m s pf part pass..|ex...
+ex auctoritate|au nom de l'État|1|ex...|auctoritas.ab s..
+ex composito|selon ce qui a été convenu|1|ex...|compono.ab nt s..
+ex confesso|de l'aveu général, sans contredit|1|ex...|confessus.ab nt s..
+ex consuetudine|selon l'usage|1|ex...|consuetudo.ab s..
+ex destinato|de propos délibéré|1|ex...|destino.ab nt s pf part pass..
+ex disposito|en ordre, à dessein, exprès|1|ex...|dispono.ab nt s pf part pass..
+ex facili|facilement|1|ex...|facilis.ab nt s..
+ex omnibus partibus|de tous côtés|2|ex...|omnis.ab f p..|pars.ab p..
+ex (de) potestate exire|perdre son sang-froid|2|ex,de,e...|potestas.ab s..|exeo.act..
+ex quadrante|pour un quart|1|ex...|quadrans.ab s..
+ex tempore uiuere|vivre au jour le jour|1|ex...|tempus.ab s..|uiuo.act..
+ex uano|sans fondement|1|ex...|uanus.ab nt s..
+ex usu alicuius esse|être utile à qqn|1|ex...|usus.ab s..|.g..|sum...
+excutere uerbum|examiner le sens d'un mot|1|uerbum.ac..|excutio.act..
+exempli causa (gratia)|par exemple|0|exemplum.g s..|causa,gratia.ab s..
+exercere ferrum|travailler le fer|0|exerceo.act..|ferrum.ac s..
+exercitus repentinus|armée improvisée|1|exercitus...|repentinus.m.cn.0
+exhaustum flumen|fleuve tari|1|flumen...|exhaurio.nt pf part pass.cn.0
+exigere telum|lancer un trait|0|exigo.act..|telum.ac..
+exigere uiam|demander la construction d'une route|0|exigo.act..|uia.ac..
+exigere uxorem|répudier sa femme|0|exigo.act..|uxor.ac..
+exire patriciis|sortir (par adoption) de la classe des patriciens|1|exeo...|patricius.ab m p..
+exit fama|le bruit se répand|1|fama.n s..|exeo.s 3..
+exitio esse alicui|causer la perte de qqn|0|exitium.ab s..|sum...|.d..
+expedire capillos|démêler les cheveux|1|capillus.ac p..|expedio.act..
+expedire nodum|résoudre une difficulté|1|nodus.ac..|expedio.act..
+expedita manus|troupe légère|0|expeditus.f.cn.1|manus...
+experiri legibus|avoir recours à la justice, faire valoir ses droits|0|experior...|lex.ab p..
+expertus sum|je sais par expérience|0|experior.n pf part..|sum.3..
+explicare praecepta|se conformer aux préceptes|0|explico.act..|praeceptum.ac p..
+explicare uolumen|ouvrir un rouleau, un livre|0|explico.act..|uolumen.ac..
+exploratum habere + prop. inf.|tenir pour certain que|0|exploratus.ac nt s..|habeo.act..|.ac..|.inf..
+exprimere uerbum e uerbo|traduire mot à mot|0|exprimo.act..|uerbum.ac s..|e...|uerbum.ab s..
+expungere cutem|raser, faire la barbe|0|expungo.act..|cutis.ac s..
+exsecrabile carmen|formule d'imprécation|0|exsecrabilis.nt.cn.1|carmen...
+exsequi delictum|punir un crime|1|delictum.ac..|exsequor...
+exsequi ius suus|réclamer ses droits|1|ius.ac s..|exsequor...
+exsequias cohonestare|assister aux funérailles|0|exsequiae.ac..|cohonesto.act..
+exsoluere brachia ferro|s'ouvrir les veines des bras|0|exsoluo.act..|brachium.ac..|ferrum.ab s..
+exsoluere nomina|payer ses dettes|0|exsoluo.act..|nomen.ac p..
+exspectare annum|attendre la saison de la récolte|0|exspecto.act..|annus.ac s..
+exsurgere in plantas|se grandir, être guindé|2|exsurgo...|in...|planta.ac p..
+extendre pugnam|prolonger le combat|0|extendo.act..|pugna.ac..
+extra culpam esse|être innocent|1|extra...|culpa.ac s..|sum...
+extra ictum|hors d'atteinte|1|extra...|ictus.ac s..
+extra ioco|sans plaisanter|1|extra...|iocus.ab s..
+extra ordinem|contrairement à la règle, à l'habitude|0|extra...|ordo.ac s..
+extrema cera|dernière page|0|cera...|extremus.f.cn.0
+extrema luna|dernier quartier de la lune|0|luna...|extremus.f.cn.0
+faba Graeca|lotus|1|faba...|graecus...
+fabulae conuiuales|propos de table|0|fabula...|conuiualis.f.cn.0
+fabulae diei|nouvelles du jour|0|fabula.p..|dies.g s..
+fabulae urbis|les potins de la ville|0|fabula...|urbs.g s..
+fabulam dare|faire représenter une pièce|0|fabula.ac..|do.act..
+fabulam surdo narrare|conter une histoire à un sourd = parler en vain|2|fabula.ac s..|surdus.d m s..|narro.act..
+fabulas cum aliquo habere|s'entretenir avec qqn|0|fabula.ac p..|habeo.act..|cum...|.ab..
+facem praeferre (alicui)|porter le flambeau - alicui : montrer le chemin à qqn|0|fax.ac s..|praefero.act..
+facere damnum (detrimentum)|subir un dommage|0|facio.act..|damnum,detrimentum.ac s..
+facere manum|ramasser une troupe|0|facio.act..|manus.ac s..
+facere medicinam|exercer la médecine|0|facio.act..|medicina.ac s..
+facere ouum|pondre un oeuf|1|ouum.ac..|facio.act..
+facere palam|rendre public|0|facio...|palam...
+facere silentium|demander le silence, faire taire|1|facio.act..|silentium.ac s..
+facere stipendia|être soldat, servir|0|facio.act..|stipendium.ac p..
+facere stomachum|mettre en colère|0|facio.act..|stomachus.ac s..
+facere subolem|faire des petits|0|facio.act..|suboles.ac s..
+faces caelestes|météores|0|fax.p..|caelestis.m.c.0
+facete dicere|plaisanter|0|facete...|dico...
+facile primus|le premier sans contredit|0|facile...|primus...
+faciles uersus|poésie légère|1|uersus.p..|facilis.m p.c.0
+facilis bello|belliqueux|0|facilis.m..|bellum.ab s..
+facillime esse|être très bien|0|facillime...|sum...
+facio libenter ut|il m'est bien agréable de|0|facio.act..|libenter...|ut...
+factum male|dommage, tant pis|0|facio.ac nt s pf part pass..|male...
+factum optime|tant mieux|0|facio.ac nt s pf part pass..|optime...
+facultas et ars|la pratique et la théorie|0|facultas...|et...|ars..cn.0
+falcifer senex|le vieillard porte-faux = Saturne|1|senex...|falcifer.m.cn.0
+fallere uestigium|se dérober sous le pied|0|fallo.act..|uestigium.ac..
+falsum aliquem habere|tromper qqn|1|.ac..|falsus..cn.0|habeo.act..
+falsus uates|mauvais prophète|1|uates...|falsus.m.cn.0
+famae studere (consulere)|veiller à sa réputation|0|fama.d s..|studeo,consulo.act..
+famem (sitim) perferre|endurer la faim (la soif)|1|fames,sitis.ac s..|perfero.act..
+familia gladiatoria|troupe de gladiateurs|0|familia...|gladiatorius.f.cn.0
+fanatica arbor|arbre frappé par la foudre|1|arbor...|fanaticus.f.cn.0
+fanaticus error|délire|1|error...|fanaticus.m.cn.0
+fas est + inf|il est permis par les dieux de|0|fas...|sum...|.inf..
+fasces alicui submittere|baisser les faisceaux devant qqn = lui témoigner sa soumission|0|fascis.ac p..|submitto...|.d..
+fasces corripere|s'emparer du consulat|0|fascis.ac p..|corripio.act..
+fastidium mouere|inspirere du dégoût|0|fastidium.ac s..|moueo.act..
+fata proferre|prolonger la vie|0|fatum.ac p..|profero.act..
+fataliter mori|mourir de mort naturelle|0|fataliter...|morior...
+fato cedere (concedere, fungi)|mourir de mort naturelle|0|fatum.ab s..|cedo (2),concedo,fungor.act..
+fauere rebus (partibus) alicuius|être du parti de qqn|0|faueo.act..|res,pars.ab p..|.g..
+fauete lingua (linguis)|gardez le silence|0|faueo.pr imper act..|lingua.ab..
+fax corporis|l'aiguillon de la chair|0|fax.s..|corpus.g s..
+fax prima|le commencement de la nuit|0|fax...|primus.f.cn.0
+felicitas dicendi|éloquence|0|felicitas.s..|dico.g ger..
+fenum esse|manger du foin = vivre comme une bête|0|fenum.ac s..|edo (2).act..
+fenum habere in cornu|être qqn de furieux|0|fenum.ac s..|habeo.act..|in...|cornu.ab s..
+feriae indictae|fêtes mobiles|0|feriae...|indico (2).f p pf part pass.c.0
+feriae statae|fêtes fixes|0|feriae...|sisto.f p pf part pass.c.0
+ferre aliquem in sinu (oculis)|porter qqn dans son coeur|0|fero.act..|in...|sinus,oculus.ab..|.ac..
+ferre signa|se mettre en marche|0|fero.act..|signum.ac p..
+fessae res|affaires désespérées|1|res.p..|fessus.f p.c.0
+festi clamores|cris d'allégresse|1|clamor...|festus.m.cn.0
+feta uxor|femme accouchée|1|uxor...|fetus (2).f.cn.0
+fetus ager|terre ensemencée|1|ager...|fetus (2).m.cn.0
+fibulam imponere|mettre un frein|0|fibula.ac s..|impono.act..
+fidele consilium|conseil d'ami|1|consilium...|fidelis.nt.cn.0
+fidem amittere|trahir sa parole|0|fides.ac s..|amitto.act..
+fidem facere|inspirer confiance|0|fides.ac s..|facio.act..
+fidem retinere|rester fidèle à sa parole|1|fides.ac s..|retineo.act..
+fidem seruare|observer ses engagements|1|fides.ac s..|seruo.act..
+fides punica|perfidie punique, mauvaise foi|1|fides...|punicus.f.cn.0
+filiam locare alicui (nuptum, nuptiis, in matrimonio)|marier une fille à qqn|1|filia.ac s..|loco.act..|.d s..
+fingere uultum|composer son visage|1|uultus.ac s..|fingo.act..
+finibus excedere|sortir du territoire|0|finis.ab p..|excedo.act..
+finis bonorum|le bien suprême|0|finis.s..|bonus.g nt p..
+finitor circulus|l'horizon|0|finitor.s..|circulus.s.c.0
+fiscum agere|lever l'impôt|0|fiscus.ac s..|ago.act..
+fit ut et ut fit|fit ut = il arrive que ; ut fit = comme d'habitude|0|fio.s 3 ind..|ut...
+flagellare annonam|accaparer le blé|0|flagello.act..|annona.ac s..
+flagellare messem|battre le blé|0|flagello.act..|messis.ac..
+flagitare crimen|poursuivre la mise en accusation|0|flagito.act..|crimen.ac s..
+flagitium demere|laver une souillure|0|flagitium.ac..|demo.act..
+flatus secundus|vent favorable|0|flatus...|secundus.m.cn.0
+flectere crines|friser ses cheveux|1|crinis.ac p..|flecto.act..
+florere aetate|être dans la fleur de l'âge|0|floreo.act..|aetas.ab s..
+flos eloquentiae|ornements oratoires|0|flos...|eloquentia.g s..
+flos olei|huile vierge|0|flos.s..|oleum.g s..
+fluctus ciuiles|troubles civils|0|fluctus.p..|ciuilis.m.cn.0
+fluida humus|terrain mouvant|1|humus...|fluidus.f.cn.0
+flumen uiuum|eau vive|0|flumen...|uiuus.nt.cn.0
+fluuios praebere (ministrare)|arroser|0|fluuius.ac p..|praebeo,ministro.act..
+fluxum uas|vase qui fuit|0|fluo.nt pf part pass.cn.1|uas...
+focis patriis exturbare|chasser de ses foyers|0|focus.ab p..|patrius.ab m p..|exturbo...
+focos repetere|retourner dans ses foyers|0|focus.ac p..|repeto.act..
+fodere metalla|exploiter des mines|0|fodio.act..|metallum.ac p..
+foeditas odoris|odeur infecte|0|foeditas...|odor.g..
+foedus ferire (facere, icere, percutere)|conclure un traité|0|foedus (2).n..|ferio,facio,ico,percutio...
+foedus frangere|rompre un traité|1|foedus (2).n s..|frango.act..
+foedus icere cum aliquo|conclure un traiter avec qqn|1|foedus (2)...|ico.act..|cum...|.ab..
+foedus iubere|ratifier un traité|1|foedus (2).n..|iubeo.act..
+folium Sibyllae|oracle de la Sibylle (écrit sur une feuille de palmier)|0|folium...|Sibylla.g s..
+foramen inspirare|souffler dans un trou|1|foramen.ac s..|inspiro.act..
+foras cenare|dîner en ville|0|foras...|ceno...
+forensis labor|plaidoierie|1|labor (2)...|forensis.m.cn.0
+forensis lux|célébrité acquise au barreau|0|lux...|forensis.f.cn.0
+fores pulsare|frapper à la porte|0|foris (2)...|pulso...
+foris cenare|dîner en ville|0|foris...|ceno...
+formae dignitas|noblesse des traits|0|forma.g s..|dignitas...
+formare uersus cithara|chanter des vers en s'accompagnant de la lyre|0|formo.act..|uersus.ac p..|cithara.ab s..
+foro decedere|s'éloigner des affaires publiques|0|forum.ab s..|decedo...
+fortis maritus|un mari parfait|1|maritus...|fortis.m.cn.0
+fortuita oratio|discours improvisé|1|oratio...|fortuitus.f.nc.0
+fortunae inops|indigent|0|fortuna.g s..|inops...
+forum agere|rendre la justice|0|forum.ac s..|ago.act..
+forum sepulcri|vestibule d'un tombeau|0|forum...|sepulcrum.g s..
+fouere spem|nourrir un espoir|0|foueo.act..|spes.ac..
+fragmen panis|miette de pain|0|fragmen...|panis.g s..
+fragmentum panis|miette de pain|0|fragmentum...|panis.g s..
+frater patruelis|cousin germain|0|frater...|patruelis.m.cn.0
+fratres aruales|frères arvales|0|frater...|arualis.m.cn.0
+fraudi esse alicui|porter préjudice à qqn|0|fraus.d s..|sum...|.d..
+frequenti curia|en plein sénat|1|frequens.ab f s..|curia.ab s..
+frigidus rumor|rumeur alarmante|1|rumor...|frigidus.m.cn.0
+frigore consistere|geler|1|frigus.ab s..|consisto...
+frontem contrahere|contracter le front, rider le front|0|contraho.act..|frons (2).ac..
+fucata uestis|vêtement de couleur|1|uestis...|fucatus.f.cn.0
+fucum facere alicui|jeter de la poudre aux yeux de qqn|0|fucus.ac s..|facio.act..|.d..
+fugae uitam suam mandare|chercher son salut dans la fuite|2|fuga.d s..|uita.ac s..|mando.act..
+fugiens mensis|fin du mois|0|mensis...|fugio.m pr part act.cn.0
+fugiens uinum|vin qui ne vieillit pas|0|uinum...|fugio.nt pr part act.cn.0
+funalis cereus|bougie, chandelle|0|cereus...|funalis.m.cn.0
+funalis equus|cheval de volée (attaché en dehors du timon)|1|equus...|funalis.m.cn.0
+fundamenta aperire|creuser les fondations|0|fundamentum.ac p..|aperio.act..
+funem ducere|tenir la corde = commander|0|funis.ac s..|duco.act..
+funem sequi|suivre la corde = obéir|0|funis.ac s..|sequor...
+funus laudatione cohonestare|faire un éloge funèbre|2|funus.ac..|laudatio.ab..|cohonesto.act..
+gallinae filius albae|fils d'une poule blanche = privilégié|0|gallina.g s..|albus.g f s..|filius...
+gaudium praesumere|se réjouir d'avance|1|gaudium.ac s..|praesumo.act..
+gena inferior|paupière inférieure|0|gena...|inferior.f.cn.0
+gena superior|paupière supérieure|0|gena...|superior.f.cn.0
+genetiuum nomen|nom de famille|1|nomen...|genetiuus.nt.cn.0
+genus dicendi|style|0|genus...|dico.g ger..
+genus orationis|style|0|genus...|oratio.g s..
+gladiatorum munera|combats de gladiateurs|0|munus.p..|gladiator.g p..
+gladium condere|rengainer le glaive|1|gladius.ac..|condo.act..
+gloriam abicere|renoncer à la gloire|1|gloria.ac s..|abicio.act..
+granatum malum|grenade|0|malum...|granatus.nt.cn.0
+grandis natu|d'un grand âge|1|grandis...|natu...
+gratiam referre|rendre un bienfait|1|gratia.ac..|refero.act..
+gratiosa missio|congé obtenu par faveur|1|missio...|gratiosus.f.cn.0
+grauitas aurium|dureté d'oreille|0|grauitas...|auris.g p..
+grauiter iacere|être gravement malade|1|grauiter...|iaceo...
+grauiter iacere|être gravement malade|1|grauiter...|iacio...
+grauiter olere|sentir mauvais|0|grauiter...|oleo...
+gubernare e terra|commander (un navire) de la terre = mettre les autres en danger sans s'exposer soi-même|2|e...|terra.ab s..|guberno...
+gulae parere|être esclave de son ventre|1|gula.d s..|pareo.act..
+habenas dare (remittere)|lâcher la bride|0|habena.ac p..|do,remitto.act..
+habenda ratio est ut|il faut prendre soin de|1|habeo.n f s adjv..|ratio.n s..|sum.s 3..|ut...
+habere aliquid sub ictu|avoir qqch à portée de main|3|habeo.act..|.ac..|sub...|ictus.ab s..
+habere nasum|avoir le goût délicat|0|nasus.ac s..|habeo.act..
+habere orationem|prononcer un discours|1|habeo.act..|oratio.ac..
+habere uenerationem|avoir droit au respect, ou inspirer le respect|1|habeo.act..|ueneratio.ac s..
+harena urens|lave|0|harena...|uro.f pr part act.cn.0
+hasta publica|vente aux enchères|0|hasta...|publicus.f.cn.0
+hastam ponere|planter sa pique = annoncer une vente aux enchères|0|hasta.ac s..|pono.act..
+hastas abicere|quitter la partie|0|hasta.ac p..|abicio.act..
+haud (non) ita pridem|il n'y a pas longtemps|2|haud,non...|ita...|pridem...
+haud magna mole|sans grande difficulté|2|haud...|magnus.ab f s..|moles.ab s..
+haud magni facere|faire peu de cas de|1|haud...|magnus.g nt s..|facio...
+haud multo post|peu après|1|haud...|multo...|post...
+herba benedicta|pied-de-lièvre (plante)|0|herba...|benedico.f pf part pass.cn.0
+herbam carpere|brouter l'herbe|1|herba.ac s..|carpo.act..
+herbam porrigere|céder la palme = s'avouer vaincu|0|herba.ac s..|porrigo.act..
+hereditatem cernere|se déclarer héritier|0|cerno.act..|hereditas.ac s..
+hiantia loqui|dire des choses décousues|0|hio.ac nt p pr part act..|loquor...
+hiems letalis|le froid de la mort|0|hiems...|letalis.m.cn.0
+hoc amplius|de plus|1|hic.ab nt s..|amplius...
+hodie mane|ce matin|1|hodie...|mane...
+homo nouus|homme nouveau (le 1er de sa gens à être magistrat curule)|1|homo...|nouus.m.cn.0
+homo temporum|un opportuniste|1|homo...|tempus.g p..
+honores et praemia|honneurs et distinctions|1|honos.p..|praemium.p.c.0
+honoris causa|pour faire honneur|0|honos.g s..|causa.ab s..
+horti pensiles|jardins suspendus|1|hortus...|pensilis.m.cn.0
+hospitale cubiculum|chambre d'hôte, chambre d'amis|0|hospitalis.n.cn.1|cubiculum...
+hostem intercipere|prendre l'ennemi par surprise|1|hostis.ac..|intercipio.act..
+huc (et) illuc|çà et là|0|huc...|illuc...
+hujus modi|pareil, de cette sorte|1|hic.g s..|modus.g s..
+humida uerba|propos frivoles|1|uerbum.p..|humidus.nt p.c.0
+humili loco natus.|d'une humble origine|1|humilis.ab m s..|locus.ab s..|nascor.pf part act..
+humiliter sentire|avoir des sentiments bas|0|humiliter...|sentio...
+iacens uestis|vêtement traînant|1|uestis...|iaceo.m pr part act.cn.0
+iam diu|depuis longtemps|1|iam...|diu...
+iam diu est factum cum / ut|il y a longtemps que|1|iam...|diu...|sum.s 3..|facio.n nt s pf part pass..
+iam nunc|dès maintenant|0|iam...|nunc...
+iam tandem|désormais, maintenant enfin|1|iam...|tandem...
+iam tum|dès lors|0|iam...|tum...
+ictus creber, languidus|pouls rapide, lent|0|ictus.s..|creber,languidus.m s.c.0
+id est|c'est à dire|0|is.n nt s..|sum.s 3 pr ind..
+id quod constat|ce qui est certain|2|is.n nt s..|quod...|consto.s 3 ind act..
+idem ac|le même que|0|idem...|ac,atque,et...
+ideo ... quod|parce que, pour la raison que|0|ideo...|quod...
+idoneus auctor|autorité imposante|1|auctor...|idoneus.m.cn.0
+idoneus qui + subj.|digne de|0|idoneus...|qui...|.subj..
+ignaua lux|jour de repos|0|lux...|ignauus.f.cn.0
+ignis sacer|feu sacré (maladie)|0|ignis...|sacer.m.cn.0
+illa tempestate|à cette époque|1|ille.ab f s..|tempestas.ab s..
+immunda rura|champs en friche|1|rus.p..|immundus.nt p.c.0
+immunis militia|exempté de service militaire|0|immunis...|militia.ab s..
+impendere uitam|sacrifier sa vie|0|impendo.act..|uita.ac..
+imperium inhibere|exercer son autorité|1|imperium.ac s..|inhibeo.act..
+impotens irae|qui ne peut contenir sa colère|0|impotens...|ira.g s..
+impotens laetitiae|qui ne peut contenir sa joie|0|impotens...|laetitia.g s..
+in abdito|en secret|0|abdo.ab m s pf part pass..|in...
+in admiratione esse|être admiré|1|in...|admiratio.ab s..|sum...
+in aetate|de temps en temps, quelquefois|1|in...|aetas.ab s..
+in annos singulos|d'année en année|2|in...|annus.ac p..|singuli.ac m p..
+in aperto loco|en plein air|1|in...|aperio.ab m s pf part pass..|locus.ab s..
+in caelum suspicere|lever les yeux au ciel|1|in...|caelum.ac s..|suspicio (2).act..
+in caerimonia esse|être en vénération|1|in...|caerimonia.ab s..|sum...
+in capita|par tête, par personne|1|in...|caput.ac p..
+in confesso esse|être incontestable, être évident|1|in...|confessus.ab m s..|sum...
+in deorum numero reponere|mettre au nombre des dieux|3|in...|deus.g p..|numerus.ab s..|repono...
+in diem uiuere|vivre au jour le jour|1|in...|dies.ac s..|uiuo...
+in dies|de jour en jour|1|in...|dies.ac p..
+in diuersum|en sens contraire|1|in...|diuersus.ac nt s..
+in dubio esse|être en danger|1|in...|dubium.ab s..|sum...
+in faciem + gén.|en forme de|1|in...|facies.ac s..|.g s..
+in fide stare|être fidèle à sa parole|1|in...|fides.ab s..|sto.act..
+in foro dicere|parler en public|1|in...|forum.ab s..|dico...
+in foro palam|en plein forum|2|in...|forum.ab s..|palam...
+in fructu esse|être utile|1|in...|fructus.ab s..|sum...
+in fugam conuertere|mettre en fuite|2|in...|fuga.ac s..|conuerto.act..
+in fugam dare|mettre en fuite|2|in...|fuga.ac s..|do...
+in furto comprehendere|prendre en flagrant délit de vol|2|in...|furtum.ab s..|comprehendo...
+in gremio sedere|être assis sur les genoux|1|in...|gremium.ab s..|sedeo.act..
+in gyrum|en rond|0|gyrus.ac s..|in...
+in has leges|dans ces conditions|2|in...|hic.ac f p..|lex.ac p..
+in horam uiuere|vivre au jour le jour|1|in...|hora.ac s..|uiuo...
+in horas singulas|d'heure en heure|2|in...|hora.ac p..|singuli.ac f p..
+in inuidiam uocare (adducere) aliquem|exciter la haine contre qqn|1|in...|inuidia.ac s..|uoco,adduco.act..|.ac..
+in ipso foro|en plein forum|1|in...|ipse.ab nt s..|forum.ab s..
+in ipso tempore|juste au bon moment|1|in...|ipse.ab nt s..|tempus.ab s..
+in luce ciuium|en public|1|in...|lux.ab s..|ciuis.g p..
+in lucem edi|venir au monde|2|in...|lux.ac s..|edo.pass..
+in lucem proferre|dévoiler, révéler|1|in...|lux.ac s..|profero...
+in mare decurrere|se jeter dans la mer (en parl. d'un fleuve)|2|in...|mare.ac s..|decurro.act..
+in medio relinquere|laisser dans l'indécision, dans le vague|2|in...|medium.ab s..|relinquo...
+in muros euadere|escalader les murs|2|in...|murus.ac p..|euado...
+in numerum|en cadence|1|in...|numerus.ac s..
+in pauca conferre|résumer|2|in...|pauci.ac nt p..|confero...
+in plenum|en gros, en général, entièrement|1|in...|plenus.ac nt s..
+in portu|au port ; hors de danger|0|portus.ab s..|in...
+in posterum|à l'avenir, par la suite|1|in...|posterus.ac nt s..
+in praesentia|à présent|1|in...|praesentia.ab s..
+in praetexta|dans l'adolescence (pendant laquelle on porte la toge prétexte)|1|in...|praetexta.ab s..
+in pretio esse|avoir du prix|1|in...|pretium.ab s..|sum...
+in puluere sulci|des sillons dans le sable = un travail inutile|1|in...|puluis.ab s..|sulcus.p..
+in re plurimum facere|réussir très bien dans qqch|3|in...|.ab..|plurimum...|facio.act..
+in reditu esse|produire un revenu|1|in...|reditus.ab s..|sum...
+in senatu agere de + abl|traiter une affaire au Sénat|1|in...|senatus.s..|ago...|de...
+in sinu gaudere|se réjouir en secret|1|in...|sinus.ab s..|gaudeo...
+in solido|sur la terre ferme, en lieu sûr|1|in...|solidum.ab s..
+in somnum ire|aller se coucher|1|in...|somnus.ac s..|eo...
+in speciem + gén.|en forme de, comme|1|in...|species.ac s..|.g..
+in uerba proiectus|grand bavard|2|in...|uerbum.ac p..|proicio.pf part pass..
+in uicem alicuius|à la place de qqn|1|in...|uicis.ac s..|.g s..
+in uincula condere|jeter aux fers|2|in...|uinculum.ac p..|condo...
+in ultimis ponere|mettre au dernier rang, mépriser|1|in...|ultimus.ab nt p..|pono...
+in uniuersum|en général|1|in...|uniuersus.ac nt s..
+inane tempus|moment de repos|1|tempus...|inanis.nt.cn.0
+inania lumina|yeux qui ne voient pas|1|lumen.p..|inanis.nt p.c.0
+inanis equus|cheval sans cavalier|1|equus...|inanis.m.cn.0
+incidunt causae cum...|il y a des cas où...|1|incido.p 3..|causa.n p..|cum...
+incitato equo|à toute bride|1|equus.ab s..|incito.ab m s pf part pass..
+inclinare genua|s'agenouiller|1|genu.ac p..|inclino.act..
+inclinatae copiae|troupes qui lâchent pied|1|copia.p..|inclino.f p pf part pass.c.0
+inde ab initio|depuis le début|0|inde...|ab...|initium.ab s..
+indefinitus modus|l'infinitif|1|modus.s..|indefinitus.m.c.0
+indicta causa|sans jugement|0|causa.ab s..|indictus.ab f s..
+indignus qui|indigne de|1|indignus...|qui.n..
+indutias tollere|rompre la trêve|0|indutiae.ac..|tollo.act..
+ineunte aetate|dès l'âge le plus tendre|0|ineo.ab f s pr part act..|aetas.ab s..
+infamis digitus|doigt du milieu (d'honneur)|0|digitus.s..|infamis.m.c.0
+infestis signis|en position d'attaque|0|infestus.ab nt p..|signum.ab p..
+infimo loco natus|de basse naissance|1|infimus.ab m s..|locus.ab s..|nascor.pf part act..
+infinitum imperium|pouvoir absolu|0|imperium...|infinitus.nt.cn.0
+inflexum uerbum|expression figurée|1|uerbum...|inflecto.nt pf part pass.cn.0
+influens fortuna|fortune favorable|1|fortuna...|influo.f pr part act.cn.0
+influens riuus|affluent|1|riuus...|influo.m pr part act.cn.0
+informatio uerbi|étymologie d'un mot|0|informatio...|uerbum.g..
+infracta loqui|parler par saccades|0|infringo.ac nt p pf part pass..|loquor...
+inire magistratum|entrer en charge|0|magistratus.ac s..|ineo...
+iniungere nomen|donner un surnom|0|iniungo.act..|nomen.ac..
+iniuriarum actio|procès intenté pour injures|1|actio...|iniuria.g p..
+inscius culpae|irréprochable|0|inscius...|culpa.g s..
+insidere equo|être à cheval|0|insideo.act..|equus.ab s..
+insidias alicui collocare (locare, comparare, etc.)|tendre une embuscade à qqn|0|insidiae.ac p..|.d..|loco,colloco,comparo,instruo,pono,facio,tendo,molior,struo,dispono.act..
+instabilis uolutatio|roulis|1|uolutatio...|instabilis.f.cn.0
+instituta insumere|adopter un genre de vie|0|institutum.ac p..|insumo.act..
+instructa acies|armée rangée pour la bataille|1|acies...|instruo.f pf part pass.cn.0
+instructa domus|maison meublée|1|domus...|instruo.f pf part pass.cn.0
+instructus accusator|accusateur suborné|1|accusator...|instruo.m pf part pass.cn.0
+instrumenta ciborum|appareil digestif|0|instrumentum.p..|cibus.g p..
+insuper habere|regarder comme superflu|0|insuper...|habeo...
+integer aeui|qui est dans la force de l'âge|1|integer...|aeuum.g s..
+intendere legem|faire une application rigoureuse d'une loi|1|lex.ac..|intendo.act..
+intendere pretium|faire monter un prix|0|intendo.act..|pretium.ac..
+intendere probra|adresser des injures|1|probrum.ac p..|intendo.act..
+inter cetera|avant tout|0|inter...|ceteri.ac nt p..
+inter manus|de main en main|0|inter...|manus.ac p..
+inter moras|sur ces entrefaites|1|inter...|mora.ac p..
+inter scyphos|entre les coupes = pendant le repas|1|inter...|scyphus.ac p..
+interea dum|pendant que|0|interea...|dum...
+interea quoad|jusqu'à ce que|0|interea...|quoad...
+interest aliquid inter... et ...|il y a une différence entre ... et ...|0|intersum.s 3..|aliquis.n nt s..|inter...|.ac..|et...
+interest magni, parui|(il) est important, peu important (que)|0|intersum.3 s..|magnus,paruus.g nt s..
+interior epistola|le milieu de la lettre|1|epistola...|interior.f.cn.0
+interior ictibus|à l'abri des projectiles|0|interior...|ictus.ab p..
+interior periculo uolneris|trop près pour être blessé|0|interior...|periculum.ab s..|uolnus.g s..
+interrupti ignes|des feux de loin en loin|1|ignis.p..|interrumpo.m p pf part pass.c.0
+intestina discordia|guerre civile|1|discordia...|intestinus.f.cn.0
+intra parietes|chez soi, dans sa maison|1|intra...|paries.ac p..
+intra uerba peccare|n'être coupable qu'en paroles|0|intra...|uerbum.ac p..|pecco...
+intritus cibus|brouet clair|1|cibus...|intritus.m.cn.0
+intus est equus Troianus|Le cheval de Troie est dans nos murs (on nous a tendu un piège)|3|intus...|sum.s 3 pr ind..|equus.n s..|Troianus.n m s..
+inuenire nomen ex aliqua re|tirer son nom de qqch|0|inuenio.act..|nomen.ac s..|ex...|.ab..
+inuersa charta|le verso|1|charta...|inuerto.f pf part pass.cn.0
+inuersa manus|le revers de la main|1|manus...|inuerto.f pf part pass.cn.0
+inuersa uerba|expressions figurées|1|uerbum.p..|inuerto.nt p pf part pass.c.0
+inuicem diligere|s'entr'aimer|0|inuicem...|diligo.p act..
+iram condere|cacher sa colère|1|ira.ac..|condo.act..
+ire ad saga|prendre les armes|2|eo...|ad...|sagum.ac p..
+ire per extentum funem|marcher sur une corde raide|2|eo...|per...|extentus.ac m s..|funis.ac s..
+irrepere arbori|grimper à un arbre|0|inrepo.act..|arbor.d..
+ita ... ut|ind. : de même que... de même ; subj : de telle sorte que|0|ita...|ut...
+iter facere|faire route, voyager|0|iter.ac s..|facio.act..
+iter intercipere|interrompre un voyage|1|iter.ac s..|intercipio.act..
+iter reuoluere|rebrousser chemin|1|iter.ac s..|reuoluo.act..
+iterum et saepius|avec insistance|0|iterum...|et...|saepius...
+iudicio meo|à mon avis|0|iudicium.ab s..|meus.ab nt s..
+iudicium conuellere|casser un jugement|1|iudicium.ac..|conuello.act..
+iudicium mandati|jugement pour non exécution de mandat|1|iudicium...|mandatum.g s..
+iurare in obsequium alicuius|prêter serment de fidélité à qqn|2|iuro.act..|in...|obsequium.ac s..|.g..
+ius applicationis|droit d'hériter d'un client|1|ius...|applicatio.g s..
+ius dicere|rendre la justice|1|ius.ac s..|dico.act..
+ius et iniuria|le juste et l'injuste|0|iniuria.s..|ius.s.c.0
+ius gentium|le droit des gens|1|ius...|gens.g p..
+ius hastae|droit de saisie|1|ius.s..|hasta.g s..
+ius publice epulandi|droit d'assister aux banquets sacrés|2|ius...|publice...|epulor.g ger..
+iustum iter|une étape normale (20 à 25 km)|0|iter...|iustus.nt.cn.0
+labi mente|perdre la raison|0|labor...|mens.ab s..
+labor est + inf|il est difficile de|0|labor (2).n s..|sum.s 3..|.inf..
+lac coactum|fromage|1|lac...|cogo.nt pf part pass.c n.0
+lac gallinaceum|lait de poule = qqch qui n'existe pas|0|lac...|gallinaceus.nt.cn.0
+lacrimis temperare|retenir ses larmes|1|lacrima.d p..|tempero.act..
+laeta exta|entrailles favorables|1|exta...|laetus.nt.cn.0
+laeuo tempore|à contre-temps|1|tempus.ab s..|laeuus.ab nt s..
+lanam ducere|filer la laine|0|lana.ac s..|duco.act..
+lanam pectere|carder la laine|1|lana.ac..|pecto.act..
+lanam trahere|carder la laine|0|lana.ac s..|traho.act..
+laneus lupus|loup (poisson)|1|lupus...|laneus.m.cn.0
+languor faucium|mal de gorge|0|languor...|fauces.g p..
+languor maris|calme plat|0|languor...|mare.g s..
+laqueo gulam frangere|étrangler avec un lacet|2|laqueus.ab s..|gula.ac s..|frango.act..
+largitio frumentaria|distribution de blé|0|largitio...|frumentarius.f.cn.0
+latine dicere|parler latin|0|latine...|dico...
+latus clauus|le laticlave|0|clauus...|latus (2).m.cn.0
+laudem ferre|recevoir des éloges|0|laus.ac s..|fero.act..
+laus dicendi|talents oratoires|0|laus...|dico.g ger..
+laxa ianua|porte ouverte|1|ianua...|laxus.f.cn.0
+lectum sternere|dresser un lit|1|lectus.ac..|sterno.act..
+lectus aduersus|lit conjugal|0|lectus...|aduersus.m.cn.0
+lege modo|lis donc|1|lego (2).imper..|modo...
+legem abolere|abroger une loi|1|lex.ac..|aboleo.act..
+legem antiquare|rejeter une loi|0|lex.ac..|antiquo.act..
+legem exercere|faire exécuter une loi|1|lex.ac..|exerceo.act..
+legem figere|publier une loi|0|lex.ac..|figo.act..
+legem irrumpere|enfreindre une loi|1|lex.ac..|irrumpo.act..
+legem iubere|ratifier une loi|1|lex.ac..|iubeo.act..
+legem perferre|faire passer une loi|1|lex.ac..|perfero.act..
+legem rogare (ferre)|proposer un projet de loi|0|lex.ac..|rogo,fero.act..
+legem sciscere|voter pour une loi|1|lex.ac s..|scisco.act..
+legem seruare|observer la loi|1|lex.ac..|seruo.act..
+leges pacis|conditions de paix|0|lex.p..|pax.g s..
+legibus interrogari|être accusé en vertu des lois|1|lex.ab p..|interrogo.pass..
+legis praemio|par le bénéfice de la loi|1|lex.g s..|praemium.ab s..
+leuia arma|infanterie légère|0|arma...|leuis.nt.cn.0
+leuiter attingere|étudier superficiellement, effleurer|0|leuiter...|attingo...
+leuiter ferre|supporter facilement|0|leuiter...|fero...
+liberae aedes|maison à louer|0|aedes...|liber.f.cn.0
+libros adire|consulter les livres sibyllins|1|liber (2).ac p..|adeo (2).act..
+librum alicui narrare|dédicacer un livre à qqn|1|liber (2).ac..|narro.act..|.d..
+librum edere|publier un livre|0|liber (2).ac..|edo.act..
+librum inscribere|donner un titre à un livre|1| liber (2)...|inscribo...
+linguae mobilitas|volubilité|1|lingua.g s..|mobilitas...
+linguae temperare|tenir sa langue|1|lingua.d s..|tempero.act..
+linguam moderari|mesurer ses paroles|1|lingua.ac s..|moderor...
+litem aestimare|fixer les dépens|0|lis.ac s..|aestimo.act..
+litus arare|perdre son temps|0|aro.act..|litus.ac s..
+loco dicere|parler à son tour|0|locus.ab s..|dico.act..
+locuples auctor|auteur digne de foi|1|auctor...|locuples.m.cn.0
+locuples reus|débiteur solvable|1|reus...|locuples.m.cn.0
+locus aequus|terrain favorable|0|locus...|aequus.m.cn.0
+locus assignatus|place réservée (au théâtre)|0|locus...|assigno.pf part pass.cn.0
+locus directus|lieu à pic|1|locus...|dirigo.pf part pass.cn.0
+locus iniquus (alienus)|terrain défavorable|0|locus...|iniquus,alienus.m.cn.0
+longe abest ut|il s'en faut de beaucoup que...|0|longe...|absum.s 3..|ut...
+longe lateque|de toutes parts|0|longe...|late...
+luce palam|au grand jour|1|lux.ab s..|palam...
+lucem afferre|secourir, sauver|0|lux.ac s..|affero.act..
+lucem intra|avant la fin du jour|1|lux.ac s..|intra...
+ludi gladiatorii|spectacle de gladiateurs|0|ludus.p..|gladiatorius.m p.c.0
+ludi magister|maître d'école|0|ludus.g s..|magister...
+ludos facere aliquem|jouer des tours à qqn, se moquer de qqn|0|ludus.ac p..|facio.act..|.ac..
+ludus dicendi|école d'éloquence|0|ludus...|dico.g ger..
+ludus gladiatorius|école de gladiateurs|0|ludus.s..|gladiatorius.m s.c.0
+lumina dicendi|figures de style|0|lumen.p..|dico.g ger..
+lumina sententiarum|figures de style|0|lumen.p..|sententia.g p..
+lunae defectio|éclipse de lune|0|luna.g s..|defectio...
+lupum auribus tenere|être dans un grand embarras|0|lupus.ac s..|auris.ab p..|teneo...
+lux aestiua|été|0|lux...|aestiuus.f.cn.0
+lux brumalis|hiver|0|lux...|brumalis.f.cn.0
+mactare morte|punir de mort|0|macto...|mors.ab s..
+macte animo|courage !|0|macte...|animus.ab s..
+magis magisque|de plus en plus|0|magis...|magisque...
+magis solito|plus que d'ordinaire|0|magis...|solitum.ab s..
+magister equitum|commandant de la cavalerie (lieutenant du dicateur)|0|magister...|eques.g p..
+magister militiae|général en chef|1|magister...|militia.g s..
+magister populi|dictateur|0|magister...|populus.g s..
+magisterium equitum|charge de maître de la cavalerie|0|magisterium...|eques.g p..
+magisterium morum|charge de censeur, censure|0|magisterium...|mos.g p..
+magistratu abire|sortir de charge|0|magistratus.ab s..|abeo...
+magna ex parte|en grande partie|1|ex...|pars.ab s..|magnus.ab f s..
+magnam partem|en grande partie|1|magnus.ac f s..|pars.ac s..
+magni facere + acc|faire grand cas de qqn ou qqch|0|magnus.g m s..|facio...|.ac..
+magni putare|estimer beaucoup|0|puto...|magnus.g nt s..
+magnis itineribus|à grandes étapes|0|iter.ab p..|magnus.ab nt p..
+magnis suffragiis|avec une forte majorité|1|magnus.ab nt p..|suffragium.ab p..
+magno (magnus) natu|d'un grand âge|0|magnus...|natu...
+magno animo esse|avoir une grande âme, un grand coeur|0|magnus.ab m s..|animus.ab s..
+magno emere|acheter cher|1|magnus.ab nt s..|emo...
+magno impedimento|avec une suite nombreuse|0|impedimentum.ab s..|magnus.ab nt s..
+magno opere|avec beaucoup d'effort|0|opus.ab s..|magnus.ab nt s..
+magnum est + inf|c'est une chose importante que de|0|magnus.ac nt s..|sum.s 3..
+maior natu|aîné|0|maior...|natu...
+maior opinione|plus grand qu'on ne le croyait|0|maior...|opinio.ab s..
+maior spe|plus grand qu'on ne l'espérait|0|maior...|spes.ab s..
+male audire|avoir mauvaise réputation|0|audio...|male...
+male cogitare de aliquo|vouloir du mal à qqn|1|male...|cogito...|de...|.ab..
+male emere|acheter cher|1|male...|emo...
+male euenire|échouer|1|male...|euenio...
+male habere|maltraiter|0|male...|habeo...
+male mereri de aliquo|nuire à qqn|0|male...|mereor...|de...|.ab..
+male narrare|apporter de mauvaises nouvelles|0|narro...|male...
+male pascere|être un mauvais éleveur|1|male...|pasco...
+male pugnare|être battu|0|male...|pugno.act..
+male salsus|mauvais plaisant|1|male...|salsus...
+male sanus|insensé|0|male...|sanus...
+male se habere|mal se porter|0|male...|se.ac..|habeo.act..
+male sentire de|avoir une mauvaise opinion de|1|male...|sentio...|de...|.ab..
+male sit Antonio !|malheur à Antoine !|0|male...|sum.s 3 pr subj..|.d..
+malis increpare|faire claquer ses mâchoires|0|mala.ab p..|increpo.act..
+malum carmen|maléfice|1|carmen...|malus.nt.cn.0
+malum punicum|grenade|0|malum...|punicus.nt.cn.0
+mancipium circumuertere|affranchir un esclave (le faire tourner sur lui-même)|1|mancipium.ac..|circumuerto.act..
+mandare litteris|confier aux lettres = rédiger|0|mando...|littera.ab p..
+mane postridie|le lendemain matin|0|mane...|postridie...
+manifesto deprehendi|être pris en flagrant délit|0|manifesto...|deprehendo.pass..
+manifesto teneri|être pris sur le fait|1|manifesto...|teneo.pass..
+manu defendre|défendre les armes à la main|0|defendo...|manus.ab s..
+manu emittere|affranchir|1|manus.ab s..|emitto...
+manu mittere|affranchir|0|manus.ab s..|mitto...
+manu promptus|prompt à l'action|1|manus.ab s..|promptus...
+mappam dare|donner le signal du départ|0|mappa.ac s..|do.act..
+mare pigrum|mer calme|1|mare...|piger.nt.cn.0
+maturus militiae|en âge de servir (mil.)|0|maturus...|militia.d s..
+maximis itineribus|à marche forcée|1|maximus.ab nt p..|iter.ab p..
+me nolente|malgré moi|1|ego.ab s..|nolo.ab m s pr part act..
+me non fugit quin|je n'ignore pas que|1|non...|fugio.act..|quin...
+mea fert opinio ut|mon opinion est que|2|meus.n f s..|fero.s 3 act..|opinio.n s..|ut...
+mea pietas|mon cher ami|0|pietas.n s..|meus.n f s..
+mea quidem sententia|à mon humble avis|2|meus.ab f s..|quidem...|sententia.ab s..
+medendi ars|la médecine|0|medeor.g ger..|ars.s..
+medio sole|en plein midi|0|medius.ab m s..|sol.ab s..
+melius habere|aimer mieux, préférer|0|melius...|habeo.act..
+mensa publica|le trésor public|0|mensa.s..|publicus.f s.c.0
+mensis ueneris|moi de mai|1|mensis...|uenus.g s..
+mente captus|insensé, dément, fou|0|mens.ab..|capio.pf part pass..
+mentis acies|vivacité d'esprit|0|mens.g s..|acies...
+meo animo|d'après moi|0|animus.ab s..|meus.ab m s..
+metu uacare|être sans inquiétude|0|metus.ab s..|uaco...
+metum alicui deicere|dissiper les craintes de qqn|0|deicio.act..|metus.ac s..|.d..
+mica (fragmen) panis|miette de pain|1|mica,fragmen...|panis.g s..
+mica salis|grain de sel|0|mica...|sal.g s..
+micare auribus|dresser les oreilles (cheval)|0|mico.act..|auris.ab p..
+migrare in mucronem|se terminer en pointe|1|in...|mucro.ac s..|migro...
+migrare ius ciuile|violer le droit civil|0|migro.act..|ius.ac s..|ciuilis.ac nt s..
+mihi est curae + inf|j'ai à coeur de|0|cura.d s..|sum...|.d..|.inf..
+miles et eques|infanterie et cavalerie|0|miles...|et...|eques..cn.0
+militaris aetas|âge requis pour le service militaire|1|aetas...|militaris.f.cn.0
+militaris pecunia|trésor de guerre|1|pecunia...|militaris.f.cn.0
+militiae patiens|capable de porter les armes|1|militia.g s..|patiens...
+militiam ferre|servir, faire la guerre|0|militia.ac s..|fero.act..
+minari mortem alicui|menacer qqn de mort|0|minor (2)...|.d..|mors.ac s..
+minime gentium|pas du tout|1|minime...|gens.g p..
+minime uero|pas du tout|0|minime...|uero...
+minimus natu|le plus jeune de tous|1|minimus...|natu...
+minitari alicui mortem|menacer qqn de mort|0|minitor...|.d..|mors.ac s..
+minoribus uerbis uti|parler sur un ton moins élevé|0|minor.ab nt p..|uerbum.ab p..|utor...
+minoris ducere|estimer moins|0|minor.g nt s..|duco...
+minoris uendere|vendre moins cher|0|minor.g nt s..|uendo...
+minuens aestus|la marée descendante|1|aestus...|minuo.m pr part act.cn.0
+minuere fidem|manquer à ses engagements|0|minuo.act..|fides (2).ac s..
+minuere opinionem|réfuter une opinion|1|opinio.ac..|minuo.act..
+minuta itinera facere|voyager à petites journées|0|minutus.ac nt p..|iter.ac p..|facio.act..
+mirabile dictu|chose étonnante à dire|0|mirabilis.nt..|dictu...
+mirabile uisu|chose étonnante à voir, spectacle étonnant|0|mirabilis.nt..|uisus.ab s..
+miracula philosophorum|idées étranges des philosophes|0|miraculum.p..|philosophus.g p..
+mire quam|étonnament|1|mire...|quam...
+mirum si + ind.|il m'étonnerait que|0|mirus.n nt s..|si...|.ind..
+miscere caelum et terras|remuer ciel et terre|0|misceo.act..|caelum.ac s..|et...|terra.ac p..
+miscere manus|en venir aux mains|0|misceo.act..|manus.ac p..
+miser amor|désir violent (Virg.)|1|amor...|miser.m.cn.0
+misere cupere|désirer beaucoup|0|misere...|cupio...
+missis ambagibus|sans circonlocutions, directement|0|ambages.ab p..|mitto.ab m p pf part pass..
+mittere ad horas|envoyer voir l'heure (au cadran solaire)|1|ad...|hora.ac p..|mitto...
+mitto quod|j'omets le fait que|0|mitto.s 1 pr ind act..|quod...
+moderator equorum|cocher|0|moderator...|equus.g p..
+moderator temporum|qui sait profiter des circonstances = habile politique|1|tempus.g p..|moderator...
+modestia hiemis|la douceur de l'hiver|0|modestia...|hiems.g s..
+modo modo|tout récemment, tout juste|0|modo...|modo...
+modum (+ gen.) facere|mettre un terme (à)|0|modus.ac s..|facio.act..
+modum excedere|dépasser la mesure|1|modus.ac s..|excedo.act..
+modum retinere|garder une juste mesure|1|modus.ac s..|retineo.act..
+modum tener|garder la mesure|0|modus.ac s..|teneo.act..
+molitio rerum|création|0|molitio...|res.g p..
+mollis arcus|arc détendu|0|mollis.m.cn.1|arcus...
+momentum fortunae|vicissitude de la fortune|0|momentum...|fortuna.g s..
+monetae adulter|faux-monnayeur|0|moneta.g s..|adulter...
+mora (spatium) temporis|laps de temps|1|mora,spatium...|tempus.g s..
+morbo laborare|être malade|0|morbus.ab s..|laboro...
+morbum nancisci|tomber malade|1|morbus.ac s..|nanciscor...
+mori in uestigio|se faire tuer sur place|2|morior...|in...|uestigium.ab s..
+mors necessaria|mort naturelle|0|mors...|necessarius (2).f.cn.0
+morsus abigere|guérir les morsures|0|morsus.ac..|abigo.act..
+morte carere|être immortel|1|mors.ab s..|careo.act..
+mortem deprecari|implorer la vie sauve|1|mors.ac s..|deprecor...
+mos caeli|l'état du ciel|0|mos...|caelum.g s..
+mos maiorum|la coutume des ancêtres|0|mos.s..|maiores.g p..
+mos siderum|cours des astres|0|mos...|sidus.g p..
+mouere signa|se mettre en marche|0|moueo.act..|signum.ac p..
+mulgere hircos|traire les boucs = tenter une chose impossible|0|mulgeo.act..|hircus.ac p..
+multa pace|en pleine paix|0|multus.ab f s..|pax.ab s..
+multam dicere alicui|infliger une amende à qqn|0|multa.ac s..|dico.act..|.d..
+multam sufferre|payer une amende|1|multa.ac..|suffero.act..
+multiplex animus|esprit versatile|0|multiplex.m.cn.1|animus...
+multiplex ingenium|caractère changeant|0|multiplex.nt.cn.1|ingenium...
+multiplex natura|caractère souple|0|multiplex.f.cn.1|natura...
+multo magis|bien plus|0|multo...|magis...
+multum abest ut|il s'en faut de beaucoup que|0|multum...|absum.s 3..|ut...
+munere uacare|être exempté du service militaire|0|munus.ab s..|uaco...
+munerum uacatio|exemption des corvées|0|munus.g p..|uacatio...
+munus praestare|accomplir son devoir|0|munus.ac s..|praesto.act..
+murum aggredi|donner l'assaut|0|murus.ac..|aggredior...
+mutatum uinum|vin aigri|1|uinum...|muto.nt pf part pass.cn.0
+mutua pecunia|argent emprunté|1|pecunia...|mutuus.f.cn.0
+mutum forum|barreau réduit au silence|1|forum...|mutus.nt.cn.0
+mutuum frumentum dare|prêter du blé|1|frumentum.ac s..|mutuus.ac nt s..|do.act..
+narro tibi|je t'assure|0|narro.s 1 pr ind act..|tu.d..
+nasus atticus|le sel attique|0|nasus...|atticus.m.cn.0
+natalis dies|anniversaire|1|dies...|natalis..cn.0
+naualis corona|couronne navale (donnée au 1er à sauter sur un navire ennemi)|1|corona...|naualis.f.cn.0
+nauem appellere|aborder un navire|0|appello.act..|nauis.ac..
+nauem ornare|armer un bateau|0|nauis.ac..|orno.act..
+nauem (ancoram) soluere|appareiller|1|nauis,ancora.ac..|soluo.act..
+nauem subducere|tirer un bateau à sec|0|nauis.ac..|subduco...
+naufragii tabulae|épaves|1|naufragium.g s..|tabula.p..
+nauigatio secunda|navigation dans le sens du courant|0|nauigatio...|secundus.f.cn.0
+nauigationis patiens|navigable|0|nauigatio.g s..|patiens...
+nauis actuaria|navire de transport de troupes|0|nauis...|actuarius.f.cn.0
+nauis longa|navire de guerre|0|nauis...|longus.f.cn.0
+nauis magister|capitaine d'un navire|1|nauis.g..|magister..n.0
+nauis oneraria|navire de transport|0|nauis...|onerarius.f.cn.0
+nauis plano alueo|vaisseau plat|1|nauis...|planus.ab m s..|alueus.ab s..
+nauium capax|navigable|0|nauis.g p..|capax...
+nauticae exuuiae|rostres pris à l'ennemi|1|exuuiae...|nauticus.f p.c.0
+nauticus panis|biscuit marin|1|panis...|nauticus.m.cn.0
+ne multus sim|pour ne pas être bavard = pour abréger|1|ne...|multus.n m s..|sum.s 1 pr subj..
+ne plura|pour abréger|1|ne...|plus.ac p..
+ne pluribus|pour abréger|1|ne...|plus.ab p..
+ne saluus sim, si...|que je meure, si...|1|ne...|saluus.n s..|sum.s 1 pr subj..|si...
+ne... quidem|ne... même pas|0|ne...|quidem...
+necesse habere + inf.|être dans la nécessité de|0|necesse...|habeo...|.inf..
+neglegens in sumptu|qui ne regarde pas à la dépense|0|neglegens...|in...|sumptus.ab s..
+negotii est|c'est une affaire, il y a difficulté à|0|negotium.g s..|sum.s 3..
+negotio aliquem soluere|tirer qqn d'affaire|0|negotium.ab s..|soluo.act..
+negotiosi dies|jours ouvrables|1|dies...|negotiosus.m.cn.0
+negotium explicare|mener une affaire à bien|1|negotium.ac..|explico.act..
+negotium facere|causer des ennuis|1|negotium.ac s..|facio.act..
+negotium transigere|mener une affaire à bonne fin|1|negotium.ac..|transigo.act..
+nemo dicet secus|personne ne dira le contraire|2|nemo.n..|dico.s 3 fut ind act..|secus...
+nemo est quin + subj|il n'y a personne qui ne|0|nemo.n..|sum.s 3..|quin...|.subj..
+nemo unus|absolument personne|1|nemo...|unus..c.0
+nescire latine, graece|ignorer le latin, le grec|0|nescio...|latine,graece...
+nexa et hereditates|droit d'aliéner et d'hériter|0|nexum.p..|et...|hereditas.p.c.0
+ni fallor|si je ne m'abuse|1|ni...|fallo.s 1 pr ind pass..
+nihil aliud quam|ne... que, seulement|2|nihil...|alius.nt.c.0|quam...
+nihil antiquius habere quam (ut)|n'avoir rien de plus à coeur (que de)|nihil.ac..|antiquus.ac nt s comp..|habeo...
+nihil curare|être indifférent|0|curo.act..|nihil.ac..
+nihil demoratus|sans perdre de temps|1|nihil.ac..|demoror.part..
+nihil dicere|parler pour ne rien dire|0|nihil.ac..|dico.act..
+nihil est (causae) cur|il n'y a pas de raison pour que|2|nihil.n..|sum...|cur...
+nihil habeo quid dicam|je ne sais que dire|1|nihil.ac..|habeo.s 1 pr ind act..|quid...|dico.s 1 pr subj..
+nihil magnopere|pas grand chose|1|nihil...|magnopere...
+nihil prius habere quam|n'avoir rien de plus pressé que de|1|nihil.ac s..|prius...|habeo.act..|quam...
+nihil sane est quod|il n'y a pas de raison pour que|1|nihil.n..|sane...|sum.s 3..|quod...
+nihilo setius|néanmoins|1|nihilo...|setius...
+nil interest... an|aucune importance si...|1|nil...|intersum.s 3..|an...
+nimbi ligati|grêle|0|nimbus...|ligo.m pf part pass.cn.0
+nimis quam|extrêmement|0|nimis...|quam...
+nimium quantum|le plus possible, extrêmement|0|nimium...|quantum...
+nisi molestum est|si cela ne te déplaît pas|1|nisi...|molestus.n nt s..|sum.s 3 pr ind..
+nocere noxam|se rendre coupable|0|noceo.act..|noxa.ac..
+nocturna tempestate|pendant la nuit|0|tempestas.ab s..|nocturnus.ab f s..
+nomen Romanum|la puissance romaine|0|nomen...|Romanus.nt.cn.0
+nomen dare|donner son nom = s'enrôler pour le service militaire|0|nomen.ac s..|do.act..
+nomen explicare|acquitter une dette|1|nomen.ac..|explico.act..
+nomen soluere|payer une dette|0|nomen.ac..|soluo.act..
+non curo|ne pas se préoccuper de|1|non...|curo.act..
+non deprecari quin|ne pas s'opposer à ce que|1|non...|deprecor...|quin...
+non discrepat quin|il n'est pas contesté que|1|non...|discrepo.s 3..|quin...
+non flocci facere (pendere) aliquem (aliquid)|ne faire aucun cas de qqn (qqch)|0|floccus.g s..|non...|facio,pendo.act..|.ac..
+non habere (facere) nauci|ne pas faire cas de|2|non...|habeo,facio...|naucum.g s..
+non minimum|principalement|1|non...|minimum...
+non modo (solum, tantum) ... sed etiam|non seulement ... mais encore|2|non...|modo,solum,tantum...|sed...|etiam...
+non multo secus|à peu de chose près|2|non...|multo...|secus...
+non nemo|tout le monde|0|nemo...|non...
+non nolo|j'ai la ferme intention de|1|non...|nolo...
+non nulli|= nonnulli, quelques uns|1|non...|nullus.p..
+non possum facere quin|je ne peux m'empêcher de|2|non...|possum...|facio.pr inf..|quin...
+non teneo quin|je ne puis m'empêcher de|1|non...|teneo.s 1..|quin...
+non... iam, iam non|non iam : ne pas encore ; iam non : ne plus|1|non...|iam...
+non... saltem|ne... même pas|1|non...|saltem...
+noscere causam|admettre une excuse|0|nosco.act..|causa.ac s..
+noscere causas|instruire un procès|0|nosco.act..|causa.ac p..
+nostris locis|dans des positions avantageuses|0|noster.ab p..|locus.ab s..
+nota censoria|blâme du censeur|0|nota...|censorius.f.cn.0
+nouae res|coup d'état, révolution|1|res.p..|nouus.f p.c.0
+nouissimum agmen|arrière-garde|0|agmen...|nouus.nt sup.cn.0
+nox peruigil|nuit blanche|1|nox...|peruigil..cn.0
+nudis calcibus|les pieds nus|0|calx.ab p..|nudus.ab f p..
+nudis calcibus|les pieds nus|0|calx.ab p..|nudus.ab f p..
+nulla parte|nullement, en aucune façon|1|nullus.ab f s..|pars.ab s..
+nulla ratione|en aucune façon|1|nullus.ab f s..|ratio.ab s..
+nulli rei esse|n'être bon à rien|0|nullus.d f s..|res.d s..|sum...
+nullius momenti esse|n'avoir aucune influence|1|nullus.g nt s..|momentum.g s..|sum...
+nullo modo|en aucune façon|1|nullus.ab m s..|modus.ab s..
+nullo negotio|sans peine|0|negotium.ab s..|nullus.nt..
+nullo pacto|en aucune façon|0|pactum.ab s..|nullus.ab nt s..
+nullum argumentum|argument sans valeur|1|argumentum...|nullus.nt.cn.0
+nullus sum|c'en est fait de moi|0|nullus.n s..|sum.s 1 pr ind..
+numerare per digitos|compter sur ses doigts|0|numero...|per...|digitus.ac p..
+numerum inire|évaluer un nombre|0|numerus.ac s..|ineo.act..
+nusquam gentium|nulle part|1|nusquam...|gens.g p..
+o factum bene !|tant mieux !|2|o...|factum.ac..|bene...
+obnoxium est + inf|il est dangereux de|0|obnoxius.n nt s..|sum.s 3..|.inf..
+obsequium aquarum|courant de l'eau|0|obsequium...|aqua.g p..
+obsidere uias|couper les routes|0|obsideo.act..|uia.ac..
+obstinato animo|avec opiniâtreté|0|obstinatus.ab m s..|animus.ab s..
+obtinere prouinciam|administrer une province|0|obtineo.act..|prouincia.ac..
+occasionem captare|guetter le moment, guetter l'occasion|0|occasio.ac..|capto.act..
+occulta suffragia|scrutin secret|0|suffragium.p..|occulo.nt p pf part pass.c.0
+occumbere mortem|mourir de mort violente|0|occumbo.act..|mors.ac s..
+occupare pecuniam|placer de l'argent|0|occupo.act..|pecunia.ac s..
+occurrere concilio|se présenter à une assemblée|0|occurro...|concilium.ab s..
+oculi natantes|yeux égarés|1|oculus...|nato.m pr part act.cn.0
+oculis capi|être privé de la vue|0|oculus.ab p..|capio.pass..
+oculis obire|parcourir des yeux|1|oculus.ab p..|obeo...
+offensio pedis|faux pas|0|offensio...|pes.g s..
+officia ciuilia|affaires publiques|0|officium.p..|ciuilis.nt p.c.0
+officia legum|respect des lois|0|officium.p..|lex.g p..
+officia urbana|devoirs de politesse|0|officium...|urbanus.nt.cn.0
+officio praeesse|être préposé à un service|0|officium.d..|praesum...
+officium comminuere|réduire à néant le sentiment du devoir|0|officium.ac..|comminuo.act..
+officium retinere|ne pas s'écarter de son devoir|1|officium.ac s..|retineo.act..
+olere bene|sentir bon|0|oleo.act..|bene...
+oleum addere camino|jeter de l'huile sur le feu|0|caminus.ab s..|oleum.ac s..|addo.act..
+ollam denariorum implere|emplir son pot de deniers = gagner beaucoup d'argent|0|olla.ac s..|denarius.g p..|impleo.act..
+omen accipere|accepter un augure|0|omen.ac..|accipio.act..
+omittere maritum|quitter son mari|0|omitto.act..|maritus.ac s..
+omittere nauigationem|laisser passer le moment de prendre la mer|0|omitto.act..|nauigatio.ac s..
+omnibus numeris|sous tous les rapports|0|numerus.ab p..|omnis.ab m p..
+omnibus partibus|à tous égards|1|omnis.ab f p..|pars.ab p..
+omnium suffragiis|à l'unanimité|1|omnis.g m p..|suffragium.ab p..
+oneribus pressus|écrasé par le poids des impôts|0|onus.ab p..|premo.pf part pass..
+onerosus cibus|aliment indigeste|1|cibus...|onerosus.m.cn.0
+opem alicui ferre|porter secours à qqn|0|ops.ac s..|fero.act..|.d..
+operae esse + dat.|avoir le temps|0|opera.g s..|sum...|.d..
+operae pretium est + inf|il vaut la peine de|0|opera.g s..|pretium.n s..|sum.s 3..|.inf..
+operae pretium facere (habere)|faire qqch qui en vaille la peine|1|opera.g s..|pretium.ac s..|facio,habeo.act..
+operam dare ut + subj|travailler à, faire en sorte que|0|opera.ac s..|do...|ut...|.subj..
+operi instare|s'appliquer à une tâche|1|opus.d..|insto.act..
+opima spolia|dépouilles opimes (d'un général tué par un général)|1|spolium.p..|opimus.nt p.c.0
+oppido paulum|très peu|0|oppido...|paulum...
+oppressa amicitia|liaison rompue brusquement|1|amicitia...|opprimo.f pf part pass.cn.0
+oppugnare aliquem pecunia|chercher à gagner qqn avec de l'argent|0|oppugno.act..|.ac..|pecunia.ab s..
+oppugnare caput alicuius|en vouloir à la vie de qqn|0|oppugno.act..|caput.ac s..|.g..
+optime omnium|le mieux du monde|0|optime...|omnis.g p..
+opus absolutum|travail parfait|0|opus...|absoluo.nt pf part pass.cn.0
+opus est|On a besoin de. |0|opus.n s..|sum...
+ora maritima|la côte, le littoral|0|ora...|maritimus.f.cn.0
+orare causam|plaider une cause|0|oro.act..|causa.ac..
+orare litem|plaider un procès|0|oro.act..|lis.ac..
+oratio sine intermissione|style monotone|2|oratio...|sine...|intermissio.ab s..
+oratio stillat|les phrases viennen goutte à goutte|1|oratio.n s..|stillo.s 3 act..
+orbis terrarum (terrae)|le globe terreste, le monde|0|orbis.s..|terra.g..
+ordinarius consul|consul élu ordinairement (par opp. au consul suffect)|1|consul...|ordinarius.m.cn.0
+ordinator litis|juge qui instruit un procès|0|ordinator...|lis.g..
+ordines ducere|être officier|0|ordo.ac p..|duco.act..
+ordo hastatus|compagnie de hastats|1|ordo...|hastatus.m.cn.0
+ordo pedester|la plèbe|1|ordo.s..|pedester.m.cn.0
+os concurrit|les lèvres se serrent|1|os (2).n..|concurro.3.n.0
+os planum|prononciation nette|1|os (2)...|planus.nt.cn.0
+os supinare|tenir la tête haute|1|os (2).n s..|supino.act..
+osculum ferre|donner un baiser|0|osculum.ac..|fero.act..
+ostium pulsare|frapper à la porte|0|pulso.act..|ostium.ac..
+otio tabescere|croupir dans l'oisiveté|0|otium.ab s..|tabesco...
+otiosa pecunia|argent qui dort|1|pecunia...|otiosus.f.cn.0
+otiosus dies|jour de repos|1|dies...|otiosus..cn.0
+pace tua|avec ta permission|0|pax.ab s..|tuus.ab f s..
+pacem hostibus deferre|proposer la paix aux ennemis|1|pax.ac s..|defero.act..
+pacem pacisci|discuter de la paix|1|pax.ac s..|paciscor...
+pacem pangere|conclure la paix|1|pax.ac s..|pango.act..
+paeanem citare|chanter le péan|1|paean.ac s..|cito (2).act..
+palmam ferre|remporter la palme|0|palma.ac..|fero.act..
+panis secundus|pain ordinaire, pain bis|0|panis...|secundus.m.cn.0
+par pari referre|rendre la pareille|2|par.ac nt s..|par.d nt s..|refero...
+par proelium|combat indécis|1|proelium...|par.nt.cn.0
+parata uictoria|victoire facile|1|uictoria...|paro.f pf part pass.cn.0
+paratud in iure|habile juriste|0|paro.pf part pass..|in...|ius.ab s..
+paratus ad partes|prêt à jouer son rôle|0|paro.pf part pass..|ad...|pars.ac p..
+paratus uentris|dépenses de table|0|paratus.p..|uenter.g s..
+parem calculum ponere|rendre la pareille|0|calculus.ac..|par.ac m s..|pono.act..
+paria facere|équilibrer les comptes|0|par.nt p..|facio.act..
+pariter cum|en même temps que|0|pariter...|cum...
+pars... pars|les uns... les autres|0|pars.n s..|pars.n s..
+partim... alii|les uns... les autres|0|partim...|alius.n p..
+partim... partim|les uns... les autres|0|partim...|partim...
+parui facere|faire peu de cas de|0|paruus.g nt s..
+parum habere|ne pas se contenter de|0|parum...|habeo...
+paruo emere|acheter bon marché|1|paruus.ab nt s..|emo...
+paruo momento|en peu de temps|1|paruus.ab nt s..|momentum.ab s..
+paruo uendere|vendre à bon marché|0|paruus.ab nt s..|uendo...
+paucis (multis) interiectis diebus|quelques (de nombreux) jours après|1|paucus,multus.ab m p..|intericio.ab m p pf part pass..|dies.ab p..
+passa uerba|la prose|1|uerbum.p..|pando.p pf part pass.c.0
+passis palmis|les bras étendus|0|palma.ab p..|pando.ab f p pf part pass..
+passu stare tenaci|combattre de pied ferme|2|passus.ab s..|sto...|tenax.ab m s..
+patefacere maiora|frayer le chemin à de plus grands desseins|0|patefacio.act..|maior.ac p..
+patefacere uerum|faire éclater la vérité|0|patefacio.act..|uerus.ac nt s..
+patefacere uiam|se frayer un chemin|0|patefacio.act..|uia.ac..
+pater cenae|hôte|0|pater...|cena.g..
+pater diuum|père des dieux = Jupiter|0|pater...|deus.g p..
+pater familias|père de famille|0|pater...|familia.ac p..
+patere insidiis|être exposé aux embûches|0|pateo...|insidiae.ab p..
+patere morbis|être sujet aux maladies|0|pateo...|morbus.ab p..
+patratum remedium|remède qui a réussi|1|remedium...|patro.nt pf part pass.cn.0
+patrem ciere|nommer son père, montrer qu'on est de naissance légitime|1|pater.ac s..|cieo.act..
+patres citare|convoquer les sénateurs|1|pater.ac p..|cito (2).act..
+patres conscripti|les sénateurs, les pères conscrits|0|pater...|conscribo.m pf part pass.cn.0
+patrio more|suivant un usage national|0|patrius.ab m s..|mos.ab s..
+patrius casus|le cas génitif|1|casus.s..|patrius.m s.c.0
+patrius sermo|langue maternelle|1|sermo...|patrius.m.cn.0
+patrum memoria|du temps de nos ancêtres|1|pater.g p..|memoria.ab s..
+paucis absoluere|exposer en peu de mots|1|paucus.ab p..|absoluo.act..
+paulo secus|un peu différemment|0|paulo...|secus...
+paulum abest quin|il s'en faut de peu que|0|paulum...|absum.s 3..|quin...
+pax Romana|la domination romaine|0|pax.s..|Romanus.f s.c.0
+pax obnoxia|paix honteuse|1|pax...|obnoxius.f.cn.0
+pecoris magister|berger|1|pecus.g..|magister..n.0
+pecuarius canis|chien de berger|0|canis...|pecuarius.m.cn.0
+pecunia publica|le Trésor public|0|pecunia...|publicus.f.cn.0
+pecuniam abiurare|nier une dette par serment|0|pecunia.ac s..|abiuro.act..
+pecuniam cogere|faire entrer de l'argent|1|pecunia.ac s..|cogo.act..
+pecuniam ferire|battre monnaie|1|pecunia.ac s..|ferio.act..
+pecuniam mutuam dare|prêter de l'argent|1|pecunia.ac s..|mutuus.ac f s..|do.act..
+pecuniam praecipere|se faire payer d'avance|1|pecunia.ac s..|praecipio.act..
+pecus et caprae|les moutons et les chèvres|0|pecus (2)...|et...|capra..cn.0
+pedem conferre|se mesurer, combattre|0|pes.ac s..|confero.act..
+pedem referre|lâcher pied, reculer|0|pes.ac s..|refero.act..
+pedem reportare|revenir|1|pes.ac s..|reporto.act..
+pedes posteriores|pattes de derrière|0|pes.p..|posterus.m p comp.c.0
+pedes priores|les pattes de devant|0|pes.p..|prior.m.cn.0
+pedestris oratio|prose|1|oratio.s..|pedester.f s.c.0
+pedibus mereri|servir dans l'infanterie|0|pes.ab p..|mereor...
+pelagum tenere|gagner le large|0|pelagus.ac s..|teneo.act..
+pelliculam retinere|garder sa petite peau = garder ses habitudes|0|pellicula.ac s..|retineo.act..
+pellis aurata|Toison d'or|0|pellis.s..|auratus.f s.c.0
+penates conducti|gîte loué|0|penates...|conduco.m p pf part pass.c.0
+pendens uindemia|vendange sur pied|1|uindemia...|pendeo.f pr part act.cn.0
+pendentia fata|mort imminente|1|fatum.p..|pendeo.nt p pr part act.c.0
+pendere (tenui) filo|ne tenir qu'à un fil|0|pendeo.act..|filum.ab s..
+pendere pecuniae usuram|payer l'intérêt de l'argent|0|pendo.act..|pecunia.g s..|usura.ac..
+penetrale urbis|le coeur de la ville|0|penetrale...|urbs.g s..
+penetrales dii|les dieux pénates|1|deus.p..|penetralis.m p.c.0
+pennas alicui incidere|couper les ailes à qqn|0|penna.ac p..|.d..|incido.act..
+pennis aliquem fouere|prendre qqn sous son aile|0|penna.ab p..|.ac..|foueo.act..
+pensare beneficia beneficiis|rendre bienfait pour bienfait|0|penso.act..|beneficium.ac p..|beneficium.ab p..
+pensare laetitiam maerore|avoir autant de chagrin que de joie|0|penso.act..|laetitia.ac s..|maeror.ab s..
+pensum trahere|filer|0|pensum.ac s..|traho.act..
+per corpora transire|passer par-dessus les cadavres|0|per...|corpus.ac p..|transeo...
+per cuneos|parmi les spectateurs|1|per...|cuneus.ac p..
+per exactos annos|à la fin de chaque année|2|per...|annus.ac p..|exigo.ac m p pf part pass..
+per ridiculum|pour rire|1|per...|ridiculus.ac nt s..
+per speciem + gén.|sous prétexte de|1|per...|species.ac s..|.g..
+per tabellam|par écrit|1|per...|tabella.ac s..
+percipere animo|comprendre|0|percipio...|animus.ab s..
+percutere securi|décapiter|0|percutio...|securis.d s..
+perducere rem ad exitum|mener une chose à son terme|0|perduco.act..|.ac..|ad...|exitus.ac s..
+peregrinus praetor|préteur pérégrin (rend la justice aux étrangers)|1|praetor...|peregrinus.m.cn.0
+peregrinus terror|terreur qu'inspire l'étranger|1|terror...|peregrinus.m.cn.0
+perfricare faciem|être dépourvu de honte|1|perfrico.act..|facies.ac s..
+perfringere legem|violer une loi|0|perfringo.act..|lex.ac..
+pergratum alicui facere|faire très grand plaisir à qqn|0|pergratus.ac nt s..|.d..|facio.act..
+periculum adire (ingredi, obire, etc.)|affronter un danger|0|periculum.ac..|adeo (2),ingredior,obeo,subeo,suscipio,sumo.act..
+periculum alicui afferre (intendere, facessere, inferre, moliri)|mettre qqn en danger|0|periculum.ac s..|.d..|affero,intendo,facesso,infero,molior.act..
+permagni interest|il est d'une grande importance|0|permagnus.g nt s..|intersum...
+permagno uendere|vendre très cher|0|permagnus.ab nt s..|uendo...
+permittere se in deditionem alicuius|se rendre à qqn|0|permitto.act..|in...|deditio.ac s..
+perpendere rem re|juger une chose d'après une autre|0|perpendo.act..|.ac..|.ab..
+persequi iniuriam|venger un affront|0|persequor...|iniuria.ac..
+persequi ius|se faire rendre justice|0|persequor...|ius.ac s..
+persoluere honorem alicui|rendre à qqn l'honneur qui lui est dû|0|persoluo.act..|honos.ac s..|.d..
+persona tragica|masque de tragédie|0|persona...|tragicus.f.cn.0
+peruenire in inuidiam|se rendre odieux|0|peruenio...|in...|inuidia.ac s..
+pessimae notae|de la pire espèce|1|pessimus.g f s..|nota.g s..
+pessum ire|aller à la ruine|0|pessum...|eo...
+petitio consulatus|candidature au consulat|0|petitio...|consulatus.g s..
+petitio et recusatio|l'attaque et la défense|1|petitio...|recusatio...
+philosophus plebeius|philosophe de bas étage|0|philosophus...|plebeius.m.cn.0
+piare iram|apaiser la colère|0|pio.act..|ira.ac..
+picta toga|toge brodée (du triomphateur)|1|toga...|pingo.f pf part pass.cn.0
+pictura in linteo|peinture sur toile, toile|0|pictura...|in...|linteum.ab s..
+pictura in tabula|peinture sur bois|0|pictura...|in...|tabula.ab s..
+pictura textilis|tapisserie, broderie|0|pictura...|textilis.f.cn.0
+piger campus|plaine stérile|1|campus...|piger.m.cn.0
+piger remedium|remède lent|1|remedium...|piger.nt.cn.0
+piger sopor|sommeil lourd|1|sopor...|piger.m.cn.0
+piger uultus|visage morne|1|uultus...|piger.m.cn.0
+piget mei|je ne suis pas content de moi|0|piget.s 3..|ego.g s..
+pignus dare + prop. inf.|donner la preuve que|0|pignus.ac s..|do.act..|.ac..|.inf..
+pigrum bellum|guerre qui traîne|1|bellum...|piger.nt.cn.0
+pii et impii|les bons et les méchants|0|pius.p..|impius.p.c.0
+pinea nux|pomme de pin|1|nux...|pineus.f.cn.0
+pingere uerba|peindre ses mots = colorer son style|0|pingo.act..|uerbum.ac p..
+pinguis coma|chevelure fournie, ou parfumée|1|coma...|pinguis.f.cn.0
+pinguis somnus|sommeil lourd|1|somnus...|pinguis.m.cn.0
+pinguis toga, lacerna|toge, manteau épais(se)|1|toga,lacerna...|pinguis.f.cn.0
+pium bellum|guerre légitime|1|bellum...|pius.nt.cn.0
+plane mane|de grand matin|0|plane...|mane...
+planum facere + prop. inf.|démontrer clairement que|0|planus.ac nt s..|facio.act..|.ac..|.inf..
+plaudere alis|battre des ailes|0|plaudo...|ala.ab p..
+plebeium sapere|avoir un goût peu relevé|0|plebeius.ac nt s..|sapio.act..
+pleno ore|avidement|1|os (2).ab s..|plenus.ab nt s..
+plumbum album (candidum)|étain|0|plumbum...|albus,candidus.nt.cn.0
+plurima luna|pleine lune|1|luna.s..|plurimus.f s.c.0
+plurimum facit + inf.|il est essentiel de|0|plurimum...|facio.s 3..|.inf..
+plurimum ualere|être très puissant|1|plurimum...|ualeo...
+pluris ducere|estimer davantage|1|plus.g s..|duco.act..
+pluris esse|valoir davantage|0|plus.g s..|sum...
+plus minus|plus ou moins|1|plus (2)...|minus...
+poculum ducere|vider une coupe|0|poculum.ac..|duco.act..
+poenam (poenas) luere|être puni|0|poena.ac..|luo.act..
+poenam committere|encourir une peine|1|poena.ac..|committo.act..
+poenas dare|être puni|0|poena.ac p..|do.act..
+poenas incitare|aggraver les peines|0|poena.ac p..|incito.act..
+poenas pendere|expier|1|poena.ac p..|pendo.act..
+pollicem premere|approuver (pouce contre l'index)|0|pollex.ac s..|premo.act..
+pollicem uertere|désapprouver (signe du pouce)|0|pollex.ac s..|uerto.act..
+pomifer annus|la saison des fruits|1|annus...|pomifer.m.cn.0
+ponderosa epistola|longue lettre|1|epistola...|ponderosus.f.cn.0
+ponderosa uox|mot plein de sens|1|uox...|ponderosus.f.cn.0
+ponere aliquem principem|donner le commandement à qqn|0|pono.act..|.ac s..|princeps.ac s..
+ponere aliquid in gloria|regarder qqch comme un honneur|0|pono.act..|.ac..|in...|gloria.ab s..
+ponere metum|cesser de craindre|0|pono.act..|metus.ac s..
+ponere pignus cum aliquo|engager un pari avec qqn|1|pono.act..|pignus.ac s..|cum...|.ab..
+ponere statuam alicui|élever une statue à qqn|0|pono.act..|statua.ac..|.d..
+ponere terra|ensevelir|0|pono...|terra.ab s..
+ponere totum diem|passer la journée entière|0|pono.act..|totus.ac s..|dies.ac s..
+popularis ratio|le parti populaire|0|ratio...|popularis.f.cn.0
+poscere aspiciendum|demander à voir|0|posco...|aspicio.ac nt s adjv..
+post cineres|après la mort|1|post...|cinis.ac p..
+post homines natos|depuis qu'il y a des hommes|2|post...|homo.ac p..|nascor.ac m p pf part..
+post id locorum|après cela|2|post...|is.ac nt s..|locus.g p..
+post... quam|après que|0|post...|quam...
+postero die|le lendemain|1|posterus.ab s..|dies.ab s..
+postquam + présent|depuis que, maintenant que|0|postquam...|.pr..
+postquam + imparfait|voyant que, comme|0|postquam...|.impf..
+potens apud aliquem|influent auprès de qqn|0|potens...|apud...|.ac..
+potens mariti|qui domine son mari|0|potens...|maritus.g s..
+potens urbis|maître de la ville|0|potens...|urbs.g..
+prae manu|sous la main|0|prae...|manus.ab s..
+praecipui amicorum|les amis les plus intimes|0|praecipuus.p..|amicus.g p..
+praeesse potestati|remplir une charge|1|praesum...|potestas.d s..
+praefectus aerarii|intendant du Trésor|0|praefectus...|aerarium.g s..
+praefectus nauis|capitaine d'un vaisseau|0|praefectus...|nauis.g..
+praemia uitae|les commodités de la vie|0|praemium.p..|uita.g s..
+praeparare cibos hiemi|faire des provisions pour l'hiver|0|praeparo.act..|cibus.ac p..|hiems.d s..
+praepositus aquarum|inspecteur des eaux|0|praepositus...|aqua.g p..
+praeripere iter|prendre les devants|0|praeripio.act..|iter.ac s..
+praes pro aliquo|garant de qqn|0|praes...|pro...|.ab..
+praescribere fines|fixer des limites|0|praescribo.act..|finis.ac p..
+praescribere nomen libro|donner un titre à un livre|0|praescribo.act..|nomen.ac s..|liber (2).ab s..
+praesens abest|il a l'esprit ailleurs|0|praesens.n..|absum..n.0
+praesens omen|présage menaçant|1|omen...|praesens.nt.cn.0
+praesens pecunia|argent comptant|0|pecunia.s..|praesens.f s.c.0
+praesidia deducere|amener du renfort|0|praesidium.ac p..|deduco.act..
+praesidium ad uitam beatam|moyen de vivre heureux|0|praesidium...|ad...|uita.ac s..|beatus.ac f s..
+praestare dictum|être responsable de ses paroles|0|praesto.act..|dictum.ac s..
+praestare fidem|être fidèle à sa promesse|0|praesto.act..|fides.ac s..
+praestare socios saluos|assurer la sécurité de ses alliés|0|praesto.act..|socius.ac p..|saluus.ac m p..
+praestare sumptum|prendre une dépense à sa charge|1|sumptus.ac s..|praesto.act..
+praestare terga + dat.|fuir devant qqn|0|praesto.act..|tergum.ac p..|.d..
+praestringere aliquem suspicione|blesser qqn par l'atteinte d'un soupçon|0|praestringo.act..|.ac..|suspicio.ab s..
+praesumere partes alicuius|empiéter sur les fonctions de qqn|0|praesumo.act..|pars.ac p..|.g..
+praeter exspectationem|contre toute attente|1|praeter...|exspectatio.ac s..
+praeter fatum|contre l'ordre du destin|1|praeter...|fatum.ac s..
+praeter iustum|plus que de raison|1|praeter...|iustus.ac nt s..
+praeter legem|contrairement à la loi|0|praeter...|lex.ac s..
+praeter (extra, super) modum|outre mesure|1|praeter,extra,super...|modus.ac s..
+praeter spem|contre toute attente|0|praeter...|spes.ac s..
+praetor urbanus|préteur urbain (qui juge les citoyens)|0|praetor...|urbanus.m.cn.0
+praetoria comitia|comices pour l'élection du préteur|0|comitium.p..|praetorius.nt p.c.0
+praetoria potestas|la préture|1|potestas...|praetorius.f.cn.0
+praetoria turba|la foule des plaignants (qui viennent devant le préteur)|1|turba...|praetorius.f.cn.0
+praetoris officium|prétoire|1|praetor.g s..|officium...
+prasina factio|les partisans des Verts (au cirque)|1|factio.s..|prasinus.f s.c.0
+premere humum|être étendu sur le sol|0|premo.act..|humus.ac s..
+premere litus|longer la côte|0|premo.act..|litus.ac s..
+presso gradu|à pas lents|0|premo.ab m s pf part pass..|gradus.ab s..
+pretii magni, parui esse|avoir beaucoup, peu de valeur|0|pretium.g s..|sum...
+pretium habere|avoir du prix, coûter cher|0|pretium.ac s..|habeo.act..
+prima cera|première page|0|cera...|primus.f.cn.0
+prima luce|au commencement du jour|1|lux.ab s..|primus.ab f s..
+prima luna|nouvelle lune|1|luna...|primus.f.cn.0
+prima nocte|au début de la nuit|0|nox.ab s..|primus.ab f s..
+prima signa|la première ligne (mil.)|0|signum.p..|primus.nt p.c.0
+primas (partes) dare|accorder le premier rang|0|primus.ac f p..|pars.ac p..|do.act..
+prima specie|au premier abord|1|primus.ab f s..|species.ab s..
+primipilum ducere|être primipile|0|primipilus.ac..|duco.act..
+primis labris|du bout des lèvres|0|labrum.ab p..|primus.ab f p..
+primo quoque tempore|à la première occasion|0|primus.ab nt s..|quoque...|tempus.ab s..
+primo uespere|à la tombée de la nuit|0|uesper (2).ab s..|primus.ab m s..
+primores dentes|dents de devant|0|dens.p..|primoris.m p.c.0
+primum aeuum|jeunesse|0|aeuum...|primus.nt.cn.0
+primum agmen|l'avant-garde|0|agmen...|primus.nt.cn.0
+primum omnium|en premier lieu, avant tout|0|primum...|omnis.g nt p..
+primus quisque|le tout premier|0|primus...|quisque..cn.0
+princeps iuuentutis|le premier de la jeunesse (sur la liste des chevaliers)|0|princeps...|iuuentus.g s..
+priores sedes|la première place|0|sedes.p..|prior.m p.c.0
+pro certo habere|tenir pour certain|2|pro...|certus.ab nt s..|habeo.act..
+pro consule|en qualité de proconsul|0|pro...|consul.ab s..
+pro derelicto habere|laisser à l'abandon, négliger|1|pro...|derelinquo.ab pf part pass..|habeo...
+pro exemplo alicui esse|être un exemple pour qqn|1|pro...|exemplum.ab.s..|.d..|sum...
+pro imperio|en vertu de son pouvoir|0|pro...|imperium.ab s..
+pro irrito habere|regarder comme nul|1|pro...|irritus.ab s..|habeo...
+pro mea parte|pour ma part|2|pro...|meus.ab f s..|pars.ab s..
+pro pudor !|oh honte !|1|pro...|pudor.n s..
+pro quaestore esse|être proquesteur|0|pro...|quaestor.ab s..|sum...
+pro rata (parte)|au prorata|1|pro...|ratus.ab f s..
+pro re nata|vu les circonstance|2|pro...|res.ab s..|nascor.ab f s pf part..
+pro suggestu|du haut du tribunal (du général)|0|pro...|suggestus.ab s..
+pro uero obtinere|tenir pour vrai, pour assuré|1|pro...|uerus.ab s..|obtineo...
+probare crimen|prouver une accusation|0|probo.act..|crimen.ac..
+probare opera|vérifier les travaux|0|probo.act..|opus.ac p..
+probum nauigium|bon navire|1|nauigium...|probus.nt.cn.0
+probum os|belle figure|1|os (2)...|probus.nt.cn.0
+procax sermo|propos licencieux|1|sermo...|procax.m.cn.0
+procedendi libido|désir de s'élever dans la société|0|procedo.g ger..|libido...
+procedente tempore|avec le temps|0|procedo.ab nt s pr part act..|tempus.ab s..
+procedere in multum diei|se prolonger fort avant dans la journée|0|procedo...|in...|multum...|dies.g s..
+procedere in multum uini|boire avec excès|0|procedo...|in...|multum...|uinum.g s..
+procinctum testamentum|testament fait sur le champ de bataille|1|testamentum...|procinctus.nt.cn.0
+procul dubio|sans aucun doute|1|procul...|dubium.ab s..
+procul errare|se tromper lourdement|0|procul...|erro...
+prodere aliquid memoriae|transmettre qqch à la postérité|0|prodo.act..|.ac..|memoria.d s..
+prodere conscios|dénoncer ses complices|0|prodo.act..|conscius.ac m..
+proelium committere|engager le combat|1|proelium...|committo...
+proelium excipere|soutenir le combat|1|proelium.ac s..|excipio.act..
+profiteri operam in rem|promettre ses services pour une affaire|0|profiteor...|opera.ac s..|in...|.ac..
+proicere arma|déposer les armes, se rendre|0|proicio.act..|arma.ac..
+proiecto pudore|oubliant toute pudeur|0|proicio.ab m s pf part pass..|pudor.ab s..
+proinde ac si|tout comme si|0|proinde...|ac...|si...
+proinde quasi|tout comme si|0|proinde...|quasi...
+promittere ad cenam|accepter une invitation à dîner|0|promitto.act..|ad...|cena.ac s..
+promittere ad fratrem|promettre d'aller chez son frère|0|promitto...|ad...|frater.ac s..
+promittere barbam|se laisser pousser la barbe|0|promitto.act..|barba.ac..
+pronis auribus|d'une oreille favorable|0|pronus.ab f p..|auris.ab p..
+pronuntiare amplius|conclure à plus ample informé|0|pronuntio...|amplius...
+pronuntiare praemia militi|promettre publiquement des récompenses aux soldats|0|pronuntio.act..|praemium.ac p..|miles.d s..
+prope factum est ut|il s'en est fallu de peu que|0|prope...|facio.n nt s pf part pass..|sum...|ut...
+propius abesse|être plus près|0|propius...|absum...
+propositum uitae periculum|danger menaçant pour la vie|1|periculum...|propono.nt pf part pass.cn.0|uita.d s..
+propterea ne|afin que... ne... pas|0|propterea...|ne...
+propterea quod|parce que|0|propterea...|quod...
+propterea ut|afin que|0|propterea...|ut...
+propugnare aliquam rem|défendre qqch|0|propugno.act..|.ac..
+prouinciae caput|capitale|0|prouincia.g..|caput...
+prouinciam conficere|soumettre une province|1|prouincia.ac..|conficio.act..
+prouocare ad pugnam|provoquer en duel|0|prouoco...|ad...|pugna.ac s..
+proxime atque|à peu près comme|0|proxime...|atque...
+prudens locorum|connaissant bien les lieux|0|prudens...|locus.g p..
+publicae tabulae|archives, registres officiels|0|tabula.p..|publicus.f p.c.0
+publice efferi|être enterré aux frais de l'État|0|publice...|effero.pass..
+pueris excedere|sortir de l'enfance|1|puer.ab p..|excedo.act..
+pugna forensis|débats d'avocats|0|pugna...|forensis.f.cn.0
+pugna mala|combat malheureux|0|pugna...|malus.f.cn.0
+pugnum facere|serrer le poing|0|pugnus.ac s..|facio.act..
+pulla rana|têtard|1|rana...|pullus (2).f.cn.0
+puncto tempore|en un instant|0|pungo.ab nt s pf part pass..|tempus.ab s..
+pura hasta|javelot honorifique (sans fer)|0|hasta...|purus.f.cn.0
+qua cognitum est|autant qu'on le sait|0|qua...|cognosco.n nt s pf part pass..|sum.s 3 pr ind..
+quadratum agmen|ordre de bataille|0|agmen...|quadratus.nt.cn.0
+quadratum saxum|pierre de taille|1|saxum...|quadratus.nt.cn.0
+quae sequuntur|ce qui suit, la suite|1|qui.n nt p..|sequor.p 3 pr ind..
+quaestionem dimittere|lever la séance|0|quaestio.ac s..|dimitto.act..
+quaestiones perpetuae|tribunaux permanents|0|quaestio.p..|perpetuus.f p.c.0
+quaestor aerarii|questeur du Trésor|0|quaestor...|aerarium.g s..
+quaestor militaris|questeur militaire (finances de l'armée, butin)|0|quaestor...|militaris.m.cn.0
+quaestor urbanus|questeur urbain|0|quaestor...|urbanus.m.cn.0
+quaestui habere aliquid|s'enrichir au moyen de qqch|0|quaestus.d s..|habeo.act..|.ac..
+quaestum facere ex (in) aliqua re|tirer profit de qqch|0|quaestus.ac s..|facio.act..
+quam + superlatif|le plus - possible|0|quam...|.sup..
+quam maxime|le plus possible|1|quam...|maxime...
+quam ob rem ?|pour quelle raison ?|2|qui.ac s..|ob...|res.ac s..
+quam primum|le plus vite possible|1|quam...|primum...
+quanto + compar... tanto + compar.|plus... plus|0|quanto...|.comp..|tanto...|.comp..
+quanto magis... tanto magis|plus... plus|1|quanto...|magis...|tanto...|magis...
+quantum (quoad) possum|dans la mesure où je le peux|1|quantum (2),quoad...|possum...
+quasi primum|le plus tôt possible|1|quasi...|primum...
+qui fit ut... ?|comment se fait-il que... ?|0|qui.n m s..|fio.s 3 ind..|ut...
+quid ad rem ?|qu'importe ?|2|quis.n nt s..|ad...|res.ac s..
+quid est causae cur... ?|quelle raison y a-t-il pour que ? pourquoi ?|2|quis.nt..|sum.s 3..|causa.g s..|cur...
+quid est quod... ?|quelle raison y a-t-il pour que... ?|0|quis.n nt s..|sum.s 3 ind..|quod...
+quid hoc rei est ?|qu'est-ce que cela ?|2|quis.n nt s..|hic.n nt s..|res.g s..|sum.s 3..
+quid iuuat + inf ?|à quoi bon + inf ?|1|quid...|iuuo.s 3..
+quid multa ?|bref|1|quid...|multus.ac nt p..
+quid plura ?|à quoi bon en dire plus ?|1|quid...|plus.ac p..
+quid prodest ?|à quoi bon ?|1|quid...|prosum.s 3..
+quid si, et si quid|quid si : et si... ? qu'arriverait-il si... ? - si quid = si aliquid|0|quis.n nt s..|si...
+quid sibi uult + nom.|que signifie ... ?|2|quis.n nt s..|se.d..|uolo.s 3 pr ind act..
+quid tibi uis ?|que veux-tu dire ? à quoi veux-tu en venir ?|2|quis.ac nt s..|tu.d..|uolo.s 2 pr ind act..
+quietem curare alicui|procurer la tranquillité à qqn|0|quies.ac s..|curo.act..|.d..
+quin contra|bien au contraire|0|quin...|contra...
+quin etiam|je dirais même plus|0|quin...|etiam...
+quippe + pron. rel + quin|puisque|0|quippe...|qui...|.subj..
+quippe cum|assurément puisque|0|quippe...|cum...
+quo magis... eo magis|plus... plus|1|quo...|magis...|eo...|magis...
+quod ad me pertinet|en ce qui me concerne|0|qui.n nt s..|ad...|ego.ac..|pertineo.s 3..
+quod in te est|autant que cela dépend de toi|0|qui.n nt s..|in...|tu.ab..|sum.s 3..
+quod meminerim|autant que je me souvienne|0|qui.n nt s..|memini.s 1 pf subj act..
+quod poteris|dans la mesure où tu le pourras|0|qui.n nt s..|possum.s 2 fut ind..
+quod sciam|autant que je sache|0|qui.n nt s..|scio.s 1 pr subj act..
+quodam modo|en quelque sorte|1|quidam.ab m s..|modus.ab s..
+quotquot annis|tous les ans|0|quotquot...|annus.ac p..
+rami caeci|branches sans bourgeons|0|ramus...|caecus.m.cn.0
+ramos compescere|élaguer les branches|1|ramus.ac p..|compesco.act..
+rapere aliquem in inuidiam|rendre qqn odieux|0|rapio.act..|.ac..|in...|inuidia.ac s..
+rapere fugam|s'enfuir rapidement|0|rapio.act..|fuga.ac s..
+ratio acceptorum et datorum|balance des recettes et des dépenses|0|ratio...|accipio.g nt p pf part pass..|et...|do.g nt p pf part pass..
+ratio carceris|registre d'écrou|0|ratio...|carcer.g s..
+ratio conuenit|le compte y est|0|ratio.n s..|conuenio.s 3..
+ratio rei militaris|l'art militaire|0|ratio.s..|res.g s..|militaris.g f s..
+ratio temporum congruit|les dates concordent|2|ratio.n s..|tempus.g p..|congruo.s 3..
+rationalis philosophia|dialectique, logique|1|philosophia.s..|rationalis.f s.c.0
+rationem conficere|dresser une liste|0|ratio.ac..|conficio.act..
+rationem cum aliquo putare|apurer un compte avec qqn|3|ratio.ac s..|cum...|.ab..|puto.act..
+rationem ducere|calculer|0|ratio.ac s..|duco.act..
+rationem habere|tenir compte de|0|ratio.ac s..|habeo.act..
+rationem inire|se rendre compte, savoir, examiner|0|ratio.ac s..|ineo...
+rationem reponere (repetere)|réclamer des comptes|0|ratio.ac s..|repono,repeto.act..
+rationem putare (purgare)|apurer un compte|0|ratio.ac s..|puto,purgo.act..
+rationes deferre|déposer ses comptes au Trésor|1|ratio.ac p..|defero.act..
+rationes describere|mettre ses comptes en état|1|ratio.ac p..|describo.act..
+re infecta|sans avoir atteint son but|1|res.ab s..|infectus.ab f s..
+re ipsa|en réalité|0|res.ab s..|ipse.ab f s..
+re uera|vraiment, effectivement, en réalité|0|res.s..|uerus.f s..
+recedere ab armis|déposer les armes|0|recedo...|ab...|arma.ab p..
+recedere loco|quitter une position|0|recedo...|locus.ab s..
+recentes milites|troupes fraîches|1|miles.p..|recens.m p.c.0
+recepto animo ex|s'étant remis de|0|recipio.ab m s pf part pass..|animus.ab s..|ex...
+receptui canere|sonner la retraite|0|receptus.d s..|cano...
+receptus mos|habitude consacrée|1|mos...|recipio.pf part pass.cn.0
+receptus sententiae|changement d'avis|0|receptus...|sententia.g s..
+recipere in ciuitatem|recevoir parmi les citoyens|0|recipio...|in...|ciuitas.ac s..
+recipere nomen|recevoir une accusation, la déclarer recevable|1|nomen.ac..|recipio.act..
+recognitio sui|examen de conscience|0|recognitio...|se.g s..
+recta conscientia|bonne conscience|0|conscientia...|rectus.f.cn.0
+recta facie loqui|parler la tête haute|1|rectus.ab f s..|facies.ab s..|loquor...
+rectum sequi|marcher dans le droit chemin|1|rectus.ac nt s..|sequor...
+rectus casus|le nominatif|1|casus...|rectus.m.cn.0
+recusatio stomachi|nausée, dégoût|0|recusatio...|stomachus.g s..
+recussus somno|réveillé en sursaut|0|recutio.pf part pass..|somnus.ab s..
+reddere poenas|être puni|0|reddo.act..|poena.ac p..
+redigere in publicum|adjuger au trésor public|0|redigo...|in...|publicum.ac s..
+redire in gratiam cum aliquo|se réconcilier avec qqn|2|redeo...|in...|gratia.ac s..|cum...|.ab..
+reduuiam curare|soigner une envie au doigt = s'occuper de chose sans importance|0|reduuia.ac s..|curo.act..
+regiones lituo dirigere|partager les régions du ciel avec la bâton augural|1|regio.ac p..|dirigo...|lituus.ab p..
+regius cultus|costume royal|0|cultus...|regius.m.cn.0
+reipublicae disciplina, constitutio, forma, status, modus|0|forme de gouvernement, constitution|respublica.g s..|disciplina,constitutio,forma,status,modus...
+relatio gratiae|témoignage de reconnaissance|0|relatio...|gratia.g s..
+rem augere|s'enrichir|0|augeo.act..|res.ac s..
+rem bene gerere|réussir une entreprise, avoir du succès|0|res.ac..|bene...|gero.act..
+rem male gerere|se ruiner|0|res.ac s..|male...|gero.act..
+rem pignori accipere (habere)|recevoir qqch en gage|0|pignus.d s..|accipio,habeo.act..|.ac..
+rem publicam capessere|embrasser la carrière politique|2|res.ac s..|publcus.ac f s..|capesso.act..
+remittere animum|se reposer|0|remitto.act..|animus.ac s..
+remittere nuntium uxori|notifier le divorce à sa femme|0|remitto.act..|nuntius.ac s..|uxor.d s..
+remotis arbitris|à huis clos|0|arbiter.ab p..|remoueo.ab m p pf part pass..
+remoto ioco|sans plaisanter|1|remotus.ab m s..|iocus.ab s..
+remulco abstrahere|remorquer|0|remulcum.ab s..|abstraho...
+renouare uulnus|rouvrir une blessure|0|renouo.act..|uulnus.ac..
+rependere uices|rendre la pareille|0|rependo.act..|uicis.ac p..
+reperire causas|trouver des excuses, des prétextes|0|reperio.act..|causa.ac p..
+repraesentare librum|réciter un livre de mémoire|0|repraesento.act..|liber (2).ac..
+repraesentare mercedem|payer un loyer d'avance|0|repraesento.act..|merces.ac..
+repulsam ferre|subir un échec|0|repulsa.ac s..|fero...
+requisita naturae|besoins naturels|0|requiro.nt p pf part pass..|natura.g s..
+rerum adipisci|s'emparer du pouvoir|1|res.g p..|adipiscor...
+rerum natura|la nature|1|res.g p..|natura...
+rerum potiri|s'emparer du pouvoir|0|res.g p..|potior...
+rerum scriptor|historien|0|res.g p..|scriptor...
+res aduersae|le malheur|1|res...|aduersus.f.cn.0
+res capitalis|procès capital|0|res...|capitalis.f.cn.0
+res ciuilis|la politique|1|res.s..|ciuilis.f s.c.0
+res cogit|les circonstances l'exigent|1|res.n s..|cogo.s 3..
+res cum aliquo|affaire qu'on a avec qqn|0|res.s..|cum...|.ab s..
+res domesticae|le patrimoine|1|res.p..|domesticus.f.c.0
+res familiaris|patrimoine|1|res.s..|familiaris.f.c.0
+res frumentaria|l'approvisionnement en blé|0|res.s..|frumentarius.f s.c.0
+res gestae|actes, exploits, vie, histoire|1|res...|gero.f pf part pass.cn.0
+res haud magna|affaire sans importance|1|res...|haud...|magnus.f.cn.0
+res mancipii|choses qui nous appartiennent en propre|1|res.p..|mancipium.g s..
+res multae operae|entreprise difficile|0|res...|multus.g f s..|opera.g s..
+res pecuniaria|affaire d'argent|1|res...|pecuniarius.f.cn.0
+res postulat|la situation le demande|0|res.n s..|postulo.s 3 act..
+res publica|= respublica, l'État, les affaires publiques|0|res.s..|publicus.f s.c.0
+res repetere|demander satisfaction|1|res.ac p..|repeto.act..
+res rustica(e)|l'agriculture|1|res...|rusticus (2).f.cn.0
+res secundae|le succès, la prospérité|0|res.p..|secundus.f p.c.0
+respondere ad nomina|se présenter au recrutement|0|respondeo...|ad...|nomen.ac p..
+respondere nominibus|acquitter ses dettes|0|respondeo...|nomen.ab p..
+retinere aliquem in officio|maintenir qqn dans le devoir|0|retineo.act..|.ac..|in...|officium.ab s..
+reuocare ad dubium|mettre en doute|0|reuoco...|ad...|dubium.ac s..
+reuocare oculos (lumina)|détourner les yeux|0|reuoco.act..|oculus,lumen.ac p..
+reuocare studia|reprendre ses études|1|studium.ac p..|reuoco.act..
+reus capitis|accusé d'un crime capital|0|caput.g..|reus...
+reus pecuniae|débiteur|0|reus...|pecunia.g s..
+ridere in stomacho|rire intérieurement|0|rideo...|in...|stomachus.ab s..
+ridet tempestas|le ciel sourit|0|rideo.s 3..|tempestas.n s..
+risum exprimere|faire rire|1|risus.ac..|exprimo.act..
+risum tenere|se retenir de rire|0|risus.ac s..|teneo.act..
+ritu aleatorio|suivant les règles du jeu|0|ritus.ab s..|aleatorius.ab m s..
+robur accusationis|le point capital de l'accusation|0|robur...|accusatio.g s..
+rogare plebem tribunos|proposer des tribuns au peuple|0|rogo.act..|plebs.ac s..|tribunus.ac..
+rogationem ferre|présenter un projet de loi|0|rogatio.ac..|fero.act..
+rogationem perferre|faire passer une proposition de loi|0|rogatio.ac..|perfero.act..
+rogationem suadere|soutenir un projet de loi|0|rogatio.ac..|suadeo.act..
+rudis agna|brebis qui vient de naître|1|agna...|rudis (2).f.cn.0
+rugas cogere|froncer les sourcils|0|ruga.ac p..|cogo.act..
+sacer morbus|épilepsie|1|morbus.s..|sacer.m s.c.0
+saeuitia annonae|cherté des  vivres|0|saeuitia.s..|annona.g s..
+saga ponere|déposer les armes|0|sagum.ac p..|pono.act..
+sal dicendi|sarcasme|0|sal...|dico.g ger..
+sal niger|plaisanterie mordante|0|sal...|niger.m.cn.0
+salsa negotia|traits d'esprit|1|negotium.p..|salsus.nt p.c.0
+saltus legere|parcourir les bois|1|saltus.ac p..|lego (2).act..
+salua fide|sans violer la foi donnée|0|saluus.ab f s..|fides.ab s..
+salua gratia|sans manquer à la reconnaissance|0|saluus.ab f s..|gratia.ab s..
+salubritas dictionis|pureté du style|0|salubritas.s..|dictio.g s..
+sanare incommodum|compenser un inconvénient|0|sano.act..|incommodum.ac..
+sancire disciplinam|affermir la discipline|0|sancio.act..|disciplina.ac s..
+sancire recta prauaque|déterminer ce qui est vice ou vertu|0|sancio.act..|rectus.ac nt p..|prauus.ac nt p..
+sancire rem capite|interdire une chose sous peine de mort|0|sancio.act..|.ac..|caput.ab s..
+sancta oratio|langage noble|1|oratio...|sanctus.f.cn.0
+sancti mores|moeurs pures|1|mos.p..|sanctus.m p.c.0
+sane (ualde, nimis, admodum, oppido) quam|autant que possible|1|sane,ualde,nimis,admodum,oppido...|quam...
+sane quidem|certainement, bien sûr|0|sane...|quidem...
+sane uellem|je voudrais bien|0|sane...|uolo.s 1 impf subj..
+sanguinem eicere|vomir du sang|0|sanguis.ac s..|eicio.act..
+satiare lanam|teindre la laine|0|satio.act..|lana.ac s..
+satin saluae ?|tout va-t-il bien ?|1|satin...|saluus.n f p..
+satin salue ?|comment vas-tu ?, ça va ?|0|satin...|salue...
+satis discernere|voir clairement|1|satis...|discerno...
+satis multa|en voilà assez|1|satis...|multus.ac nt p..
+satis superque|assez et même trop|1|satis...|super...
+saxo patientior|plus dur que le roc|0|patiens.comp..|saxum.ab s..
+scelus sanare|expier un crime|1|scelus.ac s..|sano.act..
+scire latine|parler latin|0|scio...|latine...
+scitus sermo|style savant|1|sermo...|scio.m pf part pass.cn.0
+scripta notis confodere|charger un ouvrage de notes critiques|0|nota.ab p..|confodio.act..
+scriptor legum|législateur|0|scriptor...|lex.g p..
+se abdicare ab + ab|renoncer à, se démettre de|1|se.ac s..|abdico.act..|ab...|.ab..
+se in pedes conicere|prendre la fuite|3|se.ac..|in...|pes.ac p..|coniicio...
+secunda mensa|le second service|1|mensa.s..|secundus.f s.c.0
+secundae admurmurationes|murmures d'approbation|0|admurmuratio...|secundus.f.cn.0
+secundae partes|le second rôle|1|pars.p..|secundus.f p.c.0
+secundo amni (flumine)|en suivant le courant, en aval|1|amnis,flumen.ab s..|secundus.ab m s..
+sed haec hactenus|mais j'en ai assez dit sur ce sujet|1|sed...|hic.ac nt p..|hactenus...
+sedato nisu|d'un pas lent|0|nisus.ab s..|sedo.ab m s pf part pass..
+sedem capere (instituere)|établir sa demeure|0|sedes.ac s..|capio,instituo.act..
+sedem habere in loco|avoir sa place qque part|0|sedes.ac s..|habeo.act..
+sedere (in) equo|être à cheval|0|sedeo...|equus.ab s..
+sedere in ouis|couver|0|sedeo...|in...|ouum.ab p..
+sedere in rostris|être à la tribune|0|sedeo...|in...|rostrum.ab p..
+sedes honoris|siège d'honneur = chaise curule|0|sedes...|honor.g s..
+sedes regia|trône|0|sedes...|regius.f.cn.0
+segni gradu|à pas lents|0|segnis.ab m s..|gradus.ab s..
+segnis dies|jour de repos|1|dies...|segnis..cn.0
+sella curulis|chaise curule|0|sella...|curulis.f.cn.0
+semel anno|une fois par an|0|semel...|annus.ab s..
+semel atque iterum|à deux reprises|0|semel...|iterum...
+semel et saepius|plus d'une fois|0|semel...|saepius...
+sementem (sementes) facere|semer|0|sementis.ac..|facio.act..
+semota dictio|entretien confidentiel|1|dictio...|semotus.f.cn.0
+semotus cura|à l'abri de tout souci|0|semotus...|cura.ab s..
+senatui placet (ut)|le sénat décide (que)|0|senatus.d s..|placeo.s 3 act..
+senatum agere|assembler le sénat|0|senatus.ac s..|ago.act..
+senatum alicui dare|accorder à qqn une audience au sénat|0|senatus.ac s..|.d..|do.act..
+senatum cooptare|élire les sénateurs|0|senatus.ac s..|coopto.act..
+senatum mittere|lever la séance du sénat|0|senatus.ac s..|mitto.act..
+senis horis|toutes les six heures|1|hora.ab p..|senus.ab f p..
+sensus alicui aperire|ouvrir à qqn le fond de son coeur|0|sensus.ac p..|.d..|aperio.act..
+sensus communis|le bon sens|0|sensus.s..|communis.m s.c.0
+sensus corporis|les organes des sens|0|sensus.p..|corpus.g s..
+sententia tristis|sentence fatal, arrêt de mort|0|sententia...|tristis.f.cn.0
+sententiam aperire|donner son avis|0|sententia.ac s..|aperio.act..
+sententiam legis sequi|s'attacher à l'esprit de la loi|0|sententia.ac s..|lex.g s..|sequor...
+sentire demisse|avoir des sentiments bas|0|sentio...|demisse...
+sentire gloriam|être sensible à la gloire|0|sentio.act..|gloria.ac s..
+sentire humilia|avoir des sentiments bas|0|sentio.act..|humilis.ac nt p..
+sepelire bellum|étouffer une guerre|0|sepelio.act..|bellum.ac s..
+sepelire dolorem|faire taire sa douleur|0|sepelio.act..|dolor.ac s..
+septem miracula|les sept merveilles du monde|0|septem...|miraculum.p..
+sepulcra legere|lire les épithaphes|0|sepulcrum.ac..|lego (2).act..
+sequi feras|chasser les bêtes sauvages|0|sequor...|fera.ac..
+sequi leges|se conformer aux lois|0|sequor...|lex.ac p..
+sequi tranquilitatem|aspirer à la tranquillité|0|sequor...|tranquillitas.ac s..
+sequitur ut|il s'ensuit que|1|sequor.s 3..|ut...
+serenus color|couleur claire|1|color...|serenus.m.cn.0
+serere leges|établir des lois|1|lex.ac..|sero.act..
+seria et ioci|les travaux et les jeux, les affaires et les plaisirs|0|serius.nt p..|iocus.p..
+serius ocius|tôt ou tard|0|serius (2)...|ocius...
+seruare de caelo|observer le ciel (en parl. d'un augure)|0|seruo.act..|de...|caelum.ab s..
+seruilis tumultus|révolte d'esclaves|1|tumultus...|seruilis.m.cn.0
+seruire corpori (ualetudini)|ménager sa santé|0|seruio.act..|corpus,ualetudo.d s..
+seruire famae|soigner sa réputation|0|seruio.act..|fama.d s..
+seruire luminibus|être employé à l'éclairage|0|seruio...|lumen.ab p..
+seruire tempori|se plier aux circonstances|0|seruio...|tempus.d s..
+seruum producere|mettre un esclave en vente|1|seruus.ac..|produco.act..
+seruus a manu|secrétaire|2|seruus...|a...|manus.ab s..
+seruus a pedibus|commissionnaire|0|seruus...|a...|pes.ab p..
+seruus aere paratus|esclave acheté|2|seruus...|aes.ab s..|paro.m pf part pass.cn.0
+seruus pileatus|esclave coiffé du pileus = en vente sans garantie de fidélité|1|seruus...|pileatus.m.cn.0
+si maxime|surtout si|0|si...|maxime...
+si modo|si du moins|0|si...|modo...
+si nihil aliud|à défaut d'autre chose|0|si...|nihil.n..|alius.n nt s..
+si quando|si un jour, si jamais|1|si...|quando...
+sibilus abruptus|sifflement saccadé|0|sibilus...|abrumpo.m pf part pass.cn.0
+sic habeto|sache-le bien|1|sic...|habeo.s 2 fut imper act..
+sic res se habet|la chose en est ainsi|0|sic...|res...|se.ac..|habeo.s 3 pr ind act..
+sic uita truditur|ainsi va la vie|2|sic...|uita.n s..|trudo.s 3 pr ind pass..
+signa confundere|jeter le désordre dans les rangs|1|signum.ac p..|confundo...
+signa constituere|faire halte|0|signum.ac p..|constituo.act..
+signa conuellere (uellere)|se mettre en marche rapidement|0|signum.ac p..|conuello,uello.act..
+signa conuertere|faire demi-tour|0|signum.ac p..|conuerto.act..
+signa inferre (conferre)|marcher contre l'ennemi|0|signum.ac p..|infero,confero.act..
+signa referre|reculer (mil.)|0|signum.ac p..|refero.act..
+signa relinquere|déserter|0|signum.ac p..|relinquo.act..
+signa seruare|rester à son poste|0|signum.ac p..|seruo.act..
+signa sustinere|arrêter la march (mil.)|0|signum.ac p..|sustineo.act..
+signa tollere|se mettre en marche|0|signum.ac p..|tollo.act..
+signum petere|demander le mot d'ordre|0|signum.ac s..|peto.act..
+similis ac|le même que, pareil à|0|similis...|ac...
+simplex aqua|eau pure|1|aqua...|simplex.f.cn.0
+simplex mors|mort naturelle|1|mors...|simplex.f.cn.0
+simul (ac) primum|dès que|1|simul...|primum...
+simulacra truncare|mutiler des statues|1|simulacrum.ac p..|trunco.act..
+sine deductione|entièrement, complètement|1|sine...|deductio.ab s..
+sine fide|sans avoir, sans crédit|0|fides.ab s..|sine...
+sine mercede|sans profit, sans résultat|1|sine...|merces.ab s..
+sine more|sans mesure, sans règle|1|sine...|mos.ab s..
+sine praegressione causae|sans cause préalable|1|sine...|praegressio.ab s..|causa.g s..
+sine respectu fugere|fuir sans se retourner|1|sine...|respectus.ab s..|fugio...
+sine sensu|sans qu'on s'en aperçoive|1|sine...|sensus.ab s..
+sitim abluere|étancher sa soif|0|sitis.ac s..|abluo.act..
+sitim excutere|étancher sa soif|1|sitis.ac s..|excutio.act..
+socia nocte|à la faveur de la nuit|1|nox.ab s..|socius.ab f s..
+socialis equitatus|cavalerie alliée|1|equitatus...|socialis.m.cn.0
+socialis exercitus|les troupes des alliés|1|exercitus...|socialis.m.cn.0
+socius haereditatis|cohéritier|0|socius (2)...|hereditas.g s..
+socius sanguinis|parent|0|socius (2)...|sanguis.g s..
+sol abscedit|le soleil se couche|0|sol.n s..|abscedo.act..
+sol niger|journée funeste|0|sol...|niger.m.cn.0
+sola insula|île déserte|1|insula...|solus.f.cn.0
+sole primo|au lever du soleil|0|sol.ab s..|primus.ab m s..
+solea lignea|sabot, galoche|0|solea...|ligneus.f.cn.0
+solemne habere|avoir coutume de |0|solemnis.ac nt s..|habeo...
+solis defectio|éclipse de soleil|0|sol.g s..|defectio...
+sollers acumen|finesse, sagacité|1|acumen...|sollers.nt.cn.0
+sollicitum habere aliquem|donner de l'inquiétude à qqn|0|sollicitus.ac.n.1|.ac..|habeo.act..
+soluere aliquem legibus|dispenser qqn d'obéir aux lois|0|soluo.act..|.ac..|lex.ab p..
+soluere carmen|résoudre une énigme|0|soluo.act..|carmen.ac s..
+soluere ciuitatem religione|relever les citoyens d'un engagement religieux|0|soluo.act..|ciuitas.ac s..|religio.ab s..
+soluere fasciculum|défaire un paquet|0|soluo.act..|fasciculus.ac..
+soluere niuem|faire fondre la neige|0|soluo.act..|nix.ac s..
+soluere nodum|défaire un noeud|0|soluo.act..|nodus.ac..
+soluta oratio|prose|1|oratio...|solutus.f.cn.0
+soror patruelis|cousine germaine du côté paternel|1|soror...|patruelis.f.cn.0
+souere poenas|subir un châtiment|1|poena.ac p..|soluo.act..
+spatio interposito|quelque temps après|1|spatium.ab s..|interpono.ab nt s pf part pass..
+spatium uitae|durée de la vie|0|spatium.s..|uita.g s..
+spectaculum fluxum|spectacle corrupteur|1|spectaculum...|fluo.nt pf part pass.cn.0
+spectare lacunar|regarder le plafond = les mouches voler|1|specto.act..|lacunar.ac s..
+spem alicuius destituere|tromper l'espoir de qqn|2|spes.ac s..|.g..|destituo.act..
+spiritus angustus|respiration courte|spiritus..|angustus..cn.0
+stabili gradu|d'un pas ferme|0|gradus.ab s..|stabilis.ab m s..
+stare animo|être inébranlable|0|sto...|animus.ab s..
+stare magno|coûter cher|0|sto...|magnus.ab nt s..
+stare pacto|observer le traité|1|sto...|pactum.ab..
+statim ut|dès que|0|statim...|ut...
+stato tempore|à époque fixe|0|sisto.ab nt s pf part pass..|tempus.ab s..
+stellae errantes|etoiles errantes = planètes|0|stella...|erro.f pr part act.cn.0
+stilum uertere|effacer|0|stilus.ac s..|uerto.act..
+stimulos admouere|aiguillonner|0|stimulus.ac..|admoueo.act..
+stipem emendicare|mendier|0|stips.ac s..|emendico.act..
+stolam recolligere|retrousser sa robe|1|stola.ac..|recolligo.act..
+struere copias|mettre ses troupes en ordre de bataille|0|struo.act..|copia.ac p..
+suadere de pace|prendre la parole pour la paix|0|suadeo...|de...|pax.ab s..
+suadere legem|soutenir une loi|0|suadeo.act..|lex.ac..
+sub Ioue|en plein air|1|sub...|Iuppiter.ab..
+sub acumen stili|sous la pointe du stylet = sous la plume|2|sub...|acumen.ac s..|stilus.g s..
+sub casside|sous le casque = à la guerre|1|sub...|cassis.ab s..
+sub corona uenire|être vendu comme prisonnier de guerre|1|sub...|corona.ab s..|uenio...
+sub die|de jour|0|sub...|dies.ab s..
+sub diuo|en plein air, à la belle étoile|1|sub...|diuus.ab m s..
+sub hasta uendere|vendre aux enchères|1|sub...|hasta.ab s..|uendo...
+sub ictu dari|être exposé aux coups|1|sub...|ictus.ab s..|do.pass..
+sub lustrum censeri|être recensé à la fin de la censure|1|sub...|lustrum.ac s..|censeo.pass..
+sub nocte|de nuit|0|sub...|nox.ab s..
+sub noctem|à l'approche de la nuit|0|sub...|nox.ac s..
+sub nomine|sous le prétexte (de)|1|sub...|nomen.ab s..
+sub pectore|au fond du coeur|1|sub...|pectus.ab s..
+sub pellibus|sous les tentes (de peaux)|1|sub...|pellis.ab p..
+subdere calcaria equo|éperonner un cheval|1|subdo.act..|calcar.ac p..|equus.ab..
+subdere ignem|mettre le feu, allumer|0|subdo.act..|ignis.ac s..
+subdere uerbum uerbo|substituer un mot à un autre|0|subdo.act..|uerbum.ac s..|uerbum.ab s..
+subiectis pennis|à tire-d'aile|0|subiicio.ab f p pf part pass..|penna.ab p..
+subigere glebas|briser les mottes|0|subigo.act..|gleba.ac p..
+subigere panem|pétrir le pain|0|subigo.act..|panis.ac..
+subire tectum|entrer dans une maison|0|subeo...|tectum.ac s..
+subita dictio|improvisation|0|dictio...|subitus.f.cn.0
+submissa uoce|à voix basse|0|submissus.ab f s..|uox.ab s..
+submittere barbam|laisser pousser sa barbe|0|submitto.act..|barba.ac s..
+submittere manus|lever les mains (en suppliant)|0|submitto.act..|manus.ac p..
+submittere subsidia auxilio|envoyer des secours|0|submitto.act..|subsidium.ac p..|auxilium.ab s..
+subula leonem excipere|affronter un lion avec une alène = être mal armé|0|subula.ab s..|leo.ac s..|excipio.act..
+sudae nubes|nuage sans pluie|1|nubes...|sudus.f.cn.0
+sudor caeli|rosée|0|sudor...|caelum.g s..
+suffigere stimulos|aiguillonner|0|suffigo.act..|stimulus.ac p..
+suffragia ferre|avoir le droit de vote|0|suffragium.ac p..|fero.act..
+sulcum ducere|tracer un sillon|0|sulcus.ac..|duco.act..
+sumere liberos|adopter des enfants|0|sumo.act..|liberi.ac p..
+sumere orationem|entrer en matière|0|sumo.act..|oratio.ac s..
+summa aqua|la surface de l'eau|0|summus.f s.c.1|aqua.s..
+summa rationis|conclusion d'un raisonnement|0|summa...|ratio.g s..
+summa rei|le point essentiel|0|summa...|res.g s..
+summa rerum|le pouvoir suprême|1|summa.s..|res.g p..
+summis digitis|sur la pointe des pieds|0|summus.ab m p..|digitus.ab p..
+summo officio praeditus|extrêmement obligeant|1|summus.ab nt s..|officium.ab s..|praeditus...
+summo ore|du bout des lèvres|0|summus.ab nt s..|os (2).ab s..
+summum fortunae|le comble du bonheur|1|summus.s..|fortuna.g s..
+sunt ista|tu as raison|1|sum.p 3 pr ind..|iste.n nt p..
+sunt qui|il y a des gens qui|1|sum.p 3..|qui.n m p..
+super cenam|pendant le repas|0|super...|cena.ac s..
+superest ut dicam|il me reste à dure|0|supersum.s 3 pr ind..|ut...|dico.s 1 pr subj act..
+superius labrum|lèvre supérieure|1|labrum...|superior.nt.cn.0
+suppressa uoce|à voix basse|0|supprimo.ab f s pf part pass..|uox.ab s..
+supprimere iram|calmer sa colère|0|supprimo.act..|ira.ac s..
+supprimere nummos|détourner de l'argent|0|supprimo.act..|nummus.ac p..
+supprimere uocem|se taire|0|supprimo.act..|uox.ac s..
+supra caput|au-dessus de la tête = menaçant|0|supra...|caput.ac s..
+surgentibus astris|au début de la nuit|0|astrum.ab p..|surgo.ab nt p pr part act..
+suscipere inimicum aliquem|s'attirer l'inimitié de qqn|0|suscipio.act..|inimicus.ac..|.ac.n.1
+suspendere aedificium|construire un bâtiment en voûte|0|suspendo.act..|aedificium.ac..
+suspenso gradu|à pas légers, sur la pointe des pieds|1|suspensus.ab m s..|gradus.ab s..
+suspensum aliquem tenere (detinere)|laisser qqn en suspens|0|suspensus.ac.cn.1|.ac..|teneo,detineo.act..
+suspensus ex fortuna|qui dépend de la fortune|0|suspensus...|ex...|fortuna.ab s..
+suspensus somnus|sommeil inquiet|0|somnus...|suspensus.m.cn.0
+suspicere sordes|prendre le deuil|1|suspicio (2).act..|sordes.ac p..
+suspicione carere|être à l'abri du supçon|1|suspicio.ab s..|careo.act..
+tabellaria nauis|navire postal|1|nauis...|tabellarius.f.cn.0
+tabellas conscribere|rédiger des lettres|1|tabella.ac p..|conscribo.act..
+talis... qualis|tel... que|1|talis...|qualis..n.0
+tam... quam|autant... autant, autant... que|1|tam...|quam...
+tantus... quantus|autant... que|0|tantus...|quantus...
+tecta ac templa|bâtiments profanes et sacrés|0|tectum.p..|templum.p.c.0
+tecto recipere|recevoir sous son toit|0|tectum.ab s..|recipio...
+tela exire|éviter les coups|1|telum.ac p..|exeo.act..
+tempus amittere|laisser échapper une occasion|1|tempus.ac s..|amitto.act..
+tempus aptum|le bon moment|1|tempus...|aptus.nt.cn.0
+tempus flagitat|c'est le moment de, il est temps de|1|tempus.n s..|flagito.s 3..
+tener animus|esprit impressionnable|1|animus...|tener.m.cn.0
+tenere causam|gagner son procès|0|teneo.act..|causa.ac..
+tentare uenas|prendre le pouls|0|tempto.act..|uena.ac p..
+tenui loco ortus|d'humble naissance|0|tenuis.ab m s..|locus.ab s..|orior...
+terere tempus|passer son temps|0|tero.act..|tempus.ac s..
+terga uertere|tourner le dos, battre en retraite|0|tergum.ac p..|uerto.act..
+terrae applaudere|jeter violemment à terre|0|applaudo...|terra.d s..
+terrae filius|fils de la terre = homme de basse condition|1|terra.g s..|filius...
+terrae motus|tremblement de terre|0|terra.g s..|motus...
+tertio (secundo, quarto...)  quoque die|tous les trois (deux, quatre) jours|1|tertius,secundus,quartus.ab m s..|quoque...|dies.ab s..
+tesserarum iactus|coup de dés|0|tessera.g p..|iactus...
+testamentum irritum facere|casser un testament|1|testamentum.ac..|irritus.ac nt.n.0|facio.act..
+testem obruere|confondre un témoin|1|testis.ac..|obruo.act..
+testis locuples|témoin irrécusable|1|testis...|locuples.m.cn.0
+tibiam inflare|jouer de la flûte|0|tibia.ac s..|inflo.act..
+timori consulere|obéir à la crainte|0|consulo...|timor.d..
+titubare uerbo|hésiter sur un mot|0|titubo.act..|uerbum.ab s..
+toga pulla|toge sombre (de deuil)|0|toga...|pullus.f.cn.0
+toga pura|toge ordinaire (non prétexte)|1|toga...|purus.f.cn.0
+tollere deos|nier l'existence des dieux|0|tollo.act..|deus.ac p..
+tollere dolorem|supprimer la douleur|0|tollo.act..|dolor.ac s..
+tollere legem|abolir une loi|0|tollo.act..|lex.ac s..
+tollere puerum|reconnaître un enfant (en le soulevant)|0|tollo.act..|puer.ac..
+tribunatum spirare|respirer le tribunat = avoir tout l'air d'un tribun|1|tribunatus.ac s..|spiro.act..
+tribunos absentes facere|nommer des tribuns qui n'ont pas brigué cette charge|0|tribunus.ac..|absens.ac.n.0|facio.act..
+tribus primis uerbis|dès les premiers mots|0|tres.ab nt p..|primus.ab nt p..|uerbum.ab p..
+tributa pendere|payer des impôts|0|tributum.ac p..|pendo.act..
+trita uia|chemin fréquenté|1|uia...|tero.f pf part pass.cn.0
+tritas aures habere|avoir les oreilles exercées|0|tero.ac f p pf part pass..|auris.ac p..|habeo.act..
+truditur dies die|un jour chasse l'autre|0|trudo.s 3 pr ind pass..|dies.n s..|dies.ab s..
+tum denique|alors seulement|1|tum...|denique...
+tum ipsum cum|au moment même où|1|tum...|ipse.ac nt s..|cum...
+tum temporis|à cette époque|0|tum...|tempus.g s..
+tum uero|c'est alors que|1|tum...|uero...
+tumor animi|trouble de l'âme|0|tumor...|animus.g s..
+tumorem aperire|ouvrir un abcès|0|tumor.ac..|aperio.act..
+tumulus inanis|cénotaphe|0|tumulus...|inanis.m.cn.0
+tunc temporis|à ce moment là|0|tunc...|tempus.g s..
+tunc... cum|au moment où, alors que|0|tunc...|cum...
+turbide loqui|bégayer|0|turbide...|loquor...
+tutela loci|divinité protectrice du lieu|0|tutela...|locus.g s..
+uacare a bellis|être en paix|0|uaco...|a...|bellum.ab p..
+uacatio militiae|exemption du service militaire|0|uacatio...|militia.g s..
+uacillare memoria|ne pas avoir la mémoire sûre|0|uacillo...|memoria.ab s..
+uacua mulier|veuve|1|mulier...|uacuus.f.cn.0
+uacuus equus|cheval sans cavalier|1|equus...|uacuus.m.cn.0
+uallare noctem|se retrancher pendant la nuit|0|uallo.act..|nox.ac s..
+uallaris corona|couronne murale (au premier à franchir le retranchement)|1|corona...|uallaris.f.cn.0
+uallum caecum|trou de loup (mil. pieu dissimulé)|0|uallum...|caecus.nt.cn.0
+uanum telum|trait perdu|1|telum...|uanus.nt.cn.0
+uapulat luna|la lune décroît|0|uapulo.s 3 act..|luna.n s..
+uaria uictoria|victoire indécise|1|uictoria...|uarius.f.cn.0
+uasa colligere|plier bagage (mil.)|0|colligo.act..|uas.ac p..
+uectarius equus|cheval de trait|1|equus...|uectarius.m.cn.0
+uehementer alicuius causa cupere|s'intéresser vivement à qqn|1|uehementer...|cupio.act..|causa.ab s..|.g..
+uel dicam|ou plutôt|1|uel...|dico.s 1 pr subj act..
+uel potius|ou plutôt|1|uel...|potius...
+uelim nolim|bon gré mal gré|1|uolo.s 1 pr subj act..|nolo.s 1 pr subj act..
+uendere per praeconem|vendre à l'encan, à la criée|2|uendo...|per...|praeco.ac s..
+uenenum obducere|boire le poison d'un trait|1|uenenum.ac..|obduco.act..
+uenenum procedit|le poison est efficace|1|uenenum...|procedo.3 act.n.0
+ueniam dare|accorder une faveur à qqn, excuser qqn|0|uenia.ac s..|do.act..
+uenire in computationem|entrer en ligne de compte|1|in...|computatio.ac s..|uenio...
+uenire in conspectum alicuius|se présenter à qqn|2|uenio...|in...|conspectus.ac s..|.g..
+uenire in contemptionem alicui|encourir le mépris de qqn|2|uenio...|in...|contemptio.ab s..|.d..
+uenire in dubium|être mis en doute|0|uenio...|in...|dubium.ac s..
+uenti indignantes|vents furieux|1|uentus.p..|indignor.m p pr part act.c.0
+uentris obsequium|voracité|1|uenter.g s..|obsequium...
+uentus secundus|vent arrière|0|uentus...|secundus.m.cn.0
+uentus suus|vent favorable|0|uentus...|suus.m.cn.0
+uenum dare|vendre|0|uenum.ac s..|do.act..
+uenum ire|être vendu|0|uenum.n s..|eo...
+uer sacrum uouere (facere)|vouer aux dieux tout ce qui doit naître au printemps|0|uer.ac s..|sacer.ac nt s..|uoueo,facio.act..
+uerba attendere|peser ses paroles|0|attendo.act..|uerbum.ac p..
+uerba cauillari|donner de fausses interprétations, jouer sur les mots|1|uerbum.ac p..|cauillor...
+uerba celebra|paroles souvent répétées|1|uerbum.p..|celeber.nt p.c.0
+uerba facere|parler|0|uerbum.ac p..|facio.act..
+uerba praesentia|le langage d'aujourd'hui|1|uerbum.p..|praesens.nt p.c.0
+uerba retrahere|s'interrompre|1|uerbum.ac p..|retraho.act..
+uerbi causa (gratia)|par exemple|0|uerbum.g s..|causa,gratia.ab s..
+uerborum captatio|chicane de mots, querelle de mots|1|uerbum.g p..|captatio...
+uerborum pactio|convention verbale|1|uerbum.g p..|pactio...
+uerbum pro uerbo reddere|traduire mot à mot|3|uerbum.ac s..|pro...|uerbum.ab s..|reddo.act..
+uere nouo (primo)|au début du printemps|0|uer.ab s..|nouus,primus.ab nt s..
+uersa uice|inversement, vice versa|1|uerto.ab f s pf part pass..|uicis.ab s..
+uersus dictare|composer des vers|1|uersus.ac p..|dicto.act..
+uertere terram (agrum)|labourer la terre|0|uerto.act..|terra,ager.ac s..
+uestem mutare|se changer ou prendre le deuil|0|uestis.ac s..|muto.act..
+uestigia alicuius premere|marcher sur les traces de qqn|2|uestigium.ac p..|.g..|premo.act..
+uestigium equi|fer à cheval|0|uestigium...|equus.g s..
+uestigium temporis|court moment|0|uestigium.s..|tempus.g s..
+uetustatem habere|durer longtemps|0|uetustas.ac s..|habeo.act..
+uia strata|route pavée|1|uia...|sterno.f pf part pass.cn.0
+uiam flectere|changer de route, éviter une route|1|uia.ac s..|flecto.act..
+uictoriam reportare|remporter une victoire|1|uictoria.ac..|reporto.act..
+uictoriam temperare|faire un usage modéré de la victoire|1|uictoria.ac s..|tempero.act..
+uide modo|fais attention|0|uideo.s 2 pr imper act..|modo...
+uigere gratia|avoir du crédit|0|uigeo...|gratia.ab s..
+uigere memoria|avoir une bonne mémoire|0|uigeo.act..|memoria.ab s..
+uincere opinionem|dépasser l'attente|1|uinco.act..|opinio.ac s..
+uineta caedere sua|couper ses propres vignes = jeter des pierres dans son jardin|0|uinetum.ac p..|caedo.act..
+uir aetate composita|homme d'un âge mûr|1|aetas.ab s..|compono.ab f s pf part pass..
+uir amplissimus|personnage très considéré|0|uir...|amplus.m sup.cn.0
+uires reuocare|reprendre des forces|0|uis.ac p..|reuoco.act..
+uirgo terra|terre non exploitée|1|terra...|uirgo..cn.0
+uirtutem praestare|montrer son courage|1|uirtus.ac s..|praesto.act..
+uisu contingere|apercevoir|1|uisus.ab s..|contingo.act..
+uita beata|bonheur|1|uita...|beatus.f.cn.0
+uitae necisque potestas|droit de vie ou de mort|1|uita.g s..|nex.g s..|potestas.s..
+uitae ratio|règle de conduite|1|uita.g s..|ratio.s..
+uitam agere|passer sa vie|1|ago.act..|uita.ac..
+uitam alicuius exprimere|imiter qqn|2|uita.ac s..|.g s..|exprimo.act..
+uitiis excellere|se faire remarquer par ses vices|1|uitium.ab p..|excello.act..
+uiuere ad cereos|vivre au flambeaux, vivre la nuit|2|uiuo...|ad...|cereus.ac m p..
+uiuere in rosa|vivre dans les délices|2|uiuo...|in...|rosa.ab s..
+uix dum|à peine|0|uix...|dum...
+uix extundere ut|obtenir avec peine que|1|uix...|extundo.act..|ut...
+uix teneor quin + subj.|je me retiens à peine de|0|uix...|teneo.pass..|quin...|.subj..
+ultima audere|en venir aux dernières extrémités|0|ultimus.ac nt p..|audeo.act..
+ultima exspectare|attendre la fin|0|ultimus.ac nt p..|exspecto.act..
+ultra fidem|plus qu'on ne saurait le croire|0|ultra...|fides (2).ac s..
+ultra modum|outre mesure|0|ultra...|modus.ac s..
+una cum + abl.|en même temps que|0|una...|cum...|.ab..
+una ex naufragio tabula|dernière planche de salut|3|tabula.s..|unus.f s.c.0|ex...|naufragium.ab s..
+unde fit ut|de là vient que|0|unde...|fio.s 3 ind..|ut...
+unius aetatis|contemporains|0|unus.g m s..|aetas.g s..
+unus aut alter|l'un ou l'autre|0|unus.s..|aut...|alter.s.c.0
+uocare hostes|défier les ennemis|0|uoco.act..|hostis.ac p..
+uocare rem ad senatum|déférer une affaire devant le sénat|0|uoco.act..|res.ac s..|ad...|senatus.ac s..
+uocem consumere|étouffer la voix|0|consumo.act..|uox.ac..
+uocem premere|se retenir de parler|1|uox.ac s..|premo.act..
+uolitare in foro|se pavaner sur le forum|0|uolito...|in...|forum.ab s..
+uoluere librum|feuilleter un livre|0|uoluo.act..|liber (2).ac..
+uoluere uerba|parler avec abondance|0|uoluo.act..|uerbum.ac p..
+uota cadunt|les voeux se réalisent|1|uotum.n p..|cado.p 3 act..
+uoti damnatus|lié par un voeu|0|uotum.g s..|damno.nt pf part pass..
+uoto fungi|accomplir un voeu|0|uotum.ab..|fungor...
+uouere aedem|faire le voeu de construire un temple|0|uoueo.act..|aedes.ac..
+uox fusca|voix sourde|0|uox...|fuscus.f.cn.0
+uox latina|la langue latine|0|uox.s..|latinus.f s.c.0
+urbani sales|plaisanteries de bon ton|1|sal.p..|urbanus.m p.c.0
+urbem adaequare|raser une ville|1|urbs.ac..|adaequo.act..
+usitatum est + prop. inf.|il est d'usage que|0|usitatus.n nt s..|sum.s 3..
+usui esse alicui|être utile à qqn|0|usus.d s..|sum...|.d..
+ut alia omittam|sans parler du reste|2|ut...|alius.ac nt p..|omitto.s 1 pr subj act..
+ut fere fit|comme il arrive d'ordinaire|1|ut...|fere...|fio.s 3 pr ind..
+ut ita dicam|pour ainsi dire|2|ut...|ita...|dico.s 1 pr subj act..
+ut opinor|d'après moi|1|ut...|opinor.s 1 ind..
+ut par est|comme il est juste, comme de raison|1|ut...|par.n nt s..|sum.s 3..
+ut res est|en réalité|1|ut...|res.n s..|sum.s 3..
+ut solet fieri|comme d'habitude|1|ut...|soleo.s 3 pr ind act..|fio.pr inf act..
+uti more alicuius|imiter qqn|0|utor...|mos.ab s..|.g..
+uti rogas|oui (formule de vote)|1|uti...|rogo.s 2 pr ind act..
+uti silentio|observer le silence|0|utor...|silentium.ab s..
+uti temporibus|tirer parti des circonstances|0|utor...|tempus.ab p..
+utrum... an ?|est-ce que... ou... ?|0|utrum...|an...
+utrum... annon|est-ce que... ou non ?|0|utrum...|annon...
+uulgare est|il est d'usage|0|uulgaris.n nt s..|sum.s 3..
+uulgo narrare|raconter à tout le monde|0|uulgo...|narro...
+uultum demittere|baisser les yeux|0|uultus.ac s..|demitto.act..
+uultum ducere|prendre un visage renfrogné|0|uultus.ac s..|duco.act..
+uultus ferre|soutenir les regards|0|uultus.ac p..|fero.act..
+uxorem abigere|répudier sa femme|1|abigo.act..|uxor.ac..
+uxorem ducere|se marier, prendre femme|0|uxor.ac s..|duco.act..
