@@ -27,7 +27,7 @@ macx{
     data.path = build/Debug/collatinus.app/Contents/MacOS
     data.files =  lemmata.* expressions.fr config lucretia.txt INSTALL COPYING     INSTALLS += data
     INSTALLS += data
-
+    ICON = collatinus.icns
     #misc.path = myapp.app/Contents
     #misc.files = mac/Info.plist mac/PkgInfo
     #INSTALLS += misc
