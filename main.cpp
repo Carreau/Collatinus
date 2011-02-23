@@ -17,11 +17,12 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  *
  */
-
+#include <QCoreApplication>
 #include "ui_collatinus.h"
 #include "ui_config.h"
 #include <main.h>
 #include <QtGui>
+#include <QString>
 #ifdef Q_WS_WIN
 #include <QDesktopServices>
 #endif   
@@ -45,6 +46,8 @@
  * À implémenter
  *     Aide : appel du navigateur par défaut ;
  *
+ * Notes Mac OS X spécifiques :
+ *      Q_OS_MAC est definit par Qt si la platforme cible est Mac Os
  */
 
 // variables
@@ -139,19 +142,19 @@ QString Editeur::lemmatiseTxt (bool alpha, bool cumVocibus)
 
 QString Editeur::lemmatiseTxt_expr (bool alpha)
 {
-	QTextCursor C (document ());
-	QTextCursor tc2 (document ());
-	Phrase * P;
+    QTextCursor C (document ());
+    QTextCursor tc2 (document ());
+    Phrase * P;
     //QString retour;
     QStringList lignes;
-	while (!C.atEnd ())
+    while (!C.atEnd ())
     {
         tc2 = document ()->find (QRegExp ("[\\.\\;\\:\\?\\!]"), C);
-		if (tc2.isNull ()) 
-			C.movePosition (QTextCursor::End, QTextCursor::KeepAnchor); 
-		else C.setPosition (tc2.position (), QTextCursor::KeepAnchor); 
-		P = new Phrase (C.selectedText ());
-		//emit (copie (P->analyse_et_lemmes ()));
+        if (tc2.isNull ()) 
+            C.movePosition (QTextCursor::End, QTextCursor::KeepAnchor); 
+        else C.setPosition (tc2.position (), QTextCursor::KeepAnchor); 
+        P = new Phrase (C.selectedText ());
+        //emit (copie (P->analyse_et_lemmes ()));
         QStringList * sl = P->analyse_et_lemmes (minRaritas);
         QString l;
         for (int i=0;i<sl->size();i++) 
@@ -161,12 +164,12 @@ QString Editeur::lemmatiseTxt_expr (bool alpha)
                 lignes << sl->at (i);
         }
         delete sl;
-		delete P;
-		if (!C.atEnd ()) C.movePosition (QTextCursor::Right);
-		qApp->processEvents ();
-	}
+        delete P;
+        if (!C.atEnd ()) C.movePosition (QTextCursor::Right);
+        qApp->processEvents ();
+    }
     if (alpha) lignes.sort ();
-	return lignes.join ("");
+    return lignes.join ("");
 }
 
 void Editeur::mousePressEvent (QMouseEvent *event)
@@ -275,7 +278,7 @@ fenestra::fenestra(QString url)
     QSizePolicy sizePolicy3(static_cast<QSizePolicy::Policy>(13), static_cast<QSizePolicy::Policy>(13));
     setSizePolicy(sizePolicy3);
     setMouseTracking(true);
-    splitter->insertWidget(0, EditLatin);
+    splitter->insertWidget(0,Ed);
     // pour win : police de Flexio
     #ifdef Q_WS_WIN
     QFont font;
@@ -448,7 +451,7 @@ void fenestra::capsamInLatinum (const QString &fileName)
 
     QTextStream in(&file);
     QApplication::setOverrideCursor(Qt::WaitCursor);
-    EditLatin->setPlainText(in.readAll());
+    Ed->setPlainText(in.readAll());
     QApplication::restoreOverrideCursor();
     daFichierCourant(""); // pour éviter d'écraser le fichier chargé.
     statusBar()->showMessage(tr("Capsa onerata"), 2000);
@@ -467,8 +470,8 @@ bool fenestra::event (QEvent *event)
     if (event->type () == QEvent::ToolTip && Ed->underMouse ())
     {
         QHelpEvent *helpEvent = static_cast<QHelpEvent *>(event);
-        QPoint P = EditLatin->parentWidget()->mapFromGlobal(helpEvent->globalPos());
-        QTextCursor muspos = EditLatin->cursorForPosition (P);
+        QPoint P = Ed->parentWidget()->mapFromGlobal(helpEvent->globalPos());
+        QTextCursor muspos = Ed->cursorForPosition (P);
         QString mot = motCourant (muspos);
         // ôter crochets et guillemets
         mot = mot.replace (QRegExp ("['\"]"), "");
@@ -552,7 +555,7 @@ QTextEdit* fenestra::editeurCourant ()
 void fenestra::daFichierCourant (const QString &capsaeNomen)
 {
     courant = capsaeNomen;
-    EditLatin->document()->setModified(false);
+    Ed->document()->setModified(false);
     EditTextus->document()->setModified(false);
     EditHtml->document()->setModified(false);
     EditLaTeX->document()->setModified(false);
@@ -586,7 +589,7 @@ void fenestra::noua ()
          EditHtml->clear ();
          EditLaTeX->clear ();
          vide_phrases ();
-		 Ed->setFocus ();
+         Ed->setFocus ();
      }
 }
 
@@ -619,12 +622,12 @@ void fenestra::closeEvent(QCloseEvent *event)
 
 void fenestra::lemmatiseTout ()
 {
-    QString (lem) (bool, bool);	
+    QString (lem) (bool, bool); 
     editeurCourant ()->clear ();
-	QString T;
-	if (syntaxis) T = Ed->lemmatiseTxt_expr (actionAlphabetice->isChecked ());
-	else T = Ed->lemmatiseTxt ( actionAlphabetice->isChecked (),
-								actionCum_textus_uocibus->isChecked ());
+    QString T;
+    if (syntaxis) T = Ed->lemmatiseTxt_expr (actionAlphabetice->isChecked ());
+    else T = Ed->lemmatiseTxt ( actionAlphabetice->isChecked (),
+                                actionCum_textus_uocibus->isChecked ());
     int ci = tabWidget->currentIndex ();
     if (ci == 0)
         EditTextus->append (T);
@@ -638,7 +641,7 @@ void fenestra::lemmatiseTout ()
         T = crassaPrima (T, 1);
         EditLaTeX->insertPlainText (T); 
     }
-	editeurCourant ()->moveCursor (QTextCursor::Start);
+    editeurCourant ()->moveCursor (QTextCursor::Start);
 }
 
 void fenestra::germanice ()
@@ -744,7 +747,7 @@ void fenestra::magister ()
         dialogon D;
         D.ad_raritas (minRaritas);
         D.ad_morphologia (licetMorpho);
-	//qDebug () << "minraritas " << minRaritas << " morphologia " << morphologia;
+    //qDebug () << "minraritas " << minRaritas << " morphologia " << morphologia;
         if (D.exec () == QDialog::Accepted)
         {
             minRaritas = D.raritas ();
@@ -846,17 +849,25 @@ int main( int argc, char **argv )
 #endif
     qsuia = QString::fromStdString (uia);
     qDebug () << qsuia; 
+    QApplication app(argc, argv);
     if (!QFile::exists (qsuia + "lucretia.txt"))
     {
 #ifdef Q_WS_WIN
-	uia = "C:\\Program Files\\collatinus\\";
+        uia = "C:\\Program Files\\collatinus\\";
 #else
-	uia = "/usr/share/collatinus/";
+        //on evite les elifdef qui ne compilent pas sur tout les préprocesseurs
+  #ifdef Q_OS_MAC
+        QString tempqs = app.applicationDirPath();
+        tempqs.append("/");
+        uia = tempqs.toStdString();
+  #else
+        uia = "/usr/share/collatinus/";
+  #endif
 #endif
-	qsuia = QString::fromStdString (uia);
+        qsuia = QString::fromStdString (uia);
     }
-    QApplication app(argc, argv);
-    fenestra f (argv [1]);
+
+    fenestra f(argv[1]);
     f.show();
     return app.exec();
 }
