@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Collatinus — Manuel d'utilisation</title><link rel="stylesheet" href="./docbook-xsl.css" type="text/css" /><meta name="generator" content="DocBook XSL Stylesheets V1.73.2" /><link rel="start" href="index.html" title="Collatinus — Manuel d'utilisation" /><link rel="next" href="ar01s02.html" title="2. Installation, désinstallation" /></head><body><div class="navheader"><table width="100%" summary="Navigation header"><tr><td width="20%" align="left"> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="ar01s02.html">Next</a></td></tr></table><hr /></div><div class="article" lang="en" xml:lang="en"><div class="titlepage"><div><div><h2 class="title"><a id="id2426859"></a>Collatinus — Manuel d'utilisation</h2></div><div><div class="author"><h3 class="author"><span class="firstname">Yves</span> <span class="surname">Ouvrard</span></h3><div class="affiliation"><div class="address"><p><code class="email">&lt;<a class="email" href="mailto:yves.ouvrard@collatinus.org">yves.ouvrard@collatinus.org</a>&gt;</code></p></div></div></div></div></div><hr /></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="section"><a href="index.html#_pr_sentation">1. Présentation</a></span></dt><dt><span class="section"><a href="ar01s02.html">2. Installation, désinstallation</a></span></dt><dd><dl><dt><span class="section"><a href="ar01s02.html#_sous_linux">2.1. Sous Linux</a></span></dt><dt><span class="section"><a href="ar01s02.html#_sous_macintosh">2.2. Sous Macintosh</a></span></dt><dt><span class="section"><a href="ar01s02.html#_sous_windows">2.3. Sous Windows</a></span></dt><dt><span class="section"><a href="ar01s02.html#_pour_d_sinstaller">2.4. Pour désinstaller</a></span></dt></dl></dd><dt><span class="section"><a href="ar01s03.html">3. Prise en main rapide</a></span></dt><dt><span class="section"><a href="ar01s04.html">4. Le Texte Latin</a></span></dt><dd><dl><dt><span class="section"><a href="ar01s04.html#_a_partir_d_un_livre">4.1. A partir d'un livre</a></span></dt><dt><span class="section"><a href="ar01s04.html#_a_partir_d_un_cd_rom">4.2. A partir d'un CD-ROM</a></span></dt><dt><span class="section"><a href="ar01s04.html#_internet">4.3. Internet</a></span></dt></dl></dd><dt><span class="section"><a href="ar01s05.html">5. La Lemmatisation</a></span></dt><dt><span class="section"><a href="ar01s06.html">6. La Flexion et les autres utilisations</a></span></dt><dt><span class="section"><a href="ar01s07.html">7. Les données</a></span></dt><dd><dl><dt><span class="section"><a href="ar01s07.html#_la_premi_re_partie_d_un_fichier_lemmata">7.1. La première partie d'un fichier lemmata</a></span></dt><dt><span class="section"><a href="ar01s07.html#_la_seconde_partie">7.2. la seconde partie</a></span></dt><dt><span class="section"><a href="ar01s07.html#_la_troisi_me_et_derni_re_partie">7.3. La troisième et dernière partie</a></span></dt></dl></dd><dt><span class="section"><a href="ar01s08.html">8. données syntaxiques</a></span></dt><dd><dl><dt><span class="section"><a href="ar01s08.html#_r_f_rences">8.1. références</a></span></dt></dl></dd><dt><span class="section"><a href="ar01s09.html">9. Licence</a></span></dt></dl></div><p>Version 9</p><div class="section" lang="en" xml:lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="_pr_sentation"></a>1. Présentation</h2></div></div></div><p>Collatinus est un lemmatiseur de textes latins : il est
+capable, si on lui donne une forme déclinée ou
+conjuguée, de trouver quel mot il faudra chercher dans
+le dictionnaire pour avoir sa traduction dans une autre
+langue, ses différents sens, et toutes les autres
+données que fournit habituellement le dictionnaire.</p><p>Cette neuvième version tente d'ajouter une dimension à
+l'analyse du texte : elle prétend pouvoir identifier
+les expressions, aussi appelées locutions. Une locution
+est une unité fonctionnelle du langage, composée de
+plusieurs mots graphiques, appartenant à la langue et
+devant être apprise en tant que forme globale non
+divisible. Autrement dit, une locution est la rencontre
+de plusieurs mots créant un sens autre que la simple
+addition du sens ces mots. Un bel exemple est
+l'expression nauis longa. Collatinus 8 donnait :</p><div class="itemizedlist"><ul type="disc"><li>
+longus, a, um : long
+</li><li>
+nauis, is, f. : navire
+</li></ul></div><p>Or nauis longa ne signifie pas « navire long », mais «
+navire de guerre », et Collatinus 9 analyse ainsi nauis
+longa :</p><div class="itemizedlist"><ul type="disc"><li><p>
+nauis, is, f. : navire
+</p><div class="itemizedlist"><ul type="circle"><li>
+¶ nauis longa : navire de guerre
+</li></ul></div></li><li>
+longus, a, um : long
+</li></ul></div><p>Collatinus est né du besoin de me libérer de la petite
+collection de textes que nous proposent les manuels.
+Son but principal est d'ajouter automatiquement à un
+texte pris sur la Toile, ou saisi manuellement, toutes
+les indications lexicales qui pourraient manquer à
+l'élève. J'ai pu ainsi, pendant plusieurs années,
+proposer anecdotes, poèmes ou discours que j'avais
+moi-même lus la veille, et que je voulais partager avec
+eux.</p><p>Collatinus est aussi un analyseur morphologique : si on
+lui demande d'analyser par exemple la forme legem, il
+répondra :</p><pre class="screen">legem
+   lego, as, are : laisser par testament, léguer,
+         envoyer en ambassade; prendre pour lieutenant
+         1ère personne singulier subjonctif présent actif
+    lex, legis, f. : loi, condition(s) d'un traité
+         accusatif féminin singulier</pre><p>En pratique, il est utile surtout au professeur de
+latin, qui peut ainsi très rapidement, à partir d'un
+texte hors-manuel, distribuer à ses élèves un texte
+inédit avec son aide lexicale. Les élèves s'en servent
+souvent pour lire plus facilement le latin lorsque
+leurs connaissances lexicales et morphologiques sont
+encore insuffisantes.</p><p>Evidemment, pour un bon latiniste qui ne cherche que le
+plaisir personnel de lire, Collatinus n'est d'aucune
+utilité.</p></div></div><div class="navfooter"><hr /><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"> </td><td width="20%" align="center"> </td><td width="40%" align="right"> <a accesskey="n" href="ar01s02.html">Next</a></td></tr></table></div></body></html>

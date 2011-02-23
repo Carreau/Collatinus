@@ -1,0 +1,385 @@
+
+Bogues
+   MinRaritas n'est pas pris en compte dans la lemmatisation globale + syntaxe.
+x  fixé ut res est, ut par est, uti rogas : non reconnu
+-  Menu magister -> options
+-  scelera non intrant casas,
+   tutusque mensa capitur angusta scyphus;
+   uenenum in auro bibitur -- expertus loquor:   
+   (Sen. Thyest.)
+   fausse reconnaissance : spiritus angustus.
+
+Non saisies :
+	--sine fide,re
+	-- mihi, tibi, sibi displicere
+	-- dissimilis ac|atque|et|inter se
+	-- genus orationis,dicendi (difficile !)
+	-- hic et hic, hic aut hic
+	-- idem ac,atque,et,ut
+	-- uitam alicuius,meam,tuam,suam illudere
+	-- interest mea,tua,nostra, etc.
+	-- ex,ab (select id_expr from expr where nom like "%ex%")
+	-- me,te,se inuenire
+	-- mei,tui,sui iuris esse
+	-- male me,te,se habere
+    -- a,in primo
+    -- quam pro, quam ut
+    -- fiat necne fiat
+    -- longus (niger, frigidus, ferreus) somnus : la mort.
+    -- quaestores candidati,principis
+
+expressions à possibilités multiples :
+    .reipublicae disciplina,constitutio,forma,status,modus
+	.fluuios praebere,ministrare
+    .ut,cum,ubi primum (cum existe)
+    .suspensum aliquem tenere,detinere
+    .signa conuellere,uellere
+    .uer sacrum uouere,facere
+    . rationem repetere,reponere, etc. voir tout l'article
+    .haud,non ita pridem
+	.secundo amni,flumine
+	. habenas dare,remittere
+    .quantum,quoad possum
+    .sedem capere,instituere
+    .uerbi causa,gratia
+    .pinguis toga,lacerna
+    .rem pignori accipere,habere
+    .periculum alicui afferre,intendere,etc.
+    .reuocare oculos,lumina (saisi)
+    .periculum adire,ingredi,obire,etc.
+    . sane quam (valde quam, nimis quam, admodum quam, oppido quam) 
+	.bibere ministrare,dare
+    . famem,sitim perfero
+    . nauem,ancoram(s) soluere
+    . seruire corpori,ualetudini
+    .foedus ferire,percutere, etc.
+    .plumbum album,candidum
+    .tertio,secundo,quarto,etc quoque die
+    .uertere terram,agrum
+    . uere nouo,primo
+    .barbam,crinem pascere
+    .panis mica,fragmen,mollia
+    .operae pretium habere,facere
+	.modo,solum,tantum
+	.contra ac,atque
+	.decernere acie,proelio,armis,exercitu
+	.deposcere...
+	.diem dicere,dare,... alicui
+	.epist[ou]lam soluere
+	.exempli causa,gratia
+	.e,ex,de postestate exire
+	.exsequi ius meum,tuum,suum
+	.factum optume,optime
+	.facere damnum,detrimentum
+	.famae studere,consulere
+	.fato cedere,concedere,fungi : 2 1ers déjà saisis
+	.fauere rebus,partibus alicuius
+	.ferre aliquem in sinu,oculis
+	.aegre,moleste,grauiter aliquid ferre
+	.flocci non facere,pendere aliquem,alicui
+	.ictus creber,languidus : pouls rapide, lent
+	.de,ex improuiso
+	.insidias alicui collocare+20 autres !
+	.parui,magni interest + prop. inf.
+	.in inuidiam adducere,uocare
+	.legem rogare,ferre
+	.locus iniquus,alienus
+	.praeter,extra,super modum
+	.alicui molestiam facere,exhibere
+	.mora, spatium temporis
+	.non habere,facere nauci
+	.nescire latine,graece
+
+JEANNEAU
+	sous constituo : jeter l'encre
+	sous Corycius :
+	  - Corycides Nymphae, Ov. M. 1, 320 : les nymphes Coryciennes, les Muses.
+	    Corcydes n'est pas donné comme lemme
+	sous cribrum : Plant pro Plaut
+	damnatio ambitus : condamnation pour brigueS ?
+	sous datio - signi dationem invenit : de Pline l'Ancien, et non de Cic.
+	dedecus est neutre, il est noté m.
+	deferre aliquid ad aerium -> ad aerarium
+	sub delectus : dilectu habito -> delectu ?
+	ѕous detego : detegi : se fair connaître
+	sous duplex : duplex amiculus -> amiculum
+	sous eripere : aliquem a morte eripere, doublon
+	sous evinco : était amené invinciblement -> amenée
+	sous facies : trois exemples où facies n'est pas employé, mais species
+	sous fatigatus : fatigati a vino, épuisé -> épuisés
+    sous felicitas : mieux favorisé par la frotune -> fortune
+	sous firmo : corpora firmare labore, endurcir le corps -> les corps ?
+	sous flamma : excute virgineo... pectore : virgineo n'est pas traduit
+	sous fraus :  ne tibi sit frudi -> fraudi
+	sous furtificus : cruchues -> crochues
+	sous huc : tum hunc... tum illuc, hunc -> huc ?
+	sous inditus, un exemple a indutus -> inditus (indutus)
+	sous ingratus : in grat
+	sous insuetus, il manque "insueta" à la citation de César
+	sous irrumpo : calamites->calamitates ad quas ego irrupi, Sen. 
+	sous jaculor : umbram juculari->jaculari ?
+	sous jam : dès maintenant répété
+	sous medicus, a, um : ope medica, part le secours de la médecine
+	sous molestia : alicui molestam -> molestiam facere
+	sous musso mussant juvencae... les génissent -> génisses
+	sous negotium, un exemple sans rapport avec l'entrée :
+		nemo erat adeo quin + subj.
+	sous nescius : nescius sum -> nescius non sum ?
+	sous ni : ni fallor, si je me trompe -> si je ne me trompe ?
+    sous orbo : vérifier si c'est la mère ou le petit qui allaite.
+        il me semble que le sujet ne peut être que la mère
+    sous paratus : paratus peditatu : bien équipé en cavalerie. infanterie ou cavalerie (equitatu) ?
+    sous patior, correction de Plaut. As.
+        Em ista virtus est, quando usust qui malum fert fortiter;
+        fortiter malum qui patitur, idem post potitur bonum. 
+    sous pertimesco : crindre -> craindre
+    sous pinguis : deux ex. "pinguis coma" à rapprocher ?
+    sous potens : potens apud filium, Suet. : qui a de l'influence sur son ami -> fils ?
+    sous praedo : praedo religionum, voleurs -> voleur
+    sous praeparo : fratrem traduit par fils
+    sous praestringere : ferri répété
+    sous pravus, dernier exemple : méchannt
+    sous res : bellica laus, sans rapport apparent avec res
+    sous semel : deux fois "semel et saepius"
+    sous sestertius : deuux pieds et demi
+    sous solvere, doublon : 
+        soluere ancoram (nauem) / soluere nauem (ancoram)
+    sous stringo : manus strictus : stricta ?
+    sous sumo : laudem a crimine sumit, traduit par un infinitif
+    sus tempero : victoriam temperare, chez Cic. et Sall., mais répété
+        inutilement pour Sall.
+    sous tessera : Liv. jactus tessarum -> tesserarum
+
+					COLLATINUS - BOGUES
+                        
+- le mot sous le curseur garde ses guillemets contigus.
+- séparation des phrases : problème des points de suspension.
+- ager Romanus : reconnu ; ager romanus : non reconnu
+- Phrase éditée : remettre le texte à zéro.
+- foedus (2) n'est pas reconnu par libcollatinus comme acc. s. 
+    obligé de le déclarer nominatif dans expressions.fr
+- compléter la flexion de ipse en l'affichant dans flexio !
+  un petit utilitaire en l. de commande pourrait fabriquer
+  les lignes, ou un complément de colllex.
+- eundum ?
+- Si rien trouvé et détection d'un v. passif + nominatif,
+    chercher avec v. actif et accusatif ! 9 août 2008 
+- nihili ? lundi 04 août 2008 
+
+FIXÉ legem esse laturos : legem ferre n.r.
+FIXÉ crash rapide si la forme 'duobus' est dans le texte !
+     en général, un dépassement de tableau dans la sections
+     irregulares provoque ce crash. Non protégé pour l'instant.
+FIXÉ l'expression s'affiche non pas sur le mot noyau, mais sur le 
+      premier mot de la phrase.
+FIXÉ prius, nt n et ac de prior, dans irregulares
+FIXÉ le mot en 2ème colonne, 1ère vide, survolé, n'est pas lemmatisé.
+FAIT sui, gén de se
+FIXÉ le nominatif des pronoms n'est pas indiqué dans la bulle.
+FIXÉ par, paris : le neutre n v a est inexistant, ni sur fortis !
+FIXÉ clic sur du vide : réponse : 0 - il faudrait désactiver la réponse
+FIXÉ vite ajouter dans syntaxe les maj, -que, -ue, etc.
+FIXÉ lemm. totale + synt : les non reconnus ne sont pas affichés. mercredi 30 juillet 2008 
+FIXÉ point final nécessaire pour tout lemmatiser en mode syntaxe mercredi 30 juillet 2008 
+FIXÉ le nominatif féminin des adj fortis n.r.  lundi 28 juillet 2008 
+FIXÉ mitto : 1ère, mais pas du singulier : revoir la déf. du canon
+FIXÉ les chiffres romains ne sont plus analysés.  vendredi 25 juillet 2008 
+FIXÉ re premier mot : morpho non affichée. ensuite, OK.  dimanche 13 juillet 2008 
+
+REMIS À + Dans les défectifs au parfait (odi), le présent est donné dans la
+          lemmatisation 
+          mercredi 30 juillet 2008 problème des faux irréguliers
+REMIS À + Odi, odisse : formes irrég à saisir mercredi 30 juillet 2008 
+
+******************************
+FIXÉ Bug énorme : la flexion ne marche plus. Problème dans l'extraction d'une entrée de lexique.  samedi 22 décembre 2007 
+******************************
+
+Je teins vraiment à te dire mon plaisir et mon admiration.!!
+pour te montrer que je n'ai pas fait que le 
+regarder, voici la première bordée du bêtatesteur en délire
+
+Traitement des expressions
+********** 0
+committere n'appararit pas dans l'article 
+proelium. Serait-il possible de le faire 
+apparaître dans les deux ou est-ce que c'est de 
+nature du coup à ralentir la recherche ?
+Ce n'est pas important, et il vaut mieux qu'il apparaisse dans committere
+
+   // pas réussi à le faire apparaître sous les deux. L'ai déplacé
+   // sous committere.   
+
+0.1 // fixé
+    L'expression de caelo tangi (qu'il vaudrait meiux 
+    déclencher à partir de de caelo tact(us) 
+    n'apparaît en revanche ni à caelum ni à tangere.
+
+Pour le reste, j'ai simplement envoyé Frontin à l'attaque
+
+Bugs
+chiffres romains :
+L : 5050 au lieu de 50
+// fixé
+
+Redondances :
+tu as deux minor, oris identiques qui pourtant se présentent comme différents
+// réparé
+// vérifier les dés. part. parf. déponents
+
+1. // fixé : opus à ajouter quand même ?
+    Entrées confondues à séparer
+    le opus de opus est séparé de opus, eris dans le 
+    NG. Or opus est apparaît comme expression dans 
+    opus, eris. Tu peux regarder comment faire, 
+    sachant que la forme opus de opus est est indécl.
+
+2 fixé
+Passages de langues : ne revient pas à Gallice ;
+
+************ 3
+esse + dat. omniprésent
+
+4 fixé
+Fréquence lexicale :
+iris, is : le hérisson est outrageusement 
+favorisé par rapport à l'une des formes de iris, 
+la déesse ou l'arc-en-ciel ;-))
+
+5 fixé
+orthographe à corriger
+inferus, a, um : que  (> qui)  est au-dessous de, 
+inférieur (inferi : les enfers)
+
+6 fixé
+babioles
+Anio, enis : ou bien Anio, onis ou Anien, enis
+cliuus, i : en rajoutant montée, on comprendra 
+que ça peut être une manière de désigner une rue (cliuus Capitolinus)
+
+7 fixé
+Mots courants non reconnus :
+milia  (s'arrête au millet)
+
+8 fixé
+Les canons des irréguliers n'apparaissent pas dans les bulles
+
+9 fixé
+Incohérences
+trecentus, a, ae : trois cents
+sexcentus, ae, a: six cents
+septingentus, ae, a : sept cents
+mais  quadringentus, orum : quatre cents
+
+
+Pb que j'ai dû déjà poser :
+Je suppose que locum, i est nécessaire à la reconnaissance de loca ?
+
+Sinon, j'ai appris que pede était un impératif 
+intéressant, propre à camoufler des iinjures d'un 
+autre genre en cours de latin ;-))
+
+Il faut que je replonge un peu dans l'amitié
+
+Deuxième salve dans la journée
+
+Bravo
+
+Jacques
+
+
+Le 23 août 2007, à 09h50, Jacques Julien écrivit :
+>
+> Traitement des expressions
+> committere n'apparâit pas dans l'article proelium. Serait-il possible de le 
+> faire apparaître dans les deux ou est-ce que c'est de nature du coup à 
+> ralentir la recherche ?
+
+  C'est possible, je pense, sans beaucoup ralentir. L'expression
+apparaîtra deux fois dans la lemmatisation, mais ce n'est pas
+nécessairement gênant. 
+
+> Ce n'est pas important, et il vaut mieux qu'il apparaisse dans committere
+
+  C'est surtout l'économie qui me motive : répartir les expressions sur
+le plus grand nombre possible de lemmes.
+
+> L'expression de caelo tangi (qu'il vaudrait meiux déclencher à partir de de 
+> caelo tact(us) n'apparaît en revanche ni à caelum ni à tangere.
+
+  En tout cas dans certaines positions. C'est un bogue que j'ai du mal à
+réduire. Je vais en tout cas chercher si l'expression apparaît avec
+tango conjugué. Ce n'est pas sûr. Dans ce cas, j'opte pour tactus, mais
+   - je n'ai pas tactus, a, um dans mes lemmes ;
+   - si je l'ajoute, j'aurai un problème avec tactus, us, et il faudra
+     que j'utilise tactus (2).
+   - Je peux toujours définir tactus comme devant être au ppp.
+
+> Pour le reste, j'ai simplement envoyé Frontin à l'attaque
+>
+> Bugs
+> chiffres romains :
+> L : 5050 au lieu de 50
+
+   Je l'ai corrigé il y a une heure ! J'appelais la fonction à deux
+endroits différents !
+
+> Redondances :
+> tu as deux minor, oris identiques qui pourtant se présentent comme 
+> différents
+>
+> Entrées confondues à séparer
+> le opus de opus est séparé de opus, eris dans le NG. Or opus est apparaît 
+> comme expression dans opus, eris. Tu peux regarder comment faire, sachant 
+> que la forme opus de opus est est indécl.
+>
+> Fréquence lexicale :
+> iris, is : le hérisson est outrageusement favorisé par rapport à l'une des 
+> formes de iris, la déesse ou l'arc-en-ciel ;-))
+>
+> orthographe à corriger
+> inferus, a, um : que  (> qui)  est au-dessous de, inférieur (inferi : les 
+> enfers)
+>
+> babioles
+> Anio, enis : ou bien Anio, onis ou Anien, enis
+> cliuus, i : en rajoutant montée, on comprendra que ça peut être une manière 
+> de désigner une rue (cliuus Capitolinus)
+
+   Je vais regarder tout ça.
+
+>
+> Mots courants non reconnus :
+> milia  (s'arrête au millet)
+
+  je l'ajoute dans les irréguliers.
+ 
+> Incohérences
+> trecentus, a, ae : trois cents
+> sexcentus, ae, a: six cents
+> septingentus, ae, a : sept cents
+> mais  quadringentus, orum : quatre cents
+
+  OK
+
+> Pb que j'ai dû déjà poser :
+> Je suppose que locum, i est nécessaire à la reconnaissance de loca ?
+
+   Je vais essayer de neutraliser l'affichage de toutes ces entrées
+postiches, très utiles, mais laides à voir. Ce doit être possible.
+Pour l'instant j'utilise 'cf. ' dans lemmata.fr. Je vais utiliser une 
+autre abréviation (barb. par exemple). Donc 
+   pour conparo : cf. = On le rencontre, mais on dit plutôt comparo.  
+   pour locum : barb. = Tu t'es trompé, on dit locus. 
+
+> Sinon, j'ai appris que pede était un impératif intéressant, propre à 
+> camoufler des iinjures d'un autre genre en cours de latin ;-))
+
+   Tu parles, camoufler, ils sautent dessus, oui. La déclinaison de qui
+devient toujours, dans mes cours, une grosse partie de rigolade.
+
+> Il faut que je replonge un peu dans l'amitié
+
+   Bon courage ! Je suis en train de relire mes 20. Aujourd'hui, c'est
+touffu.                               
+                                    Yves
