@@ -23,7 +23,7 @@
 #include <main.h>
 #include <QtGui>
 #include <QString>
-#ifdef Q_WS_WIN
+#ifdef Q_OS_WIN32
 #include <QDesktopServices>
 #endif   
 // fréqences
@@ -280,7 +280,7 @@ fenestra::fenestra(QString url)
     setMouseTracking(true);
     splitter->insertWidget(0,Ed);
     // pour win : police de Flexio
-    #ifdef Q_WS_WIN
+    #ifdef Q_OS_WIN32
     QFont font;
     font.setFamily(QString::fromUtf8("FixedSys"));
     font.setPointSize(9);
@@ -699,7 +699,7 @@ void fenestra::inuenire_denuo ()
 
 void fenestra::auxilium ()
 {
-   #ifdef Q_WS_X11
+   #ifdef Q_OS_UNIX
     QFileInfo info (qsuia + "doc/index.html");
     QString html;
     if (info.exists ())
@@ -768,7 +768,7 @@ bool fenestra::getLicetMorpho ()
 bool fenestra::getRights ()
 {
     //qDebug () << "entrée dans getRights";
-#ifdef Q_WS_WIN
+#ifdef Q_OS_WIN32
     QString uiaP = qsuia + "config"; 
 #else
     QString uiaP ("/etc/collatinus/config");
@@ -842,7 +842,7 @@ void fenestra::createActions ()
 int main( int argc, char **argv )
 {
     uia = argv[0];
-#ifdef Q_WS_WIN
+#ifdef Q_OS_WIN32
     uia.erase (uia.length () - 14);
 #else
     uia.erase (uia.length () - 10);
@@ -852,7 +852,7 @@ int main( int argc, char **argv )
     QApplication app(argc, argv);
     if (!QFile::exists (qsuia + "lucretia.txt"))
     {
-#ifdef Q_WS_WIN
+#ifdef Q_OS_WIN32
         uia = "C:\\Program Files\\collatinus\\";
 #else
         //on evite les elifdef qui ne compilent pas sur tout les préprocesseurs
