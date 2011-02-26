@@ -14,11 +14,8 @@
 !You should have received a copy of the GNU General Public License
 !along with COLLATINVS; if not, write to the Free Software
 !Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-<<<<<<< HEAD
 ! (c) © Yves Ouvrard, fév 2011
 !
-=======
->>>>>>> 14e07471d012cf0906eeadb57bd6f59ca0ff0cf6
 Abducillus|1|||i, m. : Abducillus
 Aborigines|5|Aborigin||um, m. : les premiers habitants d'un pays, les Aborigènes
 Abraham|30|||indecl., m. : Abraham
