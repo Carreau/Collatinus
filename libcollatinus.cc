@@ -958,7 +958,11 @@ TLexicum::TLexicum (string url)
     Capsa.open (url.c_str (), ios::in); 
     while (getline (Capsa, linea))
     {
+<<<<<<< HEAD
         if (linea.empty () || linea[0] == '!') continue;
+=======
+        if (linea.empty () or linea[0] == '!') continue;
+>>>>>>> 14e07471d012cf0906eeadb57bd6f59ca0ff0cf6
         // analyse d'un éventuel en-tête de partie
         else if (linea == "---desinentiae---")
         {
