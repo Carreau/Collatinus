@@ -1,0 +1,437 @@
+Collatinus -- Manuel d'utilisation
+==================================
+Yves Ouvrard <yves.ouvrard@collatinus.org>
+avril 2010
+
+Version 9
+
+Présentation
+------------
+
+Collatinus est un lemmatiseur de textes latins : il est
+capable, si on lui donne une forme déclinée ou
+conjuguée, de trouver quel mot il faudra chercher dans
+le dictionnaire pour avoir sa traduction dans une autre
+langue, ses différents sens, et toutes les autres
+données que fournit habituellement le dictionnaire.
+
+Cette neuvième version tente d'ajouter une dimension à
+l'analyse du texte : elle prétend pouvoir identifier
+les expressions, aussi appelées locutions. Une locution
+est une unité fonctionnelle du langage, composée de
+plusieurs mots graphiques, appartenant à la langue et
+devant être apprise en tant que forme globale non
+divisible. Autrement dit, une locution est la rencontre
+de plusieurs mots créant un sens autre que la simple
+addition du sens ces mots. Un bel exemple est
+l'expression nauis longa. Collatinus 8 donnait :
+
+- longus, a, um : long
+- nauis, is, f. : navire
+
+Or nauis longa ne signifie pas « navire long », mais «
+navire de guerre », et Collatinus 9 analyse ainsi nauis
+longa :
+
+- nauis, is, f. : navire
+   * ¶ nauis longa : navire de guerre
+- longus, a, um : long
+
+Collatinus est né du besoin de me libérer de la petite
+collection de textes que nous proposent les manuels.
+Son but principal est d'ajouter automatiquement à un
+texte pris sur la Toile, ou saisi manuellement, toutes
+les indications lexicales qui pourraient manquer à
+l'élève. J'ai pu ainsi, pendant plusieurs années,
+proposer anecdotes, poèmes ou discours que j'avais
+moi-même lus la veille, et que je voulais partager avec
+eux.
+
+Collatinus est aussi un analyseur morphologique : si on
+lui demande d'analyser par exemple la forme legem, il
+répondra :
+
+-----------------------------------------------------------
+legem
+   lego, as, are : laisser par testament, léguer,
+         envoyer en ambassade; prendre pour lieutenant
+         1ère personne singulier subjonctif présent actif
+    lex, legis, f. : loi, condition(s) d'un traité
+         accusatif féminin singulier
+-----------------------------------------------------------
+
+En pratique, il est utile surtout au professeur de
+latin, qui peut ainsi très rapidement, à partir d'un
+texte hors-manuel, distribuer à ses élèves un texte
+inédit avec son aide lexicale. Les élèves s'en servent
+souvent pour lire plus facilement le latin lorsque
+leurs connaissances lexicales et morphologiques sont
+encore insuffisantes.
+
+Evidemment, pour un bon latiniste qui ne cherche que le
+plaisir personnel de lire, Collatinus n'est d'aucune
+utilité.
+
+Installation, désinstallation
+-----------------------------
+
+Sous Linux
+~~~~~~~~~~
+
+Georges Khaznadar, qui se charge de l'empaquetage de
+Collatinus sous Linux, a construit pour Debian, Ubuntu
+et autres distributions dérivées, des paquets *.deb. Il
+a également prévu, pour RedHat, Mandriva et dérivées,
+des paquets *.rpm. Ces paquets s'installent et se
+désinstallent selon les usages de leur distribution.
+
+Sous Macintosh
+~~~~~~~~~~~~~~
+
+Une version de Collatinus existe pour Macintosh,
+sensiblement différente de celle-ci. Voir à l'adresse
+http://www.infx.info/quidnovi/article.php3?id_article=792
+
+Sous Windows
+~~~~~~~~~~~~
+
+L'installeur est disponible sur le site de l'académie de
+Poitiers
+
+http://www.ac-poitiers.fr/lettres/lang_anc/Collatinus.htm
+
+Pour désinstaller
+~~~~~~~~~~~~~~~~~
+
+il faut localiser le répertoire d'installation, en général
+
+    C:\Program Files\collatinus\
+
+et lancer le programme uninst.exe.
+
+Prise en main rapide
+--------------------
+
+Si vous voulez essayer Collatinus sans être obligé de lire tout le manuel,
+voici la marche à suivre pour une première utilisation.
+
+1. Lancer Collatinus, en ligne de commande : `$ collatinus`, 
+ou en cliquant sur son icone, ou à partir du menu de votre bureau.
+2. Cliquer sur le bouton Onerare, le deuxième à partir de la gauche ;
+3. Dans le dialogue qui apparaît, choisir un fichier et cliquer sur le bouton
+   de validation (Valider, ou OK, le plus souvent) ;
+4. Le texte latin apparaît. On peut laisser le pointeur de souris une seconde
+   sur une forme pour connaître ses analyses morphologiques.
+5. Cliquer sur le bouton "Omnia lemmatizare", le troisième à partir de la
+   gauche ;
+6. Le vocabulaire du texte apparaît à son tour ;
+7. Dans le menu Fichier, choisissez l'option Scribere. Un dialogue vous propose
+   d'enregistrer votre travail. Le format sera celui de l'onglet sélectionné
+tout en bas de la fenêtre : texte, html ou LaTeX
+
+Le Texte Latin
+--------------
+
+Collatinus permet de publier facilement des textes latins peu connus, et de les
+faire connaître aux non spécialistes en leur donnant le vocabulaire qui leur
+manque. Comment se procurer ces textes ?
+
+A partir d'un livre 
+~~~~~~~~~~~~~~~~~~~
+
+En saisie manuelle (long) ou en numérisant et traitant
+l'image avec un logiciel de reconnaissance de
+caractères. Solution longue elle aussi, et peu fiable :
+il est presque impossible d'assurer une correction
+parfaite, et les logiciels sont incapables de
+reconnaitre les caractères utilisés par les livres
+anciens ;
+
+A partir d'un CD-ROM
+~~~~~~~~~~~~~~~~~~~~
+La solution est coûteuse, mais très intéressante Je
+connais au moins deux éditeurs qui proposent
+l'intégralité du corpus antique : PHI (Packard
+Humanities Institute) et Teubner. On trouvera
+facilement leur adresse via un moteur de recherches ;
+
+Internet
+~~~~~~~~
+
+Solution de plus en plus féconde. Dans un moteur de
+recherche, on saisit entre guillemets l'incipit de
+l'oeuvre ou du passage qu'on veut lire.  Par exemple :
+"is fuit in uultu uisae sine ueste Dianae." Devrait
+conduire, après quelques hésitations, au texte intégral
+des Métamorphoses d'Ovide. Notez que uultu a été
+utilisé plutôt que vultu. L'un et l'autre donnent des
+réponses, mais il faut penser aux deux possibiltiés.
+Quelques sites, qu'on connaîtra vite, sont spécialisés
+dans la publication du latin. Ils sont référencés par
+exemple sur Weblettres :
+http://www.weblettres.net/sommaire.php?entree=16&rubrique=54
+
+Le but est ensuite d'afficher le texte latin dans la fenêtre de Collatinus. Il
+faudra, évidemment, lancer Collatinus par la commande
+
+   $ collatinus
+
+On peut utiliser le copier-coller : dans le navigateur
+Internet, sélectionner le texte et copier (Ctrl+C) ;
+Dans Collatinus, cliquer dans la partie supérieure,
+puis coller (Ctrl+V). On peut aussi enregistrer sur son
+disque dur le texte trouvé sur le CD ou sur Internet,
+puis le charger avec Fichier/Ouvrir.
+
+Une fois le texte chargé, on doit souvent le relire, le
+modifier ou le corriger. 
+
+La Lemmatisation
+----------------
+
+Elle peut être accomplie de plusieurs manières.
+
+* simplement en arrêtant le curseur de la souris sur
+une forme latine. Une bulle d'aide apparaît, donnant
+tous les lemmes pouvant générer cette forme, avec
+toutes les analyses morphologiques possibles.
+
+* Si l'on veut garder son travail pour l'enregister ou
+l'imprimer, il faut d'abord choisir son format.
+Collatinus en propose trois :
+
+   1. le texte pur, destiné à être retravaillé dans un traitement de textes ;
+   2. Html, destiné à être retouché avec un éditeur spécialisé, pour être mis en ligne ;
+   3. LaTeX, qui permet, après retouche et compilation, de réaliser des
+     impressions de grande qualité. De nombreux sites proposent de se former à
+     LaTeX, qui est à mon avis une solution préférable à celle du traitement de
+     textes.
+
+Pour insérer dans son travail la lemmation d'un mot, il suffit de cliquer dessus.
+
+* si on veut lemmatiser tout le texte en une seule opération, on peut cliquer
+sur le bonton "Omnia lemmatizare", ou demander le menu Lemmata/Omnia
+lemmatizare. Dans ce cas, la morphologie n'est pas ajoutée, mais on peut
+décider de classer les lemmes par ordre alphabétique, et même de faire précéder
+chaque lemmatisation de la forme fléchie du texte.
+
+Collatinus n'étant pas un outil infaillible, il est chaudement conseillé de
+relire et de corriger ce qu'il a produit. En particulier, il fournit sans
+hésiter des interprétations que tout lecteur humain élimine sans même s'en
+apercevoir, comme les formes du lemme sus, suis, f. : le cochon, formes très
+rares et pourtant homonymes du possessif suus, sua, suum, qui, lui, est
+omniprésent.
+
+On peut à tout moment effacer toute la fenêtre inférieure avec un bouton de la
+barre d'outils, ou une option du menu Edition. On peut aussi tout effacer, avec
+le premier bouton à gauche.
+
+La Flexion et les autres utilisations
+-------------------------------------
+
+L'onglet Flexio permet d'afficher la flexion de la forme sur laquelle on a
+cliqué. Cette fonctionnalité est fournie sans garantie, et on prendra la
+précaution de dire aux élèves que ces tableaux risquent d'être faux. En
+particulier, elle affiche le passif de verbes qui n'en ont pas, elle décline de
+manière régulière certains mots irréguliers.
+
+Collatinus est souvent utilisé dans d'autres buts que de préparer un texte à
+imprimer et à distribuer aux élèves. C'est pourquoi nous avons prévu la
+possibilité pour le maître de limiter ses fonctionnalités, qui pourraient
+inciter l'élève à négliger ses déclinaisons et conjugaisons, ou à ne plus
+apprendre son vocabulaire.
+
+Un Collatinus neuf est livré avec toutes ses possibilités. On peut les limiter
+dans le menu Lemmata/Magister. Pour une utilisation en réseau, il suffira de
+mettre le répertoire de Collatinus en lecture seule pour les utilisateurs à qui
+on veut interdire ce paramétrage.
+
+Le formulaire qui surgit alors permet
+
+* de décider à partir de quel degré de rareté lexicale l'élève peut obtenir de
+l'aide sur un mot. Le degré est de 0 pour les mots les plus courants, à 5 pour
+le plus rares ;
+* de décider si l'élève aura accès à l'analyse morphologique qui apparait dans
+les bulles lorsque le curseur de la souris s'arrête sur une forme ;
+
+Quelques utilisations pédagogiques de Collatinus :
+
+* Il peut servir comme aide à la lecture : on charge le texte, on essaie de
+lire, et en cas de difficulté on place le curseur de la souris sur un mot qu'on
+ne parvient pas à élucider. Quelquefois, c'est le contraire qui se produit.
+Collatinus ignore un mot que connaît le lecteur. Dans ce cas, il faut l'ajouter
+au lexique. Je n'ai pas encore publié le programme qui me sert à éditer le
+lexique, il n'est vraiment pas présentable, mais je le ferai dès que j'en aurai
+moins honte.
+* On peut le mettre entre les mains des élèves, en leur demandant de dresser
+des listes précises : tous les noms de la troisième déclinaison, le champ
+lexical de la justice, les mots de la famille de duco, etc.
+* Collatinus peut servir aussi, au prix de quelques manipulations, à faire des
+statistiques lexicales.
+
+Les données
+-----------
+
+Toutes les données de Collatinus sont dans les fichiers _lemmata.??_. La version
+8 est livrée avec trois fichiers, chacun correspondant à une langue
+européenne :
+
+* lemmata.de pour l'allemand ;
+* lemmata.fr pour le français ;
+* lemmata.uk pour l'anglais ;
+
+La première partie d'un fichier lemmata 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+est le dictionnaire proprement dit, et son format est très simple :
+
+format : 
+
+   forme canonique|n°modèle|radicaux parfait (entre virgules)|radicaux supin(virg.)|texte de l'entrée
+
+exemple : 
+
+   anteeo|23|anteii,anteiu|anteit|is, ire, ii, itum : aller devant, marcher devant...
+
+Pour le numéro de modèle, cf. les désinences.
+
+Le texte de l'entrée donne les données morphologiques (génitif, genre, temps
+primitifs, traduction). un " p. " en tête de texte indique que le mot est
+toujours décliné au pluriel. Les noms de la première et deuxième déclinaison et
+les verbes du modèle amo ne donnent pas leurs radicaux, qui sont calculés
+automatiquement. On peut cependant signaler des irrégularités :
+
+           do|17|ded|dat|das, dare, dedi, datum : donner
+
+           tenebrae|0|tenebr||arum, f. p. : ténèbres
+
+la seconde partie
+~~~~~~~~~~~~~~~~~
+
+est impérativement précédée de la ligne
+
+   ---desinentiae---
+
+Voici le format d'une désinence :
+
+   désinence|cas|genre|nombre|degré|personne|temps|mode|voix|modèle|numéro de radical
+
+exemple : 
+
+   ebimini|0|0|2|0|2|2|1|1|25|1
+
+Et voici le référentiel de ces valeurs:
+
+[frame="all",grid="all"]
+`---`---------`--------------`------------`---------`----------`------------`----------
+n°  modèle    modes          cas          temps     personnes  degrés       voix
+---------------------------------------------------------------------------------------
+0   uita      -              -            -         -          -            -
+1   amicus    indicatif      nominatif    présent   première   positif      actif
+2   puer      subjonctif     vocatif      futur     deuxième   comparatif   passif
+3   ager      impératif      accusatif    imparfait troisième  superlatif
+4   templum   infinitif      génitif      parfait   
+5   miles     participe      datif        futur ant. 
+6   ciuis     gérondif       ablatif      PQP
+7   corpus    adj. verbal 
+8   mare 
+9   manus   
+10  res
+11  bonus
+12  miser
+13  pulcher
+14  fortis       
+15  uetus
+16  acer
+17  amo
+18  moneo
+19  lego          
+20  capio
+21  audio
+22  sum
+23  eo
+24  imitor          
+25  uereor
+26  sequor
+27  patior
+28  potior
+29  pronoms  
+30  invariables
+---------------------------------------------------------------------------------------
+
+La troisième et dernière partie
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+est réservée aux formes irrégulières.
+
+Elle est impérativement précédée de la ligne
+
+           ---irregulares---
+
+Voici le format d'une forme irrégulière :
+
+      forme|lemme|cas|genre|nombre|degré|personne|temps|mode|voix
+
+exemple : 
+
+      deabus|dea|5|0|2|0|0|0|0|0
+
+le référentiel est le même que celui des désinences 
+
+données syntaxiques
+-------------------
+
+Les expressions sont enregistrées dans le fichier
+expressions.fr, dont voici le format. Les éléments sont
+numérotés à partir de zéro :
+
+  expression latine|traduction|n° de l'élément qui déclenchera l'affichage|lemme.morpho.accord en.avec le n°|autre lemme.morpho. etc.
+
+exemples
+
+   aduersi dentes|les dents de devant|0|dens...|aduersus.m.cn.0
+
+   abrumpere uitam a ciuitate|rompre avec sa patrie|3|abrumpo.act..|uita.ac s..|a...|ciuitas.ab s..
+
+Dans la première expression apparaîtra sous la
+lemmatisation de _dentes_. _dens_ peut être à n'importe
+quel cas, et l'adjectif _aduersus_ sera accordé en cas et
+nombre (cn) avec le n° 0, c'est à dire _dens_.
+
+Dans la deuxième, quatre formes sont définies. les
+champs morpho et accord sont laissés vides pour la
+préposition a. L'expression apparaîtra sous ciuitas.
+
+références
+~~~~~~~~~~
+
+[frame="all",grid="all"]
+`--------`-------------------------------------
+donnée    codes
+-----------------------------------------------
+cas       n v ac g d ab
+nombres   n p
+genre     m f nt
+degrés    comp sup
+personnes 1 2 3
+temps     pr fut impf pf fa pqp
+modes     ind subj imper inf part ger adjv
+voix      act pass
+-----------------------------------------------
+
+Licence
+-------
+
+Collatinus est placé sous licence GNU/GPL. Le texte de cette licence est
+définitivement lié au logiciel, et doit voyager partout avec lui. Il vous est
+recommandé de le lire attentivement, et de prendre conscience que les
+logiciels et documents placés sous cette licence sont de plus en plus
+nombreux. En résumé, le code source de Collatinus doit être facilement
+accessible, et sans surcoût. Dans sa distribution originale, il est livré
+dans la même archive que l'exécutable. Tout travail ultérieur qui utilisera
+tout ou partie de Collatinus devra être placé sous cette même licence.
+
+Enfin, j'ai voulu Collatinus gratuit pour aider la langue latine à demeurer ce
+qu'elle est depuis l'antiquité : le symbole d'une culture européenne et
+même mondiale, indispensable malgré ce qu'on se permet souvent de dire. 
+
