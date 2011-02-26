@@ -1,3 +1,27 @@
+<<<<<<< HEAD
+=======
+!              lemmata.uk
+! Thanks to WILLIAM WHITAKER, whose WORDS, his latin stemmer,
+! allowed Collatinus to run with english translations.
+! http://users.erols.com/whitaker/words.htm
+! http://users.erols.com/whitaker/wordsdoc.htm
+!
+!This file is part of COLLATINVS.
+!                                                                          
+!COLLATINVS is free software; you can redistribute it and/or modify
+!it under the terms of the GNU General Public License as published by
+!the Free Software Foundation; either version 2 of the License, or
+!(at your option) any later version.
+!                                                                          
+!COLLATINVS is distributed in the hope that it will be useful,
+!but WITHOUT ANY WARRANTY; without even the implied warranty of
+!MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+!GNU General Public License for more details.
+!                                                                          
+!You should have received a copy of the GNU General Public License
+!along with COLLATINVS; if not, write to the Free Software
+!Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+>>>>>>> c86f4153a55fdcbd9a0bbd0fb1eb532659ff756f
 emancipo|17|||as, are  :  emancipate (a son from his father's authority); alienate; make subservient;
 oblocutor|5|oblocutor||oris, m. : celui qui interrompt, l'interrupteur
 Sorrentum|4|||i, n. : Sorrente (ville de Campanie)

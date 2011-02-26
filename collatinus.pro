@@ -15,6 +15,7 @@ RESOURCES += collatinus.qrc
 
 CONFIG += release_binary
 
+<<<<<<< HEAD
 macx{
     #error("resources files won't be copied in application bundle");
     #CONFIG += x86 ppc
@@ -37,6 +38,8 @@ macx{
     #INSTALLS += doc
  
 }
+=======
+>>>>>>> c86f4153a55fdcbd9a0bbd0fb1eb532659ff756f
 install.files = collatinus lemmata.* expressions.fr config lucretia.txt INSTALL COPYING 
 install.path = /usr/share/collatinus 
 documentation.path = /usr/share/collatinus/doc
@@ -44,3 +47,7 @@ documentation.files = doc/*
 install.commands = $(SYMLINK) /usr/share/collatinus/collatinus /usr/bin/collatinus 
 INSTALLS += install
 INSTALLS += documentation
+<<<<<<< HEAD
+=======
+
+>>>>>>> c86f4153a55fdcbd9a0bbd0fb1eb532659ff756f
