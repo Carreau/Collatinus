@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 !              lemmata.es
 ! Thanks to JOSE LUIS REDREJO RODRÍGUEZ and his team
 ! who achieved the spanish, catalan and galician
@@ -21,7 +19,6 @@
 !along with COLLATINVS; if not, write to the Free Software
 !Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 !
->>>>>>> c86f4153a55fdcbd9a0bbd0fb1eb532659ff756f
 Abducillus|1|||i, m. : Abducillus
 Aborigines|5|Aborigin||um, m. : los primeros habitantes de un país, los aborígenes
 Abraham|30|||indecl., m. : Abraham
