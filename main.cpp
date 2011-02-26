@@ -866,7 +866,6 @@ int main( int argc, char **argv )
 #endif
         qsuia = QString::fromStdString (uia);
     }
-
     fenestra f(argv[1]);
     f.show();
     return app.exec();
