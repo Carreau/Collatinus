@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="/" >
+    <file>images/exilior.png</file>
+    <file>images/alpha.png</file>
+    <file>images/aide.png</file>
+    <file>images/balai.png</file>
+    <file>images/collatinus.png</file>
+    <file>images/editfind.png</file>
+    <file>images/exit.png</file>
+    <file>images/lemmatiser.png</file>
+    <file>images/maior.png</file>
+    <file>images/new.png</file>
+    <file>images/open.png</file>
+    <file>images/save.png</file>
+    <file>images/syntaxe.png</file>
+  </qresource>
+</RCC>
