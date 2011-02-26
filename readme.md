@@ -1,4 +1,4 @@
-Collatinus
+#Collatinus
 
 ###Présentation de Collatinus
 Collatinus est un lemmatiseur de textes latins : il est capable, si on lui donne une forme déclinée ou conjuguée, de trouver quel mot il faudra chercher dans le dictionnaire pour avoir sa traduction dans une autre langue, ses différents sens, et toutes les autres données que fournit habituellement le dictionnaire.
