@@ -39,7 +39,7 @@
 #include <sstream>
 #include <map>
 #include <list>
-#include <libcollatinus.h>
+#include "libcollatinus.h"
 
 using namespace std;
 
