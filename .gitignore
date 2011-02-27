@@ -1,4 +1,7 @@
 Info.plist
+Makefile
+obj/
+moc/
 build/
 collatinus.app/
 collatinus.xcodeproj/
