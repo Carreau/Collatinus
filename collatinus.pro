@@ -8,6 +8,9 @@ TARGET =
 DEPENDPATH += .
 INCLUDEPATH += .
 
+OBJECTS_DIR=obj/
+MOC_DIR = moc/
+
 # Input
 HEADERS     += src/*.h 
 FORMS       += src/*.ui
@@ -25,23 +28,19 @@ macx{
     #QMAKE_POST_LINK=strip collatinus.app/Contents/MacOS/collatinus
 
     # install into app bundle
-    data.path = build/Debug/collatinus.app/Contents/MacOS
-    data.files =  lemmata.* expressions.fr config lucretia.txt INSTALL COPYING     INSTALLS += data
+    # à changer en ressources
+    data.path = collatinus.app/Contents/MacOS
+    data.files =  ressources/* 
     INSTALLS += data
-    ICON = ressources/collatinus.icns
-    #misc.path = myapp.app/Contents
-    #misc.files = mac/Info.plist mac/PkgInfo
-    #INSTALLS += misc
-
-    #doc.path = myapp.app/Contents/Resources/en.lproj
-    #doc.files = docs/book/*.html
-    #INSTALLS += doc
- 
+    ICON = MacOS/collatinus.icns
 }
-install.files = collatinus lemmata.* expressions.fr config lucretia.txt INSTALL COPYING 
-install.path = /usr/share/collatinus 
-documentation.path = /usr/share/collatinus/doc
-documentation.files = doc/*
-install.commands = $(SYMLINK) /usr/share/collatinus/collatinus /usr/bin/collatinus 
-INSTALLS += install
+linux{
+    error("going in linux");
+    install.files = ressources/*
+    install.path = /usr/share/collatinus 
+    documentation.path = /usr/share/collatinus/doc
+    documentation.files = doc/*
+    install.commands = $(SYMLINK) /usr/share/collatinus/collatinus /usr/bin/collatinus 
+    INSTALLS += install
+}
 INSTALLS += documentation
