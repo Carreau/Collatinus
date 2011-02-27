@@ -11,7 +11,7 @@ INCLUDEPATH += .
 # Input
 HEADERS     += src/*.h 
 FORMS       += src/*.ui
-SOURCES     += src/*.cpp src/*.h src/*.cc
+SOURCES     += src/*.cpp src/*.cc
 RESOURCES   += collatinus.qrc
 
 CONFIG += release_binary
@@ -28,7 +28,7 @@ macx{
     data.path = build/Debug/collatinus.app/Contents/MacOS
     data.files =  lemmata.* expressions.fr config lucretia.txt INSTALL COPYING     INSTALLS += data
     INSTALLS += data
-    ICON = collatinus.icns
+    ICON = ressources/collatinus.icns
     #misc.path = myapp.app/Contents
     #misc.files = mac/Info.plist mac/PkgInfo
     #INSTALLS += misc
