@@ -1,0 +1,9 @@
+Info.plist
+build/
+collatinus.app/
+collatinus.xcodeproj/
+moc_main.cpp
+qrc_collatinus.cpp
+ui_collatinus.h
+ui_config.h
+
