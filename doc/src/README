@@ -1,0 +1,16 @@
+samedi 26 février 2011 -- Documentation de Collatinus
+
+La documentation de collatinus est générée à partir du
+fichier collatinus.txt, avec l'application asciidoc.
+
+Il faut donc installer asciidoc sur la machine de développement,
+se placer dans le répertoire doc/ et lancer 
+
+$ make  
+
+pour obtenir la doc en html, qui sera appelée par
+l'option Auxilium du menu de Collatinus. Et
+
+$ make pdf
+
+pour obtenir une documentation imprimable.
