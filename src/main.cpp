@@ -20,14 +20,14 @@
 #include <QCoreApplication>
 #include "ui_collatinus.h"
 #include "ui_config.h"
-#include <main.h>
+#include "main.h"
 #include <QtGui>
 #include <QString>
 #ifdef Q_WS_WIN
 #include <QDesktopServices>
 #endif   
 // fréqences
-#include <frequences.h>
+#include "frequences.h"
 // pour déboguer
 #include <QDebug>
 #include "libcollatinus.h"
