@@ -20,8 +20,7 @@ RESOURCES   += collatinus.qrc
 CONFIG += release_binary
 
 macx{
-    #rename the target in Mac Os to be consistent with the other application naming convention
-    TARGET = Collatinus.app
+    TARGET = collatinus
     #error("resources files won't be copied in application bundle");
     #CONFIG += x86 ppc
     QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.4
@@ -36,6 +35,10 @@ macx{
     INSTALLS += data
     ICON = MacOS/collatinus.icns
     # ajouter un cible qui fait macdeploy collatinus.app
+    deployadd.target= all
+    deployapp.commands = macdeployqt collatinus.app
+    QMAKE_EXTRA_TARGETS += deployapp
+    
 }
 linux{
     install.files = ressources/*
@@ -44,5 +47,5 @@ linux{
     documentation.files = doc/*
     install.commands = $(SYMLINK) /usr/share/collatinus/collatinus /usr/bin/collatinus 
     INSTALLS += install
+    INSTALLS += documentation
 }
-INSTALLS += documentation
