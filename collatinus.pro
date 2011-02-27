@@ -8,7 +8,7 @@ TARGET =
 DEPENDPATH += .
 INCLUDEPATH += .
 
-OBJECTS_DIR=obj/
+OBJECTS_DIR= obj/
 MOC_DIR = moc/
 
 # Input
@@ -20,12 +20,14 @@ RESOURCES   += collatinus.qrc
 CONFIG += release_binary
 
 macx{
+    #rename the target in Mac Os to be consistent with the other application naming convention
+    TARGET = Collatinus.app
     #error("resources files won't be copied in application bundle");
     #CONFIG += x86 ppc
     QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.4
     #QMAKE_MAC_SDK = /Developer/SDKs/MacOSX10.4u.sdk
 
-    #QMAKE_POST_LINK=strip collatinus.app/Contents/MacOS/collatinus
+    #QMAKE_POST_LINK=strip Collatinus.app/Contents/MacOS/collatinus
 
     # install into app bundle
     # à changer en ressources
@@ -33,9 +35,9 @@ macx{
     data.files =  ressources/* 
     INSTALLS += data
     ICON = MacOS/collatinus.icns
+    # ajouter un cible qui fait macdeploy collatinus.app
 }
 linux{
-    error("going in linux");
     install.files = ressources/*
     install.path = /usr/share/collatinus 
     documentation.path = /usr/share/collatinus/doc
