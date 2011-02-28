@@ -4,7 +4,7 @@
 ######################################################################
 
 TEMPLATE = app
-TARGET = 
+TARGET = collatinus
 DEPENDPATH += .
 INCLUDEPATH += .
 
@@ -41,11 +41,13 @@ macx{
     
 }
 unix:!macx{
-    install.files = ressources/* collatinus
+    install.files = ressources/*
     install.path = /usr/share/collatinus 
+    target.path = /usr/share/collatinus
     documentation.path = /usr/share/collatinus/doc
     documentation.files = doc/*
     install.commands = $(SYMLINK) /usr/share/collatinus/collatinus /usr/bin/collatinus 
+    INSTALLS += target
     INSTALLS += install
     INSTALLS += documentation
 }
