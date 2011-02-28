@@ -29,7 +29,7 @@
 // fréqences
 #include "frequences.h"
 // pour déboguer
-#include <QDebug>
+//#include <QDebug>
 #include "libcollatinus.h"
 
 /**
@@ -847,8 +847,9 @@ int main( int argc, char **argv )
 #else
     uia.erase (uia.length () - 10);
 #endif
+    uia += "ressources/";
     qsuia = QString::fromStdString (uia);
-    qDebug () << qsuia; 
+    //qDebug () << qsuia; 
     QApplication app(argc, argv);
     if (!QFile::exists (qsuia + "lucretia.txt"))
     {
