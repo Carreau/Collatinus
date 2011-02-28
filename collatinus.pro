@@ -40,7 +40,7 @@ macx{
     QMAKE_EXTRA_TARGETS += deployapp
     
 }
-linux{
+unix:!macx{
     install.files = ressources/*
     install.path = /usr/share/collatinus 
     documentation.path = /usr/share/collatinus/doc
