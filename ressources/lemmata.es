@@ -3,7 +3,7 @@
 ! who achieved the spanish, catalan and galician
 ! translation of Collatinus data.
 !
-!This file is part of COLLATINVS.
+! This file is part of COLLATINVS.
 !                                                                          
 !COLLATINVS is free software; you can redistribute it and/or modify
 !it under the terms of the GNU General Public License as published by
