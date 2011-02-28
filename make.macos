@@ -2,5 +2,5 @@
 make distclean
 qmake -spec macx-g++
 make
-make install_data
-make deployapp
+make install
+make deploy

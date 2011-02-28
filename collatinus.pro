@@ -20,10 +20,10 @@ RESOURCES   += collatinus.qrc
 CONFIG += release_binary
 
 macx{
-    TARGET = collatinus
-    #error("resources files won't be copied in application bundle");
+    #note mac os x, fair un $ qmake -spec macx-g++
     #CONFIG += x86 ppc
-    QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.4
+    QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.6
+    ICON = MacOS/collatinus.icns
     #QMAKE_MAC_SDK = /Developer/SDKs/MacOSX10.4u.sdk
 
     #QMAKE_POST_LINK=strip Collatinus.app/Contents/MacOS/collatinus
@@ -32,13 +32,12 @@ macx{
     # à changer en ressources
     data.path = collatinus.app/Contents/MacOS
     data.files =  ressources/* 
-    INSTALLS += data
-    ICON = MacOS/collatinus.icns
     # ajouter un cible qui fait macdeploy collatinus.app
-    deployadd.target= all
-    deployapp.commands = macdeployqt collatinus.app
-    QMAKE_EXTRA_TARGETS += deployapp
-    
+    deploy.commands = macdeployqt collatinus.app; \ 
+                         rm -rf Collatinus.app;\ 
+                         mv collatinus.app Collatinus.app;
+    INSTALLS += data
+    QMAKE_EXTRA_TARGETS += deploy
 }
 unix:!macx{
     install.files = ressources/*
