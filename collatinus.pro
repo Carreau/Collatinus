@@ -41,7 +41,7 @@ macx{
     
 }
 unix:!macx{
-    install.files = ressources/*
+    install.files = ressources/* collatinus
     install.path = /usr/share/collatinus 
     documentation.path = /usr/share/collatinus/doc
     documentation.files = doc/*
