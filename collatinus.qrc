@@ -12,6 +12,18 @@
     <file>images/new.png</file>
     <file>images/open.png</file>
     <file>images/save.png</file>
+    <file>images/svg/document-new.svg</file>
+    <file>images/svg/document-open.svg</file>
+    <file>images/svg/document-save-as.svg</file>
+    <file>images/svg/document-save.svg</file>
+    <file>images/svg/edit-clear.svg</file>
+    <file>images/svg/edit-delete.svg</file>
+    <file>images/svg/edit-find-replace.svg</file>
+    <file>images/svg/edit-find.svg</file>
+    <file>images/svg/folder-open.svg</file>
+    <file>images/svg/folder-saved-search.svg</file>
+    <file>images/svg/help-browser.svg</file>
+    <file>images/svg/system-search.svg</file>
     <file>images/syntaxe.png</file>
   </qresource>
 </RCC>

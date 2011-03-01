@@ -16,6 +16,7 @@ HEADERS     += src/*.h
 FORMS       += src/*.ui
 SOURCES     += src/*.cpp src/*.cc
 RESOURCES   += collatinus.qrc
+QT          += svg
 
 CONFIG += release_binary
 
@@ -33,8 +34,7 @@ macx{
     data.path = collatinus.app/Contents/MacOS
     data.files =  ressources/* 
     # ajouter un cible qui fait macdeploy collatinus.app
-    deploy.commands = macdeployqt collatinus.app; \ 
-                         rm -rf Collatinus.app;\ 
+    deploy.commands = macdeployqt collatinus.app;\
                          mv collatinus.app Collatinus.app;
     INSTALLS += data
     QMAKE_EXTRA_TARGETS += deploy
