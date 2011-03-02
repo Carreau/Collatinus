@@ -17,7 +17,7 @@ FORMS       += src/*.ui
 SOURCES     += src/*.cpp src/*.cc
 RESOURCES   += collatinus.qrc
 QT          += svg
-
+DESDIR      = /usr/
 CONFIG += release_binary
 
 macx{
@@ -42,11 +42,11 @@ macx{
 unix:!macx{
     install.target = collatinus
     install.files = ressources/lemmata.* ressources/lucretia.txt ressources/expressions.fr collatinus
-    install.path = /usr/share/collatinus 
-    target.path = /usr/share/collatinus
-    documentation.path = /usr/share/collatinus/doc
+    install.path = $(DESTDIR)/share/collatinus 
+    target.path = $(DESTDIR)/share/collatinus
+    documentation.path = $(DESTDIR)/share/collatinus/doc
     documentation.files = doc/*.html
-    install.commands = $(SYMLINK) /usr/share/collatinus/collatinus /usr/bin/collatinus 
+    install.commands = $(SYMLINK) $(DESTDIR)/share/collatinus/collatinus $(DESTDIR)/bin/collatinus 
     INSTALLS += target
     INSTALLS += install
     INSTALLS += documentation
