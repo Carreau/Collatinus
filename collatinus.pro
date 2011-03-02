@@ -4,7 +4,7 @@
 ######################################################################
 
 TEMPLATE = app
-TARGET = collatinus
+#TARGET = collatinus
 VERSION = "IX.2"
 DEFINES += VERSION=\\\"$$VERSION\\\"
 DEPENDPATH += .
