@@ -19,7 +19,6 @@ FORMS       += src/*.ui
 SOURCES     += src/*.cpp src/*.cc
 RESOURCES   += collatinus.qrc
 QT          += svg
-DESTDIR      = /usr/
 CONFIG += release_binary
 
 macx{
