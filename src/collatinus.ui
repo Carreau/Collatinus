@@ -310,7 +310,7 @@
   <action name="action_Exire" >
    <property name="icon" >
     <iconset resource="collatinus.qrc" >
-     <normaloff>:/images/exit.png</normaloff>:/images/exit.png</iconset>
+     <normaloff>:exit.svg</normaloff>:exit.svg</iconset>
    </property>
    <property name="text" >
     <string>&amp;Exire</string>
@@ -322,7 +322,7 @@
   <action name="action_Noua" >
    <property name="icon" >
     <iconset resource="collatinus.qrc" >
-     <normaloff>:/images/new.png</normaloff>:/images/new.png</iconset>
+     <normaloff>:new.svg</normaloff>:new.svg</iconset>
    </property>
    <property name="text" >
     <string>&amp;Noua</string>
@@ -334,7 +334,7 @@
   <action name="action_Onerare" >
    <property name="icon" >
     <iconset resource="collatinus.qrc" >
-     <normaloff>:/images/open.png</normaloff>:/images/open.png</iconset>
+     <normaloff>:open.svg</normaloff>:open.svg</iconset>
    </property>
    <property name="text" >
     <string>&amp;Onerare</string>
@@ -346,7 +346,7 @@
   <action name="action_Scribere" >
    <property name="icon" >
     <iconset resource="collatinus.qrc" >
-     <normaloff>:/images/save.png</normaloff>:/images/save.png</iconset>
+     <normaloff>:save.svg</normaloff>:save.svg</iconset>
    </property>
    <property name="text" >
     <string>&amp;Scribere</string>
@@ -366,7 +366,7 @@
   <action name="actionL_emmata_radere" >
    <property name="icon" >
     <iconset resource="collatinus.qrc" >
-     <normaloff>:/images/balai.png</normaloff>:/images/balai.png</iconset>
+     <normaloff>:clear.svg</normaloff>:clear.svg</iconset>
    </property>
    <property name="text" >
     <string>L&amp;emmata radere</string>
@@ -386,7 +386,7 @@
   <action name="actionMaiores_litteras" >
    <property name="icon" >
     <iconset resource="collatinus.qrc" >
-     <normaloff>:/images/maior.png</normaloff>:/images/maior.png</iconset>
+     <normaloff>:font-size-up.svg</normaloff>:font-size-up.svg</iconset>
    </property>
    <property name="text" >
     <string>Maiores litteras</string>
@@ -398,7 +398,7 @@
   <action name="actionMinores_litteras" >
    <property name="icon" >
     <iconset resource="collatinus.qrc" >
-     <normaloff>:/images/exilior.png</normaloff>:/images/exilior.png</iconset>
+     <normaloff>:font-size-down.svg</normaloff>:font-size-down.svg</iconset>
    </property>
    <property name="text" >
     <string>Minores litteras</string>
@@ -418,7 +418,7 @@
   <action name="actionOmnia_lemmatizare" >
    <property name="icon" >
     <iconset resource="collatinus.qrc" >
-     <normaloff>:/images/lemmatiser.png</normaloff>:/images/lemmatiser.png</iconset>
+     <normaloff>:lemmatiser.svg</normaloff>:lemmatiser.svg</iconset>
    </property>
    <property name="text" >
     <string>Omnia lemmatizare</string>
@@ -460,7 +460,7 @@
    </property>
    <property name="icon" >
     <iconset resource="collatinus.qrc" >
-     <normaloff>:/images/alpha.png</normaloff>:/images/alpha.png</iconset>
+     <normaloff>:alpha.svg</normaloff>:alpha.svg</iconset>
    </property>
    <property name="text" >
     <string>Alphabetice</string>
@@ -469,7 +469,7 @@
   <action name="actionAuxilium" >
    <property name="icon" >
     <iconset>
-     <normaloff>images/aide.png</normaloff>images/aide.png</iconset>
+     <normaloff>:help.svg</normaloff>:help.svg</iconset>
    </property>
    <property name="text" >
     <string>Auxilium</string>
@@ -529,7 +529,7 @@
   <action name="actionInuenire" >
    <property name="icon" >
     <iconset resource="collatinus.qrc" >
-     <normaloff>:/images/editfind.png</normaloff>:/images/editfind.png</iconset>
+     <normaloff>:find.svg</normaloff>:find.svg</iconset>
    </property>
    <property name="text" >
     <string>&amp;Inuenire</string>
@@ -560,7 +560,7 @@
    </property>
    <property name="icon" >
     <iconset resource="collatinus.qrc" >
-     <normaloff>:/images/syntaxe.png</normaloff>:/images/syntaxe.png</iconset>
+     <normaloff>:syntaxe.svg</normaloff>:syntaxe.svg</iconset>
    </property>
    <property name="text" >
     <string>syntaxis</string>
