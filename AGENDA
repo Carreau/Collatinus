@@ -1,17 +1,17 @@
 
     Collatinus IX - AGENDA
 
-- déplacer le répertoire latinus, et ne garder qu'un répertoire de développement ;
-- hammamet.pdf viré dans ma doc perso ;
 - Un éditeur lexique + dés. + irrégs + expressions digne de ce nom.
 - Possibilité de noter une forme déclinée avec des guillemets "libitum"
   autre notation : un mot clé dans le champ morpho (tq par ex. = tale quale)
 - Idem pour plusieurs mots, e.g. "id est". difficile.
-- Documenter la syntaxe et son format de données
 - Enrichir à l'aide de Diogenes (incidit mentio de re)
 
     FAIT
 
+- Documenter la syntaxe et son format de données
+- hammamet.pdf viré dans ma doc perso ;
+- déplacer le répertoire latinus, et ne garder qu'un répertoire de développement ;
 - Nettoyer le code, supprimer fonctions inutiles
 - tronquer les |...| dans expressions.??
 - Barre d'outils : la compléter.
