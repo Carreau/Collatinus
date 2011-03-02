@@ -129,6 +129,7 @@ class fenestra : public QMainWindow, private Ui::MainWindow
     public slots:
         void recoisLemm (QString);
         void lemmataRadere ();
+        void controleIcone (int o);
 
         // api droits
         void setLicetMorpho (bool m);
