@@ -705,7 +705,7 @@ void fenestra::auxilium ()
    #ifdef Q_OS_UNIX
 
     //QFileInfo info (qsuia + "../doc/index.html");
-    QFileInfo info (argv[0] + "/doc/index.html");
+    QFileInfo info ("/doc/index.html");
     QString html;
     if (info.exists ())
         html = "mozilla \"file://" + info.absoluteFilePath () + "\""; 
