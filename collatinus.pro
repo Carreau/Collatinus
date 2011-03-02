@@ -47,7 +47,7 @@ unix:!macx{
     target.path = /usr/share/collatinus
     documentation.path = /usr/share/collatinus/doc
     documentation.files = doc/*.html
-    install.commands = $(SYMLINK) /usr/share/collatinus/collatinus /usr/bin/collatinus 
+    install.commands = $(SYMLINK) $(INSTALL_ROOT)/usr/share/collatinus/collatinus $(INSTALL_ROOT)/usr/bin/collatinus 
     INSTALLS += target
     INSTALLS += install
     INSTALLS += documentation
