@@ -315,7 +315,7 @@ void fenestra::decollatino ()
     QMessageBox::about(this, tr("De Collatino"),
             tr("COLLATINVS\nLinguae latinae lemmatizatio \n"
                "Licentiâ GPL, (c) Yves Ouvrard, anno 2009 \n"
-               "Versio "VERSION"\n"
+               "Versio IX.2\n"
                "Gratias illis habeo :\n"
                "William Whitaker,\n"
                "Jose Luis Redrejo."));
@@ -703,7 +703,9 @@ void fenestra::inuenire_denuo ()
 void fenestra::auxilium ()
 {
    #ifdef Q_OS_UNIX
-    QFileInfo info (qsuia + "doc/index.html");
+
+    //QFileInfo info (qsuia + "../doc/index.html");
+    QFileInfo info (argv[0] + "/doc/index.html");
     QString html;
     if (info.exists ())
         html = "mozilla \"file://" + info.absoluteFilePath () + "\""; 

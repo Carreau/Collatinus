@@ -5,8 +5,8 @@
 
 TEMPLATE = app
 TARGET = collatinus
-VERSION = "IX.2"
-DEFINES += VERSION=\\\"$$VERSION\\\"
+# VERSION = IX.2
+# DEFINES += VERSION=\\\"$$VERSION\\\"
 DEPENDPATH += .
 INCLUDEPATH += .
 
