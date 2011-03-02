@@ -41,6 +41,7 @@ macx{
     QMAKE_EXTRA_TARGETS += deploy
 }
 unix:!macx{
+    target.path = $(INSTALL_ROOT)/usr/share
     install.target = collatinus
     install.files = ressources/lemmata.* ressources/lucretia.txt ressources/expressions.fr collatinus
     install.path = /usr/share/collatinus 
