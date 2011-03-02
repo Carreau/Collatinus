@@ -816,6 +816,11 @@ void fenestra::setRights ()
     }
 }
 
+void fenestra::controleIcone (int o)
+{
+    actionOmnia_lemmatizare->setEnabled (o != 3);
+}
+
 void fenestra::createActions ()
 {
     connect(actionMagister, SIGNAL(triggered ()), this, SLOT (magister ()));
@@ -840,6 +845,7 @@ void fenestra::createActions ()
     connect(actionAuxilium, SIGNAL(triggered ()), this, SLOT(auxilium ()));
     connect(actionVide_texte, SIGNAL(triggered ()), this, SLOT(vide_texte ()));
     connect(actionSyntaxis, SIGNAL(triggered ()), this, SLOT (change_syntaxe ()));
+    connect(tabWidget, SIGNAL(currentChanged (int)), this, SLOT (controleIcone (int)));
 }
 
 int main( int argc, char **argv )
