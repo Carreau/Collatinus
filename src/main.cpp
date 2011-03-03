@@ -314,7 +314,7 @@ void fenestra::decollatino ()
 {
     QMessageBox::about(this, tr("De Collatino"),
             tr("COLLATINVS\nLinguae latinae lemmatizatio \n"
-               "Licentiâ GPL, (c) Yves Ouvrard, anno 2009 \n"
+               "Licentiâ GPL, (c) Yves Ouvrard, annis 2009 - 2011 \n"
                "Versio "VERSION"\n"
                "Gratias illis habeo :\n"
                "William Whitaker,\n"
