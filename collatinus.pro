@@ -41,14 +41,15 @@ macx{
     QMAKE_EXTRA_TARGETS += deploy
 }
 unix:!macx{
-    target.path = $(INSTALL_ROOT)/usr/share
+    target.path = $(INSTALL_ROOT)/usr/share/collatinus
     install.target = collatinus
     install.files = ressources/lemmata.* ressources/lucretia.txt ressources/expressions.fr collatinus
     install.path = /usr/share/collatinus 
-    target.path = /usr/share/collatinus
     documentation.path = /usr/share/collatinus/doc
     documentation.files = doc/*.html
-    install.commands = $(SYMLINK) $(INSTALL_ROOT)/usr/share/collatinus/collatinus $(INSTALL_ROOT)/usr/bin/collatinus 
+    install.commands = @$(CHK_DIR_EXISTS) $(INSTALL_ROOT)/usr/bin/ || $(MKDIR) $(INSTALL_ROOT)/usr/bin/;\ 
+                    $(SYMLINK) $(INSTALL_ROOT)/usr/share/collatinus/collatinus $(INSTALL_ROOT)/usr/bin/collatinus
+    
     INSTALLS += target
     INSTALLS += install
     INSTALLS += documentation
