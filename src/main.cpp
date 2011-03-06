@@ -702,7 +702,7 @@ void fenestra::inuenire_denuo ()
 
 void fenestra::auxilium ()
 {
-   #ifdef Q_OS_UNIX
+    #ifdef Q_OS_LINUX
 
     //QFileInfo info (qsuia + "../doc/index.html");
     QFileInfo info ("/doc/index.html");
@@ -713,7 +713,13 @@ void fenestra::auxilium ()
     QProcess processus;
     processus.startDetached (html);
     #else
-    QDesktopServices::openUrl (QUrl("index.html"));
+        #ifdef Q_OS_MAC
+            QString qs = QApplication::applicationDirPath();
+            qs.append("/doc/index.html");
+            QDesktopServices::openUrl(QUrl::fromLocalFile(qs));
+        #else
+            QDesktopServices::openUrl(QUrl("index.html"));
+        #endif
     #endif
 }
 

@@ -34,9 +34,14 @@ macx{
     # à changer en ressources
     data.path = collatinus.app/Contents/MacOS
     data.files =  ressources/* 
+    deploy.depends = install_documentation
+    deploy.depends += install
+    documentation.path = collatinus.app/Contents/MacOS/doc/
+    documentation.files = doc/*.html
     # ajouter un cible qui fait macdeploy collatinus.app
     deploy.commands = macdeployqt collatinus.app;\
                          mv collatinus.app Collatinus.app;
+    INSTALLS += documentation
     INSTALLS += data
     QMAKE_EXTRA_TARGETS += deploy
 }
