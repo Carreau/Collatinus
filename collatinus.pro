@@ -9,6 +9,7 @@ VERSION = "IX.2"
 DEFINES += VERSION=\\\"$$VERSION\\\"
 DEPENDPATH += .
 INCLUDEPATH += .
+TRANSLATIONS = collatinus_en.ts collatinus_la.ts collatinus_fr.ts
 
 OBJECTS_DIR= obj/
 MOC_DIR = moc/

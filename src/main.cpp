@@ -272,6 +272,7 @@ bool dialogon::morphologia ()
 fenestra::fenestra(QString url)
 {
     setupUi(this);
+    actionAuxilium->setShortcut(QKeySequence::HelpContents);
     delete (EditLatin);
     Ed = new Editeur(splitter, "EditLatin");
     Ed->setObjectName(QString::fromUtf8("EditLatin"));
@@ -868,6 +869,11 @@ int main( int argc, char **argv )
     qsuia = QString::fromStdString (uia);
     //qDebug () << qsuia; 
     QApplication app(argc, argv);
+
+    QTranslator translator;
+    translator.load("collatinus_la");
+    app.installTranslator(&translator);
+    
     if (!QFile::exists (qsuia + "lucretia.txt"))
     {
 #ifdef Q_OS_WIN32
