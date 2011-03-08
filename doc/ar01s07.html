@@ -1,375 +1,375 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>7. Les données</title><link rel="stylesheet" href="./docbook-xsl.css" type="text/css" /><meta name="generator" content="DocBook XSL Stylesheets V1.73.2" /><link rel="start" href="index.html" title="Collatinus — Manuel d'utilisation" /><link rel="up" href="index.html" title="Collatinus — Manuel d'utilisation" /><link rel="prev" href="ar01s06.html" title="6. La Flexion et les autres utilisations" /><link rel="next" href="ar01s08.html" title="8. données syntaxiques" /></head><body><div class="navheader"><table width="100%" summary="Navigation header"><tr><td width="20%" align="left"><a accesskey="p" href="ar01s06.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="ar01s08.html">Next</a></td></tr></table><hr /></div><div class="section" lang="en" xml:lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="_les_donn_es"></a>7. Les données</h2></div></div></div><p>Toutes les données de Collatinus sont dans les fichiers <span class="emphasis"><em>lemmata.??</em></span>. La version
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>7. Les données</title><link rel="stylesheet" href="docbook-xsl.css" type="text/css" /><meta name="generator" content="DocBook XSL Stylesheets V1.75.2" /><link rel="home" href="index.html" title="Collatinus — Manuel d’utilisation" /><link rel="up" href="index.html" title="Collatinus — Manuel d’utilisation" /><link rel="prev" href="ar01s06.html" title="6. La Flexion et les autres utilisations" /><link rel="next" href="ar01s08.html" title="8. données syntaxiques" /></head><body><div class="navheader"><table width="100%" summary="Navigation header"><tr><td width="20%" align="left"><a accesskey="p" href="ar01s06.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="ar01s08.html">Next</a></td></tr></table><hr /></div><div class="section" title="7. Les données"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="_les_donn_es"></a>7. Les données</h2></div></div></div><p>Toutes les données de Collatinus sont dans les fichiers <span class="emphasis"><em>lemmata.??</em></span>. La version
 8 est livrée avec trois fichiers, chacun correspondant à une langue
-européenne :</p><div class="itemizedlist"><ul type="disc"><li>
-lemmata.de pour l'allemand ;
-</li><li>
+européenne :</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem">
+lemmata.de pour l’allemand ;
+</li><li class="listitem">
 lemmata.fr pour le français ;
-</li><li>
-lemmata.uk pour l'anglais ;
-</li></ul></div><div class="section" lang="en" xml:lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="_la_premi_re_partie_d_un_fichier_lemmata"></a>7.1. La première partie d'un fichier lemmata</h3></div></div></div><p>est le dictionnaire proprement dit, et son format est très simple :</p><p>format :</p><pre class="literallayout">forme canonique|n°modèle|radicaux parfait (entre virgules)|radicaux supin(virg.)|texte de l'entrée</pre><p>exemple :</p><pre class="literallayout">anteeo|23|anteii,anteiu|anteit|is, ire, ii, itum : aller devant, marcher devant...</pre><p>Pour le numéro de modèle, cf. les désinences.</p><p>Le texte de l'entrée donne les données morphologiques (génitif, genre, temps
+</li><li class="listitem">
+lemmata.uk pour l’anglais ;
+</li></ul></div><div class="section" title="7.1. La première partie d’un fichier lemmata"><div class="titlepage"><div><div><h3 class="title"><a id="_la_premi_re_partie_d_8217_un_fichier_lemmata"></a>7.1. La première partie d’un fichier lemmata</h3></div></div></div><p>est le dictionnaire proprement dit, et son format est très simple :</p><p>format :</p><pre class="literallayout">forme canonique|n°modèle|radicaux parfait (entre virgules)|radicaux supin(virg.)|texte de l'entrée</pre><p>exemple :</p><pre class="literallayout">anteeo|23|anteii,anteiu|anteit|is, ire, ii, itum : aller devant, marcher devant...</pre><p>Pour le numéro de modèle, cf. les désinences.</p><p>Le texte de l’entrée donne les données morphologiques (génitif, genre, temps
 primitifs, traduction). un " p. " en tête de texte indique que le mot est
 toujours décliné au pluriel. Les noms de la première et deuxième déclinaison et
 les verbes du modèle amo ne donnent pas leurs radicaux, qui sont calculés
-automatiquement. On peut cependant signaler des irrégularités :</p><pre class="literallayout">do|17|ded|dat|das, dare, dedi, datum : donner</pre><pre class="literallayout">tenebrae|0|tenebr||arum, f. p. : ténèbres</pre></div><div class="section" lang="en" xml:lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="_la_seconde_partie"></a>7.2. la seconde partie</h3></div></div></div><p>est impérativement précédée de la ligne</p><pre class="literallayout">---desinentiae---</pre><p>Voici le format d'une désinence :</p><pre class="literallayout">désinence|cas|genre|nombre|degré|personne|temps|mode|voix|modèle|numéro de radical</pre><p>exemple :</p><pre class="literallayout">ebimini|0|0|2|0|2|2|1|1|25|1</pre><p>Et voici le référentiel de ces valeurs:</p><div class="informaltable"><table cellpadding="4px" style="border-collapse: collapse;border-top: 2px solid #527bbd; border-bottom: 2px solid #527bbd; border-left: 2px solid #527bbd; border-right: 2px solid #527bbd; "><colgroup><col align="left" /><col align="left" /><col align="left" /><col align="left" /><col align="left" /><col align="left" /><col align="left" /><col align="left" /></colgroup><thead><tr><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+automatiquement. On peut cependant signaler des irrégularités :</p><pre class="literallayout">do|17|ded|dat|das, dare, dedi, datum : donner</pre><pre class="literallayout">tenebrae|0|tenebr||arum, f. p. : ténèbres</pre></div><div class="section" title="7.2. la seconde partie"><div class="titlepage"><div><div><h3 class="title"><a id="_la_seconde_partie"></a>7.2. la seconde partie</h3></div></div></div><p>est impérativement précédée de la ligne</p><pre class="literallayout">---desinentiae---</pre><p>Voici le format d’une désinence :</p><pre class="literallayout">désinence|cas|genre|nombre|degré|personne|temps|mode|voix|modèle|numéro de radical</pre><p>exemple :</p><pre class="literallayout">ebimini|0|0|2|0|2|2|1|1|25|1</pre><p>Et voici le référentiel de ces valeurs:</p><div class="informaltable"><table cellpadding="4px" style="border-collapse: collapse;border-top: 3px solid #527bbd; border-bottom: 3px solid #527bbd; border-left: 3px solid #527bbd; border-right: 3px solid #527bbd; "><colgroup><col align="left" /><col align="left" /><col align="left" /><col align="left" /><col align="left" /><col align="left" /><col align="left" /><col align="left" /></colgroup><thead><tr><th style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     n°
-    </th><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </th><th style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     modèle
-    </th><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </th><th style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     modes
-    </th><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </th><th style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     cas
-    </th><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </th><th style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     temps
-    </th><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </th><th style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     personnes
-    </th><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </th><th style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     degrés
-    </th><th style="border-bottom: 1px solid ; " align="left">
+    </th><th style="border-bottom: 1px solid #527bbd; " align="left">
     voix
-    </th></tr></thead><tbody><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </th></tr></thead><tbody><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     0
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     uita
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     -
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     -
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     -
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     -
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     -
-    </td><td style="border-bottom: 1px solid ; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
     -
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     1
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     amicus
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     indicatif
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     nominatif
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     présent
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     première
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     positif
-    </td><td style="border-bottom: 1px solid ; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
     actif
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     2
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     puer
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     subjonctif
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     vocatif
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     futur
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     deuxième
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     comparatif
-    </td><td style="border-bottom: 1px solid ; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
     passif
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     3
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     ager
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     impératif
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     accusatif
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     imparfait
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     troisième
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     superlatif
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     4
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     templum
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     infinitif
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     génitif
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     parfait
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     5
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     miles
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     participe
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     datif
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     futur ant.
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     6
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     ciuis
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     gérondif
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     ablatif
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     PQP
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     7
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     corpus
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     adj. verbal
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     8
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     mare
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     9
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     manus
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     10
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     res
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     11
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     bonus
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     12
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     miser
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     13
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     pulcher
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     14
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     fortis
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     15
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     uetus
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     16
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     acer
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     17
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     amo
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     18
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     moneo
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     19
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     lego
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     20
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     capio
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     21
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     audio
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     22
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     sum
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     23
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     eo
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     24
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     imitor
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     25
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     uereor
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     26
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     sequor
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     27
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     patior
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     28
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     potior
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     29
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
     pronoms
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-    </td><td style="border-bottom: 1px solid ; " align="left">
-    </td></tr><tr><td style="border-right: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; border-bottom: 1px solid #527bbd; " align="left">
+    </td><td style="border-bottom: 1px solid #527bbd; " align="left">
+    </td></tr><tr><td style="border-right: 1px solid #527bbd; " align="left">
     30
-    </td><td style="border-right: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; " align="left">
     invariable
-    </td><td style="border-right: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; " align="left">
     s
-    </td><td style="border-right: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; " align="left">
-    </td><td style="border-right: 1px solid ; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; " align="left">
+    </td><td style="border-right: 1px solid #527bbd; " align="left">
     </td><td style="" align="left">
-    </td></tr></tbody></table></div></div><div class="section" lang="en" xml:lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="_la_troisi_me_et_derni_re_partie"></a>7.3. La troisième et dernière partie</h3></div></div></div><p>est réservée aux formes irrégulières.</p><p>Elle est impérativement précédée de la ligne</p><pre class="literallayout">---irregulares---</pre><p>Voici le format d'une forme irrégulière :</p><pre class="literallayout">forme|lemme|cas|genre|nombre|degré|personne|temps|mode|voix</pre><p>exemple :</p><pre class="literallayout">deabus|dea|5|0|2|0|0|0|0|0</pre><p>le référentiel est le même que celui des désinences</p></div></div><div class="navfooter"><hr /><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ar01s06.html">Prev</a> </td><td width="20%" align="center"> </td><td width="40%" align="right"> <a accesskey="n" href="ar01s08.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top"> </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> </td></tr></table></div></body></html>
+    </td></tr></tbody></table></div></div><div class="section" title="7.3. La troisième et dernière partie"><div class="titlepage"><div><div><h3 class="title"><a id="_la_troisi_me_et_derni_re_partie"></a>7.3. La troisième et dernière partie</h3></div></div></div><p>est réservée aux formes irrégulières.</p><p>Elle est impérativement précédée de la ligne</p><pre class="literallayout">---irregulares---</pre><p>Voici le format d’une forme irrégulière :</p><pre class="literallayout">forme|lemme|cas|genre|nombre|degré|personne|temps|mode|voix</pre><p>exemple :</p><pre class="literallayout">deabus|dea|5|0|2|0|0|0|0|0</pre><p>le référentiel est le même que celui des désinences</p></div></div><div class="navfooter"><hr /><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ar01s06.html">Prev</a> </td><td width="20%" align="center"> </td><td width="40%" align="right"> <a accesskey="n" href="ar01s08.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top"> </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> </td></tr></table></div></body></html>

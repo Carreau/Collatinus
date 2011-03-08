@@ -110,7 +110,7 @@ Il faut localiser le répertoire d'installation, en général
 et lancer le programme uninst.exe.
 
 À Partir des sources
-~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~
 Vous pouvez récupérer les dernières sources à l'adresse ci-dessous
 
     https://github.com/Carreau/Collatinus
