@@ -273,6 +273,17 @@ fenestra::fenestra(QString url)
 {
     setupUi(this);
     actionAuxilium->setShortcut(QKeySequence::HelpContents);
+    action_Noua->setShortcut(QKeySequence::New    );
+    action_Onerare->setShortcut(QKeySequence::Open   );
+    action_Exire->setShortcut(QKeySequence::Quit   );
+    actionScribere_s_ub->setShortcut(QKeySequence::SaveAs );
+    action_Scribere->setShortcut(QKeySequence::Save   );
+    actionInuenire->setShortcut(QKeySequence::Find   );
+    actionInuenire_etiam->setShortcut(QKeySequence::FindNext);
+    actionMaiores_litteras->setShortcut(QKeySequence::ZoomIn );
+    actionMinores_litteras->setShortcut(QKeySequence::ZoomOut);
+
+
     delete (EditLatin);
     Ed = new Editeur(splitter, "EditLatin");
     Ed->setObjectName(QString::fromUtf8("EditLatin"));
