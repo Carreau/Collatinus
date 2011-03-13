@@ -289,6 +289,9 @@
    <property name="shortcut">
     <string>Ctrl+Q</string>
    </property>
+   <property name="menuRole">
+    <enum>QAction::QuitRole</enum>
+   </property>
   </action>
   <action name="action_Noua">
    <property name="icon">
@@ -420,6 +423,9 @@
    </property>
    <property name="shortcut">
     <string/>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::AboutRole</enum>
    </property>
   </action>
   <action name="actionAlphabetice">
