@@ -49,8 +49,8 @@ unix:!macx{
     target.path = /usr/bin
     target.target = collatinus
     install.files = ressources/lemmata.* ressources/lucretia.txt ressources/expressions.fr collatinus
-    install.path = /usr/share/collatinus 
-    documentation.path = /usr/share/collatinus/doc
+    install.path = /usr/share/collatinus9
+    documentation.path = /usr/share/collatinus9/doc
     documentation.files = doc/*.html
     
     INSTALLS += target
