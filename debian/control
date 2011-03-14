@@ -2,7 +2,7 @@ Source: collatinus
 Section: text
 Priority: optional
 Maintainer: Georges Khaznadar <georgesk@ofset.org>
-Build-Depends: debhelper (>> 6.0.0), qt4-designer, qt4-dev-tools, qt4-qtconfig, libqt4-dev, inkscape, tex4ht, texlive-latex-base, texlive-latex-extra (>= 2009)| texlive-latex-recommended (<< 2008), texlive-fonts-recommended
+Build-Depends: debhelper (>> 6.0.0), qt4-designer, qt4-dev-tools, qt4-qtconfig, libqt4-dev, tex4ht, texlive-latex-base, texlive-latex-extra (>= 2009)| texlive-latex-recommended (<< 2008), texlive-fonts-recommended
 Standards-Version: 3.8.3
 
 Package: collatinus

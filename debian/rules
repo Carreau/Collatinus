@@ -26,7 +26,6 @@ configure-stamp:
 
 	# managing the file alpha.svg sent by Yves Ouvrard after the 
 	# main archive
-	cd images; inkscape --export-png=alpha.png alpha.svg
 
 	qmake
 	touch configure-stamp
