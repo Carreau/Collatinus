@@ -8,8 +8,8 @@ Standards-Version: 3.8.3
 Package: collatinus
 Architecture: all
 Conflicts: collatinus (<< 9.0)
-Depends: collatinus9 (>= 9.3), collatinus-doc (>= 9.3)
-Description: virtual package to upgrade to Collatinus 9.3
+Depends: collatinus9 (>= 9.4), collatinus-doc (>= 9.4)
+Description: virtual package to upgrade to Collatinus 9.4
  Collatinus can be used to lemmatise latin texts, i.e. extract words and
  make a lexicon which indicates for each word its canonic form, and how
  the form actually found in the text was derived from it, for instance by
