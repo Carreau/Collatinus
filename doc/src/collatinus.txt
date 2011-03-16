@@ -1,9 +1,9 @@
 Collatinus -- Manuel d'utilisation
 ==================================
 Yves Ouvrard <yves.ouvrard@collatinus.org>
-avril 2010
+Mars 2011
 
-Version 9
+Version IX.2
 
 Présentation
 ------------
@@ -103,11 +103,22 @@ http://www.ac-poitiers.fr/lettres/lang_anc/Collatinus.htm
 Pour désinstaller
 ~~~~~~~~~~~~~~~~~
 
-il faut localiser le répertoire d'installation, en général
+Il faut localiser le répertoire d'installation, en général
 
     C:\Program Files\collatinus\
 
 et lancer le programme uninst.exe.
+
+À Partir des sources
+~~~~~~~~~~~~~~~~~~~~
+Vous pouvez récupérer les dernières sources à l'adresse ci-dessous
+
+    https://github.com/Carreau/Collatinus
+
+Ou si vous êtes déja utilisateur de git:
+
+    git clone https://Carreau@github.com/Carreau/Collatinus.git
+
 
 Prise en main rapide
 --------------------
