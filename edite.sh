@@ -1,1 +1,1 @@
-vim main.h main.cpp syntaxe.h syntaxe.cpp libcollatinus.h libcollatinus.cc BOGUES 
+vim src/main.h src/main.cpp src/syntaxe.h src/syntaxe.cpp src/libcollatinus.h src/libcollatinus.cc BOGUES 

@@ -19,7 +19,7 @@
  */
 #include <QCoreApplication>
 #include "ui_collatinus.h"
-#include "ui_config.h"
+// #include "ui_config.h"
 #include "main.h"
 #include <QtGui>
 #include <QString>
