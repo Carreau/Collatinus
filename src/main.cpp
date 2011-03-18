@@ -29,7 +29,7 @@
 // fréqences
 #include "frequences.h"
 // pour déboguer
-//#include <QDebug>
+// #include <QDebug>
 #include "libcollatinus.h"
 
 /**
@@ -100,7 +100,7 @@ Editeur::Editeur (QWidget *parent, const char *name)
  */
 QString Editeur::lemmatiseTxt (bool alpha, bool cumVocibus)
 {
-    //qDebug () << cumVocibus << endl;
+    // qDebug () << "cumVocibus : " << cumVocibus << endl;
     QString txt = toPlainText ();
     QStringList formes = txt.split (QRegExp("\\W+"), QString::SkipEmptyParts);
     QStringList lemmes;
@@ -113,7 +113,7 @@ QString Editeur::lemmatiseTxt (bool alpha, bool cumVocibus)
     {
        uox = i.next ();
        item = QString::fromStdString (lemmatise (uox.toStdString ()));
-       //qDebug () << "item :" <<item << ":";
+       qDebug () << "item :" <<item << ":";
        QString lemma (prima (item));
        if (frequentia (lemma) < minRaritas)
            continue;
@@ -281,6 +281,7 @@ fenestra::fenestra(QString url)
 
     // paramétrage de la recherche syntaxique ; à compléter
     cree_texte ();
+    change_syntaxe ();
     repertoire = QDir (url).absolutePath ();
 }
 
@@ -710,6 +711,8 @@ void fenestra::setLicetMorpho (bool m)
 void fenestra::change_syntaxe ()
 {
     syntaxis = actionSyntaxis->isChecked ();
+    // désactiver s'il y a lieu l'option "cum textus uocibus"
+    actionCum_textus_uocibus->setCheckable (!syntaxis);
 }
 
 void fenestra::vide_texte ()
