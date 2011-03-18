@@ -243,31 +243,6 @@ QString Editeur::motCourant (QTextCursor C)
 }
 
 // dialogue de config, ouverture
-void dialogon::ad_raritas (int r)
-{
-    spinBox->setValue (r);
-}
-
-void dialogon::ad_morphologia (bool m)
-{
-    checkBox->setChecked (m);
-}
-
-   // idem, récupération
-dialogon::dialogon ()
-{
-    setupUi (this);
-}
-
-int dialogon::raritas ()
-{
-    return spinBox->value ();
-}
-
-bool dialogon::morphologia ()
-{
-    return checkBox->isChecked ();
-}
 
 fenestra::fenestra(QString url)
 {
@@ -750,27 +725,6 @@ QString fenestra::adHtml (QString t)
 }
 
 
-
-void fenestra::magister ()
-{
-    if (magisterSum)
-    {
-        dialogon D;
-        D.ad_raritas (minRaritas);
-        D.ad_morphologia (licetMorpho);
-    //qDebug () << "minraritas " << minRaritas << " morphologia " << morphologia;
-        if (D.exec () == QDialog::Accepted)
-        {
-            minRaritas = D.raritas ();
-            morphologia = (D.morphologia ());
-            setRights ();
-        }
-    }
-}
-
-
-
-
 bool fenestra::getLicetMorpho ()
 {
     return licetMorpho;
@@ -831,7 +785,6 @@ void fenestra::controleIcone (int o)
 
 void fenestra::createActions ()
 {
-    connect(actionMagister, SIGNAL(triggered ()), this, SLOT (magister ()));
     connect(action_Noua, SIGNAL(triggered()), Ed, SLOT(clear()));
     connect(action_Noua, SIGNAL(triggered()), this, SLOT(noua()));
     connect (action_Onerare, SIGNAL (triggered ()), this, SLOT (legere ()));
