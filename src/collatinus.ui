@@ -189,7 +189,7 @@
      <x>0</x>
      <y>0</y>
      <width>600</width>
-     <height>22</height>
+     <height>20</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu_Auxilium">
@@ -243,8 +243,6 @@
     <addaction name="actionAnglice"/>
     <addaction name="actionHispanice"/>
     <addaction name="actionGallice"/>
-    <addaction name="separator"/>
-    <addaction name="actionMagister"/>
    </widget>
    <addaction name="menuCapsa"/>
    <addaction name="menu_Editio"/>

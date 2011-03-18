@@ -65,7 +65,7 @@ install: build
 
 	# Add here commands to install the package into debian/collatinus.
 	install -m 755 collatinus $(CURDIR)/debian/collatinus9/usr/bin/collatinus9
-	install -m 644 lemmata.* expressions.fr config lucretia.txt $(CURDIR)/debian/collatinus9/usr/share/collatinus9
+	install -m 644 lemmata.* expressions.fr lucretia.txt $(CURDIR)/debian/collatinus9/usr/share/collatinus9
 	#cp passwd $(CURDIR)/debian/collatinus9/etc/collatinus
 	gzip -c9 doc/collatinus.1 > $(CURDIR)/debian/collatinus9/usr/share/man/man1/collatinus9.1.gz
 	install -m 644 doc/*.html doc/*.css $(CURDIR)/debian/collatinus-doc/usr/share/doc/collatinus/html
