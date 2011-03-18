@@ -45,7 +45,7 @@
 #define MAIN_H
 
 #include "ui_collatinus.h"
-#include "ui_config.h"
+//#include "ui_config.h"
 #include <QApplication>
 #include <QtGui/QTextEdit>
 #include "syntaxe.h"
@@ -68,20 +68,6 @@ class Editeur : public QTextEdit
          void copie (QString);
 };
 
-class dialogon : public QDialog, private Ui::Dialog
-{
-    Q_OBJECT
-
-    public:
-        dialogon ();
-        // Ad
-        void ad_raritas (int r);
-        void ad_morphologia (bool m);
-        // Ab
-        QString passe ();
-        int raritas (); 
-        bool morphologia ();
-};
 
 class fenestra : public QMainWindow, private Ui::MainWindow
 {
@@ -119,7 +105,6 @@ class fenestra : public QMainWindow, private Ui::MainWindow
         void inuenire_denuo ();
         void legere ();
         void lemmatiseTout ();
-        void magister ();
         void noua ();
         bool scribere ();
         bool scribereVt ();
