@@ -844,6 +844,7 @@ void fenestra::createActions ()
     connect(Ed, SIGNAL(copie (QString)), this, SLOT(recoisLemm (QString)));
     connect(Ed, SIGNAL(textChanged()), actionVide_texte, SLOT(trigger()));
     connect(actionL_emmata_radere, SIGNAL(triggered()), this, SLOT(lemmataRadere()));
+    //connect(action_Lineam_radere, SIGNAL(triggered()), this, SLOT(lineamRadere()));
     connect(actionGermanice, SIGNAL(triggered ()), this, SLOT(germanice ()));
     connect(actionAnglice, SIGNAL(triggered ()), this, SLOT(anglice ()));
     connect(actionGallice, SIGNAL(triggered ()), this, SLOT(gallice ()));
