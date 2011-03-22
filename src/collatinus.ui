@@ -189,7 +189,7 @@
      <x>0</x>
      <y>0</y>
      <width>600</width>
-     <height>22</height>
+     <height>20</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu_Auxilium">
@@ -219,7 +219,6 @@
     <addaction name="actionInuenire_etiam"/>
     <addaction name="separator"/>
     <addaction name="actionL_emmata_radere"/>
-    <addaction name="action_Lineam_radere"/>
    </widget>
    <widget class="QMenu" name="menu_Visio">
     <property name="title">
@@ -243,8 +242,6 @@
     <addaction name="actionAnglice"/>
     <addaction name="actionHispanice"/>
     <addaction name="actionGallice"/>
-    <addaction name="separator"/>
-    <addaction name="actionMagister"/>
    </widget>
    <addaction name="menuCapsa"/>
    <addaction name="menu_Editio"/>
@@ -344,14 +341,6 @@
    </property>
    <property name="shortcut">
     <string>Ctrl+E</string>
-   </property>
-  </action>
-  <action name="action_Lineam_radere">
-   <property name="text">
-    <string>&amp;Lineam radere</string>
-   </property>
-   <property name="shortcut">
-    <string>Ctrl+D</string>
    </property>
   </action>
   <action name="actionMaiores_litteras">
