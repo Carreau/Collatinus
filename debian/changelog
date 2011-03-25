@@ -4,7 +4,7 @@ collatinus (9.4) unstable; urgency=low
   * remove inkscape build-dependency upstream, reflect it in "rules" and
     "control"
 
- -- Matthias BUSSONNER <bussonniermatthias@gmail.com>  Mon, 14 Mar 2011 20:13:07 +0100
+ -- Matthias BUSSONNIER <bussonniermatthias@gmail.com>  Mon, 14 Mar 2011 20:13:07 +0100
 
 collatinus (9.3-4) unstable; urgency=low
 
