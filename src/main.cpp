@@ -19,7 +19,7 @@
  */
 #include <QCoreApplication>
 #include "ui_collatinus.h"
-#include "ui_config.h"
+// #include "ui_config.h"
 #include "main.h"
 #include <QtGui>
 #include <QString>
@@ -29,7 +29,7 @@
 // fréqences
 #include "frequences.h"
 // pour déboguer
-//#include <QDebug>
+// #include <QDebug>
 #include "libcollatinus.h"
 
 /**
@@ -100,7 +100,7 @@ Editeur::Editeur (QWidget *parent, const char *name)
  */
 QString Editeur::lemmatiseTxt (bool alpha, bool cumVocibus)
 {
-    //qDebug () << cumVocibus << endl;
+    // qDebug () << "cumVocibus : " << cumVocibus << endl;
     QString txt = toPlainText ();
     QStringList formes = txt.split (QRegExp("\\W+"), QString::SkipEmptyParts);
     QStringList lemmes;
@@ -113,7 +113,7 @@ QString Editeur::lemmatiseTxt (bool alpha, bool cumVocibus)
     {
        uox = i.next ();
        item = QString::fromStdString (lemmatise (uox.toStdString ()));
-       //qDebug () << "item :" <<item << ":";
+       qDebug () << "item :" <<item << ":";
        QString lemma (prima (item));
        if (frequentia (lemma) < minRaritas)
            continue;
@@ -243,31 +243,6 @@ QString Editeur::motCourant (QTextCursor C)
 }
 
 // dialogue de config, ouverture
-void dialogon::ad_raritas (int r)
-{
-    spinBox->setValue (r);
-}
-
-void dialogon::ad_morphologia (bool m)
-{
-    checkBox->setChecked (m);
-}
-
-   // idem, récupération
-dialogon::dialogon ()
-{
-    setupUi (this);
-}
-
-int dialogon::raritas ()
-{
-    return spinBox->value ();
-}
-
-bool dialogon::morphologia ()
-{
-    return checkBox->isChecked ();
-}
 
 fenestra::fenestra(QString url)
 {
@@ -318,6 +293,7 @@ fenestra::fenestra(QString url)
 
     // paramétrage de la recherche syntaxique ; à compléter
     cree_texte ();
+    change_syntaxe ();
     repertoire = QDir (url).absolutePath ();
 }
 
@@ -747,6 +723,8 @@ void fenestra::setLicetMorpho (bool m)
 void fenestra::change_syntaxe ()
 {
     syntaxis = actionSyntaxis->isChecked ();
+    // désactiver s'il y a lieu l'option "cum textus uocibus"
+    actionCum_textus_uocibus->setCheckable (!syntaxis);
 }
 
 void fenestra::vide_texte ()
@@ -760,27 +738,6 @@ QString fenestra::adHtml (QString t)
     t.replace (QRegExp (":"), "</strong>");
     return t;
 }
-
-
-
-void fenestra::magister ()
-{
-    if (magisterSum)
-    {
-        dialogon D;
-        D.ad_raritas (minRaritas);
-        D.ad_morphologia (licetMorpho);
-    //qDebug () << "minraritas " << minRaritas << " morphologia " << morphologia;
-        if (D.exec () == QDialog::Accepted)
-        {
-            minRaritas = D.raritas ();
-            morphologia = (D.morphologia ());
-            setRights ();
-        }
-    }
-}
-
-
 
 
 bool fenestra::getLicetMorpho ()
@@ -843,7 +800,6 @@ void fenestra::controleIcone (int o)
 
 void fenestra::createActions ()
 {
-    connect(actionMagister, SIGNAL(triggered ()), this, SLOT (magister ()));
     connect(action_Noua, SIGNAL(triggered()), Ed, SLOT(clear()));
     connect(action_Noua, SIGNAL(triggered()), this, SLOT(noua()));
     connect (action_Onerare, SIGNAL (triggered ()), this, SLOT (legere ()));
@@ -856,6 +812,7 @@ void fenestra::createActions ()
     connect(Ed, SIGNAL(copie (QString)), this, SLOT(recoisLemm (QString)));
     connect(Ed, SIGNAL(textChanged()), actionVide_texte, SLOT(trigger()));
     connect(actionL_emmata_radere, SIGNAL(triggered()), this, SLOT(lemmataRadere()));
+    //connect(action_Lineam_radere, SIGNAL(triggered()), this, SLOT(lineamRadere()));
     connect(actionGermanice, SIGNAL(triggered ()), this, SLOT(germanice ()));
     connect(actionAnglice, SIGNAL(triggered ()), this, SLOT(anglice ()));
     connect(actionGallice, SIGNAL(triggered ()), this, SLOT(gallice ()));
