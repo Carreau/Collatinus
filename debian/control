@@ -1,0 +1,44 @@
+Source: collatinus
+Section: text
+Priority: optional
+Maintainer: Georges Khaznadar <georgesk@ofset.org>
+Build-Depends: debhelper (>> 6.0.0), qt4-designer, qt4-dev-tools, qt4-qtconfig, libqt4-dev, tex4ht
+Standards-Version: 3.8.3
+Homepage: http://www.collatinus.org/
+
+Package: collatinus
+Architecture: all
+Conflicts: collatinus (<< 9.0)
+Depends: collatinus9 (>= 9.4), collatinus-doc (>= 9.4)
+Description: virtual package to upgrade to Collatinus 9.4
+ Collatinus can be used to lemmatise latin texts, i.e. extract words and
+ make a lexicon which indicates for each word its canonic form, and how
+ the form actually found in the text was derived from it, for instance by
+ declining it.
+ .
+ If you want to keep versions 7 and 8 of collatinus together with the
+ new version, do not install this virtual package. Rather install
+ directly the package collatinus9. The command "collatinus" will call
+ collatinus8 by the alternatives, and the older versions will still be
+ reachable as collatinus7 or collatinus8.
+
+Package: collatinus9
+Architecture: any
+Provides: collatinus
+Depends: ${shlibs:Depends}, ${misc:Depends}, collatinus-doc (>= 8.0)
+Description: lemmatisation of latin text
+ Collatinus can be used to lemmatise latin texts, i.e. extract words and
+ make a lexicon which indicates for each word its canonic form, and how
+ the form actually found in the text was derived from it, for instance by
+ declining it. Example : rosam gives : rosa-rosae -- acc. sing.
+ Collatinus provides a nice graphic front-end to each operation.
+
+Package: collatinus-doc
+Architecture: all
+Section: doc
+Description: documentation for collatinus
+ This package provides documentation for Collatinus in HTML and PDF
+ formats.
+ .
+ Collatinus is an application for lemmatising Latin texts, and it
+ provides a nice graphical front-end.

@@ -1,0 +1,16 @@
+This package was debianized by Georges Khaznadar <georgesk@ofset.org> on
+Sun,  7 Sep 2003 15:53:25 +0200.
+
+It was first downloaded from cvs.sourceforge.net, using the command 
+cvs -z3 -d:ext:georgesk@cvs.sourceforge.net:/cvsroot/ofset export -r version-7-8 collatinus
+
+Upstream Author: Yves Ouvrard <yves.ouvrard@collatinus.org>
+
+Copyright:
+    © 2003-2009 Yves Ouvrard <yves.ouvrard@collatinus.org>
+
+Collatinus is licensed following the terms of General Public License,
+version 3.
+
+A copy of the GPL version 3 is available in
+`/usr/share/common-licenses/GPL-3'.
