@@ -7,7 +7,7 @@ Pour plus d'information, compilez  `collatinus.tex`
 
 ###Compilation de Collatinus
 
-SI vous êtes intéressé dans le développement de Collatinus vous pouvez récupérer les sources à l'URL suivante   
+Si vous êtes intéressé dans le développement de Collatinus vous pouvez récupérer les sources à l'URL suivante   
 
     git://github.com/Carreau/Collatinus.git
 
@@ -23,14 +23,24 @@ Collatinus utilise Qt, C++ et latin comme langage, mais on a toujours besoin de 
 
 Installez Qt à partir des source (à vérifier)
 
-    #générer le makefile
-    qmake -spec macx-g++
+oneliner
 
-    #compiler
-    make
+```bash
+qmake -spec macx-g++;  make deploy; open Collatinus.app
+```
+
+longer description
+
+```bash
+#générer le makefile
+qmake -spec macx-g++
+
+#compiler
+make
     
-    #copier des ressources supplémentaire dans le bundle
-    make install_data
+#copier des ressources supplémentaire dans le bundle
+make install_data
     
-    #si redistribution, il faut copier le Framwork qt localement dans le bundle de l'application 
-    make deployapp
+#si redistribution, il faut copier le Framwork qt localement dans le bundle de l'application 
+make deploy
+```
