@@ -312,8 +312,7 @@ fenestra::fenestra(QString url)
     actionMaiores_litteras->setShortcut(QKeySequence::ZoomIn );
     actionMinores_litteras->setShortcut(QKeySequence::ZoomOut);
 
-	//ajout des préférences dans le menu
-
+    //ajout des préférences dans le menu
     QWidget* stretchWidget = new QWidget;
     stretchWidget->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
 
