@@ -102,6 +102,7 @@ class fenestra : public QMainWindow, private Ui::MainWindow
         void germanice ();
         void hispanice ();
         void inuenire ();
+        void inuenire(const QString & exp);
         void inuenire_denuo ();
         void legere ();
         void lemmatiseTout ();

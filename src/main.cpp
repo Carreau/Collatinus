@@ -31,7 +31,6 @@
 // pour déboguer
 // #include <QDebug>
 #include "libcollatinus.h"
-
 /**
  * Bogues : 
  *
@@ -258,10 +257,41 @@ fenestra::fenestra(QString url)
     actionMaiores_litteras->setShortcut(QKeySequence::ZoomIn );
     actionMinores_litteras->setShortcut(QKeySequence::ZoomOut);
 
+    QWidget* stretchWidget = new QWidget;
+    stretchWidget->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
+
+    QLineEdit* qle = new QLineEdit();
+    #ifdef __APPLE__
+    QString style(
+    "QListView, QLineEdit {"
+        "selection-color: white; "
+        "border: 2px groove gray;"
+        "border-radius: 13px;"
+        "padding: 2px 2px;"
+        "background-position: top right;"
+        "padding-right: 0px;"
+    "}"
+        "QLineEdit:focus {"
+        "selection-color: white;     "
+        "padding: 2px 2px;"
+        "padding-right: 0px;"
+    "}"
+        "QLineEdit:edit-focus {"
+        "selection-color: white;     "
+        "padding: 2px 2px;"
+        "padding-right: 0px;"
+    "}"
+    );
+    qle->setStyleSheet(style);
+    qle->setAttribute(Qt::WA_MacShowFocusRect, 0);
+    #endif
+    toolBar->addWidget(stretchWidget);
+    toolBar->addWidget(qle);
 
     delete (EditLatin);
     Ed = new Editeur(splitter, "EditLatin");
     Ed->setObjectName(QString::fromUtf8("EditLatin"));
+    connect(qle, SIGNAL(textChanged(QString)), this, SLOT(inuenire(QString)));
     QSizePolicy sizePolicy3(static_cast<QSizePolicy::Policy>(13), static_cast<QSizePolicy::Policy>(13));
     setSizePolicy(sizePolicy3);
     setMouseTracking(true);
@@ -672,6 +702,14 @@ void fenestra::hispanice ()
     actionHispanice->setEnabled(false);
 }
 
+void fenestra::inuenire (const QString & exp)
+{
+    QTextCursor find_result = Ed->document()->find(exp);
+    if( find_result.hasSelection())
+        Ed->setTextCursor(find_result);
+    else
+        Ed->setTextCursor(QTextCursor::QTextCursor(Ed->document()));
+}
 void fenestra::inuenire ()
 {
     bool ok;
