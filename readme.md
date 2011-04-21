@@ -48,6 +48,7 @@ make deploy
 A script is now availlable to make a redistribuable dmg. You need to clone this `https://github.com/Carreau/yoursway-create-dmg` and modifie `MacOs/collatinus.sh` to find `create-dmg`
 
 Then you just have to run
+
 ```bash
 ./MacOS/collatinus.sh
 ```
