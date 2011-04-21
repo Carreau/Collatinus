@@ -44,3 +44,13 @@ make install_data
 #si redistribution, il faut copier le Framwork qt localement dans le bundle de l'application 
 make deploy
 ```
+
+A script is now availlable to make a redistribuable dmg. You need to clone this `https://github.com/Carreau/yoursway-create-dmg` and modifie `MacOs/collatinus.sh` to find `create-dmg`
+
+Then you just have to run
+```bash
+./MacOS/collatinus.sh
+```
+
+It will create a dmg name Collatinus.dmg in the curent folder.
+be carefull not to have any Collatinus.dmg files attached or it might fail without warning.
