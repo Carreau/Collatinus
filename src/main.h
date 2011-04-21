@@ -142,6 +142,8 @@ class fenestra : public QMainWindow, private Ui::MainWindow
         void setRights ();
         // fin api droits
 
+		void electiones();
+
     protected:
         bool event (QEvent *event);
         void closeEvent(QCloseEvent *event);

@@ -268,6 +268,13 @@ bool dialogon::morphologia ()
     return checkBox->isChecked ();
 }
 
+void fenestra::electiones()
+{
+  dialogon();
+  //dialog.exec();
+  //readSettings();
+  //applySettings();
+}
 fenestra::fenestra(QString url)
 {
     setupUi(this);
@@ -281,6 +288,11 @@ fenestra::fenestra(QString url)
     actionInuenire_etiam->setShortcut(QKeySequence::FindNext);
     actionMaiores_litteras->setShortcut(QKeySequence::ZoomIn );
     actionMinores_litteras->setShortcut(QKeySequence::ZoomOut);
+
+	//ajout des préférences dans le menu
+	QAction* electiones = menu_Editio->addAction(tr("Electionnes..."));
+	electiones->setMenuRole(QAction::PreferencesRole);
+	QObject::connect(electiones, SIGNAL(triggered()), this , SLOT(electiones()));
 
     QWidget* stretchWidget = new QWidget;
     stretchWidget->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
