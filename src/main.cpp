@@ -270,8 +270,8 @@ bool dialogon::morphologia ()
 
 void fenestra::electiones()
 {
-  dialogon();
-  //dialog.exec();
+  dialogon().exec();;
+  
   //readSettings();
   //applySettings();
 }
