@@ -23,6 +23,7 @@ QT          += svg
 CONFIG += release_binary
 
 macx{
+    TARGET = Collatinus
     #note mac os x, fair un $ qmake -spec macx-g++
     #CONFIG += x86 ppc
     QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.6
@@ -33,15 +34,14 @@ macx{
 
     # install into app bundle
     # à changer en ressources
-    data.path = collatinus.app/Contents/MacOS
+    data.path = Collatinus.app/Contents/MacOS
     data.files =  ressources/* 
     deploy.depends = install_documentation
     deploy.depends += install
-    documentation.path = collatinus.app/Contents/MacOS/doc/
+    documentation.path = Collatinus.app/Contents/MacOS/doc/
     documentation.files = doc/*.html
-    # ajouter un cible qui fait macdeploy collatinus.app
-    deploy.commands = macdeployqt collatinus.app;\
-                         mv collatinus.app Collatinus.app;
+    # ajouter un cible qui fait macdeploy Collatinus.app
+    deploy.commands = macdeployqt Collatinus.app
     dmg.depends = deploy
 	dmg.commands = ./MacOS/Collatinus.sh
     INSTALLS += documentation

@@ -21,6 +21,7 @@
 #include "ui_collatinus.h"
 #include "ui_config.h"
 #include "main.h"
+#include <assert.h>
 #include <QtGui>
 #include <QString>
 #ifdef Q_OS_WIN32
@@ -312,9 +313,6 @@ fenestra::fenestra(QString url)
     actionMinores_litteras->setShortcut(QKeySequence::ZoomOut);
 
 	//ajout des préférences dans le menu
-	QAction* electiones = menu_Editio->addAction(tr("Electionnes..."));
-	electiones->setMenuRole(QAction::PreferencesRole);
-	QObject::connect(electiones, SIGNAL(triggered()), this , SLOT(electiones()));
 
     QWidget* stretchWidget = new QWidget;
     stretchWidget->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
@@ -368,8 +366,6 @@ fenestra::fenestra(QString url)
     EditFlexio->setFont(font);
     #endif
     createActions ();
-    // droits
-    magisterSum = getRights ();
     // chargement du lexique et du fichier d'exemple
     if (url.isEmpty ())
         capsamInLatinum ( qsuia + "lucretia.txt");
@@ -727,38 +723,38 @@ void fenestra::lemmatiseTout ()
 void fenestra::germanice ()
 {
     lexicumLege (uia + "lemmata.de");
-    actionGallice->setEnabled(true);
-    actionGermanice->setEnabled(false);
-    actionAnglice->setEnabled(true);
-    actionHispanice->setEnabled(true);
+    actionGallice->setChecked(false);
+    actionGermanice->setChecked(true );
+    actionAnglice->setChecked(false);
+    actionHispanice->setChecked(false);
 }
 
 void fenestra::gallice ()
 {
     //lexicumLege (qApp->applicationDirPath ().toStdString () + "/" + "lemmata.fr");
     lexicumLege (uia + "lemmata.fr");
-    actionGallice->setEnabled(false);
-    actionGermanice->setEnabled(true);
-    actionAnglice->setEnabled(true);
-    actionHispanice->setEnabled(true);
+    actionGallice->setChecked(true );
+    actionGermanice->setChecked(false);
+    actionAnglice->setChecked(false);
+    actionHispanice->setChecked(false);
 }
 
 void fenestra::anglice ()
 {
     lexicumLege (uia + "lemmata.uk");
-    actionGallice->setEnabled(true);
-    actionGermanice->setEnabled(true);
-    actionAnglice->setEnabled(false);
-    actionHispanice->setEnabled(true);
+    actionGallice->setChecked(false);
+    actionGermanice->setChecked(false);
+    actionAnglice->setChecked(true );
+    actionHispanice->setChecked(false);
 }
 
 void fenestra::hispanice ()
 {
     lexicumLege (uia + "lemmata.es");
-    actionGallice->setEnabled(true);
-    actionGermanice->setEnabled(true);
-    actionAnglice->setEnabled(true);
-    actionHispanice->setEnabled(false);
+    actionGallice->setChecked(false);
+    actionGermanice->setChecked(false);
+    actionAnglice->setChecked(false);
+    actionHispanice->setChecked(true);
 }
 
 void fenestra::inuenire (const QString & exp)
@@ -821,7 +817,9 @@ void fenestra::change_syntaxe ()
 {
     syntaxis = actionSyntaxis->isChecked ();
     // désactiver s'il y a lieu l'option "cum textus uocibus"
-    actionCum_textus_uocibus->setCheckable (!syntaxis);
+    actionCum_textus_uocibus->setChecked(false);
+    //actionCum_textus_uocibus->setCheckable(!syntaxis);
+    actionCum_textus_uocibus->setEnabled(!syntaxis);
 }
 
 void fenestra::vide_texte ()
@@ -836,78 +834,9 @@ QString fenestra::adHtml (QString t)
     return t;
 }
 
-
-
-void fenestra::magister ()
-{
-    if (magisterSum)
-    {
-        D.ad_raritas (minRaritas);
-        D.ad_morphologia (licetMorpho);
-    //qDebug () << "minraritas " << minRaritas << " morphologia " << morphologia;
-        if (D.exec () == QDialog::Accepted)
-        {
-            minRaritas = D.raritas ();
-            morphologia = (D.morphologia ());
-            setRights ();
-        }
-    }
-}
-
-
-
-
 bool fenestra::getLicetMorpho ()
 {
     return licetMorpho;
-}
-
-bool fenestra::getRights ()
-{
-    //qDebug () << "entrée dans getRights";
-#ifdef Q_OS_WIN32
-    QString uiaP = qsuia + "config"; 
-#else
-    QString uiaP ("/etc/collatinus/config");
-    if (!QFile::exists (uiaP))
-        uiaP = qsuia + "config"; 
-#endif
-    // qDebug () << "uiap:" << uiaP;
-    QFile fConf (uiaP);
-    if (fConf.open (QFile::ReadOnly))
-    {
-        QString linea ("");
-        QStringList eclats;
-        QTextStream in(&fConf);
-        while (!linea.isNull ())
-        {
-            linea = in.readLine ();
-            if (!linea.isNull () && linea.at (0) != '#')
-            {
-                eclats = linea.split (":");
-                if (eclats[0] == "minRaritas" && eclats.count () > 1)
-                    minRaritas = eclats[1].toInt ();
-                else if (eclats[0] == "morphologia" && eclats.count ( ) > 1)
-                    morphologia = eclats[1].toInt ();
-            }
-        }
-        return true;
-    }
-    else return false;
-}
-
-void fenestra::setRights ()
-{
-    QFile fConf (qsuia + "config");
-    if (fConf.open (QFile::WriteOnly))
-    {
-        QTextStream Ab (&fConf);
-        Ab << "# minRaritas : le plus petit degré de rareté analysé" << "\n";
-        Ab << "minRaritas:" << minRaritas << "\n";
-        Ab << "# si morphologia est à 0, pas d'analyse morpho" << "\n";
-        Ab << "morphologia:" << morphologia << "\n";
-        fConf.close ();
-    }
 }
 
 void fenestra::controleIcone (int o)
@@ -917,7 +846,11 @@ void fenestra::controleIcone (int o)
 
 void fenestra::createActions ()
 {
-    connect(actionMagister, SIGNAL(triggered ()), this, SLOT (magister ()));
+    //new action for preferencies
+    QAction* electiones = menu_Editio->addAction(tr("Electionnes..."));
+    electiones->setMenuRole(QAction::PreferencesRole);
+    QObject::connect(electiones, SIGNAL(triggered()), this , SLOT(electiones()));
+
     connect(action_Noua, SIGNAL(triggered()), Ed, SLOT(clear()));
     connect(action_Noua, SIGNAL(triggered()), this, SLOT(noua()));
     connect (action_Onerare, SIGNAL (triggered ()), this, SLOT (legere ()));
@@ -957,8 +890,8 @@ int main( int argc, char **argv )
     QApplication app(argc, argv);
 
     //let's set a few variable use to get/load settings
-    QCoreApplication::setOrganizationName("collatinus");
-    QCoreApplication::setOrganizationDomain("collatinus.org");
+    QCoreApplication::setOrganizationName("Collatinus");
+    QCoreApplication::setOrganizationDomain("Collatinus.org");
     QCoreApplication::setApplicationName("Collatinus");
 
     QTranslator translator;

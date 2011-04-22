@@ -77,9 +77,9 @@ class dialogon : public QDialog, private Ui::Dialog
         dialogon ();
         // Ab
         QString passe ();
-        int raritas (); 
+        int raritas ();
         bool morphologia ();
-    
+
     public slots:
         // Ad
         void ad_morphologia (int m);
@@ -104,7 +104,6 @@ class fenestra : public QMainWindow, private Ui::MainWindow
     private:
         dialogon D;
         void createActions();
-        bool magisterSum;
         void capsamInLatinum (const QString &fileName);
         bool capsaminDiscum (const QString &fileName);
         QString motCourant (QTextCursor C);
@@ -131,7 +130,6 @@ class fenestra : public QMainWindow, private Ui::MainWindow
         void inuenire_denuo ();
         void legere ();
         void lemmatiseTout ();
-        void magister ();
         void noua ();
         bool scribere ();
         bool scribereVt ();
@@ -149,11 +147,8 @@ class fenestra : public QMainWindow, private Ui::MainWindow
         //int getMinRaritas ();
         bool getLicetMorpho ();
 
-        bool getRights ();
-        void setRights ();
-        // fin api droits
-
-		void electiones();
+        //replace Magister
+        void electiones();
 
     protected:
         bool event (QEvent *event);
