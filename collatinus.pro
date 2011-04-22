@@ -42,9 +42,12 @@ macx{
     # ajouter un cible qui fait macdeploy collatinus.app
     deploy.commands = macdeployqt collatinus.app;\
                          mv collatinus.app Collatinus.app;
+    dmg.depends = deploy
+	dmg.commands = ./MacOS/Collatinus.sh
     INSTALLS += documentation
     INSTALLS += data
     QMAKE_EXTRA_TARGETS += deploy
+    QMAKE_EXTRA_TARGETS += dmg
 }
 unix:!macx{
     target.path = /usr/bin
