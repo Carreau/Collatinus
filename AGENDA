@@ -2,10 +2,14 @@
     Collatinus IX - AGENDA
 
 - Un éditeur lexique + dés. + irrégs + expressions digne de ce nom.
-- Possibilité de noter une forme déclinée avec des guillemets "libitum"
-  autre notation : un mot clé dans le champ morpho (tq par ex. = tale quale)
+- Possibilité de noter une forme déclinée avec des guillemets "libitum" autre
+  notation : un mot clé dans le champ morpho (tq par ex. = tale quale)
 - Idem pour plusieurs mots, e.g. "id est". difficile.
 - Enrichir à l'aide de Diogenes (incidit mentio de re)
+- Ajouter un raccourcis ctrl+w qui ferme la fenètre, mais pas l'application (
+  du moins sur mac )
+- idem avec un raccourcis ctrl+m pour réduire la fenêtre. il doit bien y avoir
+  QKeySequence pour ça
 
     FAIT
 
