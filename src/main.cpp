@@ -244,18 +244,40 @@ QString Editeur::motCourant (QTextCursor C)
 // dialogue de config, ouverture
 void dialogon::ad_raritas (int r)
 {
+    rar = r;
     spinBox->setValue (r);
+    settings.setValue("raritas",r);
+    settings.sync();
 }
 
+void dialogon::ad_morphologia (int m)
+{
+    if (m == Qt::Unchecked)
+    {
+        ad_morphologia(false);
+    }
+    else if( m == Qt::Checked)
+    {
+        ad_morphologia(true);
+    }
+}
 void dialogon::ad_morphologia (bool m)
 {
+    morpho = m;
     checkBox->setChecked (m);
+    settings.setValue("morphologia",m);
+    settings.sync();
 }
 
    // idem, récupération
 dialogon::dialogon ()
 {
+    
     setupUi (this);
+    this->ad_raritas(settings.value("raritas",3).toInt());
+    this->ad_morphologia(settings.value("morphologia",true).toBool());
+    QObject::connect(spinBox, SIGNAL(valueChanged(int)), this , SLOT(ad_raritas(int)));
+    QObject::connect(checkBox, SIGNAL(stateChanged(int)), this , SLOT(ad_morphologia(int)));
 }
 
 int dialogon::raritas ()
@@ -270,7 +292,7 @@ bool dialogon::morphologia ()
 
 void fenestra::electiones()
 {
-  dialogon().exec();;
+  D.exec();;
   
   //readSettings();
   //applySettings();
@@ -820,7 +842,6 @@ void fenestra::magister ()
 {
     if (magisterSum)
     {
-        dialogon D;
         D.ad_raritas (minRaritas);
         D.ad_morphologia (licetMorpho);
     //qDebug () << "minraritas " << minRaritas << " morphologia " << morphologia;
@@ -934,6 +955,11 @@ int main( int argc, char **argv )
     qsuia = QString::fromStdString (uia);
     //qDebug () << qsuia; 
     QApplication app(argc, argv);
+
+    //let's set a few variable use to get/load settings
+    QCoreApplication::setOrganizationName("collatinus");
+    QCoreApplication::setOrganizationDomain("collatinus.org");
+    QCoreApplication::setApplicationName("Collatinus");
 
     QTranslator translator;
     translator.load("collatinus_la");

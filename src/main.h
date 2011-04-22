@@ -46,6 +46,7 @@
 
 #include "ui_collatinus.h"
 #include "ui_config.h"
+#include <QSettings>
 #include <QApplication>
 #include <QtGui/QTextEdit>
 #include "syntaxe.h"
@@ -74,13 +75,22 @@ class dialogon : public QDialog, private Ui::Dialog
 
     public:
         dialogon ();
-        // Ad
-        void ad_raritas (int r);
-        void ad_morphologia (bool m);
         // Ab
         QString passe ();
         int raritas (); 
         bool morphologia ();
+    
+    public slots:
+        // Ad
+        void ad_morphologia (int m);
+        void ad_raritas (int r);
+        void ad_morphologia (bool m);
+
+    private:
+        int rar;
+        bool morpho;
+        QSettings settings;
+
 };
 
 class fenestra : public QMainWindow, private Ui::MainWindow
@@ -92,6 +102,7 @@ class fenestra : public QMainWindow, private Ui::MainWindow
         Editeur *Ed;
 
     private:
+        dialogon D;
         void createActions();
         bool magisterSum;
         void capsamInLatinum (const QString &fileName);
