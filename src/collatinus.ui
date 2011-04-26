@@ -189,7 +189,7 @@
      <x>0</x>
      <y>0</y>
      <width>600</width>
-     <height>20</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu_Auxilium">
@@ -235,6 +235,7 @@
     <addaction name="actionOmnia_lemmatizare"/>
     <addaction name="separator"/>
     <addaction name="actionAlphabetice"/>
+    <addaction name="separator"/>
     <addaction name="actionSyntaxis"/>
     <addaction name="actionCum_textus_uocibus"/>
     <addaction name="separator"/>
@@ -451,7 +452,7 @@
   </action>
   <action name="actionGermanice">
    <property name="checkable">
-    <bool>false</bool>
+    <bool>true</bool>
    </property>
    <property name="text">
     <string>Germanice</string>
@@ -459,7 +460,7 @@
   </action>
   <action name="actionAnglice">
    <property name="checkable">
-    <bool>false</bool>
+    <bool>true</bool>
    </property>
    <property name="text">
     <string>Anglice</string>
@@ -467,10 +468,7 @@
   </action>
   <action name="actionGallice">
    <property name="checkable">
-    <bool>false</bool>
-   </property>
-   <property name="enabled">
-    <bool>false</bool>
+    <bool>true</bool>
    </property>
    <property name="text">
     <string>Gallice</string>
@@ -512,11 +510,6 @@
     <string>F3</string>
    </property>
   </action>
-  <action name="actionMagister">
-   <property name="text">
-    <string>Magister</string>
-   </property>
-  </action>
   <action name="actionSyntaxis">
    <property name="checkable">
     <bool>true</bool>
@@ -538,6 +531,9 @@
    </property>
   </action>
   <action name="actionHispanice">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
    <property name="text">
     <string>Hispanice</string>
    </property>
