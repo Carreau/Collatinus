@@ -20,8 +20,6 @@
 
 #include "frequences.h"
 #include "syntaxe.h"
-#include <QFile>
-#include <QMessageBox>
 #include <map>
 #include <list>
 
