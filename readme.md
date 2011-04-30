@@ -45,6 +45,12 @@ make install_data
 make deploy
 ```
 
+note : you can try to build using `llvm` by a adding the `-platform macx-llvm` option to qmake. That is to say:
+
+```bash
+qmake -spec macx-g++ -platform macx-llvm
+```
+
 A script is now availlable to make a redistribuable dmg. You need to clone this `https://github.com/Carreau/yoursway-create-dmg` and modifie `MacOs/collatinus.sh` to find `create-dmg`
 
 Then you just have to run
