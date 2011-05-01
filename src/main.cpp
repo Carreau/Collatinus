@@ -27,6 +27,11 @@
 #ifdef Q_OS_WIN32
 #include <QDesktopServices>
 #endif   
+
+#ifdef Q_WS_MAC
+#include "../MacOS/src/CocoaInitializer.h"
+#include "../MacOS/src/SparkleAutoUpdater.h"
+#endif
 // fréqences
 #include "frequences.h"
 // pour déboguer
@@ -877,6 +882,7 @@ void fenestra::createActions ()
 
 int main( int argc, char **argv )
 {
+
     uia = argv[0];
 #ifdef Q_OS_WIN32
     uia.erase (uia.length () - 14);
@@ -887,6 +893,15 @@ int main( int argc, char **argv )
     qsuia = QString::fromStdString (uia);
     //qDebug () << qsuia; 
     QApplication app(argc, argv);
+
+#ifdef Q_WS_MAC
+    AutoUpdater* updater;
+    CocoaInitializer initializer;
+    updater = new SparkleAutoUpdater("http://lmdb.jben.info/collatinus/appcast.xml");
+    if (updater) {
+        updater->checkForUpdates();
+    }
+#endif
 
     //let's set a few variable use to get/load settings
     QCoreApplication::setOrganizationName("Collatinus");
