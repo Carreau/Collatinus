@@ -32,7 +32,7 @@ require_clean_work_tree () {
 require_clean_work_tree
 
 
-DMG_NAME="Collatinus-$(git rev-parse --short HEAD).dmg"
+DMG_NAME="Collatinus-$(git describe --tags HEAD).dmg"
 test -f $DMG_NAME && rm $DMG_NAME
 
 create-dmg   \
