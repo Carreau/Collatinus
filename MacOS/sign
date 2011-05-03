@@ -1,0 +1,93 @@
+#!/bin/bash
+#args=`getopt hvqs: $*`
+#set -- $args
+
+usage()
+{
+cat << EOF
+Usage: $0 [-x|-h] -d dmg -v versionnumber
+EOF
+}
+VERBOSE=0
+QUIET=0
+DMG='/nothing'
+PRIV_KEY='MacOS/dsa_priv_collatinus.pem'
+BASEURL="http://lmdb.jben.info/collatinus/"
+SIGNUTIL="/Users/matthiasbussonnier/Downloads/Sparkle 1.5b6/Extras/Signing Tools/sign_update.rb"
+VERSION=0
+while getopts “d:hxv:p:s:” OPTION
+do
+     case $OPTION in
+        s)
+            SIGNUTIL=$OPTARG
+            ;;
+        p)
+            PRIV_KEY=$OPTARG
+            ;;
+        d)
+            DMG=$OPTARG
+            ;;
+        h)
+            usage
+            exit 1
+            ;;
+        x)
+            VERBOSE=1
+            ;;
+        v)  
+            VERSION=$OPTARG
+            ;;
+        ?)
+            usage
+            exit
+            ;;
+     esac
+done
+
+
+
+#if [ $(which ruby!=0) ]
+#then 
+#	echo "you must have ruby installed to sign application"
+#	exit -1
+#fi
+
+if [ ! -e "$SIGNUTIL" ];
+then 
+	echo "Le chemin de l'utilitaire de chiffrement est mal renseigné"
+	exit -2
+fi
+
+if [[ $VERSION == 0 ]] && [[ $VERBOSE == 1 ]];
+then 
+	echo "avec -x vous devez indiquez un numero de version !"
+	exit -3
+fi
+
+if [ ! -e $DMG ];
+then 
+	echo "le dmg à signer n'existe pas !"
+	exit -4
+fi
+
+if [ ! -e $PRIV_KEY ];
+then 
+	echo "Vous devez entrez le chemin vers votre cle privée !"
+	exit -4
+fi
+
+
+SIG=$("$SIGNUTIL" "$DMG" "$PRIV_KEY");
+
+if [[ $VERBOSE == 0 ]];
+then 
+	echo $SIG
+else
+
+	SIZE=$(du "$DMG"|cut -f 1)
+	echo '<enclosure url="'$BASEURL$DMG'" sparkle:version="'$VERSION'" length="'$SIZE'" type="application/octet-stream" sparkle:dsaSignature="'$SIG'" />'
+
+fi
+
+exit 0;
+
