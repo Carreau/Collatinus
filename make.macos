@@ -1,6 +1,0 @@
-#!/bin/bash
-make distclean
-qmake -spec macx-g++
-make
-make install
-make deploy

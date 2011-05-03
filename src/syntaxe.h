@@ -34,12 +34,8 @@
 #define SYNTAXE_H
 
 #include "libcollatinus.h"
-#include <QStringList>
-#include <QTextStream>
-#include <QApplication>
-#include <QMultiMap>
 // déboguer :
-#include <QDebug>
+//#include <QDebug>
 
 
 /***********/

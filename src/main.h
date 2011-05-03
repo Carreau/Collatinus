@@ -45,7 +45,8 @@
 #define MAIN_H
 
 #include "ui_collatinus.h"
-//#include "ui_config.h"
+#include "ui_config.h"
+#include <QSettings>
 #include <QApplication>
 #include <QtGui/QTextEdit>
 #include "syntaxe.h"
@@ -68,6 +69,29 @@ class Editeur : public QTextEdit
          void copie (QString);
 };
 
+class dialogon : public QDialog, private Ui::Dialog
+{
+    Q_OBJECT
+
+    public:
+        dialogon ();
+        // Ab
+        QString passe ();
+        int raritas ();
+        bool morphologia ();
+
+    public slots:
+        // Ad
+        void ad_morphologia (int m);
+        void ad_raritas (int r);
+        void ad_morphologia (bool m);
+
+    private:
+        int rar;
+        bool morpho;
+        QSettings settings;
+
+};
 
 class fenestra : public QMainWindow, private Ui::MainWindow
 {
@@ -78,8 +102,8 @@ class fenestra : public QMainWindow, private Ui::MainWindow
         Editeur *Ed;
 
     private:
+        dialogon D;
         void createActions();
-        bool magisterSum;
         void capsamInLatinum (const QString &fileName);
         bool capsaminDiscum (const QString &fileName);
         QString motCourant (QTextCursor C);
@@ -102,6 +126,7 @@ class fenestra : public QMainWindow, private Ui::MainWindow
         void germanice ();
         void hispanice ();
         void inuenire ();
+        void inuenire(const QString & exp);
         void inuenire_denuo ();
         void legere ();
         void lemmatiseTout ();
@@ -122,9 +147,8 @@ class fenestra : public QMainWindow, private Ui::MainWindow
         //int getMinRaritas ();
         bool getLicetMorpho ();
 
-        bool getRights ();
-        void setRights ();
-        // fin api droits
+        //replace Magister
+        void electiones();
 
     protected:
         bool event (QEvent *event);

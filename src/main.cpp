@@ -19,8 +19,9 @@
  */
 #include <QCoreApplication>
 #include "ui_collatinus.h"
-// #include "ui_config.h"
+#include "ui_config.h"
 #include "main.h"
+#include <assert.h>
 #include <QtGui>
 #include <QString>
 #ifdef Q_OS_WIN32
@@ -31,7 +32,6 @@
 // pour déboguer
 // #include <QDebug>
 #include "libcollatinus.h"
-
 /**
  * Bogues : 
  *
@@ -243,7 +243,61 @@ QString Editeur::motCourant (QTextCursor C)
 }
 
 // dialogue de config, ouverture
+void dialogon::ad_raritas (int r)
+{
+    rar = r;
+    spinBox->setValue (r);
+    settings.setValue("raritas",r);
+    settings.sync();
+}
 
+void dialogon::ad_morphologia (int m)
+{
+    if (m == Qt::Unchecked)
+    {
+        ad_morphologia(false);
+    }
+    else if( m == Qt::Checked)
+    {
+        ad_morphologia(true);
+    }
+}
+void dialogon::ad_morphologia (bool m)
+{
+    morpho = m;
+    checkBox->setChecked (m);
+    settings.setValue("morphologia",m);
+    settings.sync();
+}
+
+   // idem, récupération
+dialogon::dialogon ()
+{
+    
+    setupUi (this);
+    this->ad_raritas(settings.value("raritas",3).toInt());
+    this->ad_morphologia(settings.value("morphologia",true).toBool());
+    QObject::connect(spinBox, SIGNAL(valueChanged(int)), this , SLOT(ad_raritas(int)));
+    QObject::connect(checkBox, SIGNAL(stateChanged(int)), this , SLOT(ad_morphologia(int)));
+}
+
+int dialogon::raritas ()
+{
+    return spinBox->value ();
+}
+
+bool dialogon::morphologia ()
+{
+    return checkBox->isChecked ();
+}
+
+void fenestra::electiones()
+{
+  D.exec();;
+  
+  //readSettings();
+  //applySettings();
+}
 fenestra::fenestra(QString url)
 {
     setupUi(this);
@@ -258,10 +312,43 @@ fenestra::fenestra(QString url)
     actionMaiores_litteras->setShortcut(QKeySequence::ZoomIn );
     actionMinores_litteras->setShortcut(QKeySequence::ZoomOut);
 
+	//ajout des préférences dans le menu
+
+    QWidget* stretchWidget = new QWidget;
+    stretchWidget->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
+
+    QLineEdit* qle = new QLineEdit();
+    #ifdef __APPLE__
+    QString style(
+    "QListView, QLineEdit {"
+        "selection-color: white; "
+        "border: 2px groove gray;"
+        "border-radius: 13px;"
+        "padding: 2px 2px;"
+        "background-position: top right;"
+        "padding-right: 0px;"
+    "}"
+        "QLineEdit:focus {"
+        "selection-color: white;     "
+        "padding: 2px 2px;"
+        "padding-right: 0px;"
+    "}"
+        "QLineEdit:edit-focus {"
+        "selection-color: white;     "
+        "padding: 2px 2px;"
+        "padding-right: 0px;"
+    "}"
+    );
+    qle->setStyleSheet(style);
+    qle->setAttribute(Qt::WA_MacShowFocusRect, 0);
+    #endif
+    toolBar->addWidget(stretchWidget);
+    toolBar->addWidget(qle);
 
     delete (EditLatin);
     Ed = new Editeur(splitter, "EditLatin");
     Ed->setObjectName(QString::fromUtf8("EditLatin"));
+    connect(qle, SIGNAL(textChanged(QString)), this, SLOT(inuenire(QString)));
     QSizePolicy sizePolicy3(static_cast<QSizePolicy::Policy>(13), static_cast<QSizePolicy::Policy>(13));
     setSizePolicy(sizePolicy3);
     setMouseTracking(true);
@@ -279,8 +366,6 @@ fenestra::fenestra(QString url)
     EditFlexio->setFont(font);
     #endif
     createActions ();
-    // droits
-    magisterSum = getRights ();
     // chargement du lexique et du fichier d'exemple
     if (url.isEmpty ())
         capsamInLatinum ( qsuia + "lucretia.txt");
@@ -638,40 +723,48 @@ void fenestra::lemmatiseTout ()
 void fenestra::germanice ()
 {
     lexicumLege (uia + "lemmata.de");
-    actionGallice->setEnabled(true);
-    actionGermanice->setEnabled(false);
-    actionAnglice->setEnabled(true);
-    actionHispanice->setEnabled(true);
+    actionGallice->setChecked(false);
+    actionGermanice->setChecked(true );
+    actionAnglice->setChecked(false);
+    actionHispanice->setChecked(false);
 }
 
 void fenestra::gallice ()
 {
     //lexicumLege (qApp->applicationDirPath ().toStdString () + "/" + "lemmata.fr");
     lexicumLege (uia + "lemmata.fr");
-    actionGallice->setEnabled(false);
-    actionGermanice->setEnabled(true);
-    actionAnglice->setEnabled(true);
-    actionHispanice->setEnabled(true);
+    actionGallice->setChecked(true );
+    actionGermanice->setChecked(false);
+    actionAnglice->setChecked(false);
+    actionHispanice->setChecked(false);
 }
 
 void fenestra::anglice ()
 {
     lexicumLege (uia + "lemmata.uk");
-    actionGallice->setEnabled(true);
-    actionGermanice->setEnabled(true);
-    actionAnglice->setEnabled(false);
-    actionHispanice->setEnabled(true);
+    actionGallice->setChecked(false);
+    actionGermanice->setChecked(false);
+    actionAnglice->setChecked(true );
+    actionHispanice->setChecked(false);
 }
 
 void fenestra::hispanice ()
 {
     lexicumLege (uia + "lemmata.es");
-    actionGallice->setEnabled(true);
-    actionGermanice->setEnabled(true);
-    actionAnglice->setEnabled(true);
-    actionHispanice->setEnabled(false);
+    actionGallice->setChecked(false);
+    actionGermanice->setChecked(false);
+    actionAnglice->setChecked(false);
+    actionHispanice->setChecked(true);
 }
 
+void fenestra::inuenire (const QString & exp)
+{
+    QTextCursor find_result = Ed->document()->find(exp);
+    if( find_result.hasSelection())
+        Ed->setTextCursor(find_result);
+    else
+        Ed->setTextCursor(QTextCursor::QTextCursor(Ed->document()));
+}
 void fenestra::inuenire ()
 {
     bool ok;
@@ -724,7 +817,9 @@ void fenestra::change_syntaxe ()
 {
     syntaxis = actionSyntaxis->isChecked ();
     // désactiver s'il y a lieu l'option "cum textus uocibus"
-    actionCum_textus_uocibus->setCheckable (!syntaxis);
+    actionCum_textus_uocibus->setChecked(false);
+    //actionCum_textus_uocibus->setCheckable(!syntaxis);
+    actionCum_textus_uocibus->setEnabled(!syntaxis);
 }
 
 void fenestra::vide_texte ()
@@ -739,58 +834,9 @@ QString fenestra::adHtml (QString t)
     return t;
 }
 
-
 bool fenestra::getLicetMorpho ()
 {
     return licetMorpho;
-}
-
-bool fenestra::getRights ()
-{
-    //qDebug () << "entrée dans getRights";
-#ifdef Q_OS_WIN32
-    QString uiaP = qsuia + "config"; 
-#else
-    QString uiaP ("/etc/collatinus/config");
-    if (!QFile::exists (uiaP))
-        uiaP = qsuia + "config"; 
-#endif
-    // qDebug () << "uiap:" << uiaP;
-    QFile fConf (uiaP);
-    if (fConf.open (QFile::ReadOnly))
-    {
-        QString linea ("");
-        QStringList eclats;
-        QTextStream in(&fConf);
-        while (!linea.isNull ())
-        {
-            linea = in.readLine ();
-            if (!linea.isNull () && linea.at (0) != '#')
-            {
-                eclats = linea.split (":");
-                if (eclats[0] == "minRaritas" && eclats.count () > 1)
-                    minRaritas = eclats[1].toInt ();
-                else if (eclats[0] == "morphologia" && eclats.count ( ) > 1)
-                    morphologia = eclats[1].toInt ();
-            }
-        }
-        return true;
-    }
-    else return false;
-}
-
-void fenestra::setRights ()
-{
-    QFile fConf (qsuia + "config");
-    if (fConf.open (QFile::WriteOnly))
-    {
-        QTextStream Ab (&fConf);
-        Ab << "# minRaritas : le plus petit degré de rareté analysé" << "\n";
-        Ab << "minRaritas:" << minRaritas << "\n";
-        Ab << "# si morphologia est à 0, pas d'analyse morpho" << "\n";
-        Ab << "morphologia:" << morphologia << "\n";
-        fConf.close ();
-    }
 }
 
 void fenestra::controleIcone (int o)
@@ -800,6 +846,11 @@ void fenestra::controleIcone (int o)
 
 void fenestra::createActions ()
 {
+    //new action for preferencies
+    QAction* electiones = menu_Editio->addAction(tr("Electionnes..."));
+    electiones->setMenuRole(QAction::PreferencesRole);
+    QObject::connect(electiones, SIGNAL(triggered()), this , SLOT(electiones()));
+
     connect(action_Noua, SIGNAL(triggered()), Ed, SLOT(clear()));
     connect(action_Noua, SIGNAL(triggered()), this, SLOT(noua()));
     connect (action_Onerare, SIGNAL (triggered ()), this, SLOT (legere ()));
@@ -837,6 +888,11 @@ int main( int argc, char **argv )
     qsuia = QString::fromStdString (uia);
     //qDebug () << qsuia; 
     QApplication app(argc, argv);
+
+    //let's set a few variable use to get/load settings
+    QCoreApplication::setOrganizationName("Collatinus");
+    QCoreApplication::setOrganizationDomain("Collatinus.org");
+    QCoreApplication::setApplicationName("Collatinus");
 
     QTranslator translator;
     translator.load("collatinus_la");
