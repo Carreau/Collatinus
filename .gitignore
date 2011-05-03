@@ -1,12 +1,12 @@
 *.*~ 
 edite.sh
-images/DS_Store
+images/.DS_Store
 .DS_Store
 Makefile
 obj/
 moc/
 build/
-collatinus.app/
+Collatinus.app/
 collatinus.xcodeproj/
 moc_main.cpp
 qrc_collatinus.cpp
