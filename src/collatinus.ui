@@ -209,6 +209,7 @@
     <addaction name="action_Scribere"/>
     <addaction name="actionScribere_s_ub"/>
     <addaction name="separator"/>
+    <addaction name="actionClose_Windows"/>
     <addaction name="action_Exire"/>
    </widget>
    <widget class="QMenu" name="menu_Editio">
@@ -536,6 +537,11 @@
    </property>
    <property name="text">
     <string>Hispanice</string>
+   </property>
+  </action>
+  <action name="actionClose_Windows">
+   <property name="text">
+    <string>Close Windows</string>
    </property>
   </action>
  </widget>

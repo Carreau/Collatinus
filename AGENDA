@@ -7,7 +7,7 @@
 - Idem pour plusieurs mots, e.g. "id est". difficile.
 - Enrichir à l'aide de Diogenes (incidit mentio de re)
 - Ajouter un raccourcis ctrl+w qui ferme la fenètre, mais pas l'application (
-  du moins sur mac )
+  du moins sur mac ) Note: raccourcis ajouter, mais fermer l'application 
 - idem avec un raccourcis ctrl+m pour réduire la fenêtre. il doit bien y avoir
   QKeySequence pour ça
 

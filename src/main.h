@@ -45,10 +45,12 @@
 #define MAIN_H
 
 #include "ui_collatinus.h"
+#include "external_code/filter-lineedit.hh"
 #include "ui_config.h"
 #include <QSettings>
 #include <QApplication>
 #include <QtGui/QTextEdit>
+#include <QAbstractButton>
 #include "syntaxe.h"
 
 class Editeur : public QTextEdit

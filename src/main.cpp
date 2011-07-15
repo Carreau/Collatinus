@@ -24,6 +24,8 @@
 #include <assert.h>
 #include <QtGui>
 #include <QString>
+#include <QPainter>
+
 #ifdef Q_OS_WIN32
 #include <QDesktopServices>
 #endif   
@@ -307,6 +309,7 @@ fenestra::fenestra(QString url)
 {
     setupUi(this);
     actionAuxilium->setShortcut(QKeySequence::HelpContents);
+    actionClose_Windows->setShortcut(QKeySequence::Close);
     action_Noua->setShortcut(QKeySequence::New    );
     action_Onerare->setShortcut(QKeySequence::Open   );
     action_Exire->setShortcut(QKeySequence::Quit   );
@@ -323,28 +326,7 @@ fenestra::fenestra(QString url)
 
     QLineEdit* qle = new QLineEdit();
     #ifdef __APPLE__
-    QString style(
-    "QListView, QLineEdit {"
-        "selection-color: white; "
-        "border: 2px groove gray;"
-        "border-radius: 13px;"
-        "padding: 2px 2px;"
-        "background-position: top right;"
-        "padding-right: 0px;"
-    "}"
-        "QLineEdit:focus {"
-        "selection-color: white;     "
-        "padding: 2px 2px;"
-        "padding-right: 0px;"
-    "}"
-        "QLineEdit:edit-focus {"
-        "selection-color: white;     "
-        "padding: 2px 2px;"
-        "padding-right: 0px;"
-    "}"
-    );
-    qle->setStyleSheet(style);
-    qle->setAttribute(Qt::WA_MacShowFocusRect, 0);
+        qle = new CFilterLineEdit();
     #endif
     toolBar->addWidget(stretchWidget);
     toolBar->addWidget(qle);
@@ -857,6 +839,7 @@ void fenestra::createActions ()
 
     connect(action_Noua, SIGNAL(triggered()), Ed, SLOT(clear()));
     connect(action_Noua, SIGNAL(triggered()), this, SLOT(noua()));
+    connect(actionClose_Windows, SIGNAL(triggered()), this, SLOT(close()));
     connect (action_Onerare, SIGNAL (triggered ()), this, SLOT (legere ()));
     connect (action_Scribere, SIGNAL (triggered ()), this, SLOT (scribere ()));
     connect (actionScribere_s_ub, SIGNAL (triggered ()), this, SLOT (scribereVt ()));

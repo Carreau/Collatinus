@@ -17,8 +17,9 @@ MOC_DIR = moc/
 
 # Input
 HEADERS     += src/*.h
+HEADERS     += src/external_code/*.hh
 FORMS       += src/*.ui
-SOURCES     += src/*.cpp src/*.cc
+SOURCES     += src/*.cpp src/*.cc src/external_code/*.cc
 RESOURCES   += collatinus.qrc
 QT          += svg
 CONFIG += release_binary
