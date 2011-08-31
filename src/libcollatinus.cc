@@ -70,6 +70,8 @@ string modeles [31] =
     "invaria"
 };
 
+bool calepino; 
+
 
 /**
  * ini  donne la chaine c tronquée de n caractères à droite
@@ -1169,7 +1171,6 @@ string TLexicum::analyses (string f)
     }
 
     // dépouillement de la liste & mise en forme de la sortie 
-    //string proxima;          // une recherche sur la liste serait plus judicieuse
     for(e2m ee = liste_e.begin(); ee != liste_e.end(); ee++)
     {
         ss << endl << ee->first;    
@@ -1965,10 +1966,22 @@ string TLexicum::flechis (Tentree* e)
 
 TLexicum * lexicum;
 
-void lexicumLege (string c)
+
+map <string, TLexicum *> lexica;
+
+void lexicumLege (string lang, string c)
 {
-    delete lexicum;
-    lexicum = new TLexicum (c);
+   lexica.insert (make_pair (lang, new TLexicum (c)));
+}
+
+void lexicumDic (string lang)
+{
+    lexicum = lexica[lang];
+}
+
+void activeCalepin (bool a)
+{
+    calepino = a;
 }
 
 string lemmatise (string f)
@@ -2001,3 +2014,21 @@ void uniLanalyses (ListeAnalyses& l1, ListeAnalyses& l2)
 {
     return lexicum->uniLanalyses (l1, l2);
 }
+
+bool calepino_actif ()
+{
+    return calepino;
+}
+
+string ambrogio (string m)
+{
+    stringstream ss;
+    ss << "\n\tfr. " << lexica["fr"]->entree (m)->definition ();
+    ss << "\n\tde. " << lexica["de"]->entree (m)->definition ();
+    ss << "\n\tangl. " << lexica["uk"]->entree (m)->definition ();
+    ss << "\n\tesp. " << lexica["es"]->entree (m)->definition ();
+    ss << "\n\tcat. " << lexica["ca"]->entree (m)->definition ();
+    ss << "\n\tgalic. " << lexica["gl"]->entree (m)->definition ();
+    return ss.str ();
+}
+

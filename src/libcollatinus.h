@@ -266,11 +266,17 @@ class TLexicum
 
 // fonctions globales qui évitent une 
 // double déclaration de lexicum
-void lexicumLege (std::string c);
+
+void lexicumLege (std::string lang, std::string c);
+void lexicumDic (std::string lang);
+void activeCalepin (bool a);
+bool calepino_actif ();
+std::string ambrogio (std::string m);
 std::string lemmatise (std::string f);
 std::string lemmatiseM (std::string f);
 Tentree * entree (std::string linea);
 std::string flechis (Tentree* e);
 ListeAnalyses lanalyses (std::string f);
 void uniLanalyses (ListeAnalyses& l1, ListeAnalyses& l2);
+
 #endif
