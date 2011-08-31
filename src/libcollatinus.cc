@@ -2020,6 +2020,10 @@ bool calepino_actif ()
     return calepino;
 }
 
+/*
+ * Ambrogio () traduit le mot latin en 
+ * six langues.
+ */
 string ambrogio (string m)
 {
     stringstream ss;
