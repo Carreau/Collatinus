@@ -114,6 +114,7 @@ class fenestra : public QMainWindow, private Ui::MainWindow
         void vide_texte ();
         void change_syntaxe ();
         void change_morpho (bool m);
+        void change_rarete ();
 
     public slots:
         void recoisLemm (QString);

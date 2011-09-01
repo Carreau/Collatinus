@@ -240,6 +240,7 @@
      <addaction name="action2"/>
      <addaction name="action3"/>
      <addaction name="action4"/>
+     <addaction name="action5"/>
     </widget>
     <addaction name="actionOmnia_lemmatizare"/>
     <addaction name="separator"/>
@@ -608,6 +609,11 @@
    </property>
    <property name="text">
     <string>Calepino</string>
+   </property>
+  </action>
+  <action name="action5">
+   <property name="text">
+    <string>5</string>
    </property>
   </action>
  </widget>

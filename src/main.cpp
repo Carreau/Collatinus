@@ -29,7 +29,6 @@
 // fréqences
 #include "frequences.h"
 // pour déboguer
-// #include <QDebug>
 #include "libcollatinus.h"
 /**
  * Bogues : 
@@ -52,7 +51,7 @@
 // variables
 string uia;
 QString qsuia;
-int minRaritas; // degré minimum de rareté permettant d'afficher la lemmatisation (de 0 à 5).
+int minRaritas = 1; // 1 : traite tous les mots ; 4 : seulement les plus rares 
 bool morphologia = true; // autorise/interdit l'affichage des morphologies.
 bool syntaxis = true;
 
@@ -262,11 +261,11 @@ fenestra::fenestra(QString url)
 
 	//ajout des préférences dans le menu
 
+    #ifdef __APPLE__
     QWidget* stretchWidget = new QWidget;
     stretchWidget->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
 
     QLineEdit* qle = new QLineEdit();
-    #ifdef __APPLE__
     QString style(
     "QListView, QLineEdit {"
         "selection-color: white; "
@@ -289,14 +288,16 @@ fenestra::fenestra(QString url)
     );
     qle->setStyleSheet(style);
     qle->setAttribute(Qt::WA_MacShowFocusRect, 0);
-    #endif
     toolBar->addWidget(stretchWidget);
     toolBar->addWidget(qle);
+    connect(qle, SIGNAL(textChanged(QString)), this, SLOT(inuenire(QString)));
+    #endif
 
     delete (EditLatin);
     Ed = new Editeur(splitter, "EditLatin");
     Ed->setObjectName(QString::fromUtf8("EditLatin"));
-    connect(qle, SIGNAL(textChanged(QString)), this, SLOT(inuenire(QString)));
+    // remonté dans la zone Apple
+    // connect(qle, SIGNAL(textChanged(QString)), this, SLOT(inuenire(QString)));
     QSizePolicy sizePolicy3(static_cast<QSizePolicy::Policy>(13), static_cast<QSizePolicy::Policy>(13));
     setSizePolicy(sizePolicy3);
     setMouseTracking(true);
@@ -329,7 +330,6 @@ fenestra::fenestra(QString url)
 
     lexicumDic ("fr");
     activeCalepin (false);
-    actionGallice->setChecked (true);
     //qDebug () << "uia :" << uia;
     lis_expr (qsuia + "expressions.fr");
 
@@ -678,64 +678,36 @@ void fenestra::lemmatiseTout ()
 void fenestra::germanice ()
 {
     lexicumDic ("de");
-    actionGallice->setChecked(false);
     actionGermanice->setChecked(true );
-    actionAnglice->setChecked(false);
-    actionHispanice->setChecked(false);
 }
 
 void fenestra::gallice ()
 {
     lexicumDic ("fr");
     actionGallice->setChecked(true );
-    actionGermanice->setChecked(false);
-    actionAnglice->setChecked(false);
-    actionHispanice->setChecked(false);
-    actionCatal_n->setChecked(false);
-    actionGallego->setChecked(false);
 }
 
 void fenestra::anglice ()
 {
     lexicumDic ("uk");
-    actionGallice->setChecked(false);
-    actionGermanice->setChecked(false);
     actionAnglice->setChecked(true );
-    actionHispanice->setChecked(false);
-    actionCatal_n->setChecked(false);
-    actionGallego->setChecked(false);
 }
 
 void fenestra::hispanice ()
 {
     lexicumDic ("es");
-    actionGallice->setChecked(false);
-    actionGermanice->setChecked(false);
-    actionAnglice->setChecked(false);
     actionHispanice->setChecked(true);
-    actionCatal_n->setChecked(false);
-    actionGallego->setChecked(false);
 }
 
 void fenestra::catalanice ()
 {
     lexicumDic ("ca");
-    actionGallice->setChecked(false);
-    actionGermanice->setChecked(false);
-    actionAnglice->setChecked(false);
-    actionHispanice->setChecked(false);
     actionCatal_n->setChecked(true);
-    actionGallego->setChecked(false);
 }
 
 void fenestra::gallaece ()
 {
     lexicumDic ("gl");
-    actionGallice->setChecked(false);
-    actionGermanice->setChecked(false);
-    actionAnglice->setChecked(false);
-    actionHispanice->setChecked(false);
-    actionCatal_n->setChecked(false);
     actionGallego->setChecked(true);
 }
 
@@ -809,6 +781,15 @@ void fenestra::change_morpho (bool m)
     morphologia = m;
 }
 
+void fenestra::change_rarete ()
+{
+    if (action1->isChecked ()) minRaritas = 1;
+    else if (action2->isChecked ()) minRaritas = 2;
+    else if (action3->isChecked ()) minRaritas = 3;
+    else if (action4->isChecked ()) minRaritas = 4;
+    else minRaritas = 5;
+}
+
 void fenestra::vide_texte ()
 {
     vide_phrases ();
@@ -855,6 +836,37 @@ void fenestra::createActions ()
     connect(actionSyntaxis, SIGNAL(triggered ()), this, SLOT (change_syntaxe ()));
     connect(tabWidget, SIGNAL(currentChanged (int)), this, SLOT (controleIcone (int)));
     connect(actionMorphologia_in_bullis, SIGNAL(toggled (bool)), this, SLOT(change_morpho (bool)));
+
+    QActionGroup * grLingua = new QActionGroup (this); 
+    actionGermanice->setActionGroup (grLingua);
+    actionAnglice->setActionGroup (grLingua);
+    actionGallice->setActionGroup (grLingua);
+    actionHispanice->setActionGroup (grLingua);
+    actionCatal_n->setActionGroup (grLingua);
+    actionGallego->setActionGroup (grLingua);
+
+    actionGallice->setChecked (true);
+
+    action1->setCheckable (true);
+    action2->setCheckable (true);
+    action3->setCheckable (true);
+    action4->setCheckable (true);
+    action5->setCheckable (true);
+
+    action1->setChecked (true);
+
+    QActionGroup * grRaritas = new QActionGroup (this);
+    action1->setActionGroup (grRaritas);
+    action2->setActionGroup (grRaritas);
+    action3->setActionGroup (grRaritas);
+    action4->setActionGroup (grRaritas);
+    action5->setActionGroup (grRaritas);
+
+    connect(action1, SIGNAL(triggered ()), this, SLOT(change_rarete ()));
+    connect(action2, SIGNAL(triggered ()), this, SLOT(change_rarete ()));
+    connect(action3, SIGNAL(triggered ()), this, SLOT(change_rarete ()));
+    connect(action4, SIGNAL(triggered ()), this, SLOT(change_rarete ()));
+    connect(action5, SIGNAL(triggered ()), this, SLOT(change_rarete ()));
 }
 
 int main( int argc, char **argv )
