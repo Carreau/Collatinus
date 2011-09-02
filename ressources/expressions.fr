@@ -1882,6 +1882,7 @@ pugna forensis|débats d'avocats|0|pugna...|forensis.f.cn.0
 pugna mala|combat malheureux|0|pugna...|malus.f.cn.0
 pugnum facere|serrer le poing|0|pugnus.ac s..|facio.act..
 pulla rana|têtard|1|rana...|pullus (2).f.cn.0
+puluis et radius|la poussière et la baguette (instruments du géomètre)|0|puluis...|radius..cn.0
 puncto tempore|en un instant|0|pungo.ab nt s pf part pass..|tempus.ab s..
 pura hasta|javelot honorifique (sans fer)|0|hasta...|purus.f.cn.0
 qua cognitum est|autant qu'on le sait|0|qua...|cognosco.n nt s pf part pass..|sum.s 3 pr ind..

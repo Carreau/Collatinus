@@ -51,7 +51,7 @@ macx{
 	plist.commands = @sed -e "s,@VERSION@,$$NVERSION,g" -i "''" Collatinus.app/Contents/Info.plist
 
     documentation.path = Collatinus.app/Contents/MacOS/doc/
-    documentation.files = doc/*.html
+    documentation.files = doc/*.html doc/*.css
     # ajouter un cible qui fait macdeploy Collatinus.app
     deploy.commands = macdeployqt Collatinus.app
     dmg.depends = deploy

@@ -2,8 +2,12 @@
 <!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
 <plist version="0.9">
 <dict>
+	<key>CIFBundleDisplayName</key>
+	<string>Collatinus</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub_collatinus.pem</string>
+	<key>SUFeedURL</key>
+	<string>http://to.be.set/atom.xml</string>
 	<key>CFBundleIconFile</key>
 	<string>@ICON@</string>
 	<key>CFBundlePackageType</key>

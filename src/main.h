@@ -53,6 +53,8 @@
 #include <QAbstractButton>
 #include "syntaxe.h"
 
+
+
 class Editeur : public QTextEdit
 {
     Q_OBJECT
@@ -71,30 +73,6 @@ class Editeur : public QTextEdit
          void copie (QString);
 };
 
-class dialogon : public QDialog, private Ui::Dialog
-{
-    Q_OBJECT
-
-    public:
-        dialogon ();
-        // Ab
-        QString passe ();
-        int raritas ();
-        bool morphologia ();
-
-    public slots:
-        // Ad
-        void ad_morphologia (int m);
-        void ad_raritas (int r);
-        void ad_morphologia (bool m);
-
-    private:
-        int rar;
-        bool morpho;
-        QSettings settings;
-
-};
-
 class fenestra : public QMainWindow, private Ui::MainWindow
 {
     Q_OBJECT
@@ -104,7 +82,6 @@ class fenestra : public QMainWindow, private Ui::MainWindow
         Editeur *Ed;
 
     private:
-        dialogon D;
         void createActions();
         void capsamInLatinum (const QString &fileName);
         bool capsaminDiscum (const QString &fileName);
@@ -119,6 +96,7 @@ class fenestra : public QMainWindow, private Ui::MainWindow
         bool licetMorpho;
         QString adHtml (QString t);
         QString repertoire;
+        QString lang;
 
     private slots:
         void anglice ();
@@ -127,6 +105,9 @@ class fenestra : public QMainWindow, private Ui::MainWindow
         void gallice ();
         void germanice ();
         void hispanice ();
+        void catalanice ();
+        void gallaece ();
+        void calepin ();
         void inuenire ();
         void inuenire(const QString & exp);
         void inuenire_denuo ();
@@ -137,20 +118,18 @@ class fenestra : public QMainWindow, private Ui::MainWindow
         bool scribereVt ();
         void vide_texte ();
         void change_syntaxe ();
+        void change_morpho (bool m);
+        void change_rarete ();
 
     public slots:
         void recoisLemm (QString);
         void lemmataRadere ();
         void controleIcone (int o);
-
-        // api droits
-        void setLicetMorpho (bool m);
-
-        //int getMinRaritas ();
-        bool getLicetMorpho ();
-
-        //replace Magister
-        void electiones();
+        #ifdef __APPLE__
+        // fonction that will call sparkle updater to check for update on mac. 
+        // we should implement a way to change the url and check if it works
+        void checkForUpdate();
+#endif
 
     protected:
         bool event (QEvent *event);
