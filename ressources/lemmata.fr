@@ -5838,7 +5838,7 @@ incuso|17|||as, are : accuser, reprocher
 incustoditus|11|||a, um : non gardé;  négligé, non observé;  imprudent
 incus|5|incud||udis, f. : l'enclume
 incutio|20|incuss|incuss|is, ere, cussi, cussum : inspirer, frapper, cogner
-indago|1|||as, are : traquer, chercher avec soin, rechercher
+indago|17|||as, are : traquer, chercher avec soin, rechercher
 indecens|14|indecent||entis : inconvenant, messéant
 indecorus|11|||a, um :laid, moche
 indefatigatus|11|||a, um : infatigable
@@ -7034,10 +7034,10 @@ monitio|5|monition||ionis, f. : l'avertissement, l'avis, le conseil
 monitum|4|||i, n. : l'avertissemnt
 monitus|9|||us, m. : l'avertissement
 monotropus|11|||a, um : seul, solitaire
+mons|6|mont||montis, m. : montagne
 monstro|17|||as, are : montrer
 monstrum|4|||i, n. : tout ce qui sort de la nature, le monstre, la monstruosité
 monstruosus|11|||a, um : monstrueux
-mons|5|mont||montis, m. : montagne
 montanus|11|||a, um : relatif à la montagne, de montagne
 monumentum|4|||(-niment-) i, n. : souvenir, objet chargé de garder le souvenir
 mora|0|||ae, f. : délai, retard, obstacle
@@ -13088,6 +13088,7 @@ ium|4|3|2|0|0|0|0|0|14|2
 ium|4|1|2|0|0|0|0|0|16|1
 ium|4|2|2|0|0|0|0|0|16|1
 ium|4|3|2|0|0|0|0|0|16|1
+orum|4|0|2|0|0|0|0|0|2|1
 iunt|0|0|2|0|3|1|1|1|20|1
 iunt|0|0|2|0|3|1|1|1|21|1
 iuntur|0|0|2|0|3|1|1|2|21|1

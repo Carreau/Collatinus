@@ -19,7 +19,6 @@
  */
 #include <QCoreApplication>
 #include "ui_collatinus.h"
-#include "ui_config.h"
 #include "main.h"
 #include <assert.h>
 #include <QtGui>
@@ -30,7 +29,6 @@
 // fréqences
 #include "frequences.h"
 // pour déboguer
-// #include <QDebug>
 #include "libcollatinus.h"
 /**
  * Bogues : 
@@ -53,8 +51,8 @@
 // variables
 string uia;
 QString qsuia;
-int minRaritas; // degré minimum de rareté permettant d'afficher la lemmatisation (de 0 à 5).
-bool morphologia; // autorise/interdit l'affichage des morphologies.
+int minRaritas = 1; // 1 : traite tous les mots ; 4 : seulement les plus rares 
+bool morphologia = true; // autorise/interdit l'affichage des morphologies.
 bool syntaxis = true;
 
 QString enTeteLaTeX (
@@ -98,6 +96,7 @@ Editeur::Editeur (QWidget *parent, const char *name)
  * est nulle, tout le contenu de l'éditeur.
  *
  */
+
 QString Editeur::lemmatiseTxt (bool alpha, bool cumVocibus)
 {
     // qDebug () << "cumVocibus : " << cumVocibus << endl;
@@ -113,7 +112,7 @@ QString Editeur::lemmatiseTxt (bool alpha, bool cumVocibus)
     {
        uox = i.next ();
        item = QString::fromStdString (lemmatise (uox.toStdString ()));
-       qDebug () << "item :" <<item << ":";
+       //qDebug () << "item :" <<item << ":";
        QString lemma (prima (item));
        if (frequentia (lemma) < minRaritas)
            continue;
@@ -227,6 +226,10 @@ void Editeur::mouseReleaseEvent (QMouseEvent *event)
         // appeler l'analyse syntaxique du mot
         QTextStream (&ligne) << analyse_syntaxique (pos, mot_num);
     }
+    if (calepino_actif ())
+    {
+        QTextStream (&ligne) << QString::fromStdString (ambrogio (prima (ligne).toStdString ())); 
+    }
     // la forme du texte latin demandée ?
     emit (copie (ligne));
     QTextEdit::mouseReleaseEvent (event);
@@ -242,62 +245,6 @@ QString Editeur::motCourant (QTextCursor C)
     return C.selectedText ().trimmed ();
 }
 
-// dialogue de config, ouverture
-void dialogon::ad_raritas (int r)
-{
-    rar = r;
-    spinBox->setValue (r);
-    settings.setValue("raritas",r);
-    settings.sync();
-}
-
-void dialogon::ad_morphologia (int m)
-{
-    if (m == Qt::Unchecked)
-    {
-        ad_morphologia(false);
-    }
-    else if( m == Qt::Checked)
-    {
-        ad_morphologia(true);
-    }
-}
-void dialogon::ad_morphologia (bool m)
-{
-    morpho = m;
-    checkBox->setChecked (m);
-    settings.setValue("morphologia",m);
-    settings.sync();
-}
-
-   // idem, récupération
-dialogon::dialogon ()
-{
-    
-    setupUi (this);
-    this->ad_raritas(settings.value("raritas",3).toInt());
-    this->ad_morphologia(settings.value("morphologia",true).toBool());
-    QObject::connect(spinBox, SIGNAL(valueChanged(int)), this , SLOT(ad_raritas(int)));
-    QObject::connect(checkBox, SIGNAL(stateChanged(int)), this , SLOT(ad_morphologia(int)));
-}
-
-int dialogon::raritas ()
-{
-    return spinBox->value ();
-}
-
-bool dialogon::morphologia ()
-{
-    return checkBox->isChecked ();
-}
-
-void fenestra::electiones()
-{
-  D.exec();;
-  
-  //readSettings();
-  //applySettings();
-}
 fenestra::fenestra(QString url)
 {
     setupUi(this);
@@ -314,11 +261,11 @@ fenestra::fenestra(QString url)
 
 	//ajout des préférences dans le menu
 
+    #ifdef __APPLE__
     QWidget* stretchWidget = new QWidget;
     stretchWidget->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
 
     QLineEdit* qle = new QLineEdit();
-    #ifdef __APPLE__
     QString style(
     "QListView, QLineEdit {"
         "selection-color: white; "
@@ -341,14 +288,16 @@ fenestra::fenestra(QString url)
     );
     qle->setStyleSheet(style);
     qle->setAttribute(Qt::WA_MacShowFocusRect, 0);
-    #endif
     toolBar->addWidget(stretchWidget);
     toolBar->addWidget(qle);
+    connect(qle, SIGNAL(textChanged(QString)), this, SLOT(inuenire(QString)));
+    #endif
 
     delete (EditLatin);
     Ed = new Editeur(splitter, "EditLatin");
     Ed->setObjectName(QString::fromUtf8("EditLatin"));
-    connect(qle, SIGNAL(textChanged(QString)), this, SLOT(inuenire(QString)));
+    // remonté dans la zone Apple
+    // connect(qle, SIGNAL(textChanged(QString)), this, SLOT(inuenire(QString)));
     QSizePolicy sizePolicy3(static_cast<QSizePolicy::Policy>(13), static_cast<QSizePolicy::Policy>(13));
     setSizePolicy(sizePolicy3);
     setMouseTracking(true);
@@ -372,7 +321,15 @@ fenestra::fenestra(QString url)
     else
         capsamInLatinum ( url);
     // chargement des lexiques fr et synt.
-    gallice ();
+	lexicumLege ("fr", uia + "lemmata.fr");
+    lexicumLege ("de", uia + "lemmata.de");
+    lexicumLege ("uk", uia + "lemmata.uk");
+    lexicumLege ("es", uia + "lemmata.es");
+    lexicumLege ("ca", uia + "lemmata.ca");
+    lexicumLege ("gl", uia + "lemmata.gl");
+
+    lexicumDic ("fr");
+    activeCalepin (false);
     //qDebug () << "uia :" << uia;
     lis_expr (qsuia + "expressions.fr");
 
@@ -552,10 +509,8 @@ bool fenestra::event (QEvent *event)
         // ôter crochets et guillemets
         mot = mot.replace (QRegExp ("['\"]"), "");
         QString bulla;
-        if (morphologia)
-             bulla = QString::fromStdString (lemmatiseM (mot.toStdString ()));
-        else
-             bulla = QString::fromStdString (lemmatise (mot.toStdString ()));
+        if (morphologia) bulla = QString::fromStdString (lemmatiseM (mot.toStdString ()));
+        else bulla = QString::fromStdString (lemmatise (mot.toStdString ()));
         if (frequentia (prima (bulla)) < minRaritas) 
             bulla = "id scire debes"; 
         QToolTip::showText (helpEvent->globalPos(), bulla, this);
@@ -722,39 +677,43 @@ void fenestra::lemmatiseTout ()
 
 void fenestra::germanice ()
 {
-    lexicumLege (uia + "lemmata.de");
-    actionGallice->setChecked(false);
+    lexicumDic ("de");
     actionGermanice->setChecked(true );
-    actionAnglice->setChecked(false);
-    actionHispanice->setChecked(false);
 }
 
 void fenestra::gallice ()
 {
-    //lexicumLege (qApp->applicationDirPath ().toStdString () + "/" + "lemmata.fr");
-    lexicumLege (uia + "lemmata.fr");
+    lexicumDic ("fr");
     actionGallice->setChecked(true );
-    actionGermanice->setChecked(false);
-    actionAnglice->setChecked(false);
-    actionHispanice->setChecked(false);
 }
 
 void fenestra::anglice ()
 {
-    lexicumLege (uia + "lemmata.uk");
-    actionGallice->setChecked(false);
-    actionGermanice->setChecked(false);
+    lexicumDic ("uk");
     actionAnglice->setChecked(true );
-    actionHispanice->setChecked(false);
 }
 
 void fenestra::hispanice ()
 {
-    lexicumLege (uia + "lemmata.es");
-    actionGallice->setChecked(false);
-    actionGermanice->setChecked(false);
-    actionAnglice->setChecked(false);
+    lexicumDic ("es");
     actionHispanice->setChecked(true);
+}
+
+void fenestra::catalanice ()
+{
+    lexicumDic ("ca");
+    actionCatal_n->setChecked(true);
+}
+
+void fenestra::gallaece ()
+{
+    lexicumDic ("gl");
+    actionGallego->setChecked(true);
+}
+
+void fenestra::calepin ()
+{
+    activeCalepin (true);
 }
 
 void fenestra::inuenire (const QString & exp)
@@ -804,11 +763,6 @@ void fenestra::auxilium ()
     #endif
 }
 
-void fenestra::setLicetMorpho (bool m)
-{
-    licetMorpho = m;
-}
-
 /**************
  * Syntaxe 
  **************/
@@ -820,6 +774,20 @@ void fenestra::change_syntaxe ()
     actionCum_textus_uocibus->setChecked(false);
     //actionCum_textus_uocibus->setCheckable(!syntaxis);
     actionCum_textus_uocibus->setEnabled(!syntaxis);
+}
+
+void fenestra::change_morpho (bool m)
+{
+    morphologia = m;
+}
+
+void fenestra::change_rarete ()
+{
+    if (action1->isChecked ()) minRaritas = 1;
+    else if (action2->isChecked ()) minRaritas = 2;
+    else if (action3->isChecked ()) minRaritas = 3;
+    else if (action4->isChecked ()) minRaritas = 4;
+    else minRaritas = 5;
 }
 
 void fenestra::vide_texte ()
@@ -834,11 +802,6 @@ QString fenestra::adHtml (QString t)
     return t;
 }
 
-bool fenestra::getLicetMorpho ()
-{
-    return licetMorpho;
-}
-
 void fenestra::controleIcone (int o)
 {
     actionOmnia_lemmatizare->setEnabled (o != 3);
@@ -846,11 +809,6 @@ void fenestra::controleIcone (int o)
 
 void fenestra::createActions ()
 {
-    //new action for preferencies
-    QAction* electiones = menu_Editio->addAction(tr("Electionnes..."));
-    electiones->setMenuRole(QAction::PreferencesRole);
-    QObject::connect(electiones, SIGNAL(triggered()), this , SLOT(electiones()));
-
     connect(action_Noua, SIGNAL(triggered()), Ed, SLOT(clear()));
     connect(action_Noua, SIGNAL(triggered()), this, SLOT(noua()));
     connect (action_Onerare, SIGNAL (triggered ()), this, SLOT (legere ()));
@@ -868,12 +826,47 @@ void fenestra::createActions ()
     connect(actionAnglice, SIGNAL(triggered ()), this, SLOT(anglice ()));
     connect(actionGallice, SIGNAL(triggered ()), this, SLOT(gallice ()));
     connect(actionHispanice, SIGNAL(triggered ()), this, SLOT(hispanice ()));
+    connect(actionCatal_n, SIGNAL(triggered ()), this, SLOT(catalanice ()));
+    connect(actionGallego, SIGNAL(triggered ()), this, SLOT(gallaece ()));
+    connect(actionCalepino, SIGNAL(triggered ()), this, SLOT (calepin ()));
     connect(actionInuenire, SIGNAL(triggered ()), this, SLOT(inuenire ()));
     connect(actionInuenire_etiam, SIGNAL(triggered ()), this, SLOT(inuenire_denuo ()));
     connect(actionAuxilium, SIGNAL(triggered ()), this, SLOT(auxilium ()));
     connect(actionVide_texte, SIGNAL(triggered ()), this, SLOT(vide_texte ()));
     connect(actionSyntaxis, SIGNAL(triggered ()), this, SLOT (change_syntaxe ()));
     connect(tabWidget, SIGNAL(currentChanged (int)), this, SLOT (controleIcone (int)));
+    connect(actionMorphologia_in_bullis, SIGNAL(toggled (bool)), this, SLOT(change_morpho (bool)));
+
+    QActionGroup * grLingua = new QActionGroup (this); 
+    actionGermanice->setActionGroup (grLingua);
+    actionAnglice->setActionGroup (grLingua);
+    actionGallice->setActionGroup (grLingua);
+    actionHispanice->setActionGroup (grLingua);
+    actionCatal_n->setActionGroup (grLingua);
+    actionGallego->setActionGroup (grLingua);
+
+    actionGallice->setChecked (true);
+
+    action1->setCheckable (true);
+    action2->setCheckable (true);
+    action3->setCheckable (true);
+    action4->setCheckable (true);
+    action5->setCheckable (true);
+
+    action1->setChecked (true);
+
+    QActionGroup * grRaritas = new QActionGroup (this);
+    action1->setActionGroup (grRaritas);
+    action2->setActionGroup (grRaritas);
+    action3->setActionGroup (grRaritas);
+    action4->setActionGroup (grRaritas);
+    action5->setActionGroup (grRaritas);
+
+    connect(action1, SIGNAL(triggered ()), this, SLOT(change_rarete ()));
+    connect(action2, SIGNAL(triggered ()), this, SLOT(change_rarete ()));
+    connect(action3, SIGNAL(triggered ()), this, SLOT(change_rarete ()));
+    connect(action4, SIGNAL(triggered ()), this, SLOT(change_rarete ()));
+    connect(action5, SIGNAL(triggered ()), this, SLOT(change_rarete ()));
 }
 
 int main( int argc, char **argv )
