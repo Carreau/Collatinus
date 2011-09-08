@@ -722,7 +722,7 @@ void fenestra::inuenire (const QString & exp)
     if( find_result.hasSelection())
         Ed->setTextCursor(find_result);
     else
-        Ed->setTextCursor(QTextCursor::QTextCursor(Ed->document()));
+        Ed->setTextCursor(QTextCursor(Ed->document()));
 }
 void fenestra::inuenire ()
 {
