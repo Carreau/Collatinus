@@ -8,6 +8,8 @@ obj/
 moc/
 build/
 Collatinus.app/
+Collatinus-*.dmg
+MacOS/dsa_priv_collatinus.pem
 collatinus.xcodeproj/
 moc_main.cpp
 qrc_collatinus.cpp
