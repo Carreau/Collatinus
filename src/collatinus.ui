@@ -226,7 +226,6 @@
     </property>
     <addaction name="actionMaiores_litteras"/>
     <addaction name="actionMinores_litteras"/>
-    <addaction name="actionSicut_est"/>
    </widget>
    <widget class="QMenu" name="menu_Lemmata">
     <property name="title">
@@ -384,14 +383,6 @@
    </property>
    <property name="shortcut">
     <string>Ctrl+P</string>
-   </property>
-  </action>
-  <action name="actionSicut_est">
-   <property name="text">
-    <string>Sicut est</string>
-   </property>
-   <property name="shortcut">
-    <string>Ctrl+=</string>
    </property>
   </action>
   <action name="actionOmnia_lemmatizare">
