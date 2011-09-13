@@ -663,10 +663,12 @@ QStringList * Phrase::analyse_et_lemmes (int minRaritas)
          QString lemma (mots[i]->getCanon (0));
          //qDebug () << lemma << " " << frequentia (lemma);
          if (minRaritas <= frequentia (lemma))
-		     retour->append (mots[i]->get_lemme ());
-		 e = expression_no (i); 
-		 if (e != NULL) 
-             retour->append  ("\n   " + QString (0x00B6) + " " + e->getNom () + " : " + e->getDoc ());
+         {
+		     e = expression_no (i); 
+		     if (e != NULL) 
+                 retour->append  (mots[i]->get_lemme () + "\n   " + QString (0x00B6) + " " + e->getNom () + " : " + e->getDoc ());
+             else retour->append (mots[i]->get_lemme ());
+         }
 	}
 	return retour;
 }
